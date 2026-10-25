@@ -1,0 +1,151 @@
+{
+  "show": "The Planning Desk",
+  "episode_title": "Low Water, Hot Chips, Working Agents",
+  "week": "2026-W43",
+  "run_date": "2026-10-25",
+  "brief_file": "news-brief-2026-10-25.md",
+  "target_runtime_sec": 900,
+  "word_count": 2576,
+  "hosts": {
+    "F": {"name": "Anna", "voice": "female, senior news anchor, calm, quick, warm"},
+    "M": {"name": "Erik", "voice": "male, senior news anchor, calm, quick, dry"}
+  },
+  "segments": [
+    {"id": "intro_music", "type": "music", "duration_sec": 10},
+    {"id": "cold_open", "type": "speech", "items": ["2026-W43-01", "2026-W43-02", "2026-W43-03"], "lines": [
+      {"speaker": "F", "text": "The Rhine is so low that a barge built for two thousand five hundred tonnes now leaves Rotterdam for Kaub with about two hundred and eighty."},
+      {"speaker": "M", "text": "Container ships are heading back to Suez, Hormuz is almost shut, and Cisco says its planning agent gives planners six hours a week back. You're listening to The Planning Desk."}
+    ]},
+    {"id": "welcome", "type": "speech", "items": ["2026-W43-01", "2026-W43-02", "2026-W43-03", "2026-W43-06"], "lines": [
+      {"speaker": "F", "text": "Good morning, it's Sunday, and this is The Planning Desk, your week in supply chain planning and design, from the Nordics and DACH to the rest of the world. I'm Anna, good to have you with us."},
+      {"speaker": "M", "text": "And I'm Erik."},
+      {"speaker": "F", "text": "Quick note, this show is made with A I. A I agents gather the news, and our voices are synthetic. Today, record low water on the Rhine and a near shutdown at Hormuz squeeze freight, Cisco puts a number on its planning agent, and A I data centres compete with everyone else for chips and air cargo."}
+    ]},
+    {"id": "lead_stories", "type": "speech", "items": ["2026-W43-01", "2026-W43-20", "2026-W43-02", "2026-W43-V3", "2026-W43-03", "2026-W43-V1"], "lines": [
+      {"speaker": "F", "text": "Our lead story is the Rhine, which drought and heat waves have pushed to record lows. Barges loading near Rotterdam for Kaub can carry about two hundred and eighty tonnes, against a standard two thousand five hundred."},
+      {"speaker": "M", "text": "And rail can't take up the slack. The right bank line between Troisdorf and Wiesbaden is under works until the twelfth of December, and VTG says a full block train carries only twelve to fifteen hundred tonnes, so it takes about two trains to replace one normal barge."},
+      {"speaker": "F", "text": "Switzerland is where it shows. Deliveries of diesel, heating oil, coal and cocoa are restricted, Swiss barge rates hit a record, and the country has released petroleum and jet fuel reserves."},
+      {"speaker": "M", "text": "There's a deeper rail problem too. Answering a parliamentary question, the German government said the new Erfurt to Leipzig and Halle line was planned for a hundred and thirty-one freight trains a day, and last year it saw about one."},
+      {"speaker": "F", "text": "The Ebensfeld to Erfurt line was planned for a hundred and sixty-eight and saw about two. Rail capacity on paper isn't rail capacity in practice, and that matters for any modal shift assumption in a German network model."},
+      {"speaker": "M", "text": "Low water is now a seasonal constraint, and Rhine dependent plans need stock built and multimodal fallback booked before autumn, not during it."},
+      {"speaker": "F", "text": "Our second lead is the Red Sea. Freightos says carriers are steadily returning to Suez, and it expects transits to fully recover in the first quarter of next year, which raises the risk of overcapacity in 2027."},
+      {"speaker": "M", "text": "Freightos also flags more Houthi and Saudi violence near Bab el-Mandeb. Asia to North Europe rates rose six percent this week on rate increases, to about three thousand four hundred dollars per forty-foot container."},
+      {"speaker": "F", "text": "Hormuz is the other story, and it runs the other way. Iran has stepped up attacks around the strait, and earlier this month an Iranian projectile sank a Dubai-linked container ship."},
+      {"speaker": "M", "text": "Drewry counted only two containerships sailing in the Gulf in week forty-two, down from five the week before, against fifty-five Suez sailings, up from fifty-four."},
+      {"speaker": "F", "text": "Asia to Europe lead times and rates could reset early next year. 2027 plans should carry a shorter transit scenario, with the Gulf kept as a separate risk."},
+      {"speaker": "M", "text": "Adrian Gonzalez of Talking Logistics adds a cost warning. He wrote on his blog on the sixteenth of October that shippers should prepare for higher transport rates in 2027, possibly much higher in some segments, as shrinking capacity moves pricing power back to carriers, mainly in U S truckload."},
+      {"speaker": "F", "text": "Rate assumptions in 2027 budgets deserve a second look, then, especially for road freight. Our third lead is A I at work. At the A S C M CHAINge conference in Long Beach, Cisco's supply chain transformation lead Joe McMorrow described a demand planning agent in production with forty-two planners."},
+      {"speaker": "M", "text": "It runs forecast versus actual analysis on its own, and planners ask follow-up questions in chat. Cisco says each planner saves at least six hours a week."},
+      {"speaker": "F", "text": "And the headcount stayed. Cisco hasn't cut demand planners, and the hours go into planning insight and more work with sales."},
+      {"speaker": "M", "text": "That's the benchmark for planning agents, planner time moved from variance reporting to judgement. Glenn Richey of Auburn University said on the Supply Chain Now podcast this week that A I amplifies whatever data sits underneath it, so weak data can lead to faster bad outcomes."},
+      {"speaker": "F", "text": "As he put it, \"It doesn't fix bad visibility.\" Seeing a problem, he says, isn't the same as responding to it. His advice is to start by tracing one exception and asking whether you trust the data. Erik, the A I desk is yours."}
+    ]},
+    {"id": "ai_tech", "type": "speech", "items": ["2026-W43-04", "2026-W43-05", "2026-W43-27", "2026-W43-06", "2026-W43-11", "2026-W43-07", "2026-W43-10", "2026-W43-09", "2026-W43-12", "2026-W43-08", "2026-W43-V4"], "lines": [
+      {"speaker": "M", "text": "We start in Germany, where a study from the logistics association B V L, presented at Supply Chain C X in Berlin, found eighty-three percent of surveyed companies use or pilot A I."},
+      {"speaker": "F", "text": "Most of that is in planning, optimisation and forecasting. The study says pilots only turn into value with a clear strategy, solid business cases, governance, skills and culture, so the gap now is scaling, not awareness."},
+      {"speaker": "M", "text": "The same week, the B V L's forecasters said German logistics will grow just under one percent in real terms this year, and about one percent in 2027."},
+      {"speaker": "F", "text": "On chips, the Semiconductor Industry Association mapped two hundred critical tier one inputs and their sub-tiers. About ninety-five percent come from U S, European or Japanese suppliers, yet about half the categories rate medium or high vulnerability."},
+      {"speaker": "M", "text": "Rare earths, dominated by China and Russia, are the main worry, and some domestic capacity could take a decade or more to build."},
+      {"speaker": "F", "text": "Researchers writing in Supply Chain Management Review found electronics made up sixteen percent of U S forced labour detentions by count, and eighty-two percent by value. Their point is that poor sub-tier visibility should trigger escalation, not a lower risk score."},
+      {"speaker": "M", "text": "Dual sourcing at tier one can hide a sub-tier bottleneck, so risk models for electronics heavy products need to look further upstream."},
+      {"speaker": "F", "text": "Chips are also where A I gets in the way. At AdvaMed's MedTech Conference in Boston, Zoll chairman Jon Rennert said device makers face another chip crunch in 2026, as A I infrastructure competes for supply."},
+      {"speaker": "M", "text": "Zoll now works directly with chip suppliers instead of only buying boards through contract manufacturers, and it holds extra inventory to buy lead time. Solventum, with about thirty thousand S K Us, protects life-saving products first."},
+      {"speaker": "F", "text": "Vantive's chief executive recommends integrated business planning, I B P, with regional leaders accountable for inventory. For low-volume industrial buyers, A I compute demand is now a real allocation risk."},
+      {"speaker": "M", "text": "It shows in freight too. U S container imports rose about nine percent in September, according to S&P Global Market Intelligence, with I T products up almost eighteen percent on the A I build-out."},
+      {"speaker": "F", "text": "S&P's analyst expects data centre build-out to support demand for about three years, unless local opposition ends it early. A I infrastructure is now a freight demand driver of its own."},
+      {"speaker": "M", "text": "Eighty-three percent turns up again, this time in an A S C M and Digital Supply Chain Institute report. That share of respondents say their workers can't use A I effectively yet, though the sample is small, a hundred and seven responses analysed."},
+      {"speaker": "F", "text": "Ninety-one percent plan to use A I to support people, and only seven percent expect it to replace them. Upskilling planners will gate agentic planning more than the choice of tool."},
+      {"speaker": "M", "text": "Gartner published its top tech trends for 2027 this week. They include large quantitative models for numbers and simulation, and world models that let agents test outcomes before acting, though Gartner doesn't mention supply chain directly. It also predicts that firms putting semantics into A I-ready data could raise agentic A I accuracy by up to eighty percent."},
+      {"speaker": "F", "text": "Forecasting and simulation models are getting analyst attention next to the language models, and that matters for how planning A I gets built."},
+      {"speaker": "M", "text": "In Ingolstadt, Audi is trialling three humanoid robots from Munich-based Agile Robots to pick and sequence parts in its production lab. The setup runs on a virtual twin, and Audi's demand-driven material supply handles about a million picks a day."},
+      {"speaker": "F", "text": "There's no completion date, but virtual twins that link material planning to the line are now in German plant trials. Dachser, meanwhile, has extended its A I and robotics research with Fraunhofer in Dortmund until the end of 2029, though no results were quantified."},
+      {"speaker": "M", "text": "One more number, from McKinsey's Sal Arora. He cites a McKinsey survey where only about six percent of respondents put five percent or more of their operating profit down to A I. Research from M I T and McKinsey puts A I leaders' impact multiple at four point seven times this year, up from two point seven in 2021."},
+      {"speaker": "F", "text": "He reports client cases where supply chain agents cut the cost of goods by four to seven percent, but only where workflows were redesigned end to end, and the article offers no independent check."},
+      {"speaker": "M", "text": "Lora Cecere of Supply Chain Insights wrote on her blog this week that supply chain excellence should be judged by results against peers, meaning growth, margin, inventory turns and return on capital, not by reputation or technology spend."},
+      {"speaker": "F", "text": "She notes it takes about four to five years to outperform a peer group, and that in the companies that win, few people argue about technology, because it's a means to an end."}
+    ]},
+    {"id": "nordics_dach", "type": "speech", "items": ["2026-W43-13", "2026-W43-14", "2026-W43-15", "2026-W43-19", "2026-W43-16"], "lines": [
+      {"speaker": "M", "text": "Over to the Nordics and DACH, starting with D S V. Third quarter revenue rose to about eighty-one billion Danish kroner, and operating profit before special items to six point six billion, but operating profit in Road fell thirty-five percent as it merged Schenker's road network."},
+      {"speaker": "F", "text": "D S V says Road was back to normal by the end of September, and it still targets about nine billion kroner a year in Schenker synergies, though some now land in 2027. Full-year profit guidance was narrowed to twenty-four to twenty-five billion kroner. Shippers should stress-test their carriers' integration plans."},
+      {"speaker": "M", "text": "Kuehne+Nagel raised its outlook for the third time this year. Net turnover rose twenty-two percent, operating profit fifty-three percent, and air volumes grew ten percent on cloud, data centre and chip customers, while e-commerce fell sharply."},
+      {"speaker": "F", "text": "Chief executive Stefan Paul expects normal Asia to Europe routing via Suez by late in the first quarter or early in the second. That gives planners a date to build their 2027 lead time scenarios around."},
+      {"speaker": "M", "text": "In Sweden, online pharmacy Meds moved from Västberga into a new Eskilstuna logistics centre in August, with three times the capacity. Automation and I T went to plan, but staff training took longer."},
+      {"speaker": "F", "text": "Preliminary figures put the revenue hit at about fifty million kronor, double the forecast, and the operating profit hit at about nine million, against six forecast. Delivery times were back to normal in October, the full report is due on the sixth of November, and the lesson is that people and process set the ramp-up curve, not automation."},
+      {"speaker": "M", "text": "Medtech distributor Onemed is making a similar move in Gothenburg, swapping three regional warehouses for one automated distribution centre, and eighty of its hundred and eighty staff have been given notice. Trading regional proximity for scale and automation is the core design call in healthcare distribution."},
+      {"speaker": "F", "text": "In Germany, a B S I survey found forty-two percent of firms lack current, reliable data to react quickly, and only thirty-four percent know exactly where their suppliers are. Almost half departed from their own crisis procedures during the Iran and Israel conflict."},
+      {"speaker": "M", "text": "Forty-six percent plan cross-functional scenario planning but don't do it consistently. Yet seventy-nine percent want more strategic inventory and seventy-two percent plan nearshoring. The intent to redesign networks is there, and scenario planning and supplier mapping are the gaps to fix first."}
+    ]},
+    {"id": "market_moves", "type": "speech", "items": ["2026-W43-22", "2026-W43-23"], "lines": [
+      {"speaker": "F", "text": "Market moves, and two planning software names. SAP posted its first quarter above ten billion euros in revenue, with cloud revenue up twenty-six percent and its cloud backlog up twenty-six percent too. Operating profit rose eighteen percent to about three billion euros, and SAP held its full-year profit outlook."},
+      {"speaker": "M", "text": "Chief executive Christian Klein said A I is the main reason customers move to the cloud. For buyers, that means A I-led cloud migration is setting the timetable for SAP-based planning, including I B P moves."},
+      {"speaker": "F", "text": "French planning platform Pigment raised two hundred and fifty million dollars at a valuation of two point three billion, with NVIDIA listed as a planned investor. Pigment says it passed a hundred million dollars in annual recurring revenue this year."},
+      {"speaker": "M", "text": "Rounds this size suggest investors expect planning software to consolidate around a few well-funded players."}
+    ]},
+    {"id": "macro_trade", "type": "speech", "items": ["2026-W43-28"], "lines": [
+      {"speaker": "F", "text": "On trade, MERICS reports that E U leaders agreed at their mid-October summit to harden trade defences and cut dependence on China, with new tools such as DiversifyEU and a solidarity mechanism against coercion. Macron urged measures on chemicals, plastics and ferro-alloys."},
+      {"speaker": "M", "text": "Beijing has proposed adding forty technologies to its export-control list, twenty-three of them A I-related. MERICS sees possible retaliation through goods like Swedish salmon, fashion, cosmetics or rare earths."},
+      {"speaker": "F", "text": "If you buy Chinese chemicals, plastics or machinery inputs, model the duty and supply access scenarios now, before the E U proposals land."}
+    ]},
+    {"id": "events", "type": "speech", "items": ["2026-W43-E1", "2026-W43-E2", "2026-W43-E3", "2026-W43-E4", "2026-W43-E5", "2026-W43-E6"], "lines": [
+      {"speaker": "F", "text": "Here's the diary for the coming weeks. On Thursday, VerkehrsRundschau runs a webinar on civil-military logistics for German teams preparing for defence requirements. On the first of November, the E U's two-euro handling fee on small parcels starts, on top of the three-euro customs surcharge from July, which changes the maths for low-value e-commerce."},
+      {"speaker": "M", "text": "Gartner's Supply Chain Planning Summit runs in Denver on the second and third of November, with A I in planning and planning team design on the agenda."},
+      {"speaker": "F", "text": "Closer to home, Logistik & Transport opens in Gothenburg on the third of November, and it's Sweden's main logistics fair this autumn."},
+      {"speaker": "M", "text": "And the consultation on China's export-control list closes on the fifteenth of November, with new drone export rules from the eighteenth. Further out, the German association B M E holds its supply chain excellence day on the fifteenth of December."}
+    ]},
+    {"id": "quick_hits", "type": "speech", "items": ["2026-W43-17", "2026-W43-18", "2026-W43-21", "2026-W43-24", "2026-W43-25", "2026-W43-26"], "lines": [
+      {"speaker": "M", "text": "Quick hits, starting in Hamburg, where port operator H H L A cut its 2026 operating profit outlook to between a hundred and fifteen and a hundred and thirty-five million euros, citing strikes, terminal automation and a write-down."},
+      {"speaker": "F", "text": "Fashion retailer Takko has taken over a new centre in Salzgitter, near the A thirty-nine, and from mid-2027 it will bundle most of its logistics there, serving both stores and online orders."},
+      {"speaker": "M", "text": "Amazon plans more than sixteen billion euros of investment in Germany next year, with more robotics at Bad Hersfeld, Dortmund and Werne, a new centre in Könnern and a second robotics and A I lab in Berlin."},
+      {"speaker": "F", "text": "Levi's has delayed its distribution centre overhaul twice, partly blaming its S K U count, and a fire at one site hit peak weeks. It now expects benefits from 2027, while a filing warns of possible shipping delays and higher costs."},
+      {"speaker": "M", "text": "Nestlé will close its Solon, Ohio plant by the end of 2027 and move pouch output to South Carolina, joining PepsiCo, Tyson, Danone and Mars in closing plants this year."},
+      {"speaker": "F", "text": "And Hydro Flask owner Helen of Troy is putting about eighty million dollars of tariff refunds into inventory clean-up and new packaging, with inventory already down almost half on a year ago."}
+    ]},
+    {"id": "sign_off", "type": "speech", "items": ["2026-W43-01", "2026-W43-02", "2026-W43-03"], "lines": [
+      {"speaker": "F", "text": "That's The Planning Desk for this week. Plan for low water, keep an eye on the Gulf, and give your planners their hours back."},
+      {"speaker": "M", "text": "We're back next Sunday with another week in supply chain planning and design. Thanks for listening, and have a good week ahead."}
+    ]},
+    {"id": "outro_music", "type": "music", "duration_sec": 10}
+  ],
+  "linkedin": {
+    "page_post": "This week, physical capacity got tight from the Rhine to Hormuz, and AI showed up in both the planning office and the freight market.\n\nThe Rhine hit record lows. Barges heading for Kaub can carry about 280 tonnes against a standard 2,500, rail works limit the fallback until 12 December, and Switzerland has released fuel reserves. For planners, low water is now a seasonal constraint, so stock and multimodal options need to be in place before autumn.\n\nCarriers are returning to Suez, with full recovery expected in Q1 2027, while Hormuz stays almost shut to container ships. Asia to Europe lead times and rates could reset early next year, so 2027 plans need a shorter-transit scenario and a separate Gulf risk view.\n\nCisco described a demand-planning agent in production with 42 planners, saving each at least six hours a week, with no headcount cut. The payback is planner time moved from variance reporting to judgement.\n\nWatch or listen: The Planning Desk, the week in review every Sunday.\n\n#SupplyChainPlanning #SupplyChain #AI"
+  },
+  "show_notes": {
+    "summary": "Record-low water on the Rhine and rail works squeeze freight into Germany and Switzerland, while carriers return to Suez and Hormuz stays almost shut. Cisco puts a number on its demand-planning agent, AI data centres compete for chips and air cargo, and DSV, Kuehne+Nagel and Meds report on network changes. Plus SAP and Pigment, EU trade defences against China, and the events ahead.",
+    "sources": [
+      {"title": "SupplyChainBrain: German rail struggles with Rhine diversions", "url": "https://www.supplychainbrain.com/articles/45054-german-rail-struggles-with-rhine-diversions"},
+      {"title": "VerkehrsRundschau: Schienenausbau, deutlich weniger Güterzüge als geplant", "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/schienenausbau-deutlich-weniger-gueterzuege-als-geplant-3925178"},
+      {"title": "Freightos: Red Sea container traffic set for full return in Q1", "url": "https://www.freightos.com/freight-resources/red-sea-container-traffic-set-for-full-return-in-q1-october-20-2026-update/"},
+      {"title": "Drewry: World Container Index", "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"},
+      {"title": "Talking Logistics: Above the Fold, October 16, 2026", "url": "https://talkinglogistics.com/2026/10/16/above-the-fold-supply-chain-logistics-news-october-16-2026/"},
+      {"title": "Supply Chain Management Review: Cisco's supply chain AI gains start with the work behind the workflow", "url": "https://www.scmr.com/article/ciscos-supply-chain-ai-gains-start-with-the-work-behind-the-workflow"},
+      {"title": "Supply Chain Now: The Visibility Illusion", "url": "https://supplychainnow.com/visibility-illusion-why-seeing-problem-never-same-solving-1649/"},
+      {"title": "VerkehrsRundschau: BVL Supply Chain CX in Berlin eröffnet", "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/bvl-supply-chain-cx-in-berlin-eroeffnet-3924420"},
+      {"title": "Supply Chain Dive: US semiconductor supply chain relies on vulnerable hidden inputs", "url": "https://supplychaindive.com/news/us-semiconductor-supply-chain-relies-on-vulnerable-hidden-inputs/833485"},
+      {"title": "Supply Chain Management Review: A supplier is flagged. Is your product exposed?", "url": "https://www.scmr.com/article/a-supplier-is-flagged-is-your-product-exposed"},
+      {"title": "Supply Chain Dive: Medtech execs share secrets to building resilient supply chains", "url": "https://www.supplychaindive.com/news/medtech-execs-share-secrets-to-building-resilient-supply-chains/833585/"},
+      {"title": "Logistics Management: US container imports jump 9.1% in September", "url": "https://www.logisticsmgmt.com/article/u.s_container_imports_jump_9.1_in_september_as_ai_investment_and_consumer_demand_drive_growth_reports_sp_global_market_intelligence/"},
+      {"title": "Supply Chain 24/7: More than 80% of supply chain leaders say their workers aren't ready for AI", "url": "https://www.supplychain247.com/article/more_than_80_of_supply_chain_leaders_say_their_workers_arent_ready_for_ai"},
+      {"title": "Gartner: Top strategic technology trends for 2027", "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027"},
+      {"title": "SupplyChainBrain: The productivity story everyone is missing", "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/45038-the-productivity-story-everyone-is-missing"},
+      {"title": "Supply Chain Shaman: Reflection and celebration for the Supply Chains to Admire methodology", "url": "https://www.supplychainshaman.com/reflection-on-the-supply-chains-to-admire/"},
+      {"title": "Container News: DSV reports higher Q3 earnings as Schenker integration weighs on road division", "url": "https://container-news.com/dsv-reports-higher-q3-earnings-as-schenker-integration-weighs-on-road-division/"},
+      {"title": "AJOT: Kuehne+Nagel chief upbeat on market outlook after strong Q3", "url": "https://www.ajot.com/insights/full/ai-kuehne-nagel-chief-upbeat-on-market-outlook-after-strong-q3"},
+      {"title": "Dagens Logistik: Nya logistikcentret tynger Meds resultat", "url": "https://dagenslogistik.se/nya-logistikcentret-tynger-meds-resultat/"},
+      {"title": "Dagens Logistik: 80 får gå när Onemed flyttar lagret", "url": "https://dagenslogistik.se/80-far-ga-nar-onemed-flyttar-lagret/"},
+      {"title": "VerkehrsRundschau: Lieferkettenkrisen, vielen Unternehmen fehlen klare Prozesse", "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/lieferkettenkrisen-vielen-unternehmen-fehlen-klare-prozesse-3924841"},
+      {"title": "Reuters via WSAU: Germany's SAP tops cloud demand forecasts", "url": "https://wsau.com/2026/10/21/germanys-sap-tops-cloud-demand-forecasts-holds-yearly-operating-profit-outlook/"},
+      {"title": "Supply Chain Digital: Pigment raises $250m", "url": "https://supplychaindigital.com/news/pigment-raises-250m-for-enterprise-planning-capabilities"},
+      {"title": "MERICS: EU-China economic relations enter a new phase", "url": "https://mericseu.substack.com/p/eu-china-economic-relations-enter"},
+      {"title": "Gartner: Gartner Supply Chain Planning Summit 2026 in Denver", "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-10-gartner-announces-gartner-supply-chain-planning-summit-2026-in-denver"},
+      {"title": "Net Zero Compare: Logistik & Transport 2026", "url": "https://netzerocompare.com/events/logistik-transport-2026"},
+      {"title": "VerkehrsRundschau: HHLA erwartet weniger Containerumschlag", "url": "https://www.verkehrsrundschau.de/nachrichten/lager-umschlag/hhla-erwartet-weniger-containerumschlag-3924904"},
+      {"title": "VerkehrsRundschau: Takko Fashion übernimmt Logistikzentrum in Salzgitter", "url": "https://www.verkehrsrundschau.de/nachrichten/lager-umschlag/takko-fashion-uebernimmt-logistikzentrum-in-salzgitter-3924172"},
+      {"title": "Dagens Logistik: Amazon intensifierar satsningen på Europa", "url": "https://dagenslogistik.se/amazon-intensifierar-satsningen-pa-europa/"},
+      {"title": "Supply Chain Dive: Levi's distribution network transition saga continues to drag", "url": "https://www.supplychaindive.com/news/levis-distribution-network-transition-saga-continues-to-drag/833749/"},
+      {"title": "Supply Chain Digital: Audi and NVIDIA use Agile Robots for parts sequencing trial", "url": "https://supplychaindigital.com/news/audi-and-nvidia-use-agile-robots-for-parts-sequencing-trial"},
+      {"title": "Supply Chain Dive: Nestlé to close Ohio factory by end of 2027", "url": "https://www.supplychaindive.com/news/nestle-to-close-ohio-factory-by-end-of-2027/833587/"},
+      {"title": "VerkehrsRundschau: Dachser verlängert Zusammenarbeit mit der Fraunhofer-Gesellschaft", "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/dachser-verlaengert-partnerschaft-mit-der-fraunhofer-gesellschaft-3925434"},
+      {"title": "Supply Chain Dive: Hydro Flask maker aims tariff refunds at inventory, packaging", "url": "https://www.supplychaindive.com/news/hydro-flask-maker-aims-tariff-refunds-at-inventory-packaging/833631/"}
+    ]
+  }
+}
