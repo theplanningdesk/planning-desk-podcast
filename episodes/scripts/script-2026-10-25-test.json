@@ -1,0 +1,84 @@
+{
+ "show": "The Planning Desk",
+ "format": "daily",
+ "episode_title": "Volvo Redraws Its Plant Map",
+ "week": "2026-W44",
+ "run_date": "2026-10-25",
+ "brief_file": "news-brief-daily-2026-10-25-test.md",
+ "target_runtime_sec": 274,
+ "word_count": 793,
+ "hosts": {"F": {"name": "Anna"}, "M": {"name": "Erik"}},
+ "segments": [
+  {"id": "intro_music", "type": "music", "duration_sec": 5},
+  {"id": "cold_open", "type": "speech", "items": ["2026-10-25-01"], "lines": [
+   {"speaker": "F", "text": "Volvo Cars is shrinking to five plants and moving X C sixty production to South Carolina."},
+   {"speaker": "M", "text": "Tariffs are redrawing a Nordic carmaker's map, and its suppliers will feel it. This is The Planning Desk."}
+  ]},
+  {"id": "welcome", "type": "speech", "items": ["2026-10-25-01", "2026-10-25-02", "2026-10-25-03"], "lines": [
+   {"speaker": "F", "text": "Good morning, it's Monday the twenty-sixth of October. I'm Anna."},
+   {"speaker": "M", "text": "And I'm Erik."},
+   {"speaker": "F", "text": "Quick note, this show is made with A I. A I agents gather the news, and our voices are synthetic."},
+   {"speaker": "M", "text": "Today, Volvo Cars redraws its plant map, Brussels names the Chinese imports it wants to curb, and October sets a grim record around Hormuz."}
+  ]},
+  {"id": "top_story", "type": "speech", "items": ["2026-10-25-01"], "lines": [
+   {"speaker": "F", "text": "Volvo Cars reported its third quarter on Friday, and it was rough. Revenue fell to about sixty-seven billion kronor, from eighty-six billion a year ago, and the operating result swung to a loss of five point six billion. U S tariffs, raw materials and a near halving of China revenue did the damage."},
+   {"speaker": "M", "text": "The answer is a smaller footprint. Production concentrates on five dedicated plants, and X C sixty output moves to Charleston, South Carolina, in the first quarter of twenty twenty-seven."},
+   {"speaker": "F", "text": "Volvo will also explore multi-brand assembly with Geely in Chengdu and Ghent, and widen a common supplier base and shared hardware with Geely."},
+   {"speaker": "M", "text": "On costs, it's cutting another five billion kronor of indirect and variable spending and about two thousand five hundred jobs, around two thousand of them in Sweden."},
+   {"speaker": "F", "text": "Tariffs are now forcing a Nordic carmaker to redesign where it builds and who it buys from. Its suppliers need to re-plan volumes by plant and region for twenty twenty-seven."}
+  ]},
+  {"id": "briefing", "type": "speech", "items": ["2026-10-25-02", "2026-10-25-03", "2026-10-25-08", "2026-10-25-07"], "lines": [
+   {"speaker": "M", "text": "Over the weekend, the E U and China story got more specific. Meeting in Dublin, E U trade ministers asked the Commission to seek talks with Beijing to limit imports."},
+   {"speaker": "F", "text": "The deficit is driving it. The E U's goods gap with China passed three hundred and seventy billion euros last year and is heading past four hundred billion this year, more than a billion a day."},
+   {"speaker": "M", "text": "Ministers named chemicals, machinery, agrifood and possibly pharmaceuticals. Trade Commissioner Šefčovič said a safeguard investigation on P E T packaging plastic looks to be next."},
+   {"speaker": "F", "text": "If you buy P E T, chemicals or machinery from China, put duty and quota scenarios into your twenty twenty-seven sourcing plan now."},
+   {"speaker": "M", "text": "In the Gulf, October is now the worst month on record for attacks on shipping around the Strait of Hormuz. The Washington Institute counts twenty-eight this month and a hundred and thirteen since the war with Iran began in February."},
+   {"speaker": "F", "text": "Tankers are taking the hits. The I M O lists more than thirty very large crude carriers damaged, eleven of them this month, about three and a half percent of the global fleet."},
+   {"speaker": "M", "text": "Still, day rates above a million dollars and producer discounts are pulling more tankers into the Gulf, and one analyst says Iran is stepping up attacks to slow the recovery before the U S midterms."},
+   {"speaker": "F", "text": "Keep this risk apart from the Red Sea return. Energy and petrochemical input costs belong in your fourth quarter and twenty twenty-seven scenarios."},
+   {"speaker": "M", "text": "Chinese carmakers are looking for North American plants. Chery is weighing production in Canada, through idle capacity or partners, ahead of sales next year under a quota of forty-nine thousand low-tariff new-energy vehicles a year."},
+   {"speaker": "F", "text": "Canada wants a locally sourced supply chain and has ruled out knockdown kits. B Y D has reportedly asked about an idled Stellantis plant near Toronto, and Chery is also exploring Nissan's Sunderland plant."},
+   {"speaker": "M", "text": "It's the Volvo story seen from the other side. Tariff walls push carmakers into local plants with local content rules, and that reshapes supplier footprints wherever they land, Europe included."},
+   {"speaker": "F", "text": "On the tech desk, A I is finding old holes. Researchers at Wiz, working with OpenAI and Calif, used A I tools to find two critical flaws in P H P that went unnoticed for more than a decade."},
+   {"speaker": "M", "text": "Patches came on the twenty-first of October. Palo Alto Networks counts more than twenty-two million exposed instances, and over a third run legacy software that can't be patched."},
+   {"speaker": "F", "text": "Banks, airlines and governments in Germany, Austria, Finland and Denmark took sites offline as a precaution. Check the old supplier portals and integrations around your planning systems, and have a continuity plan for the ones you can't patch."}
+  ]},
+  {"id": "quick_hits", "type": "speech", "items": ["2026-10-25-04", "2026-10-25-05"], "lines": [
+   {"speaker": "M", "text": "In quick hits, Bring is opening Logistikcenter Moss, its largest terminal by sorting capacity, to take parcels trucked in from Sweden and relieve Oslo. Flows from Sweden into Norway have grown by ten to fifteen trucks a day since twenty twenty."},
+   {"speaker": "F", "text": "And A P M Terminals and Vietnam's Hateco plan up to three and a half billion dollars of rail and container sites in northern Vietnam, which makes the region a stronger China-plus-one option for European buyers."}
+  ]},
+  {"id": "sign_off", "type": "speech", "items": ["2026-10-25-01"], "lines": [
+   {"speaker": "F", "text": "That's the desk for Monday, thanks for listening."},
+   {"speaker": "M", "text": "We're back tomorrow morning with more."}
+  ]},
+  {"id": "outro_music", "type": "music", "duration_sec": 5}
+ ],
+ "short": {
+  "title": "Volvo Cars cuts to five plants, 2,000 Swedish jobs go",
+  "lines": [
+   {"speaker": "F", "text": "Volvo Cars is cutting about two thousand jobs in Sweden."},
+   {"speaker": "M", "text": "The quarter was rough, with revenue down to about sixty-seven billion kronor from eighty-six, and an operating loss of five point six billion."},
+   {"speaker": "F", "text": "U S tariffs, raw materials and a near halving of China revenue drove it, so Volvo is concentrating production on five dedicated plants."},
+   {"speaker": "M", "text": "X C sixty production moves to Charleston, South Carolina, early in twenty twenty-seven, and Volvo will share more suppliers and hardware with Geely."},
+   {"speaker": "F", "text": "For planners, tariffs are now redrawing a Nordic carmaker's plant and supplier map, and its suppliers need to re-plan volumes by plant and region for twenty twenty-seven."},
+   {"speaker": "M", "text": "More every weekday on The Planning Desk podcast."}
+  ],
+  "caption": "Volvo Cars swung to a SEK 5.6bn operating loss in Q3. It will concentrate production on five dedicated plants, move XC60 output to Charleston, South Carolina in Q1 2027 and cut about 2,000 jobs in Sweden. Full episode: The Planning Desk, every weekday on Apple Podcasts and Spotify. AI-generated: AI agents gather the news and the voices are synthetic.",
+  "hashtags": ["supplychain", "supplychainplanning", "manufacturing", "tariffs"]
+ },
+ "linkedin": {
+  "page_post": "Volvo Cars is cutting back to five dedicated plants after a Q3 operating loss of SEK 5.6bn. XC60 production moves to South Carolina in Q1 2027, the supplier base with Geely gets wider, and about 2,000 jobs go in Sweden. Suppliers should re-plan 2027 volumes by plant and region.\n\nEU trade ministers want talks with Beijing to curb Chinese imports, naming chemicals, machinery and agrifood, with a safeguard probe on PET plastic likely next. October is also the worst month on record for attacks on shipping around Hormuz, with 28 so far.\n\nListen: The Planning Desk, every weekday on Apple Podcasts and Spotify.\n\n#SupplyChain #SupplyChainPlanning #Tariffs"
+ },
+ "show_notes": {
+  "summary": "Volvo Cars cuts to five plants, moves XC60 output to South Carolina and cuts about 2,000 jobs in Sweden. EU ministers name the Chinese imports they want to curb, October sets a record for ship attacks around Hormuz, Chery eyes Canada, and AI tools find decade-old PHP flaws.",
+  "sources": [
+   {"title": "Volvo Cars newsroom: Q3 2026 results and plan to concentrate production on five plants", "url": "https://www.volvocars.com/intl/media/press-releases/4291EEEC7003CDC6/"},
+   {"title": "Reuters via SRN News: EU ministers vow to tackle China shock 2.0 through talks with Beijing", "url": "https://srnnews.com/eu-ministers-vow-to-tackle-china-shock-2-0-through-talks-with-beijing/"},
+   {"title": "Reuters via BOE Report: Ship attacks in Strait of Hormuz hit record high in October", "url": "https://boereport.com/2026/10/23/ship-attacks-in-strait-of-hormuz-hit-record-high-in-october/"},
+   {"title": "SupplyChainBrain (Bloomberg): Chery eyes Canada production as Chinese carmakers circle US", "url": "https://www.supplychainbrain.com/articles/45079-chery-eyes-canada-production-as-chinese-carmakers-circle-us"},
+   {"title": "SupplyChainBrain (Bloomberg): Firms race to fix widespread cyber flaw before hackers break in", "url": "https://www.supplychainbrain.com/articles/45077-firms-race-to-fix-widespread-cyber-flaw-before-hackers-break-in"},
+   {"title": "Dagens Infrastruktur: Svenska paketvolymer växer, Bring öppnar ny importterminal i Norge", "url": "https://dagensinfrastruktur.se/2026/10/23/svenska-paketvolymer-vaxer-bring-oppnar-ny-importterminal-i-norge"},
+   {"title": "SupplyChainBrain: Maersk, Hateco sign Vietnam rail freight project deal", "url": "https://www.supplychainbrain.com/articles/45074-maersk-hateco-sign-vietnam-rail-freight-project-deal"}
+  ]
+ }
+}

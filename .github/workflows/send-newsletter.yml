@@ -1,0 +1,33 @@
+name: Send newsletter
+
+# Re-sends (or first sends) the Sunday newsletter for an episode that is already published,
+# without re-rendering anything. The newsletter goes to Buttondown with newsletter.status
+# from config.json ("draft" waits for a final look there).
+on:
+  workflow_dispatch:
+    inputs:
+      stem:
+        description: "Episode date, e.g. 2026-10-25"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      STEM: ${{ inputs.stem }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the YouTube link from the release, if there is one
+        run: |
+          mkdir -p build/out
+          gh release download "episode-$STEM" -p "planning-desk-$STEM.youtube.txt" -D build/out || echo "No YouTube link in the release."
+      - name: Send the newsletter
+        run: |
+          pip install -q -r requirements.txt
+          python newsletter.py "$STEM"

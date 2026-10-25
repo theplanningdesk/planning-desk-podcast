@@ -1,0 +1,16 @@
+{
+ "stem": "2026-10-25-test",
+ "format": "daily",
+ "short_cues": [
+  {"line": 0, "template": "stat", "props": {"kicker": "Volvo Cars", "value": 2000, "label": "jobs cut in Sweden", "source": "Volvo Cars"}},
+  {"line": 1, "template": "bars", "props": {"kicker": "Third quarter", "title": "Revenue, SEK billion", "items": [{"label": "Year ago", "value": 86}, {"label": "Q3 2026", "value": 67, "highlight": true}]}},
+  {"line": 1, "at": "operating loss", "template": "stat", "props": {"kicker": "Third quarter", "value": 5.6, "decimals": 1, "suffix": " bn", "label": "SEK operating loss", "source": "Volvo Cars"}},
+  {"line": 2, "template": "list", "props": {"title": "What hit the quarter", "items": [{"label": "US tariffs", "say": "tariffs"}, {"label": "Raw materials", "say": "raw materials"}, {"label": "China revenue", "say": "China revenue"}]}},
+  {"line": 2, "at": "five dedicated plants", "template": "stat", "props": {"kicker": "New footprint", "value": 5, "label": "dedicated plants", "source": "Volvo Cars"}},
+  {"line": 3, "template": "route", "props": {"kicker": "Q1 2027", "title": "XC60 moves to South Carolina", "points": [{"name": "Charleston", "lat": 32.78, "lon": -79.93, "alert": true}], "pad": 4}},
+  {"line": 3, "at": "share more suppliers", "template": "headline", "props": {"kicker": "Volvo Cars and Geely", "title": "More shared suppliers and hardware"}},
+  {"line": 4, "template": "takeaway", "props": {"kicker": "For planners", "text": "Tariffs are redrawing a Nordic carmaker's plant and supplier map."}},
+  {"line": 4, "at": "suppliers need", "template": "list", "props": {"title": "Re-plan 2027 volumes", "items": [{"label": "By plant", "say": "by plant"}, {"label": "By region", "say": "region"}]}},
+  {"line": 5, "template": "headline", "props": {"kicker": "The Planning Desk", "title": "Supply chain news every weekday", "detail": "Apple Podcasts and Spotify"}}
+ ]
+}

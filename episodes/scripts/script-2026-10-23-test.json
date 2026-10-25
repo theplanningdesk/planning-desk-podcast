@@ -1,0 +1,114 @@
+{
+  "show": "The Planning Desk",
+  "episode_title": "Hormuz Burns, Suez Reopens",
+  "week": "2026-W43",
+  "run_date": "2026-10-23",
+  "brief_file": "news-brief-2026-10-23-test.md",
+  "target_runtime_sec": 900,
+  "word_count": 2223,
+  "hosts": {
+    "F": {"name": "Anna", "voice": "female, senior news anchor, calm, quick, warm"},
+    "M": {"name": "Erik", "voice": "male, senior news anchor, calm, quick, dry"}
+  },
+  "segments": [
+    {"id": "intro_music", "type": "music", "duration_sec": 10},
+    {"id": "cold_open", "type": "speech", "items": ["2026-W43-01", "2026-W43-02"], "lines": [
+      {"speaker": "F", "text": "Twelve ships attacked in a single week in the Strait of Hormuz. That's a record. And traffic there is still running about seventy percent below normal."},
+      {"speaker": "M", "text": "Meanwhile, four Asia to Europe services are heading back through Suez. The shipping map is redrawing itself, one week at a time. This is The Planning Desk."}
+    ]},
+    {"id": "welcome", "type": "speech", "items": ["2026-W43-01", "2026-W43-02", "2026-W43-03", "2026-W43-04", "2026-W43-06"], "lines": [
+      {"speaker": "F", "text": "Welcome to The Planning Desk, fifteen minutes on supply chain planning and design. I'm Anna."},
+      {"speaker": "M", "text": "And I'm Erik."},
+      {"speaker": "F", "text": "Three headlines. Hormuz has its worst week on record for attacks on shipping. The Gemini network moves four more Asia to Europe loops back to Suez from mid-November. And E U leaders want new safeguards against Chinese chemicals and machinery. Plus, a Swedish grocer redraws its warehouse map, a warehouse move that cost twice the forecast, and a reality check on A I in German supply chains."}
+    ]},
+    {"id": "lead_stories", "type": "speech", "items": ["2026-W43-01", "2026-W43-02", "2026-W43-16", "2026-W43-03"], "lines": [
+      {"speaker": "F", "text": "First, the Strait of Hormuz. The maritime security agency U K M T O counted attacks on twelve vessels in and around the strait in the week of the fifth to the eleventh of October. That's the most it has ever recorded there in one week. Six were hit on the eleventh alone."},
+      {"speaker": "M", "text": "And it hasn't calmed down since?"},
+      {"speaker": "F", "text": "No. More tankers were attacked on the seventeenth, and a tug was struck on the eighteenth. U K M T O logged two hundred and fifty-four commercial transits in the second week of October. That's roughly seventy percent below pre-conflict levels. The threat level stays at severe."},
+      {"speaker": "M", "text": "So no sign of it easing."},
+      {"speaker": "F", "text": "None. The record week was early October, and the attacks kept coming after it. Tankers, then a tug, on back-to-back days."},
+      {"speaker": "M", "text": "Then this stays on the risk register. If you buy Gulf energy or petrochemicals, or you serve customers in the Middle East, put explicit lead-time buffers on those lanes. This disruption isn't fading."},
+      {"speaker": "F", "text": "Which makes the next story a little odd. While the Gulf gets worse, the Red Sea route is coming back. Gemini, the network Maersk runs with Hapag-Lloyd, will send four Asia to Europe services through Suez. That's A E two, A E eleven, A E nineteen, and a new one, A E eighteen."},
+      {"speaker": "M", "text": "When do the first ships leave?"},
+      {"speaker": "F", "text": "First sailings leave Ningbo, Shanghai and Xingang between the fifteenth and the twenty-second of November. A E two also swaps Tangier for Rotterdam on the westbound leg. Maersk adds that schedules can still change. And Freightos reported on Tuesday that carriers are steadily returning, with estimates pointing to a full Suez recovery in the first quarter of next year."},
+      {"speaker": "M", "text": "Good news with a trap in it. Asia to North Europe lead times should start shrinking from December arrivals. If your transit times and safety stock still assume the Cape route, you need a dated plan to step them down. Step down too fast, and ships arriving in bunches can still leave you short."},
+      {"speaker": "F", "text": "So the job this quarter is a calendar, not a cut. Write down when each parameter steps down, and check it against actual arrivals."},
+      {"speaker": "M", "text": "And the freight market? Is any of this in the rates yet?"},
+      {"speaker": "F", "text": "Not yet. Drewry's World Container Index rose two percent this week, to about four thousand six hundred dollars per forty-foot box. Shanghai to Rotterdam rose three percent, to about three thousand six hundred dollars. Shanghai to Genoa was up five percent, to about four thousand one hundred and fifty."},
+      {"speaker": "M", "text": "Rates going up, with Suez reopening. Why?"},
+      {"speaker": "F", "text": "Blank sailings. Drewry expects cancelled Asia to Europe sailings to climb from two to eight next week, and rates to rise slightly."},
+      {"speaker": "M", "text": "Then the advice for contract season is simple. Carriers are holding rates up while Suez capacity comes back. When you negotiate first quarter contracts, price in that capacity release. Don't anchor on today's spot rate."},
+      {"speaker": "F", "text": "Our third lead comes from Brussels. At last week's summit, E U leaders asked the European Commission for a toolbox of trade-defence instruments. That includes safeguards with quotas and tariffs, to protect chemicals and machinery producers from Chinese competition. Officials said leaders want unilateral safeguards without delay."},
+      {"speaker": "M", "text": "Do we know when?"},
+      {"speaker": "F", "text": "Not really. Ursula von der Leyen said work would begin, but timing before year-end is unclear. Two more tools are in the pipeline. One helps diversify suppliers of strategic products. The other is a solidarity mechanism against Chinese countermeasures."},
+      {"speaker": "M", "text": "And Beijing's deal on hybrid cars didn't soften the tone?"},
+      {"speaker": "F", "text": "No. Leaders kept their wording on macroeconomic imbalances, even after the Commission's recent deal with Beijing to curb Chinese hybrid car exports to the E U."},
+      {"speaker": "M", "text": "If you source chemical inputs or machinery components from China, model a quota plus tariff scenario now. And remember, safeguards apply to all origins, not only China. They can last up to eight years."},
+      {"speaker": "F", "text": "So switching to a supplier in another country doesn't automatically get you out."},
+      {"speaker": "M", "text": "Right. Run the scenario on the whole category, then decide where to buy. And with timing unclear, keep that scenario ready rather than waiting for a date."},
+      {"speaker": "F", "text": "Eight years is a planning horizon. Erik, take us north."}
+    ]},
+    {"id": "nordics_dach", "type": "speech", "items": ["2026-W43-04", "2026-W43-06", "2026-W43-18", "2026-W43-05"], "lines": [
+      {"speaker": "M", "text": "Starting in Sweden. ICA has updated its logistics masterplan. It swaps single-category central warehouses for three regional hubs, in Helsingborg, Västerås and Göteborg. Each carries a base range and can supply the full assortment. Redundancy is a stated goal."},
+      {"speaker": "F", "text": "What's the hardware behind it?"},
+      {"speaker": "M", "text": "An automated fresh-goods warehouse in Västerås of about one hundred and twenty thousand square metres, with construction from next year. Helsingborg gets a two point six billion kronor automation upgrade, taking automation from about half to over ninety percent by twenty twenty-nine. The network target is eighty percent. A feasibility study is running, and no investment decision has been taken."},
+      {"speaker": "F", "text": "So a big grocer is trading category scale for regional redundancy. Resilience now carries a price in the business case, and ICA is putting a number on it."},
+      {"speaker": "M", "text": "And a warning from the same country. Online pharmacy Meds moved from Västberga to a new centre in Eskilstuna in August, with three times the capacity. Meds now says the move cut third quarter revenue by about fifty million kronor and operating profit by about nine million. The forecast was twenty-five million and six million."},
+      {"speaker": "F", "text": "Where did it go wrong?"},
+      {"speaker": "M", "text": "Not in the machines. Automation and I T went to plan. Staff training took longer, and that hurt sales and delivery times until things normalised this month."},
+      {"speaker": "F", "text": "Network moves keep under-budgeting the ramp. People readiness sets the curve, not the machines. Onemed is next in line for a ramp like that. It's merging three Gothenburg warehouses into one forty-five thousand square metre automated site at Halvorsäng, and eighty of one hundred and eighty staff got notice."},
+      {"speaker": "M", "text": "Over to Finland. St1 runs about eleven hundred and fifty stations across Finland, Sweden, Norway and the U K. It has picked RELEX for demand planning and sensing, inventory and distribution planning, and vessel and berth scheduling, all on one platform. N T T Data is the consulting partner."},
+      {"speaker": "F", "text": "One flow from the forecast to the refinery?"},
+      {"speaker": "M", "text": "That's the pitch. According to RELEX, it links demand forecasts to terminal inventory, replenishment, jetty loading and refinery supply. RELEX says it replaces several spreadsheet processes, and that St1 chose it over multiple vendors or an in-house build."},
+      {"speaker": "F", "text": "A retail planning vendor reaching into bulk fuel scheduling. That's ground the specialist tools used to own."}
+    ]},
+    {"id": "ai_tech", "type": "speech", "items": ["2026-W43-08", "2026-W43-25", "2026-W43-11", "2026-W43-13"], "lines": [
+      {"speaker": "M", "text": "To A I and tech. At the B V L Supply Chain C X conference in Berlin, about eighteen hundred people heard a new study from B V L and 4flow. Eighty-three percent of surveyed companies already use or pilot A I in their supply chains. Mostly for planning, optimisation, monitoring, forecasting and data analysis."},
+      {"speaker": "F", "text": "So adoption is settled. What's missing?"},
+      {"speaker": "M", "text": "The study says lasting results depend on strategy, business cases, governance, skills and culture. And a Gartner survey of about two thousand chief information officers points the same way. Only thirteen percent say A I has delivered significant value to their enterprise. About one in five A I use cases succeeds."},
+      {"speaker": "F", "text": "So the gap is governance and the business case. That's where planning leaders in the DACH region can stand out. Next, a vendor claim."},
+      {"speaker": "M", "text": "o9 Solutions says the third quarter was its best ever, with record bookings and over forty go-lives. It also says NVIDIA's cuOpt solver makes its optimisation more than ten times faster."},
+      {"speaker": "F", "text": "Faster scenario runs would help. But ask for benchmarks on your own models before you count ten times as a planning-cycle gain."},
+      {"speaker": "M", "text": "Last in this block, chips. The Semiconductor Industry Association mapped two hundred tier one equipment and materials inputs, plus the sub-tier inputs behind them, across one hundred categories. About ninety-five percent of tier one supply comes from the U S, Europe or Japan."},
+      {"speaker": "F", "text": "That sounds safe enough."},
+      {"speaker": "M", "text": "On paper. But about half the categories rate high or medium vulnerability, because of deeper dependencies like rare earths from China and Russia. Some capacity could take a decade or more to expand. And environmental rules limit multi-year stockpiling of inputs like fluorinated gases."},
+      {"speaker": "F", "text": "European electronics and car planners share that blind spot. Tier one looks diversified. The sub-tiers set the real risk."}
+    ]},
+    {"id": "use_cases", "type": "speech", "items": ["2026-W43-14", "2026-W43-09"], "lines": [
+      {"speaker": "M", "text": "Two demand stories. First, Constellation Brands, the maker of Modelo and Pacifico, drew distributor stock down too far last fiscal year. Premium beer sales fell faster than expected, and it started this year too light."},
+      {"speaker": "F", "text": "How is it fixing that?"},
+      {"speaker": "M", "text": "It raised shipments last quarter to clear backlogs, and redirected product to avoid stockouts. Inventory is now back to normal, though still below historical averages. The C E O expects shipments and depletions to land within one percent of each other this year. A new chief supply chain officer for beer starts in November."},
+      {"speaker": "F", "text": "Textbook bullwhip. Destock into a demand drop, and you're short when demand settles. That's why downstream inventory targets belong inside sales and operations planning, S and O P."},
+      {"speaker": "M", "text": "Second, ABB. Third quarter orders jumped forty percent, to about twelve billion dollars. Revenue rose fourteen percent, to about nine point seven billion. The C E O says ABB is adding capacity in steps, using automation and some third-party assembly. Capital spending stays around one billion dollars, and isn't expected to rise further."},
+      {"speaker": "F", "text": "Orders that far ahead of revenue, with no jump in capital spending, mean outsourced assembly and tight capacity planning. If you buy electrification gear from ABB, watch the quoted lead times."}
+    ]},
+    {"id": "numbers", "type": "speech", "items": ["2026-W43-16", "2026-W43-08"], "lines": [
+      {"speaker": "F", "text": "The numbers. The New York Fed's Global Supply Chain Pressure Index rose to one point two eight in September, from one point two in August."},
+      {"speaker": "M", "text": "Pressure building, slowly."},
+      {"speaker": "F", "text": "Germany's flash manufacturing purchasing managers' index, the P M I, came in at fifty-four point two for October, up from fifty-three point nine. S and P Global flagged a renewed surge in cost pressures. Sweden's manufacturing P M I hit fifty-eight point one in September, up from fifty-six point three."},
+      {"speaker": "M", "text": "Part of Sweden's rise came from longer supplier delivery times, though. That's a mixed signal. And the input price index climbed to seventy-seven point six."},
+      {"speaker": "F", "text": "On freight, Freightos has Asia to North Europe up six percent, at about three thousand four hundred dollars per forty-foot box. And the Logistikweisen expect German logistics to grow just under one percent in real terms this year."}
+    ]},
+    {"id": "events_ahead", "type": "speech", "items": ["2026-W43-06", "2026-W43-02", "2026-W43-07", "2026-W43-17"], "lines": [
+      {"speaker": "F", "text": "Events ahead. Kinaxis Kinexions E M E A runs in Barcelona from next Monday to Wednesday. Meds reports its third quarter on the sixth of November, with full numbers on the Eskilstuna move. Intermodal Europe is in Rotterdam from the tenth to the twelfth. The first Gemini sailings via Suez leave from the fifteenth. SKF holds its capital markets day in Gothenburg on the seventeenth, and Vertevo lists on the first of December. TFEST twenty-six is in Berlin the same week."},
+      {"speaker": "M", "text": "And the hard one: the E U Deforestation Regulation applies to large and medium companies from the thirtieth of December. That's about ten weeks. If you import cocoa, coffee, wood, rubber, palm, soy or cattle products, supplier geolocation data belongs in your master data now."},
+      {"speaker": "F", "text": "That status comes from a compliance software vendor, so check the dates on EUR-Lex."}
+    ]},
+    {"id": "quick_hits", "type": "speech", "items": ["2026-W43-07", "2026-W43-10", "2026-W43-12", "2026-W43-15", "2026-W43-19", "2026-W43-20", "2026-W43-23", "2026-W43-24"], "lines": [
+      {"speaker": "M", "text": "Quick hits. SKF largely offset tariff costs again last quarter. Vertevo customers should expect source and lead-time changes through twenty twenty-seven."},
+      {"speaker": "F", "text": "A Kühne Logistics University survey: eighty-three percent expect climate adaptation to force a network redesign. Only forty-five percent think current efforts are enough."},
+      {"speaker": "M", "text": "OMP's awards went to Nestlé, Bekaert, P and G and AstraZeneca. Bekaert's scenario planning inside S and O P is the bit to copy."},
+      {"speaker": "F", "text": "Helen of Troy expects about eighty million dollars in U S tariff refunds, and will spend it clearing slow stock. European exporters with U S subsidiaries, check what you're owed."},
+      {"speaker": "M", "text": "Commerzbank's Vincent Stamer says real German exports have fallen since their peak in twenty eighteen and nineteen."},
+      {"speaker": "F", "text": "Mars and Rewe won the Deutscher Logistik-Preis for an electrified factory-to-shelf chain. They say syncing partners was the hard part."},
+      {"speaker": "M", "text": "An A S C M panel warns that reshoring won't dodge tariffs if upstream inputs still cross borders."},
+      {"speaker": "F", "text": "And M I T researchers propose a logistics resilience credit score for trade deals."}
+    ]},
+    {"id": "sign_off", "type": "speech", "items": ["2026-W43-01", "2026-W43-02", "2026-W43-03"], "lines": [
+      {"speaker": "F", "text": "That's the desk for this week. Hormuz is worse, Suez is reopening, and Brussels is building trade walls. The companies that come out ahead redesign on purpose, before they're forced to."},
+      {"speaker": "M", "text": "Next week, we'll see whether carriers can hold rates as the Suez capacity comes closer. I'm Erik."},
+      {"speaker": "F", "text": "And I'm Anna. See you next Friday."}
+    ]},
+    {"id": "outro_music", "type": "music", "duration_sec": 10}
+  ]
+}

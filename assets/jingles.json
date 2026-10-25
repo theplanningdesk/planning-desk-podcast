@@ -1,0 +1,10 @@
+{
+  "intro": {
+    "prompt": "Up-tempo rock intro for a news podcast, 10 seconds, instrumental, around 150 BPM. Driving overdriven electric guitar riff, punchy live drums with a big snare, tight bass. Energetic and confident, builds fast and hits a clean final power chord on the last beat.",
+    "source": "ElevenLabs Music"
+  },
+  "outro": {
+    "prompt": "Up-tempo rock outro for a news podcast, 10 seconds, instrumental, around 150 BPM, same band sound as the intro: overdriven electric guitar riff, punchy drums, tight bass. Ends on a big final power chord with a cymbal crash and a short natural decay.",
+    "source": "ElevenLabs Music"
+  }
+}

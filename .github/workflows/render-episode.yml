@@ -1,0 +1,230 @@
+name: Render episode
+
+on:
+  push:
+    branches: [main]
+    paths: ["episodes/scripts/script-*.json"]
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Script to render, e.g. episodes/scripts/script-2026-10-23.json (blank = newest)"
+        required: false
+        default: ""
+      fake:
+        description: "Dry run with placeholder tones (no ElevenLabs credits)"
+        type: boolean
+        default: false
+      video:
+        description: "Also render the video (Sunday: 16:9 episode, weekdays: 9:16 Short)"
+        type: boolean
+        default: true
+      youtube_private_test:
+        description: "Upload this run to YouTube as a private video, even if it's a test script"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-episode
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      INPUT_SCRIPT: ${{ inputs.script }}
+      INPUT_FAKE: ${{ inputs.fake }}
+      BEFORE_SHA: ${{ github.event.before }}
+      GH_TOKEN: ${{ github.token }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+      INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+      GH_ADMIN_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+      LINKEDIN_PAGE_TOKEN: ${{ secrets.LINKEDIN_PAGE_TOKEN }}
+      LINKEDIN_ORG_ID: ${{ vars.LINKEDIN_ORG_ID }}
+      LINKEDIN_TOKEN_SET_ON: ${{ vars.LINKEDIN_TOKEN_SET_ON }}
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install ffmpeg and Python deps
+        timeout-minutes: 6
+        run: |
+          sudo apt-get update -qq -o Acquire::Retries=3
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg
+          pip install -q -r requirements.txt
+
+      - name: Restore voiced-line cache
+        uses: actions/cache@v4
+        with:
+          path: build/cache
+          key: tts-${{ github.run_id }}
+          restore-keys: tts-
+
+      - name: Pick the script
+        id: pick
+        run: |
+          S="$INPUT_SCRIPT"
+          if [ -z "$S" ] && [ -n "$BEFORE_SHA" ] && ! echo "$BEFORE_SHA" | grep -qE '^0+$'; then
+            S=$(git diff --name-only "$BEFORE_SHA" HEAD -- 'episodes/scripts/*.json' | sort | tail -1)
+          fi
+          if [ -z "$S" ]; then
+            S=$(ls episodes/scripts/*.json | sort | tail -1)
+          fi
+          test -f "$S" || { echo "Script not found: $S"; exit 1; }
+          STEM=$(basename "$S" .json); STEM=${STEM#script-}
+          FORMAT=$(python -c "import json,sys;f=json.load(open(sys.argv[1])).get('format');print(f if f in ('daily','saturday') else 'weekly')" "$S")
+          TEST=false; case "$STEM" in *-test) TEST=true;; esac
+          echo "script=$S" >> "$GITHUB_OUTPUT"
+          echo "stem=$STEM" >> "$GITHUB_OUTPUT"
+          echo "format=$FORMAT" >> "$GITHUB_OUTPUT"
+          echo "test=$TEST" >> "$GITHUB_OUTPUT"
+          echo "Rendering $S ($FORMAT)"
+
+      - name: Make intro and outro music if missing or the prompts changed
+        run: |
+          if [ "$INPUT_FAKE" = "true" ]; then
+            if [ ! -f assets/intro.mp3 ] || [ ! -f assets/outro.mp3 ]; then python make_jingles.py --fake; fi
+          else
+            python make_jingles.py
+            if [ -n "$(git status --porcelain assets)" ]; then
+              git config user.name "planning-desk-bot"
+              git config user.email "planning-desk-bot@users.noreply.github.com"
+              git add assets
+              git commit -m "Update intro and outro music"
+              git pull --rebase -q && git push || true
+            fi
+          fi
+
+      - name: Render
+        run: |
+          FLAG=""; [ "$INPUT_FAKE" = "true" ] && FLAG="--fake"
+          python render.py "${{ steps.pick.outputs.script }}" $FLAG
+
+      - name: Upload as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: planning-desk-${{ steps.pick.outputs.stem }}
+          path: build/out/planning-desk-${{ steps.pick.outputs.stem }}.*
+
+      - name: Publish as a GitHub release
+        if: ${{ inputs.fake != true }}
+        run: |
+          STEM="${{ steps.pick.outputs.stem }}"
+          TAG="episode-$STEM"
+          TITLE=$(python -c "import json;print(json.load(open('build/out/planning-desk-$STEM.json'))['title'])")
+          FILES="build/out/planning-desk-$STEM.mp3 build/out/planning-desk-$STEM.txt build/out/planning-desk-$STEM.json"
+          [ -f "build/out/planning-desk-$STEM-short.mp3" ] && FILES="$FILES build/out/planning-desk-$STEM-short.mp3 build/out/planning-desk-$STEM-short.json"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" $FILES --clobber
+          else
+            gh release create "$TAG" $FILES --title "$TITLE" --notes "Rendered from ${{ steps.pick.outputs.script }}"
+          fi
+
+      - name: Publish to the podcast feed
+        # Test scripts (file names ending in -test) are rendered but never published.
+        if: ${{ inputs.fake != true && !endsWith(steps.pick.outputs.stem, '-test') }}
+        run: |
+          STEM="${{ steps.pick.outputs.stem }}"
+          python publish.py "$STEM"
+          git config user.name "planning-desk-bot"
+          git config user.email "planning-desk-bot@users.noreply.github.com"
+          git add docs
+          git commit -m "Publish episode $STEM"
+          git pull --rebase -q
+          git push
+
+      # ---- Video ------------------------------------------------------------
+      - name: Set up Node for the video
+        if: ${{ inputs.fake != true && (github.event_name != 'workflow_dispatch' || inputs.video) }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: video/package-lock.json
+
+      - name: Install the video renderer
+        if: ${{ inputs.fake != true && (github.event_name != 'workflow_dispatch' || inputs.video) }}
+        working-directory: video
+        run: |
+          npm ci --no-audit --no-fund
+          npx remotion browser ensure
+
+      # Sunday and Saturday: the full 16:9 episode for YouTube.
+      - name: Render the episode video
+        if: ${{ inputs.fake != true && (github.event_name != 'workflow_dispatch' || inputs.video) && steps.pick.outputs.format != 'daily' }}
+        timeout-minutes: 75
+        run: |
+          STEM="${{ steps.pick.outputs.stem }}"
+          cd video
+          node render.mjs --stem "$STEM" --concurrency 4
+          node render.mjs --stem "$STEM" --stills 8
+          cd ..
+          gh release upload "episode-$STEM" "build/out/planning-desk-$STEM.mp4" --clobber
+
+      - name: Upload the episode to YouTube
+        if: ${{ inputs.fake != true && (github.event_name != 'workflow_dispatch' || inputs.video) && steps.pick.outputs.format != 'daily' && env.YOUTUBE_REFRESH_TOKEN != '' && (inputs.youtube_private_test == true || steps.pick.outputs.test != 'true') }}
+        env:
+          YOUTUBE_PRIVACY: ${{ inputs.youtube_private_test == true && 'private' || '' }}
+        run: |
+          pip install -q google-api-python-client google-auth
+          python youtube_upload.py "${{ steps.pick.outputs.stem }}"
+          gh release upload "episode-${{ steps.pick.outputs.stem }}" "build/out/planning-desk-${{ steps.pick.outputs.stem }}.youtube.txt" --clobber
+
+      # Sunday: the show's LinkedIn Page post. Always attached to the release as text; posted
+      # automatically only once the Page has API access (LINKEDIN_PAGE_TOKEN + LINKEDIN_ORG_ID).
+      - name: LinkedIn Page post
+        if: ${{ inputs.fake != true && steps.pick.outputs.format == 'weekly' && steps.pick.outputs.test != 'true' }}
+        continue-on-error: true
+        run: |
+          STEM="${{ steps.pick.outputs.stem }}"
+          python linkedin_post.py "$STEM"
+          for f in "build/out/planning-desk-$STEM-linkedin.txt" "build/out/planning-desk-$STEM.linkedin.txt"; do
+            [ -f "$f" ] && gh release upload "episode-$STEM" "$f" --clobber
+          done
+          true
+
+      - name: Send the newsletter
+        if: ${{ inputs.fake != true && steps.pick.outputs.format == 'weekly' && steps.pick.outputs.test != 'true' && env.BUTTONDOWN_API_KEY != '' }}
+        continue-on-error: true
+        run: python newsletter.py "${{ steps.pick.outputs.stem }}"
+
+      # Weekdays and Saturday: the 9:16 Short for YouTube Shorts, Instagram Reels and the LinkedIn Page.
+      - name: Render the Short
+        if: ${{ inputs.fake != true && (github.event_name != 'workflow_dispatch' || inputs.video) && steps.pick.outputs.format != 'weekly' && hashFiles(format('build/out/planning-desk-{0}-short.mp3', steps.pick.outputs.stem)) != '' }}
+        id: short
+        timeout-minutes: 20
+        run: |
+          STEM="${{ steps.pick.outputs.stem }}"
+          cd video
+          node render.mjs --stem "$STEM" --short --concurrency 4
+          cd ..
+          python -c "import json,sys;s=json.load(open(sys.argv[1]));l=s.get('linkedin') or {};open(sys.argv[2],'w').write((l.get('page_post') or (s.get('short') or {}).get('caption') or '').strip()+chr(10))" \
+            "${{ steps.pick.outputs.script }}" "build/out/planning-desk-$STEM-linkedin.txt"
+          gh release upload "episode-$STEM" "build/out/planning-desk-$STEM-short.mp4" "build/out/planning-desk-$STEM-linkedin.txt" --clobber
+          echo "done=true" >> "$GITHUB_OUTPUT"
+
+      - name: Upload the Short to YouTube
+        if: ${{ steps.short.outputs.done == 'true' && env.YOUTUBE_REFRESH_TOKEN != '' && (inputs.youtube_private_test == true || steps.pick.outputs.test != 'true') }}
+        continue-on-error: true
+        env:
+          YOUTUBE_PRIVACY: ${{ inputs.youtube_private_test == true && 'private' || '' }}
+        run: |
+          pip install -q google-api-python-client google-auth
+          python youtube_upload.py "${{ steps.pick.outputs.stem }}" --short
+          gh release upload "episode-${{ steps.pick.outputs.stem }}" "build/out/planning-desk-${{ steps.pick.outputs.stem }}-short.youtube.txt" --clobber
+
+      - name: Post the Reel to Instagram
+        if: ${{ steps.short.outputs.done == 'true' && steps.pick.outputs.test != 'true' && env.INSTAGRAM_TOKEN != '' }}
+        continue-on-error: true
+        run: |
+          python instagram_upload.py "${{ steps.pick.outputs.stem }}"
+          gh release upload "episode-${{ steps.pick.outputs.stem }}" "build/out/planning-desk-${{ steps.pick.outputs.stem }}-short.instagram.txt" --clobber

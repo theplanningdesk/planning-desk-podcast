@@ -1,0 +1,116 @@
+{
+  "show": "The Planning Desk",
+  "artist": "The Planning Desk",
+  "podcast": {
+    "title": "The Planning Desk",
+    "description": "Supply chain planning and design news with a focus on the Nordics and the DACH region: a quick briefing every weekday morning, a book worth your time every Saturday and a fifteen-minute week in review every Sunday. Disruptions, trade and macro signals, planning technology and AI, real company use cases, the events worth your time and the books behind good planning.",
+    "ai_disclosure": "The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts' voices are synthetic.",
+    "author": "The Planning Desk",
+    "owner_name": "The Planning Desk",
+    "owner_email": "theplanningdesk.podcast@gmail.com",
+    "copyright": "Copyright 2026 The Planning Desk",
+    "language": "en",
+    "category": {
+      "main": "News",
+      "sub": "Business News",
+      "secondary": {
+        "main": "Business",
+        "sub": "Management"
+      }
+    },
+    "base_url": "https://theplanningdesk.github.io/podcast/",
+    "apple_url": "",
+    "spotify_url": "https://open.spotify.com/show/2bat2o5I2zj0zG4XEKSl9I",
+    "youtube_url": "https://www.youtube.com/@ThePlanningDeskPodcast",
+    "audio_base_url": "https://github.com/theplanningdesk/podcast/releases/download/",
+    "linkedin_url": "https://www.linkedin.com/company/the-planning-desk/",
+    "instagram_url": "https://www.instagram.com/theplanningdesk.podcast/",
+    "newsletter_url": "https://buttondown.com/theplanningdesk"
+  },
+  "voices": {
+    "F": {
+      "name": "Anna",
+      "voice_id": "oNRN9HppGQaRc2aCxlG9",
+      "elevenlabs_voice": "Astrid - Earthy and expressive"
+    },
+    "M": {
+      "name": "Erik",
+      "voice_id": "1TE7ou3jyxHsyRehUuMB",
+      "elevenlabs_voice": "Eastend Steve"
+    },
+    "N": {
+      "name": "Narrator",
+      "voice_id": "N8jsIhEtPnj3PWFmH8hZ",
+      "elevenlabs_voice": "Elder Rowan",
+      "tempo": 1.04,
+      "note": "Saturday book narrator. Anna (F) opens and closes the book episode."
+    }
+  },
+  "tts": {
+    "model_id": "eleven_v4",
+    "fallback_model_id": "eleven_v3",
+    "output_format": "mp3_44100_128",
+    "voice_settings": {},
+    "max_workers": 3
+  },
+  "jingles": {
+    "intro_prompt": "Up-tempo rock intro for a news podcast, 10 seconds, instrumental, around 150 BPM. Driving overdriven electric guitar riff, punchy live drums with a big snare, tight bass. Energetic and confident, builds fast and hits a clean final power chord on the last beat.",
+    "outro_prompt": "Up-tempo rock outro for a news podcast, 10 seconds, instrumental, around 150 BPM, same band sound as the intro: overdriven electric guitar riff, punchy drums, tight bass. Ends on a big final power chord with a cymbal crash and a short natural decay.",
+    "duration_sec": 10
+  },
+  "mix": {
+    "gap_between_lines_sec": 0.18,
+    "max_pause_sec": 0.28,
+    "line_edge_sec": 0.04,
+    "gap_between_segments_sec": 0.42,
+    "gap_after_intro_sec": 0.15,
+    "gap_before_outro_sec": 0.4,
+    "intro_fade_out_sec": 0.8,
+    "outro_fade_in_sec": 0.3,
+    "outro_fade_out_sec": 1.2,
+    "loudness_lufs": -16,
+    "true_peak_db": -1.5,
+    "mp3_bitrate": "128k",
+    "speech_tempo": 1.12
+  },
+  "youtube": {
+    "privacy": "public",
+    "category_id": 25,
+    "tags": [
+      "supply chain",
+      "supply chain planning",
+      "network design",
+      "S&OP",
+      "AI",
+      "logistics",
+      "Nordics",
+      "DACH"
+    ]
+  },
+  "formats": {
+    "daily": {
+      "jingle_sec": 5,
+      "publish_time": "06:30"
+    },
+    "weekly": {
+      "jingle_sec": 10,
+      "publish_time": "07:30"
+    },
+    "saturday": {
+      "jingle_sec": 5,
+      "publish_time": "07:30",
+      "title_prefix": "Book of the week",
+      "short_cta": "A book worth your time, every Saturday on Apple Podcasts and Spotify"
+    }
+  },
+  "short": {
+    "lead_sec": 0.3,
+    "tail_sec": 2.5,
+    "loudness_lufs": -14,
+    "max_sec": 75,
+    "cta": "Every weekday on Apple Podcasts and Spotify"
+  },
+  "newsletter": {
+    "status": "draft"
+  }
+}

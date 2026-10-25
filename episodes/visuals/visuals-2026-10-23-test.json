@@ -1,0 +1,1212 @@
+{
+  "stem": "2026-10-23-test",
+  "cues": [
+    {
+      "line": 0,
+      "template": "route",
+      "props": {
+        "kicker": "Strait of Hormuz",
+        "title": "Record week of attacks on shipping",
+        "points": [
+          {
+            "name": "Strait of Hormuz",
+            "lat": 26.57,
+            "lon": 56.25,
+            "alert": true
+          },
+          {
+            "name": "Dubai",
+            "lat": 25.2,
+            "lon": 55.27
+          },
+          {
+            "name": "Muscat",
+            "lat": 23.59,
+            "lon": 58.38
+          }
+        ],
+        "pad": 4
+      }
+    },
+    {
+      "line": 1,
+      "template": "route",
+      "props": {
+        "kicker": "Red Sea",
+        "title": "Asia to Europe services head back through Suez",
+        "routes": [
+          {
+            "style": "primary",
+            "points": [
+              [
+                121.47,
+                31.23
+              ],
+              [
+                122.3,
+                26.0
+              ],
+              [
+                117.0,
+                20.0
+              ],
+              [
+                110.5,
+                10.0
+              ],
+              [
+                104.5,
+                2.0
+              ],
+              [
+                103.85,
+                1.29
+              ],
+              [
+                100.0,
+                3.5
+              ],
+              [
+                96.0,
+                6.0
+              ],
+              [
+                86.0,
+                5.6
+              ],
+              [
+                80.6,
+                5.7
+              ],
+              [
+                70.0,
+                9.0
+              ],
+              [
+                55.0,
+                12.8
+              ],
+              [
+                48.0,
+                12.3
+              ],
+              [
+                43.3,
+                12.6
+              ],
+              [
+                38.5,
+                19.5
+              ],
+              [
+                34.0,
+                27.0
+              ],
+              [
+                32.55,
+                30.0
+              ],
+              [
+                32.3,
+                31.4
+              ],
+              [
+                26.0,
+                33.5
+              ],
+              [
+                15.0,
+                37.0
+              ],
+              [
+                10.5,
+                37.8
+              ],
+              [
+                3.0,
+                37.5
+              ],
+              [
+                -5.6,
+                35.95
+              ],
+              [
+                -9.8,
+                37.5
+              ],
+              [
+                -9.8,
+                43.0
+              ],
+              [
+                -5.5,
+                48.3
+              ],
+              [
+                1.5,
+                50.6
+              ],
+              [
+                4.48,
+                51.92
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "name": "Shanghai",
+            "lat": 31.23,
+            "lon": 121.47
+          },
+          {
+            "name": "Suez",
+            "lat": 30.0,
+            "lon": 32.55
+          },
+          {
+            "name": "Rotterdam",
+            "lat": 51.92,
+            "lon": 4.48
+          }
+        ]
+      }
+    },
+    {
+      "line": 2,
+      "template": "headline",
+      "props": {
+        "kicker": "The Planning Desk",
+        "title": "Fifteen minutes on supply chain planning and design",
+        "detail": "Every Sunday, with Anna and Erik"
+      }
+    },
+    {
+      "line": 4,
+      "template": "list",
+      "props": {
+        "title": "This week's headlines",
+        "items": [
+          {
+            "label": "Hormuz",
+            "detail": "Worst week on record for attacks on shipping"
+          },
+          {
+            "label": "Suez",
+            "detail": "Four Asia to Europe loops return from mid-November",
+            "say": "Gemini"
+          },
+          {
+            "label": "Brussels",
+            "detail": "Safeguards on Chinese chemicals and machinery",
+            "say": "E U leaders"
+          },
+          {
+            "label": "Sweden",
+            "detail": "A grocer redraws its warehouse map",
+            "say": "Swedish grocer"
+          },
+          {
+            "label": "AI",
+            "detail": "A reality check in German supply chains",
+            "say": "reality check"
+          }
+        ]
+      }
+    },
+    {
+      "line": 5,
+      "template": "stat",
+      "props": {
+        "kicker": "Strait of Hormuz, 5 to 11 October",
+        "value": 12,
+        "label": "vessels attacked in one week",
+        "note": "The most UKMTO has recorded there in a single week",
+        "source": "UKMTO via SupplyChainBrain"
+      }
+    },
+    {
+      "line": 7,
+      "template": "stat",
+      "props": {
+        "kicker": "Commercial transits, 8 to 14 October",
+        "value": 254,
+        "label": "ships through the strait",
+        "note": "About 70 percent below pre-conflict levels. Threat level: severe",
+        "source": "UKMTO via SupplyChainBrain"
+      }
+    },
+    {
+      "line": 9,
+      "template": "timeline",
+      "props": {
+        "kicker": "Strait of Hormuz",
+        "title": "The attacks kept coming",
+        "items": [
+          {
+            "label": "5 to 11 Oct",
+            "detail": "Record week, 12 vessels",
+            "say": "record week",
+            "alert": true
+          },
+          {
+            "label": "11 Oct",
+            "detail": "Six hit in one day",
+            "say": "October",
+            "alert": true
+          },
+          {
+            "label": "17 Oct",
+            "detail": "More tankers attacked",
+            "say": "Tankers",
+            "alert": true
+          },
+          {
+            "label": "18 Oct",
+            "detail": "A tug struck",
+            "say": "tug",
+            "alert": true
+          }
+        ]
+      }
+    },
+    {
+      "line": 10,
+      "template": "takeaway",
+      "props": {
+        "kicker": "For planners",
+        "text": "Keep Gulf lanes on the risk register, with explicit lead-time buffers."
+      }
+    },
+    {
+      "line": 11,
+      "template": "route",
+      "props": {
+        "kicker": "Gemini network",
+        "title": "Suez is back, the Cape route winds down",
+        "routes": [
+          {
+            "style": "faded",
+            "label": "Cape of Good Hope",
+            "points": [
+              [
+                121.47,
+                31.23
+              ],
+              [
+                122.3,
+                26.0
+              ],
+              [
+                117.0,
+                20.0
+              ],
+              [
+                110.5,
+                10.0
+              ],
+              [
+                104.5,
+                2.0
+              ],
+              [
+                103.85,
+                1.29
+              ],
+              [
+                100.0,
+                3.5
+              ],
+              [
+                96.0,
+                6.0
+              ],
+              [
+                86.0,
+                5.6
+              ],
+              [
+                80.6,
+                5.7
+              ],
+              [
+                70.0,
+                -2.0
+              ],
+              [
+                52.0,
+                -20.0
+              ],
+              [
+                40.0,
+                -33.0
+              ],
+              [
+                26.0,
+                -35.5
+              ],
+              [
+                18.47,
+                -34.36
+              ],
+              [
+                12.0,
+                -25.0
+              ],
+              [
+                5.0,
+                -5.0
+              ],
+              [
+                -13.0,
+                9.0
+              ],
+              [
+                -18.5,
+                15.0
+              ],
+              [
+                -16.5,
+                28.5
+              ],
+              [
+                -10.5,
+                36.0
+              ],
+              [
+                -9.8,
+                43.0
+              ],
+              [
+                -5.5,
+                48.3
+              ],
+              [
+                1.5,
+                50.6
+              ],
+              [
+                4.48,
+                51.92
+              ]
+            ]
+          },
+          {
+            "style": "primary",
+            "label": "Suez",
+            "points": [
+              [
+                121.47,
+                31.23
+              ],
+              [
+                122.3,
+                26.0
+              ],
+              [
+                117.0,
+                20.0
+              ],
+              [
+                110.5,
+                10.0
+              ],
+              [
+                104.5,
+                2.0
+              ],
+              [
+                103.85,
+                1.29
+              ],
+              [
+                100.0,
+                3.5
+              ],
+              [
+                96.0,
+                6.0
+              ],
+              [
+                86.0,
+                5.6
+              ],
+              [
+                80.6,
+                5.7
+              ],
+              [
+                70.0,
+                9.0
+              ],
+              [
+                55.0,
+                12.8
+              ],
+              [
+                48.0,
+                12.3
+              ],
+              [
+                43.3,
+                12.6
+              ],
+              [
+                38.5,
+                19.5
+              ],
+              [
+                34.0,
+                27.0
+              ],
+              [
+                32.55,
+                30.0
+              ],
+              [
+                32.3,
+                31.4
+              ],
+              [
+                26.0,
+                33.5
+              ],
+              [
+                15.0,
+                37.0
+              ],
+              [
+                10.5,
+                37.8
+              ],
+              [
+                3.0,
+                37.5
+              ],
+              [
+                -5.6,
+                35.95
+              ],
+              [
+                -9.8,
+                37.5
+              ],
+              [
+                -9.8,
+                43.0
+              ],
+              [
+                -5.5,
+                48.3
+              ],
+              [
+                1.5,
+                50.6
+              ],
+              [
+                4.48,
+                51.92
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "name": "Shanghai",
+            "lat": 31.23,
+            "lon": 121.47
+          },
+          {
+            "name": "Suez",
+            "lat": 30.0,
+            "lon": 32.55
+          },
+          {
+            "name": "Cape of Good Hope",
+            "lat": -34.36,
+            "lon": 18.47,
+            "muted": true
+          },
+          {
+            "name": "Rotterdam",
+            "lat": 51.92,
+            "lon": 4.48
+          }
+        ]
+      }
+    },
+    {
+      "line": 13,
+      "template": "list",
+      "props": {
+        "title": "First sailings via Suez",
+        "items": [
+          {
+            "label": "AE2",
+            "detail": "Swaps Tangier for Rotterdam westbound",
+            "say": "A E two also"
+          },
+          {
+            "label": "Ports",
+            "detail": "Ningbo, Shanghai and Xingang",
+            "say": "Ningbo"
+          },
+          {
+            "label": "Dates",
+            "detail": "15 to 22 November",
+            "say": "fifteenth"
+          },
+          {
+            "label": "Caveat",
+            "detail": "Schedules can still change",
+            "say": "schedules"
+          },
+          {
+            "label": "Outlook",
+            "detail": "Full Suez recovery expected in Q1 2027",
+            "say": "full Suez"
+          }
+        ],
+        "footer": "Sources: Maersk, Freightos"
+      }
+    },
+    {
+      "line": 14,
+      "template": "takeaway",
+      "props": {
+        "kicker": "For planners",
+        "text": "Plan a dated step-down of transit times and safety stock. Too fast, and bunched arrivals leave you short."
+      }
+    },
+    {
+      "line": 15,
+      "template": "takeaway",
+      "props": {
+        "kicker": "The job this quarter",
+        "text": "A calendar, not a cut. Date each step-down and check it against actual arrivals."
+      }
+    },
+    {
+      "line": 17,
+      "template": "bars",
+      "props": {
+        "kicker": "Container spot rates, 22 October",
+        "title": "Dollars per 40-foot container",
+        "items": [
+          {
+            "label": "World Container Index",
+            "value": 4585,
+            "highlight": true
+          },
+          {
+            "label": "Shanghai to Genoa",
+            "value": 4152
+          },
+          {
+            "label": "Shanghai to Rotterdam",
+            "value": 3632
+          }
+        ],
+        "source": "Drewry"
+      }
+    },
+    {
+      "line": 19,
+      "template": "stat",
+      "props": {
+        "kicker": "Asia to Europe, next week",
+        "value": 8,
+        "label": "blank sailings expected",
+        "note": "Up from 2. Carriers are holding rates up",
+        "source": "Drewry"
+      }
+    },
+    {
+      "line": 20,
+      "template": "takeaway",
+      "props": {
+        "kicker": "Contract season",
+        "text": "Price Q1 contracts on the coming capacity release, not today's spot rate."
+      }
+    },
+    {
+      "line": 21,
+      "template": "headline",
+      "props": {
+        "kicker": "Brussels",
+        "title": "EU leaders ask for safeguards on Chinese chemicals and machinery",
+        "detail": "Quotas and tariffs on the table. Timing before year-end unclear.",
+        "source": "Euronews"
+      }
+    },
+    {
+      "line": 23,
+      "template": "list",
+      "props": {
+        "title": "Also in the EU pipeline",
+        "items": [
+          {
+            "label": "Timing",
+            "detail": "Unclear before year-end",
+            "say": "timing"
+          },
+          {
+            "label": "Tool 1",
+            "detail": "Supplier diversification for strategic products",
+            "say": "diversify"
+          },
+          {
+            "label": "Tool 2",
+            "detail": "Solidarity mechanism against countermeasures",
+            "say": "solidarity"
+          }
+        ],
+        "footer": "Source: Euronews"
+      }
+    },
+    {
+      "line": 25,
+      "template": "headline",
+      "props": {
+        "kicker": "EU and China",
+        "title": "A hybrid car deal didn't soften the tone",
+        "detail": "Leaders kept the wording on macroeconomic imbalances",
+        "source": "Euronews"
+      }
+    },
+    {
+      "line": 26,
+      "template": "stat",
+      "props": {
+        "kicker": "EU safeguards",
+        "value": 8,
+        "suffix": " years",
+        "label": "maximum duration, applied to all origins",
+        "note": "Model a quota plus tariff scenario on the whole category",
+        "source": "Euronews"
+      }
+    },
+    {
+      "line": 28,
+      "template": "takeaway",
+      "props": {
+        "kicker": "For buyers",
+        "text": "Run the scenario on the whole category, then decide where to buy."
+      }
+    },
+    {
+      "line": 30,
+      "template": "route",
+      "props": {
+        "kicker": "Sweden",
+        "title": "ICA moves to three regional hubs",
+        "points": [
+          {
+            "name": "Helsingborg",
+            "lat": 56.05,
+            "lon": 12.69
+          },
+          {
+            "name": "Göteborg",
+            "lat": 57.71,
+            "lon": 11.97
+          },
+          {
+            "name": "Västerås",
+            "lat": 59.61,
+            "lon": 16.55
+          }
+        ],
+        "pad": 3.5
+      }
+    },
+    {
+      "line": 32,
+      "template": "stat",
+      "props": {
+        "kicker": "ICA Helsingborg",
+        "value": 90,
+        "suffix": "%",
+        "prefix": "over ",
+        "label": "automation by 2029",
+        "note": "From about half today. A SEK 2.6 billion upgrade, not yet decided",
+        "source": "Dagens Logistik"
+      }
+    },
+    {
+      "line": 33,
+      "template": "takeaway",
+      "props": {
+        "kicker": "Network design",
+        "text": "Resilience now carries a price in the business case."
+      }
+    },
+    {
+      "line": 34,
+      "template": "bars",
+      "props": {
+        "kicker": "Meds warehouse move, Q3",
+        "title": "Hit to results, SEK million",
+        "items": [
+          {
+            "label": "Revenue hit, forecast",
+            "value": 25
+          },
+          {
+            "label": "Revenue hit, actual",
+            "value": 50,
+            "highlight": true
+          },
+          {
+            "label": "Profit hit, forecast",
+            "value": 6
+          },
+          {
+            "label": "Profit hit, actual",
+            "value": 9,
+            "highlight": true
+          }
+        ],
+        "source": "Dagens Logistik"
+      }
+    },
+    {
+      "line": 36,
+      "template": "flow",
+      "props": {
+        "kicker": "Meds",
+        "title": "Where the move went wrong",
+        "steps": [
+          {
+            "label": "Automation",
+            "detail": "Went to plan",
+            "say": "Automation"
+          },
+          {
+            "label": "IT",
+            "detail": "Went to plan",
+            "say": "I T"
+          },
+          {
+            "label": "Staff training",
+            "detail": "Took longer",
+            "say": "training"
+          },
+          {
+            "label": "Sales and delivery",
+            "detail": "Hit until October",
+            "say": "sales"
+          }
+        ]
+      }
+    },
+    {
+      "line": 37,
+      "template": "takeaway",
+      "props": {
+        "kicker": "For network designers",
+        "text": "People readiness sets the ramp-up curve, not the machines."
+      }
+    },
+    {
+      "line": 38,
+      "template": "headline",
+      "props": {
+        "kicker": "Finland",
+        "title": "St1 plans fuel from forecast to refinery on one platform",
+        "detail": "About 1,150 stations in Finland, Sweden, Norway and the UK",
+        "source": "RELEX newsroom"
+      }
+    },
+    {
+      "line": 40,
+      "template": "flow",
+      "props": {
+        "kicker": "St1 and RELEX",
+        "title": "One planning flow, forecast to refinery",
+        "steps": [
+          {
+            "label": "Demand forecast",
+            "say": "demand forecasts"
+          },
+          {
+            "label": "Terminal inventory",
+            "say": "terminal"
+          },
+          {
+            "label": "Replenishment",
+            "say": "replenishment"
+          },
+          {
+            "label": "Jetty loading",
+            "say": "jetty"
+          },
+          {
+            "label": "Refinery supply",
+            "say": "refinery"
+          }
+        ]
+      }
+    },
+    {
+      "line": 41,
+      "template": "takeaway",
+      "props": {
+        "kicker": "Market signal",
+        "text": "Retail planning platforms are moving into process-industry scheduling."
+      }
+    },
+    {
+      "line": 42,
+      "template": "stat",
+      "props": {
+        "kicker": "Germany, BVL and 4flow study",
+        "value": 83,
+        "suffix": "%",
+        "label": "of companies use or pilot AI in supply chains",
+        "note": "Mostly planning, optimisation and forecasting",
+        "source": "VerkehrsRundschau"
+      }
+    },
+    {
+      "line": 44,
+      "template": "stat",
+      "props": {
+        "kicker": "Gartner CIO survey",
+        "value": 13,
+        "suffix": "%",
+        "label": "see significant value from AI",
+        "note": "About one in five AI use cases succeeds",
+        "source": "Gartner"
+      }
+    },
+    {
+      "line": 45,
+      "template": "takeaway",
+      "props": {
+        "kicker": "The real gap",
+        "text": "Governance and the business case, not the technology."
+      }
+    },
+    {
+      "line": 46,
+      "template": "headline",
+      "props": {
+        "kicker": "Vendor claim",
+        "title": "o9 reports its best quarter and GPU-accelerated optimisation",
+        "detail": "Ask for benchmarks on your own models",
+        "source": "o9 Solutions"
+      }
+    },
+    {
+      "line": 47,
+      "template": "takeaway",
+      "props": {
+        "kicker": "Before you believe 10x",
+        "text": "Ask for benchmarks on your own models."
+      }
+    },
+    {
+      "line": 48,
+      "template": "stat",
+      "props": {
+        "kicker": "Semiconductor supply chain",
+        "value": 95,
+        "suffix": "%",
+        "prefix": "about ",
+        "label": "of tier one supply from the US, Europe or Japan",
+        "note": "200 inputs mapped across 100 categories",
+        "source": "Semiconductor Industry Association"
+      }
+    },
+    {
+      "line": 50,
+      "template": "stat",
+      "props": {
+        "kicker": "Below tier one",
+        "value": 50,
+        "suffix": "%",
+        "prefix": "about ",
+        "label": "of categories rate medium or high vulnerability",
+        "note": "Rare earths from China and Russia. Some capacity takes a decade to build",
+        "source": "Semiconductor Industry Association"
+      }
+    },
+    {
+      "line": 51,
+      "template": "takeaway",
+      "props": {
+        "kicker": "Blind spot",
+        "text": "Tier one looks diversified. The sub-tiers set the real risk."
+      }
+    },
+    {
+      "line": 52,
+      "template": "headline",
+      "props": {
+        "kicker": "Use case",
+        "title": "Constellation Brands destocked too far, then had to refill",
+        "detail": "Shipments and depletions now expected within one percent",
+        "source": "Supply Chain Dive"
+      }
+    },
+    {
+      "line": 54,
+      "template": "flow",
+      "props": {
+        "kicker": "Constellation Brands",
+        "title": "The refill",
+        "steps": [
+          {
+            "label": "Raise shipments",
+            "say": "raised shipments"
+          },
+          {
+            "label": "Redirect product",
+            "say": "redirected"
+          },
+          {
+            "label": "Inventory normal",
+            "say": "back to normal"
+          },
+          {
+            "label": "New supply chain chief",
+            "detail": "From November",
+            "say": "chief supply chain"
+          }
+        ]
+      }
+    },
+    {
+      "line": 55,
+      "template": "takeaway",
+      "props": {
+        "kicker": "Textbook bullwhip",
+        "text": "Destock into a demand drop, and you're short when demand settles."
+      }
+    },
+    {
+      "line": 56,
+      "template": "bars",
+      "props": {
+        "kicker": "ABB, third quarter",
+        "title": "Billion dollars",
+        "items": [
+          {
+            "label": "Orders, up 40 percent",
+            "value": 12.1,
+            "highlight": true
+          },
+          {
+            "label": "Revenue, up 14 percent",
+            "value": 9.7
+          }
+        ],
+        "decimals": 1,
+        "source": "ABB"
+      }
+    },
+    {
+      "line": 57,
+      "template": "takeaway",
+      "props": {
+        "kicker": "ABB customers",
+        "text": "Watch the quoted lead times on electrification gear."
+      }
+    },
+    {
+      "line": 58,
+      "template": "stat",
+      "props": {
+        "kicker": "NY Fed Global Supply Chain Pressure Index",
+        "value": 1.28,
+        "decimals": 2,
+        "label": "September, up from 1.20",
+        "source": "New York Fed"
+      }
+    },
+    {
+      "line": 60,
+      "template": "bars",
+      "props": {
+        "kicker": "Manufacturing PMI",
+        "title": "Above 50 means expansion",
+        "items": [
+          {
+            "label": "Germany, October flash",
+            "value": 54.2
+          },
+          {
+            "label": "Sweden, September",
+            "value": 58.1,
+            "highlight": true
+          }
+        ],
+        "decimals": 1,
+        "baseline": 50,
+        "source": "HCOB, Silf/Swedbank"
+      }
+    },
+    {
+      "line": 61,
+      "template": "stat",
+      "props": {
+        "kicker": "Sweden, September",
+        "value": 77.6,
+        "decimals": 1,
+        "label": "input price index",
+        "note": "Part of the PMI rise came from longer supplier delivery times",
+        "source": "Silf/Swedbank"
+      }
+    },
+    {
+      "line": 62,
+      "template": "stat",
+      "props": {
+        "kicker": "Asia to North Europe spot rate",
+        "value": 3442,
+        "prefix": "$",
+        "label": "per 40-foot container, up 6 percent",
+        "source": "Freightos FBX"
+      }
+    },
+    {
+      "line": 63,
+      "template": "timeline",
+      "props": {
+        "kicker": "Events ahead",
+        "title": "Your next six weeks",
+        "items": [
+          {
+            "label": "26 Oct",
+            "detail": "Kinaxis Kinexions, Barcelona",
+            "say": "Kinaxis"
+          },
+          {
+            "label": "6 Nov",
+            "detail": "Meds Q3 report",
+            "say": "Meds"
+          },
+          {
+            "label": "10 Nov",
+            "detail": "Intermodal Europe, Rotterdam",
+            "say": "Intermodal"
+          },
+          {
+            "label": "15 Nov",
+            "detail": "Gemini via Suez",
+            "say": "Gemini"
+          },
+          {
+            "label": "17 Nov",
+            "detail": "SKF capital markets day",
+            "say": "capital markets"
+          },
+          {
+            "label": "1 Dec",
+            "detail": "Vertevo listing, TFEST",
+            "say": "Vertevo"
+          }
+        ]
+      }
+    },
+    {
+      "line": 64,
+      "template": "headline",
+      "props": {
+        "kicker": "Deadline",
+        "title": "EU Deforestation Regulation applies from 30 December",
+        "detail": "Supplier geolocation data belongs in your master data now",
+        "source": "Check dates on EUR-Lex"
+      }
+    },
+    {
+      "line": 65,
+      "template": "takeaway",
+      "props": {
+        "kicker": "Note",
+        "text": "That status comes from a vendor. Check the dates on EUR-Lex."
+      }
+    },
+    {
+      "line": 66,
+      "template": "quickhit",
+      "props": {
+        "n": 1,
+        "text": "SKF offsets tariff costs again. Vertevo customers: expect source and lead-time changes through 2027"
+      }
+    },
+    {
+      "line": 67,
+      "template": "quickhit",
+      "props": {
+        "n": 2,
+        "text": "83 percent expect climate adaptation to force a network redesign. Only 45 percent think efforts are enough"
+      }
+    },
+    {
+      "line": 68,
+      "template": "quickhit",
+      "props": {
+        "n": 3,
+        "text": "Bekaert's scenario planning inside S&OP is the bit to copy"
+      }
+    },
+    {
+      "line": 69,
+      "template": "quickhit",
+      "props": {
+        "n": 4,
+        "text": "Helen of Troy expects about $80 million in US tariff refunds"
+      }
+    },
+    {
+      "line": 70,
+      "template": "quickhit",
+      "props": {
+        "n": 5,
+        "text": "Real German exports have fallen since their 2018 and 2019 peak"
+      }
+    },
+    {
+      "line": 71,
+      "template": "quickhit",
+      "props": {
+        "n": 6,
+        "text": "Mars and Rewe win the Deutscher Logistik-Preis for an electrified factory-to-shelf chain"
+      }
+    },
+    {
+      "line": 72,
+      "template": "quickhit",
+      "props": {
+        "n": 7,
+        "text": "Reshoring won't dodge tariffs if upstream inputs still cross borders"
+      }
+    },
+    {
+      "line": 73,
+      "template": "quickhit",
+      "props": {
+        "n": 8,
+        "text": "MIT proposes a logistics resilience credit score for trade deals"
+      }
+    },
+    {
+      "line": 74,
+      "template": "takeaway",
+      "props": {
+        "kicker": "This week",
+        "text": "Hormuz is worse. Suez is reopening. Brussels is building trade walls."
+      }
+    },
+    {
+      "line": 75,
+      "template": "headline",
+      "props": {
+        "kicker": "Next week",
+        "title": "Can carriers hold rates as Suez capacity returns?"
+      }
+    }
+  ]
+}

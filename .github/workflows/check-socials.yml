@@ -1,0 +1,70 @@
+name: Check social accounts
+
+# Confirms the social media tokens work without posting anything.
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+      INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+      LINKEDIN_PAGE_TOKEN: ${{ secrets.LINKEDIN_PAGE_TOKEN }}
+      LINKEDIN_ORG_ID: ${{ vars.LINKEDIN_ORG_ID }}
+      LINKEDIN_TOKEN_SET_ON: ${{ vars.LINKEDIN_TOKEN_SET_ON }}
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+    steps:
+      - name: Instagram
+        if: ${{ env.INSTAGRAM_TOKEN != '' }}
+        shell: python
+        run: |
+          import json, os, urllib.request, urllib.error
+          tok, uid = os.environ["INSTAGRAM_TOKEN"], os.environ.get("INSTAGRAM_USER_ID", "")
+          def get(path):
+              req = urllib.request.Request(f"https://graph.instagram.com/v26.0/{path}", headers={"Authorization": f"Bearer {tok}"})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      return json.loads(r.read())
+              except urllib.error.HTTPError as e:
+                  raise SystemExit(f"{path}: HTTP {e.code} {e.read().decode()[:400]}")
+          me = get("me?fields=user_id,username,account_type")
+          print(f"Token belongs to @{me.get('username')} ({me.get('account_type')}), user_id {me.get('user_id')}")
+          if uid and str(me.get("user_id")) != uid.strip():
+              print(f"::warning::INSTAGRAM_USER_ID secret is {uid.strip()} but the token's user_id is {me.get('user_id')}")
+          lim = get(f"{me.get('user_id')}/content_publishing_limit?fields=quota_usage,config")
+          print(f"Publishing permission OK. Quota: {json.dumps(lim.get('data', lim))}")
+
+      - name: LinkedIn Page
+        if: ${{ env.LINKEDIN_PAGE_TOKEN != '' }}
+        shell: python
+        run: |
+          import os
+          from datetime import date
+          if not os.environ.get("LINKEDIN_ORG_ID", "").strip():
+              print("::warning::LINKEDIN_ORG_ID variable is missing, so Sunday posts stay manual")
+          set_on = os.environ.get("LINKEDIN_TOKEN_SET_ON", "")
+          if not set_on:
+              print("::warning::LINKEDIN_TOKEN_SET_ON variable is missing")
+          else:
+              age = (date.today() - date.fromisoformat(set_on.strip())).days
+              print(f"Page token set {age} days ago; it expires after 60.")
+
+      - name: Buttondown
+        if: ${{ env.BUTTONDOWN_API_KEY != '' }}
+        shell: python
+        run: |
+          import json, os, urllib.request, urllib.error
+          def get(path):
+              req = urllib.request.Request(f"https://api.buttondown.com/v1/{path}", headers={"Authorization": f"Token {os.environ['BUTTONDOWN_API_KEY']}"})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      return json.loads(r.read())
+              except urllib.error.HTTPError as e:
+                  raise SystemExit(f"{path}: HTTP {e.code} {e.read().decode()[:400]}")
+          nl = get("newsletters")
+          for n in nl.get("results", []):
+              print(f"::notice::Newsletter '{n.get('name')}' username={n.get('username')}")
+          subs = get("subscribers?page_size=1")
+          print(f"Subscribers: {subs.get('count')}")

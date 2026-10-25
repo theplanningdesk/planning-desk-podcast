@@ -1,0 +1,38 @@
+name: Make intro and outro music
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Replace the existing intro and outro"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  jingles:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      INPUT_FORCE: ${{ inputs.force }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg and Python deps
+        timeout-minutes: 6
+        run: |
+          sudo apt-get update -qq -o Acquire::Retries=3
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg
+          pip install -q -r requirements.txt
+      - name: Generate
+        run: |
+          FLAG=""; [ "$INPUT_FORCE" = "true" ] && FLAG="--force"
+          python make_jingles.py $FLAG
+      - name: Commit
+        run: |
+          git config user.name "planning-desk-bot"
+          git config user.email "planning-desk-bot@users.noreply.github.com"
+          git add assets
+          git commit -m "Update intro and outro music" && git push || echo "Nothing changed"

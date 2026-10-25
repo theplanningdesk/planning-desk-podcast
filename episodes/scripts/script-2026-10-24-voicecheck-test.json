@@ -1,0 +1,85 @@
+{
+  "show": "The Planning Desk",
+  "episode_title": "Voice check",
+  "week": "2026-W43",
+  "run_date": "2026-10-24",
+  "brief_file": "news-brief-2026-10-24-test.md",
+  "target_runtime_sec": 900,
+  "word_count": 2286,
+  "hosts": {
+    "F": {
+      "name": "Anna",
+      "voice": "female, senior news anchor, calm, quick, warm"
+    },
+    "M": {
+      "name": "Erik",
+      "voice": "male, senior news anchor, calm, quick, dry"
+    }
+  },
+  "segments": [
+    {
+      "id": "intro_music",
+      "type": "music",
+      "duration_sec": 10
+    },
+    {
+      "id": "welcome",
+      "type": "speech",
+      "items": [
+        "2026-W43-38"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Welcome to The Planning Desk, your fifteen minutes on supply chain planning and design, from the Nordics, DACH and beyond. I'm Anna."
+        },
+        {
+          "speaker": "M",
+          "text": "And I'm Erik."
+        }
+      ]
+    },
+    {
+      "id": "lead_stories",
+      "type": "speech",
+      "items": [
+        "2026-W43-38"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "First, the Rhine. Drought has pushed water levels to record lows. Barges from Rotterdam bound for Kaub now carry about two hundred and eighty tonnes. A standard load is two and a half thousand. That's barely a tenth."
+        },
+        {
+          "speaker": "M",
+          "text": "So the freight moves to rail?"
+        },
+        {
+          "speaker": "F",
+          "text": "It tries to. But the right-bank line between Troisdorf and Wiesbaden is under works until the twelfth of December. V T G says there's little reserve capacity left."
+        },
+        {
+          "speaker": "M",
+          "text": "And Switzerland sits at the far end of that river."
+        },
+        {
+          "speaker": "F",
+          "text": "Right. Swiss deliveries of diesel, heating oil, coal and cocoa are restricted. Switzerland has released petroleum and jet fuel reserves. And Swiss barge rates hit a record."
+        },
+        {
+          "speaker": "M",
+          "text": "Low water is a season now, not a surprise. If your network leans on the Rhine, line up rail and road fallback, and move stock forward before the levels drop."
+        }
+      ]
+    },
+    {
+      "id": "outro_music",
+      "type": "music",
+      "duration_sec": 10
+    }
+  ],
+  "show_notes": {
+    "summary": "Voice check",
+    "sources": []
+  }
+}
