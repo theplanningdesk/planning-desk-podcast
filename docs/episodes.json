@@ -10,5 +10,18 @@
     "duration_sec": 874,
     "pub_date": "2026-10-25T07:30:00+01:00",
     "transcript_lines": 72
+  },
+  {
+    "guid": "planning-desk-2026-10-26",
+    "stem": "2026-10-26",
+    "number": 2,
+    "format": "daily",
+    "title": "Mon 26 Oct: Bring's New Border Hub",
+    "summary": "A quiet weekend in planning news. Bring opens Logistikcenter Moss, its largest parcel terminal by sorting capacity, as Swedish e-commerce flows into Norway keep growing. Plus the dates to watch: the EU small-parcel fee, Gartner's planning summit and Logistik & Transport in Gothenburg.",
+    "notes_html": "<p>A quiet weekend in planning news. Bring opens Logistikcenter Moss, its largest parcel terminal by sorting capacity, as Swedish e-commerce flows into Norway keep growing. Plus the dates to watch: the EU small-parcel fee, Gartner&#x27;s planning summit and Logistik &amp; Transport in Gothenburg.</p><p>Sources:</p><ul><li><a href=\"https://dagensinfrastruktur.se/2026/10/23/svenska-paketvolymer-vaxer-bring-oppnar-ny-importterminal-i-norge\">Dagens Infrastruktur: Svenska paketvolymer växer, Bring öppnar ny importterminal i Norge</a></li></ul><p>Full transcript: <a href=\"https://theplanningdesk.github.io/podcast/e/2026-10-26.html\">https://theplanningdesk.github.io/podcast/e/2026-10-26.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>",
+    "bytes": 1951251,
+    "duration_sec": 122,
+    "pub_date": "2026-10-26T06:30:00+01:00",
+    "transcript_lines": 17
   }
 ]
