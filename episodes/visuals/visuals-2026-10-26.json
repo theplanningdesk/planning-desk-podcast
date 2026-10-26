@@ -1,0 +1,151 @@
+{
+  "stem": "2026-10-26",
+  "format": "daily",
+  "short_cues": [
+    {
+      "line": 0,
+      "template": "stat",
+      "props": {
+        "kicker": "Sweden to Norway",
+        "value": 15,
+        "prefix": "10–",
+        "label": "more parcel trucks a day than in 2020",
+        "source": "Dagens Infrastruktur"
+      }
+    },
+    {
+      "line": 1,
+      "template": "headline",
+      "props": {
+        "kicker": "Since 2020",
+        "title": "Swedish e-commerce drives the growth",
+        "detail": "Parcel flows Sweden to Norway up sharply since before the pandemic",
+        "source": "Dagens Infrastruktur"
+      }
+    },
+    {
+      "line": 2,
+      "template": "route",
+      "props": {
+        "kicker": "Moss, Norway",
+        "title": "Logistikcenter Moss opens in October",
+        "pad": 1.2,
+        "points": [
+          {
+            "name": "Swedish border",
+            "lat": 59.09,
+            "lon": 11.27
+          },
+          {
+            "name": "Moss",
+            "lat": 59.43,
+            "lon": 10.66,
+            "alert": true
+          },
+          {
+            "name": "Oslo",
+            "lat": 59.91,
+            "lon": 10.75,
+            "muted": true
+          }
+        ],
+        "routes": [
+          {
+            "style": "primary",
+            "label": "E6",
+            "points": [
+              [
+                11.27,
+                59.09
+              ],
+              [
+                11.11,
+                59.28
+              ],
+              [
+                10.86,
+                59.35
+              ],
+              [
+                10.72,
+                59.42
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "line": 3,
+      "template": "stat",
+      "props": {
+        "kicker": "Logistikcenter Moss",
+        "value": 30000,
+        "prefix": "over ",
+        "suffix": " m²",
+        "label": "of terminal",
+        "source": "Dagens Infrastruktur"
+      }
+    },
+    {
+      "line": 3,
+      "at": "one kilometre long",
+      "template": "stat",
+      "props": {
+        "kicker": "Logistikcenter Moss",
+        "value": 1,
+        "suffix": " km",
+        "label": "sorting belt",
+        "source": "Dagens Infrastruktur"
+      }
+    },
+    {
+      "line": 3,
+      "at": "largest parcel terminal",
+      "template": "headline",
+      "props": {
+        "kicker": "Bring",
+        "title": "Bring's largest parcel terminal",
+        "detail": "By sorting capacity, according to Bring",
+        "source": "Dagens Infrastruktur"
+      }
+    },
+    {
+      "line": 4,
+      "template": "list",
+      "props": {
+        "kicker": "What Moss does",
+        "items": [
+          {
+            "label": "Import volumes",
+            "say": "import volumes"
+          },
+          {
+            "label": "Relief for Oslo",
+            "say": "relieves the Oslo terminal"
+          },
+          {
+            "label": "Truck chargers",
+            "say": "heavy-duty chargers"
+          }
+        ]
+      }
+    },
+    {
+      "line": 5,
+      "template": "takeaway",
+      "props": {
+        "kicker": "For planners",
+        "text": "Check carrier cut-offs and lead times through Moss, not Oslo."
+      }
+    },
+    {
+      "line": 6,
+      "template": "headline",
+      "props": {
+        "kicker": "The Planning Desk",
+        "title": "Supply chain news every weekday"
+      }
+    }
+  ]
+}

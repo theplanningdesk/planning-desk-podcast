@@ -1,0 +1,197 @@
+{
+  "show": "The Planning Desk",
+  "format": "daily",
+  "episode_title": "Bring's New Border Hub",
+  "week": "2026-W44",
+  "run_date": "2026-10-26",
+  "brief_file": "news-brief-daily-2026-10-26.md",
+  "target_runtime_sec": 130,
+  "word_count": 360,
+  "hosts": {
+    "F": {
+      "name": "Anna"
+    },
+    "M": {
+      "name": "Erik"
+    }
+  },
+  "segments": [
+    {
+      "id": "intro_music",
+      "type": "music",
+      "duration_sec": 5
+    },
+    {
+      "id": "cold_open",
+      "type": "speech",
+      "items": [
+        "2026-10-26-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Swedish parcels bound for Norway now fill about ten to fifteen more trucks a day than in twenty twenty, and Bring has built a new terminal to catch them."
+        },
+        {
+          "speaker": "M",
+          "text": "It has a sorting belt one kilometre long, near the Swedish border. This is The Planning Desk."
+        }
+      ]
+    },
+    {
+      "id": "welcome",
+      "type": "speech",
+      "items": [
+        "2026-10-26-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Good morning, it's Monday the twenty-sixth of October, and I'm Anna."
+        },
+        {
+          "speaker": "M",
+          "text": "And I'm Erik."
+        },
+        {
+          "speaker": "F",
+          "text": "Quick note, this show is made with A I. A I agents gather the news, and our voices are synthetic."
+        },
+        {
+          "speaker": "M",
+          "text": "It was a quiet weekend for planning news, so today it's one story, Bring's new parcel hub in Moss, and then the dates to watch this week."
+        }
+      ]
+    },
+    {
+      "id": "top_story",
+      "type": "speech",
+      "items": [
+        "2026-10-26-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Bring is opening Logistikcenter Moss this month, a parcel terminal near the E six and the Swedish border. It covers more than thirty thousand square metres, and Bring calls it its largest parcel terminal by sorting capacity."
+        },
+        {
+          "speaker": "M",
+          "text": "The heart of it is a sorting belt one kilometre long, and the reason it's being built is Swedish online shopping."
+        },
+        {
+          "speaker": "F",
+          "text": "Parcel flows from Sweden into Norway have grown sharply since before the pandemic. That's now about ten to fifteen more trucks a day than in twenty twenty, Dagens Infrastruktur reports."
+        },
+        {
+          "speaker": "M",
+          "text": "Moss is meant to take those import volumes, which takes pressure off Bring's Oslo terminal. The site also has heavy-duty chargers for electrified line haul between Nordic terminals."
+        },
+        {
+          "speaker": "F",
+          "text": "Cross-border e-commerce is shifting where Nordic parcel capacity sits, and Moss puts a big piece of it close to the Swedish border."
+        },
+        {
+          "speaker": "M",
+          "text": "If you're a Swedish shipper selling into Norway, check your carrier's cut-offs and lead times through Moss rather than Oslo. Those two numbers sit under every delivery promise in your web shop."
+        }
+      ]
+    },
+    {
+      "id": "quick_hits",
+      "type": "speech",
+      "items": [
+        "2026-W43-E2",
+        "2026-W43-E3",
+        "2026-W43-E4"
+      ],
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "Three dates for the diary. On Sunday, the first of November, the E U's two-euro handling fee on small parcels starts, which changes the maths for low-value e-commerce."
+        },
+        {
+          "speaker": "F",
+          "text": "Gartner's Supply Chain Planning Summit runs in Denver next Monday and Tuesday, the second and third of November."
+        },
+        {
+          "speaker": "M",
+          "text": "And Logistik & Transport opens in Gothenburg on the third of November, Sweden's main logistics fair this autumn."
+        }
+      ]
+    },
+    {
+      "id": "sign_off",
+      "type": "speech",
+      "items": [
+        "2026-10-26-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "That's the desk for Monday."
+        },
+        {
+          "speaker": "M",
+          "text": "We're back tomorrow morning, and the full week in review is out on Sunday."
+        }
+      ]
+    },
+    {
+      "id": "outro_music",
+      "type": "music",
+      "duration_sec": 5
+    }
+  ],
+  "short": {
+    "title": "Swedish parcels drive Bring's new hub in Norway",
+    "lines": [
+      {
+        "speaker": "F",
+        "text": "Swedish parcels into Norway, ten to fifteen more trucks a day."
+      },
+      {
+        "speaker": "M",
+        "text": "That's the increase since twenty twenty, as Swedish online shops sell more across the border."
+      },
+      {
+        "speaker": "F",
+        "text": "Now Bring is opening Logistikcenter Moss, a new parcel terminal near the E six and the Swedish border."
+      },
+      {
+        "speaker": "M",
+        "text": "It covers more than thirty thousand square metres, with a sorting belt one kilometre long, and Bring calls it its largest parcel terminal by sorting capacity."
+      },
+      {
+        "speaker": "F",
+        "text": "It takes the import volumes and relieves the Oslo terminal, and it has heavy-duty chargers for electrified line haul between Nordic terminals."
+      },
+      {
+        "speaker": "M",
+        "text": "If you ship from Sweden into Norway, check your carrier's cut-offs and lead times through Moss, not Oslo."
+      },
+      {
+        "speaker": "F",
+        "text": "More every weekday on The Planning Desk podcast."
+      }
+    ],
+    "caption": "Parcel flows from Sweden to Norway now need about 10 to 15 more trucks a day than in 2020. Bring is opening Logistikcenter Moss, over 30,000 m² with a 1 km sorting belt, to take the import volumes and relieve its Oslo terminal. Full episode: The Planning Desk, every weekday on Apple Podcasts and Spotify. AI-generated: AI agents gather the news and the voices are synthetic.",
+    "hashtags": [
+      "supplychain",
+      "logistics",
+      "ecommerce",
+      "nordics"
+    ]
+  },
+  "linkedin": {
+    "page_post": "Swedish e-commerce is redrawing the parcel map into Norway. Bring is opening Logistikcenter Moss this month, a terminal of more than 30,000 square metres near the E6 and the Swedish border, with a one-kilometre sorting belt. Bring calls it its largest parcel terminal by sorting capacity.\n\nParcel flows from Sweden to Norway now need about 10 to 15 more trucks a day than in 2020, according to Dagens Infrastruktur. Moss takes those import volumes and relieves the Oslo terminal. For Swedish shippers selling into Norway, it's time to check carrier cut-offs and lead times through the new hub.\n\nThis week: the EU's small-parcel handling fee starts on 1 November, and Logistik & Transport opens in Gothenburg on 3 November.\n\nListen: The Planning Desk, every weekday on Apple Podcasts and Spotify.\n\n#supplychain #logistics #ecommerce"
+  },
+  "show_notes": {
+    "summary": "A quiet weekend in planning news. Bring opens Logistikcenter Moss, its largest parcel terminal by sorting capacity, as Swedish e-commerce flows into Norway keep growing. Plus the dates to watch: the EU small-parcel fee, Gartner's planning summit and Logistik & Transport in Gothenburg.",
+    "sources": [
+      {
+        "title": "Dagens Infrastruktur: Svenska paketvolymer växer, Bring öppnar ny importterminal i Norge",
+        "url": "https://dagensinfrastruktur.se/2026/10/23/svenska-paketvolymer-vaxer-bring-oppnar-ny-importterminal-i-norge"
+      }
+    ]
+  }
+}
