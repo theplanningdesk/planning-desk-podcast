@@ -56,7 +56,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install ffmpeg and Python deps
-        timeout-minutes: 6
+        timeout-minutes: 12
         run: |
           sudo apt-get update -qq -o Acquire::Retries=3
           sudo apt-get install -y -qq --no-install-recommends ffmpeg
