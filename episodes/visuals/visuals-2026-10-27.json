@@ -1,0 +1,118 @@
+{
+  "stem": "2026-10-27",
+  "format": "daily",
+  "short_cues": [
+    {
+      "line": 0,
+      "template": "stat",
+      "props": {
+        "kicker": "German logistics",
+        "value": 93,
+        "suffix": "%",
+        "label": "of companies already use AI",
+        "source": "BVL via VerkehrsRundschau"
+      }
+    },
+    {
+      "line": 1,
+      "template": "headline",
+      "props": {
+        "kicker": "Berlin",
+        "title": "BVL Supply Chain CX 2026",
+        "detail": "Study of around 60 experts, about 1,800 at the congress",
+        "source": "VerkehrsRundschau"
+      }
+    },
+    {
+      "line": 2,
+      "template": "bars",
+      "props": {
+        "kicker": "BVL study",
+        "title": "Share of experts, %",
+        "items": [
+          {
+            "label": "Use AI",
+            "value": 93,
+            "highlight": true
+          },
+          {
+            "label": "Resilience matters",
+            "value": 61
+          },
+          {
+            "label": "Digital raises it",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
+      "line": 2,
+      "at": "sixty-four percent",
+      "template": "stat",
+      "props": {
+        "kicker": "Resilience",
+        "value": 64,
+        "suffix": "%",
+        "label": "think digitalisation can raise it",
+        "source": "BVL"
+      }
+    },
+    {
+      "line": 3,
+      "template": "headline",
+      "props": {
+        "kicker": "How it's used",
+        "title": "AI as decision support",
+        "source": "VerkehrsRundschau"
+      }
+    },
+    {
+      "line": 3,
+      "at": "A lawyer said",
+      "template": "list",
+      "props": {
+        "kicker": "Who is liable when an agent errs",
+        "items": [
+          {
+            "label": "The company",
+            "say": "the company is liable"
+          },
+          {
+            "label": "Not the AI",
+            "say": "not the A I"
+          },
+          {
+            "label": "Not the provider",
+            "say": "not its provider"
+          }
+        ]
+      }
+    },
+    {
+      "line": 4,
+      "template": "headline",
+      "props": {
+        "kicker": "For planners",
+        "title": "From whether to use AI to who signs off"
+      }
+    },
+    {
+      "line": 4,
+      "at": "how that sign-off",
+      "template": "takeaway",
+      "props": {
+        "kicker": "For planners",
+        "text": "Build sign-off on agent decisions into S&OP."
+      }
+    },
+    {
+      "line": 5,
+      "template": "headline",
+      "props": {
+        "kicker": "The Planning Desk",
+        "title": "Supply chain news every weekday"
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "show": "The Planning Desk",
+  "format": "daily",
+  "episode_title": "Who Signs Off on AI",
+  "week": "2026-W44",
+  "run_date": "2026-10-27",
+  "brief_file": "news-brief-daily-2026-10-27.md",
+  "target_runtime_sec": 327,
+  "word_count": 877,
+  "hosts": {
+    "F": {
+      "name": "Anna"
+    },
+    "M": {
+      "name": "Erik"
+    }
+  },
+  "segments": [
+    {
+      "id": "intro_music",
+      "type": "music",
+      "duration_sec": 5
+    },
+    {
+      "id": "cold_open",
+      "type": "speech",
+      "items": [
+        "2026-10-27-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Ninety-three percent of companies in a new German logistics study already use A I, and the message from Berlin was that humans keep the final call."
+        },
+        {
+          "speaker": "M",
+          "text": "The sharper question was who carries the blame when an agent gets it wrong. This is The Planning Desk."
+        }
+      ]
+    },
+    {
+      "id": "welcome",
+      "type": "speech",
+      "items": [
+        "2026-10-27-01",
+        "2026-10-27-02",
+        "2026-10-27-03",
+        "2026-10-27-04",
+        "2026-10-27-05"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Good morning, it's Tuesday the twenty-seventh of October, and I'm Anna."
+        },
+        {
+          "speaker": "M",
+          "text": "And I'm Erik."
+        },
+        {
+          "speaker": "F",
+          "text": "Quick note, this show is made with A I. A I agents gather the news, and our voices are synthetic."
+        },
+        {
+          "speaker": "M",
+          "text": "Today, A I at the B V L congress in Berlin, Oracle's new replanning agents, ocean rates climbing as Suez reopens, Bring's peak season and a hole in warehouse barcode scanners."
+        }
+      ]
+    },
+    {
+      "id": "top_story",
+      "type": "speech",
+      "items": [
+        "2026-10-27-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "About eighteen hundred people came to B V L's Supply Chain C X in Berlin. A B V L study of around sixty experts, shared there, found ninety-three percent of companies already use A I in concrete applications."
+        },
+        {
+          "speaker": "M",
+          "text": "That puts A I in German logistics firmly in daily use. The same study found sixty-one percent say resilience is getting more important, and sixty-four percent think digitalisation can raise it."
+        },
+        {
+          "speaker": "F",
+          "text": "Speakers framed A I as decision support. A lawyer on stage put the liability question plainly, when an agent makes a mistake, the company is liable, not the A I and not its provider."
+        },
+        {
+          "speaker": "M",
+          "text": "That moves the planning question from whether to use A I to who signs off on what it decides. And how that sign-off gets built into sales and operations planning, S and OP."
+        },
+        {
+          "speaker": "F",
+          "text": "The backdrop is still soft. German logistics, a sector worth over three hundred and thirty billion euros with three point three million jobs, is expected to grow just under one percent in real terms this year."
+        },
+        {
+          "speaker": "M",
+          "text": "Next year it's about one percent, after two to three weak years. Even so, a shipper panel with Siemens, Henkel and MC-Bauchemie said truck capacity is already tight, weak economy or not."
+        },
+        {
+          "speaker": "F",
+          "text": "One more number from B V L and Strategy&, sixty percent of eighty-five logistics firms they surveyed already work in defence logistics."
+        }
+      ]
+    },
+    {
+      "id": "briefing",
+      "type": "speech",
+      "items": [
+        "2026-10-27-02",
+        "2026-10-27-03",
+        "2026-10-27-04",
+        "2026-10-27-05"
+      ],
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "From Berlin to Las Vegas. At Oracle A I World on Monday, Oracle unveiled Fusion Claw, which it calls a governed agentic A I platform, with new agent apps for supply chains, shipping, restaurants and health care."
+        },
+        {
+          "speaker": "F",
+          "text": "What does it actually do?"
+        },
+        {
+          "speaker": "M",
+          "text": "Oracle says the agents can do deep research, simulation, modelling and continuous replanning, all inside existing governance controls. It names supply chain forecasting as a use case, and says one shipping customer saved fifty-eight thousand dollars in transport costs."
+        },
+        {
+          "speaker": "F",
+          "text": "Oracle is also committing one billion dollars over four years to its partner ecosystem."
+        },
+        {
+          "speaker": "M",
+          "text": "The big enterprise resource planning suites, the E R Ps, are pushing replanning agents into the system of record. If your planning runs on Oracle, ask which decisions those agents may take, and how they sit next to the planning tools you already have."
+        },
+        {
+          "speaker": "F",
+          "text": "Over to ocean freight. Spot rates from Asia to North Europe rose six percent, to just over three thousand four hundred dollars per forty-foot container."
+        },
+        {
+          "speaker": "M",
+          "text": "Asia to the Mediterranean rose three percent, to just over three thousand nine hundred dollars. That's happening while capacity comes back through the Suez Canal."
+        },
+        {
+          "speaker": "F",
+          "text": "The Gemini Cooperation of Maersk and Hapag-Lloyd is aiming for a near-full return to Suez routings early next year, if conditions allow."
+        },
+        {
+          "speaker": "M",
+          "text": "A Suez return would cut one to two weeks off Asia to Europe transit. Planners in the Nordics and DACH should model twenty twenty-seven safety stock and lead times on both routings now, and not wait for the switch."
+        },
+        {
+          "speaker": "F",
+          "text": "Keep an eye on India to the Middle East as well, where congestion and vessel attacks mean waits of two to three weeks for a berth at alternative Gulf gateways."
+        },
+        {
+          "speaker": "M",
+          "text": "Peak season in Sweden. Bring expects about three times a normal day's parcels in the days after Black Week, and its Swedish parcel volumes are already up eighty-four percent this year."
+        },
+        {
+          "speaker": "F",
+          "text": "And that's before peak even starts. How is the network keeping up?"
+        },
+        {
+          "speaker": "M",
+          "text": "Bring doubled capacity last year and opened terminals in Jönköping and Örebro. It's finishing a new terminal in northern Stockholm and has added a sorting line in Malmö. With about a hundred new parcel boxes, it now has roughly two thousand four hundred, plus some sixteen hundred and fifty pickup agents."
+        },
+        {
+          "speaker": "F",
+          "text": "More capacity helps, but an eighty-four percent jump is a lot. If you ship e-commerce in Sweden, confirm cut-offs and pickup capacity before Black Week, not during it."
+        },
+        {
+          "speaker": "M",
+          "text": "Last, a security story from the warehouse floor. Kaspersky found that the wireless link between handheld barcode scanners and their base stations has no authentication."
+        },
+        {
+          "speaker": "F",
+          "text": "Who can get in?"
+        },
+        {
+          "speaker": "M",
+          "text": "Anyone within Bluetooth range can send input that the connected P C treats as keyboard commands, with no action needed from staff. Kaspersky says devices from several manufacturers are affected, though it names no models."
+        },
+        {
+          "speaker": "F",
+          "text": "A compromised workstation could be a way into the warehouse management system. Kaspersky's advice is to switch off Bluetooth you don't need, segment networks and keep firmware updated."
+        },
+        {
+          "speaker": "M",
+          "text": "Planning runs on execution data, and that data starts at the scanner. Put warehouse devices on the same risk list as supplier portals and E R P access."
+        }
+      ]
+    },
+    {
+      "id": "sign_off",
+      "type": "speech",
+      "items": [
+        "2026-10-27-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "That's the desk for Tuesday."
+        },
+        {
+          "speaker": "M",
+          "text": "We're back tomorrow morning, and the full week in review is out on Sunday."
+        }
+      ]
+    },
+    {
+      "id": "outro_music",
+      "type": "music",
+      "duration_sec": 5
+    }
+  ],
+  "short": {
+    "title": "93% of German logistics firms use AI. Who's liable?",
+    "lines": [
+      {
+        "speaker": "F",
+        "text": "Ninety-three percent of German logistics firms surveyed already use A I."
+      },
+      {
+        "speaker": "M",
+        "text": "That's from a B V L study of around sixty experts, shared at the Supply Chain C X congress in Berlin."
+      },
+      {
+        "speaker": "F",
+        "text": "Sixty-one percent say resilience is getting more important, and sixty-four percent think digitalisation can raise it."
+      },
+      {
+        "speaker": "M",
+        "text": "Speakers still framed A I as decision support. A lawyer said that when an agent makes a mistake, the company is liable, not the A I and not its provider."
+      },
+      {
+        "speaker": "F",
+        "text": "So for planners the question shifts from whether to use A I to who signs off on its decisions, and how that sign-off is built into sales and operations planning."
+      },
+      {
+        "speaker": "M",
+        "text": "More every weekday on The Planning Desk podcast."
+      }
+    ],
+    "caption": "93% of companies in a BVL study of around 60 experts already use AI in concrete applications, but speakers at Supply Chain CX in Berlin framed it as decision support, and the company stays liable when an agent errs. Full episode: The Planning Desk, every weekday on Apple Podcasts and Spotify. AI-generated: AI agents gather the news and the voices are synthetic.",
+    "hashtags": [
+      "supplychain",
+      "logistics",
+      "ai",
+      "germany"
+    ]
+  },
+  "linkedin": {
+    "page_post": "AI is now routine in German logistics. A BVL study of around 60 experts, shared at Supply Chain CX in Berlin, found 93% of companies already use AI in concrete applications. Speakers framed it as decision support, and a lawyer reminded the room that the company, not the AI or its provider, is liable when an agent errs. For planners, the question is who signs off on agent decisions.\n\nOcean spot rates are rising even as capacity returns through Suez: Asia to North Europe is up 6% to $3,442 per FEU. The Gemini Cooperation aims for a near-full Suez return in early 2027, so it's worth modelling 2027 lead times and safety stock on both routings now.\n\nIn Sweden, Bring expects triple a normal day's parcels after Black Week, with volumes already up 84% this year.\n\nListen: The Planning Desk, every weekday on Apple Podcasts and Spotify.\n\n#supplychain #logistics #AI"
+  },
+  "show_notes": {
+    "summary": "AI is mainstream in German logistics, according to a BVL study shared at Supply Chain CX in Berlin, and the company stays liable when an agent errs. Plus Oracle's new replanning agents, ocean spot rates rising as Suez reopens, Bring's Swedish peak-season capacity and a security flaw in warehouse barcode scanners.",
+    "sources": [
+      {
+        "title": "VerkehrsRundschau: BVL Supply Chain CX 2026, Logistik sucht Ausweg aus der Krise",
+        "url": "https://verkehrsrundschau.de/nachrichten/transport-logistik/bvl-supply-chain-cx-2026-logistik-sucht-ausweg-aus-krise-3926789"
+      },
+      {
+        "title": "The National: Oracle launches new agentic AI to take on complex tasks such as supply chains",
+        "url": "https://thenationalnews.com/future/technology/2026/10/26/oracle-launches-new-agentic-ai-to-take-on-complex-tasks-such-as-supply-chains"
+      },
+      {
+        "title": "Intelligent Audit: IA Insights, October 26, 2026",
+        "url": "https://www.intelligentaudit.com/blog/ia-insights-october-26-2026"
+      },
+      {
+        "title": "Dagens Infrastruktur: Bring inför julhandeln, kapacitetsförstärkningar i hela sitt svenska logistiknätverk",
+        "url": "https://dagensinfrastruktur.se/2026/10/26/bring-infor-julhandeln-kapacitetsforstarkningar-i-hela-sitt-svenska-logistiknatverk"
+      },
+      {
+        "title": "retail-news.de: Kaspersky findet Sicherheitslücke in Barcodescannern",
+        "url": "https://retail-news.de/kaspersky-sicherheitsluecke-barcodescanner-logistik"
+      }
+    ]
+  }
+}
