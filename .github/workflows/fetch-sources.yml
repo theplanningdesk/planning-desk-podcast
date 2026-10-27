@@ -1,0 +1,45 @@
+name: Fetch sources
+
+# Reads the scrobblers' starting pages from the open web and saves a digest
+# on the "sources" branch, where the scheduled scrobblers read it with git/curl
+# (no fetch approvals needed). Never touches main, so it never starts a render.
+on:
+  schedule:
+    - cron: "40 2 * * *"   # 03:40 Stockholm winter time, before the 04:45 weekday scrobbler
+    - cron: "50 4 * * 0"   # Sunday refresh before the 06:35 weekly scrobbler
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install feedparser requests
+      - name: Fetch
+        run: python tools/fetch_sources.py "$RUNNER_TEMP/out"
+      - name: Publish to the sources branch
+        run: |
+          cd "$RUNNER_TEMP"
+          git init -q pub && cd pub
+          git config user.name planning-desk-bot
+          git config user.email planning-desk-bot@users.noreply.github.com
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          if git fetch -q --depth 1 origin sources; then git checkout -q -b sources FETCH_HEAD; else git checkout -q --orphan sources; fi
+          cp "$RUNNER_TEMP"/out/* .
+          printf '# sources\n\nAutomatic digest of the scrobblers'"'"' starting pages, written by the "Fetch sources" workflow. Read latest.md or latest.json; status.json shows which pages failed.\n' > README.md
+          git add -A
+          git commit -q -m "Source digest $(date -u +%F' '%H:%M) UTC [skip ci]" || { echo "No change"; exit 0; }
+          git push -q origin sources
