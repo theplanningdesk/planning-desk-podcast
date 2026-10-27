@@ -25,8 +25,22 @@
     <itunes:category text="Business"><itunes:category text="Management"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Mon, 26 Oct 2026 06:46:25 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 06:16:05 +0100</lastBuildDate>
     <generator>planning-desk-podcast</generator>
+    <item>
+      <title>Tue 27 Oct: Who Signs Off on AI</title>
+      <link>https://theplanningdesk.github.io/podcast/e/2026-10-27.html</link>
+      <description><![CDATA[<p>AI is mainstream in German logistics, according to a BVL study shared at Supply Chain CX in Berlin, and the company stays liable when an agent errs. Plus Oracle&#x27;s new replanning agents, ocean spot rates rising as Suez reopens, Bring&#x27;s Swedish peak-season capacity and a security flaw in warehouse barcode scanners.</p><p>Sources:</p><ul><li><a href="https://verkehrsrundschau.de/nachrichten/transport-logistik/bvl-supply-chain-cx-2026-logistik-sucht-ausweg-aus-krise-3926789">VerkehrsRundschau: BVL Supply Chain CX 2026, Logistik sucht Ausweg aus der Krise</a></li><li><a href="https://thenationalnews.com/future/technology/2026/10/26/oracle-launches-new-agentic-ai-to-take-on-complex-tasks-such-as-supply-chains">The National: Oracle launches new agentic AI to take on complex tasks such as supply chains</a></li><li><a href="https://www.intelligentaudit.com/blog/ia-insights-october-26-2026">Intelligent Audit: IA Insights, October 26, 2026</a></li><li><a href="https://dagensinfrastruktur.se/2026/10/26/bring-infor-julhandeln-kapacitetsforstarkningar-i-hela-sitt-svenska-logistiknatverk">Dagens Infrastruktur: Bring inför julhandeln, kapacitetsförstärkningar i hela sitt svenska logistiknätverk</a></li><li><a href="https://retail-news.de/kaspersky-sicherheitsluecke-barcodescanner-logistik">retail-news.de: Kaspersky findet Sicherheitslücke in Barcodescannern</a></li></ul><p>Full transcript: <a href="https://theplanningdesk.github.io/podcast/e/2026-10-27.html">https://theplanningdesk.github.io/podcast/e/2026-10-27.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>]]></description>
+      <content:encoded><![CDATA[<p>AI is mainstream in German logistics, according to a BVL study shared at Supply Chain CX in Berlin, and the company stays liable when an agent errs. Plus Oracle&#x27;s new replanning agents, ocean spot rates rising as Suez reopens, Bring&#x27;s Swedish peak-season capacity and a security flaw in warehouse barcode scanners.</p><p>Sources:</p><ul><li><a href="https://verkehrsrundschau.de/nachrichten/transport-logistik/bvl-supply-chain-cx-2026-logistik-sucht-ausweg-aus-krise-3926789">VerkehrsRundschau: BVL Supply Chain CX 2026, Logistik sucht Ausweg aus der Krise</a></li><li><a href="https://thenationalnews.com/future/technology/2026/10/26/oracle-launches-new-agentic-ai-to-take-on-complex-tasks-such-as-supply-chains">The National: Oracle launches new agentic AI to take on complex tasks such as supply chains</a></li><li><a href="https://www.intelligentaudit.com/blog/ia-insights-october-26-2026">Intelligent Audit: IA Insights, October 26, 2026</a></li><li><a href="https://dagensinfrastruktur.se/2026/10/26/bring-infor-julhandeln-kapacitetsforstarkningar-i-hela-sitt-svenska-logistiknatverk">Dagens Infrastruktur: Bring inför julhandeln, kapacitetsförstärkningar i hela sitt svenska logistiknätverk</a></li><li><a href="https://retail-news.de/kaspersky-sicherheitsluecke-barcodescanner-logistik">retail-news.de: Kaspersky findet Sicherheitslücke in Barcodescannern</a></li></ul><p>Full transcript: <a href="https://theplanningdesk.github.io/podcast/e/2026-10-27.html">https://theplanningdesk.github.io/podcast/e/2026-10-27.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>]]></content:encoded>
+      <enclosure url="https://github.com/theplanningdesk/podcast/releases/download/episode-2026-10-27/planning-desk-2026-10-27.mp3" length="4711450" type="audio/mpeg"/>
+      <guid isPermaLink="false">planning-desk-2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <itunes:duration>294</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://theplanningdesk.github.io/podcast/cover.png"/>
+    </item>
     <item>
       <title>Mon 26 Oct: Bring's New Border Hub</title>
       <link>https://theplanningdesk.github.io/podcast/e/2026-10-26.html</link>
