@@ -25,8 +25,22 @@
     <itunes:category text="Business"><itunes:category text="Management"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Tue, 27 Oct 2026 06:16:05 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 05:30:39 +0100</lastBuildDate>
     <generator>planning-desk-podcast</generator>
+    <item>
+      <title>Wed 28 Oct: Audi Builds Past the Tariff</title>
+      <link>https://theplanningdesk.github.io/podcast/e/2026-10-28.html</link>
+      <description><![CDATA[<p>Audi commits four billion dollars to its first US plant in Georgia, citing the 15% EU car tariff. Also: a Horváth study on slow AI adoption in logistics, Kroger&#x27;s shelf data and RFID, Dahl&#x27;s new Enköping warehouse, and Allianz Trade&#x27;s German insolvency forecast.</p><p>Sources:</p><ul><li><a href="https://www.supplychaindive.com/news/audi-investing-4b-to-build-its-first-us-plant-in-georgia/872866/">Supply Chain Dive: Audi investing $4B to build its first US plant in Georgia</a></li><li><a href="https://www.verkehrsrundschau.de/nachrichten/transport-logistik/ki-in-der-logistik-wird-wichtiger-cyberrisiken-nehmen-zu-3927532">VerkehrsRundschau: KI in der Logistik wird wichtiger, Cyberrisiken nehmen zu</a></li><li><a href="https://www.supplychaindive.com/news/kroger-taps-rfid-computer-vision-data-to-boost-inventory-management/872819/">Supply Chain Dive: Kroger taps RFID, computer vision data to boost inventory management</a></li><li><a href="https://dagenslogistik.se/dahl-etablerar-nytt-lager-i-enkoping/">Dagens Logistik: Dahl etablerar nytt lager i Enköping</a></li><li><a href="https://www.verkehrsrundschau.de/nachrichten/transport-logistik/unternehmensinsolvenzen-bleiben-2027-auf-hohem-niveau-3927247">VerkehrsRundschau (dpa): Unternehmensinsolvenzen bleiben 2027 auf hohem Niveau</a></li></ul><p>Full transcript: <a href="https://theplanningdesk.github.io/podcast/e/2026-10-28.html">https://theplanningdesk.github.io/podcast/e/2026-10-28.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>]]></description>
+      <content:encoded><![CDATA[<p>Audi commits four billion dollars to its first US plant in Georgia, citing the 15% EU car tariff. Also: a Horváth study on slow AI adoption in logistics, Kroger&#x27;s shelf data and RFID, Dahl&#x27;s new Enköping warehouse, and Allianz Trade&#x27;s German insolvency forecast.</p><p>Sources:</p><ul><li><a href="https://www.supplychaindive.com/news/audi-investing-4b-to-build-its-first-us-plant-in-georgia/872866/">Supply Chain Dive: Audi investing $4B to build its first US plant in Georgia</a></li><li><a href="https://www.verkehrsrundschau.de/nachrichten/transport-logistik/ki-in-der-logistik-wird-wichtiger-cyberrisiken-nehmen-zu-3927532">VerkehrsRundschau: KI in der Logistik wird wichtiger, Cyberrisiken nehmen zu</a></li><li><a href="https://www.supplychaindive.com/news/kroger-taps-rfid-computer-vision-data-to-boost-inventory-management/872819/">Supply Chain Dive: Kroger taps RFID, computer vision data to boost inventory management</a></li><li><a href="https://dagenslogistik.se/dahl-etablerar-nytt-lager-i-enkoping/">Dagens Logistik: Dahl etablerar nytt lager i Enköping</a></li><li><a href="https://www.verkehrsrundschau.de/nachrichten/transport-logistik/unternehmensinsolvenzen-bleiben-2027-auf-hohem-niveau-3927247">VerkehrsRundschau (dpa): Unternehmensinsolvenzen bleiben 2027 auf hohem Niveau</a></li></ul><p>Full transcript: <a href="https://theplanningdesk.github.io/podcast/e/2026-10-28.html">https://theplanningdesk.github.io/podcast/e/2026-10-28.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>]]></content:encoded>
+      <enclosure url="https://github.com/theplanningdesk/podcast/releases/download/episode-2026-10-28/planning-desk-2026-10-28.mp3" length="4728595" type="audio/mpeg"/>
+      <guid isPermaLink="false">planning-desk-2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <itunes:duration>295</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://theplanningdesk.github.io/podcast/cover.png"/>
+    </item>
     <item>
       <title>Tue 27 Oct: Who Signs Off on AI</title>
       <link>https://theplanningdesk.github.io/podcast/e/2026-10-27.html</link>
