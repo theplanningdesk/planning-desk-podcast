@@ -49,7 +49,6 @@ SOURCES = [
     ("NVIDIA Technical Blog (optimisation)", "https://developer.nvidia.com/blog/feed/"),
     ("Sea-Intelligence", "https://www.sea-intelligence.com/press-room"),
     ("Xeneta", "https://www.xeneta.com/news"),
-    ("Eurostat euro indicators", "https://ec.europa.eu/eurostat/news/euro-indicators"),
     ("Talking Logistics", "https://talkinglogistics.com/"),
     ("Supply Chain Shaman", "https://www.supplychainshaman.com/"),
     ("SAP News", "https://news.sap.com/"),
@@ -67,7 +66,6 @@ KEYWORDS = {
 # Link filters for sources read from page links: keep only article paths.
 LINK_RULES = {
     "Xeneta": {"include": ["/news/", "/press/", "/blog/xeneta-weekly", "ocean-market-update"]},
-    "Eurostat euro indicators": {"include": ["products-euro-indicators/w/"]},
     "Osto&Logistiikka": {"exclude": ["/mainos/"]},
 }
 
@@ -238,8 +236,10 @@ def main(out_dir):
         if source in KEYWORDS or source in LINK_RULES:
             items = keep(source, items)
             status["items"] = len(items)
-            if not items:
-                status.update(ok=False, error="no matching items after filtering")
+            if not items and source in LINK_RULES and status["ok"]:
+                status.update(ok=False, error="no article links after filtering")
+            elif not items and status["ok"]:
+                status["error"] = "no matching posts in the window (normal for this source)"
         print(f"{'OK ' if status['ok'] else 'ERR'} {source}: {status['items']} items "
               f"via {status['method'] or '-'} {status['error'] or ''}")
         all_items += items
