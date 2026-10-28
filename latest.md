@@ -1,5 +1,5 @@
-# Source digest, fetched 2026-10-28 22:24 UTC
-24 of 31 starting pages read. Items from the last 8 days; 'no date' items come from page links.
+# Source digest, fetched 2026-10-28 22:26 UTC
+25 of 30 starting pages read. Items from the last 8 days; 'no date' items come from page links.
 
 ## Supply Chain Dive
 - 2026-10-28 14:41 | Tesla begins humanoid production in California | https://www.supplychaindive.com/news/tesla-begins-optimus-humanoid-production-california-shipments-2027/872992/
@@ -606,7 +606,6 @@
   SpaceX has shown that it can build sophisticated technology, launch it into orbit, and operate a communications network spanning much of the planet. Now it is considering a challenge that may be just as demanding: establishing a nationwide terrestrial wireless network to compete with AT&T, Verizon, and T-Mobile. The technology matters, but the outcome could […] The post SpaceX’s 80,000-Site…
 
 ## NVIDIA Technical Blog (optimisation)
-(failed: no matching items after filtering)
 
 ## Sea-Intelligence
 - 2026-10-28 14:10 | Global Schedule Reliability Records a Marginal Gain in September | https://www.sea-intelligence.com/press-room/415-global-schedule-reliability-records-a-marginal-gain-in-september
@@ -617,9 +616,6 @@
 ## Xeneta
 - 2026-10-23 16:00 | XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE – 23.10.26 | https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-23.10.26
   The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including the latest freight rate and capacity movements across global trades with supporting insight from Peter Sand, Xeneta Chief Analyst.
-
-## Eurostat euro indicators
-(failed: no matching items after filtering)
 
 ## Talking Logistics
 - 2026-10-26 11:01 | Descartes: From the Dot-Com Era to the AI Era | https://talkinglogistics.com/2026/10/26/descartes-from-the-dot-com-era-to-the-ai-era/

@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-10-28T22:24:24.529267+00:00",
+ "fetched_at": "2026-10-28T22:26:12.344484+00:00",
  "window_days": 8,
- "sources_ok": 24,
- "sources_total": 31,
+ "sources_ok": 25,
+ "sources_total": 30,
  "sources": [
   {
    "source": "Supply Chain Dive",
@@ -175,10 +175,10 @@
   {
    "source": "NVIDIA Technical Blog (optimisation)",
    "url": "https://developer.nvidia.com/blog/feed/",
-   "ok": false,
+   "ok": true,
    "method": "feed https://developer.nvidia.com/blog/feed/",
    "items": 0,
-   "error": "no matching items after filtering"
+   "error": "no matching posts in the window (normal for this source)"
   },
   {
    "source": "Sea-Intelligence",
@@ -195,14 +195,6 @@
    "method": "feed https://www.xeneta.com/news/rss.xml",
    "items": 1,
    "error": null
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "url": "https://ec.europa.eu/eurostat/news/euro-indicators",
-   "ok": false,
-   "method": "page links (no feed found, no dates)",
-   "items": 0,
-   "error": "no matching items after filtering"
   },
   {
    "source": "Talking Logistics",
