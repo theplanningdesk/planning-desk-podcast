@@ -39,13 +39,35 @@ SOURCES = [
     ("Dagens Logistik", "https://dagenslogistik.se/nyheter/"),
     ("Dagens Infrastruktur", "https://dagensinfrastruktur.se/"),
     ("MT Logistikk", "https://www.mtlogistikk.no/"),
-    ("Transportmagasinet", "https://transportmagasinet.dk/"),
+    # Added 28 Oct 2026 after source vetting (claude/research/source-vetting-2026-10-28.md).
+    # Transportmagasinet dropped: paywalled.
+    ("SCM.dk", "https://scm.dk/feeds/articles"),
+    ("SC Effect", "https://www.sceffect.se/en/category/nyheter/"),
+    ("Osto&Logistiikka", "https://www.ostologistiikka.fi/"),
+    ("BME", "https://www.bme.de/news/"),
+    ("Logistics Viewpoints", "https://logisticsviewpoints.com/"),
+    ("NVIDIA Technical Blog (optimisation)", "https://developer.nvidia.com/blog/feed/"),
+    ("Sea-Intelligence", "https://www.sea-intelligence.com/press-room"),
+    ("Xeneta", "https://www.xeneta.com/press"),
+    ("Eurostat euro indicators", "https://ec.europa.eu/eurostat/news/euro-indicators"),
     ("Talking Logistics", "https://talkinglogistics.com/"),
     ("Supply Chain Shaman", "https://www.supplychainshaman.com/"),
     ("SAP News", "https://news.sap.com/"),
     ("Gartner Newsroom", "https://www.gartner.com/en/newsroom"),
     ("ASCM", "https://www.ascm.org/"),
 ]
+
+# Sources whose feed is broad: keep only items whose title or summary matches.
+KEYWORDS = {
+    "NVIDIA Technical Blog (optimisation)": [
+        "cuopt", "optimization", "optimisation", "solver", "supply chain", "logistics",
+        "routing", "linear program", "mip", "planning", "inventory", "forecast"],
+}
+
+# Live Rhine gauges from Pegelonline (WSV), the federal waterways data service.
+RHINE_API = ("https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json"
+             "?waters=RHEIN&includeTimeseries=true&includeCurrentMeasurement=true")
+RHINE_GAUGES = ["MAXAU", "KAUB", "KÖLN", "DUISBURG-RUHRORT", "EMMERICH"]
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/130.0 Safari/537.36 ThePlanningDeskBot/1.0")
@@ -161,6 +183,38 @@ def fetch_source(source, url, cutoff):
     return items, status
 
 
+def keep(source, items):
+    words = KEYWORDS.get(source)
+    if not words:
+        return items
+    return [i for i in items if any(w in (i["title"] + " " + i["summary"]).lower() for w in words)]
+
+
+def fetch_rhine():
+    """Current water level (cm) at the Rhine gauges that matter for barge loads."""
+    status = {"source": "Rhine gauges (Pegelonline)", "url": RHINE_API, "ok": False,
+              "method": "json api", "items": 0, "error": None}
+    try:
+        stations = get(RHINE_API).json()
+    except Exception as exc:  # noqa: BLE001
+        status["error"] = f"{type(exc).__name__}: {exc}"[:200]
+        return [], status
+    rows = []
+    for st in stations:
+        name = st.get("shortname", "").upper()
+        if name not in RHINE_GAUGES:
+            continue
+        for ts in st.get("timeseries", []):
+            m = ts.get("currentMeasurement")
+            if ts.get("shortname") == "W" and m:
+                rows.append({"gauge": st["shortname"], "km": st.get("km"),
+                             "level_cm": m.get("value"), "trend": m.get("trend"),
+                             "measured_at": m.get("timestamp"), "unit": ts.get("unit")})
+    rows.sort(key=lambda r: r["km"] or 0)
+    status.update(ok=bool(rows), items=len(rows), error=None if rows else "no gauge data")
+    return rows, status
+
+
 def main(out_dir):
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -169,20 +223,29 @@ def main(out_dir):
     all_items, statuses = [], []
     for source, url in SOURCES:
         items, status = fetch_source(source, url, cutoff)
+        if source in KEYWORDS:
+            items = keep(source, items)
+            status["items"] = len(items)
         print(f"{'OK ' if status['ok'] else 'ERR'} {source}: {status['items']} items "
               f"via {status['method'] or '-'} {status['error'] or ''}")
         all_items += items
         statuses.append(status)
 
+    rhine, rhine_status = fetch_rhine()
+    print(f"{'OK ' if rhine_status['ok'] else 'ERR'} Rhine gauges: {len(rhine)} {rhine_status['error'] or ''}")
+    statuses.append(rhine_status)
+
     meta = {"fetched_at": now.isoformat(), "window_days": MAX_AGE_DAYS,
             "sources_ok": sum(s["ok"] for s in statuses), "sources_total": len(statuses)}
-    (out / "latest.json").write_text(json.dumps({**meta, "items": all_items}, ensure_ascii=False, indent=1))
+    (out / "latest.json").write_text(json.dumps({**meta, "items": all_items, "rhine_gauges": rhine}, ensure_ascii=False, indent=1))
     (out / "status.json").write_text(json.dumps({**meta, "sources": statuses}, ensure_ascii=False, indent=1))
 
     lines = [f"# Source digest, fetched {now:%Y-%m-%d %H:%M} UTC",
              f"{meta['sources_ok']} of {meta['sources_total']} starting pages read. "
              f"Items from the last {MAX_AGE_DAYS} days; 'no date' items come from page links.", ""]
     for s in statuses:
+        if s is rhine_status:
+            continue
         lines.append(f"## {s['source']}")
         if not s["ok"]:
             lines += [f"(failed: {s['error']})", ""]
@@ -193,6 +256,15 @@ def main(out_dir):
             if it["summary"]:
                 lines.append(f"  {it['summary']}")
         lines.append("")
+    lines.append("## Rhine gauges (Pegelonline, live)")
+    if rhine:
+        lines.append("Water level in cm; trend 1 rising, 0 steady, -1 falling. Kaub needs about 77 cm for a 1.90 m channel.")
+        for r in rhine:
+            lines.append(f"- {r['gauge']} (Rhine km {r['km']}): {r['level_cm']} {r['unit']}, "
+                         f"trend {r['trend']}, measured {r['measured_at']}")
+    else:
+        lines.append(f"(failed: {rhine_status['error']})")
+    lines.append("")
     (out / "latest.md").write_text("\n".join(lines))
     if meta["sources_ok"] == 0:
         sys.exit("No source could be read")
