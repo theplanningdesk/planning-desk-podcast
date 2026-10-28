@@ -1,7 +1,17 @@
-# Source digest, fetched 2026-10-27 05:39 UTC
+# Source digest, fetched 2026-10-28 08:57 UTC
 17 of 22 starting pages read. Items from the last 8 days; 'no date' items come from page links.
 
 ## Supply Chain Dive
+- 2026-10-27 17:49 | Kroger taps RFID, computer vision data to boost inventory management | https://www.supplychaindive.com/news/kroger-taps-rfid-computer-vision-data-to-boost-inventory-management/872819/
+  The grocery chain is providing machine learning insights to suppliers to improve availability while piloting radio frequency identification at 1,500 store bakeries.
+- 2026-10-27 16:06 | UPS gears up for peak season with less Amazon volume in tow | https://www.supplychaindive.com/news/ups-gears-up-for-peak-season-with-less-amazon-volume-in-tow/872845/
+  The carrier expects U.S. volume to dip year over year in Q4, but packages from other customer segments are projected to boost revenue.
+- 2026-10-27 13:43 | Cycling apparel company unites planning, sourcing on single platform | https://www.supplychaindive.com/news/cycling-apparel-company-unites-planning-sourcing-on-single-platform/833732/
+  MAAP joins Walmart, Pacsun and others who have teamed with technology vendor Bamboo Rose to enhance supply chain operations.
+- 2026-10-27 11:31 | Audi investing $4B to build its first US plant in Georgia | https://www.supplychaindive.com/news/audi-investing-4b-to-build-its-first-us-plant-in-georgia/872866/
+  The factory will have a production capacity of up to 200,000 vehicles a year, with construction slated to begin in 2027 and the first vehicles built in the early 2030s.
+- 2026-10-27 03:00 | Supply Chain AI Has an Execution Problem | https://www.supplychaindive.com/spons/supply-chain-ai-has-an-execution-problem/872776/
+  AI is everywhere in supply chain software now—but does it actually improve decisions? Here's why language models need a decision engine underneath, and the test every planner should run before trusting an AI recommendation.
 - 2026-10-26 20:48 | USTR weighs extending pause on China-linked vessel fees to January | https://www.supplychaindive.com/news/ustr-weighs-extending-pause-on-china-linked-vessel-fees-to-january/872763/
   The suspension is currently set to lift Nov. 9, but the agency said more time would allow the U.S. and China to further negotiations.
 - 2026-10-26 19:12 | USPS to debut weekly fuel fee in 2027, matching FedEx, UPS practices | https://www.supplychaindive.com/news/usps-to-debut-weekly-fuel-fee-in-2027-matching-fedex-ups-practices/872778/
@@ -12,18 +22,32 @@
   The carrier's average rate bump will match FedEx's upcoming increase, but UPS also has additional changes in store.
 - 2026-10-26 14:40 | CSX sees rail conversion opportunities from battered trucking market | https://www.supplychaindive.com/news/csx-sees-rail-conversion-opportunities-from-battered-trucking-market/833858/
   The railroad is reviewing shipper truckload files to provide service and cost comparisons for intermodal opportunities.
-- 2026-10-26 11:27 | PepsiCo shutters Tennessee bottling plant amid soda slump | https://www.supplychaindive.com/news/pepsico-shutters-tennessee-bottling-plant-amid-soda-slump/833586/
-  The closure comes after the beverage giant's CEO laid out a cost-cutting plan to improve flattening growth.
-- 2026-10-26 09:00 | Promises vs. reality: Closing the AI adoption gap in transportation | https://www.supplychaindive.com/spons/promises-vs-reality-closing-the-ai-adoption-gap-in-transportation/833070/
-  As teams see AI perform reliably, trust and their willingness to give it more responsibility grow.
-- 2026-10-26 09:00 | How shoppers define delivery success – and what they’ll do if you fall short | https://www.supplychaindive.com/spons/how-shoppers-define-delivery-success-and-what-theyll-do-if-you-fall-shor/833675/
-  New research from Roadie reveals how falling short on delivery promises can drive customers to shop elsewhere.
-- 2026-10-23 18:24 | Trump tweaks Canada tariffs, removing certain goods while adding others | https://www.supplychaindive.com/news/trump-tweaks-canada-tariffs-removing-certain-goods-while-adding-others/833895/
-  Plywood and certain packaging materials are among the products that will no longer face the 50% tariff, effective Oct. 30.
-- 2026-10-23 14:30 | DHL boosts US-Asia cold chain connectivity for healthcare shippers | https://www.supplychaindive.com/news/dhl-boosts-us-asia-cold-chain-connectivity-for-healthcare-shippers/833763/
-  For temperature-sensitive goods, DHL Global Forwarding has added air freight corridors connecting Cincinnati with key hubs in Asia.
 
 ## SupplyChainBrain
+- 2026-10-28 04:00 | How the GLP-1 Trend Is Impacting Retail Returns and Inventory | https://www.supplychainbrain.com/blogs/1-think-tank/post/45099-how-the-glp-1-trend-is-impacting-retail-returns-and-inventory
+  Data analysis can help retailers better forecast how GLP-1 consumers are impacting their business.
+- 2026-10-28 04:00 | South African Company Tests World's Longest Freight Train | https://www.supplychainbrain.com/articles/45098-south-african-company-tests-worlds-longest-freight-train
+  The 4.7-mile train was said to have completed a 534-mile test run on October 17, from Saldanha Bay on South Africa's western coast, to an inland ore mine.
+- 2026-10-28 04:00 | Scary Rise in U.S. Halloween Candy Prices | https://www.supplychainbrain.com/articles/45092-us-candy-prices-climb-ahead-of-halloween
+  This all comes in a year where cocoa prices have actually fallen by more than half from their 2024 peak.
+- 2026-10-28 04:00 | Your Supply Chain Has an Enterprise Debt Problem | https://www.supplychainbrain.com/blogs/1-think-tank/post/45091-your-supply-chain-has-an-enterprise-debt-problem
+  Systems got added region by region, asset by asset, usually to solve whatever problem was in front of someone at the time.
+- 2026-10-28 04:00 | The Quest for Supply Chain Resilience Remains Challenging | https://www.supplychainbrain.com/blogs/1-think-tank/post/45090-the-quest-for-supply-chain-resilience-remains-challenging
+  Incidents on factory floors across the globe today can quickly turn into tomorrow’s delays, missing items, and wasted material at home.
+- 2026-10-28 04:00 | Watch: Closing the Skills Gap in Supply Chain Talent | https://www.supplychainbrain.com/articles/45087-watch-closing-the-skills-gap-in-supply-chain-talent
+  Supply chain leaders complain of a lack of qualified talent, while job-seekers say they can't find employment. Where's the disconnect? Mia Mazal, co-founder and chief operating officer of Talento, explains.
+- 2026-10-27 21:07 | Staying Ahead of Cargo Theft: Building a More Secure Supply Chain | https://www.supplychainbrain.com/articles/44754-staying-ahead-of-cargo-theft-building-a-more-secure-supply-chain
+  Cargo theft is becoming more organized, more sophisticated and more difficult to prevent. Criminals are increasingly using identity fraud, strategic deception and coordinated theft rings to target high-value shipments, forcing shippers, logistics providers and carriers to rethink how they protect freight.
+- 2026-10-27 19:20 | GM Plans to Move Stock Listing to Nasdaq | https://www.supplychainbrain.com/articles/45089-gm-looks-to-move-stock-listing-to-nasdaq
+  GM CFO Paul Jacobson described Nasdaq as a "natural home" for the company, particularly as the business focuses on a more technology-driven strategy.
+- 2026-10-27 17:57 | DOJ Says FDA Can Expand Food Supply Chain Disclosure Rules | https://www.supplychainbrain.com/articles/45088-doj-says-fda-can-expand-food-supply-chain-disclosure-rules
+  Under existing rules outlined in the federal Trade Secrets Act, the names and locations of companies involved in foodborne illness investigations are considered proprietary.
+- 2026-10-27 17:43 | LogiPharma 2027 Unveils Its Most Ambitious Agenda Yet, Shaping the Future of Life Sciences Supply Chains | https://www.supplychainbrain.com/articles/45100-logipharma-2027-unveils-its-most-ambitious-agenda-yet-shaping-the-future-of-life-sciences-supply-chains
+  The world's largest life sciences supply chain event has unveiled its 2027 agenda, bringing together global pharma, biotech and medical device leaders to tackle the industry's most pressing challenges and explore the innovations shaping the future of supply chains.
+- 2026-10-27 17:02 | Food Safety Leaders From McDonald's, PepsiCo, Nestlé & Mondelēz To Tackle Industry's Biggest Challenges In Manchester | https://www.supplychainbrain.com/articles/45096-food-safety-leaders-from-mcdonalds-pepsico-nestle-and-mondelz-to-tackle-industrys-biggest-challenges-in-manchester
+  The 3rd Annual Proactive Food Safety Conference brings together senior food safety and quality professionals from some of the world's leading food and drink brands, to examine the regulatory, technological and operational challenges reshaping food safety in 2027.
+- 2026-10-27 14:58 | Gas Prices in Europe Reach Four-Year High | https://www.supplychainbrain.com/articles/45086-gas-prices-in-europe-reach-four-year-high
+  The spike in gas prices comes as lower temperatures bring stronger demand for heating, while fears grow that there could be further supply disruptions in the Middle East.
 - 2026-10-27 04:00 | Dubai’s DP World Talks Alliance With Northern Canada Port | https://www.supplychainbrain.com/articles/45085-dubais-dp-world-talks-alliance-with-northern-canada-port
   The agreement focuses on port operations and a possible transportation corridor to link Churchill with DP World’s global logistics network and inland port facilities.
 - 2026-10-27 04:00 | Trump Admin Unveils Plan to Expand U.S. Seafood Production | https://www.supplychainbrain.com/articles/45083-trump-admin-unveils-plan-to-expand-us-seafood-production
@@ -60,32 +84,12 @@
   Why are so many efforts to implement artificial intelligence falling short of expectations?
 - 2026-10-23 04:00 | Five Current Challenges Preventing Real-Time Visibility in Connected Manufacturing | https://www.supplychainbrain.com/articles/45037-five-current-challenges-preventing-real-time-visibility-in-connected-manufacturing
   “Connected manufacturing,” incorporates machines, technology systems, people and data into real-time operational ecosystems, replacing siloed, manual workflows.
-- 2026-10-23 04:00 | Next-Day Delivery Is Still Possible, but Someone Has to Pay for It | https://www.supplychainbrain.com/blogs/1-think-tank/post/44900-next-day-delivery-is-still-possible-but-someone-has-to-pay-for-it
-  We can continue delivering across Europe the next day. But sooner or later the market will have to decide if it’s willing to pay for that.
-- 2026-10-23 04:00 | How to Transport a Food Truck Across the Country | https://www.supplychainbrain.com/blogs/1-think-tank/post/44897-how-to-transport-a-food-truck-across-the-country
-  Shipping a food truck doesn't have to feel overwhelming, once you understand the process from start to finish.
-- 2026-10-22 18:52 | Global Dual-Fuel Shipping Fleets Tops 500 Vessels | https://www.supplychainbrain.com/articles/45072-global-dual-fuel-shipping-fleets-tops-500-vessels
-  According to WSC data, 503 dual-fuel ships were on the water as of September 2026, compared to 358 through the first nine months of 2025.
-- 2026-10-22 18:20 | Panama Canal Reports 4.1% Bump in Transits in FY2026 | https://www.supplychainbrain.com/articles/45071-panama-canal-reports-41-bump-in-transits-in-fy2026
-  The Panama Canal handled 13,951 transit in FY2026, compared to 13,404 in FY2025, driven by strong performance from energy and container ship segments.
-- 2026-10-22 14:18 | Mozzarella, Pasta Back in Stores as Italy Passes Trucker Aid | https://www.supplychainbrain.com/articles/45070-mozzarella-pasta-back-in-stores-as-italy-passes-trucker-aid
-  Protests over a surge in fuel prices blocked roads and left consumers facing shortages of products ranging from pasta to buffalo mozzarella and fresh produce.
-- 2026-10-22 04:00 | Better Supply Chains Releases Framework for Evaluating TMS Systems | https://www.supplychainbrain.com/articles/45067-better-supply-chains-releases-framework-for-evaluating-tms-systems
-  The company's TMS NExus Research framework is designed to assess how well transportation systems help businesses respond to disruptions, from changing tariffs to shortages of available freight capacity.
-- 2026-10-22 04:00 | U.K. Approves Controversial North Sea Drilling Project | https://www.supplychainbrain.com/articles/45064-uk-approves-controversial-north-sea-drilling-project
-  Jackdaw is expected to meet roughly 6% of the U.K.’s gas needs over its 10-year lifetime, with the capacity to power the equivalent of 1.4 million homes.
-- 2026-10-22 04:00 | From Russian Oil to U.S. Supply Chains: The Hidden Risk of Secondary Tariffs | https://www.supplychainbrain.com/blogs/1-think-tank/post/45055-from-russian-oil-to-us-supply-chains-the-hidden-risk-of-secondary-tariffs
-  Because oil, transportation and manufacturing are interconnected, secondary tariffs could produce a far more complicated response than an ordinary tariff.
-- 2026-10-22 04:00 | The Return Journey Is Not the Outbound Journey in Reverse | https://www.supplychainbrain.com/blogs/1-think-tank/post/44896-the-return-journey-is-not-the-outbound-journey-in-reverse
-  An international return might look like the original delivery running in reverse. Operationally, though, it’s a new cross-border movement.
-- 2026-10-22 04:00 | Supply Chain Resilience Can Fight the Hidden Cost of Congestion | https://www.supplychainbrain.com/blogs/1-think-tank/post/44879-supply-chain-resilience-can-fight-the-hidden-cost-of-congestion
-  Twenty-first century supply chains are too complex to simply ask, “What just happened?” Operators need to think strategically.
-- 2026-10-21 19:24 | Aravo Offers Third-Party AI Risk Assessment Tool | https://www.supplychainbrain.com/articles/45065-aravo-offers-third-party-ai-risk-assessment-tool
-  Aravo for Responsible AI, is built around the National Institute of Standards and Technology’s (NIST) AI Risk Management Framework.
-- 2026-10-21 18:46 | EU Sets Arctic Agenda for Shipping, Security and Climate | https://www.supplychainbrain.com/articles/45061-eu-sets-arctic-agenda-for-shipping-security-and-climate
-  The bloc plans to grow its icebreaker vessel capacity, and strengthen its Arctic satellite monitoring and data sharing to improve climate predictions and boost maritime security.
 
 ## SCMR
+- 2026-10-27 14:11 | Lessons from the North Dakota State Mill: Insights for supply chain leaders from a century-old institution | https://www.scmr.com/article/north-dakota-mill-supply-chain-lessons
+  The North Dakota Mill and Elevator illustrates how capacity investment, regional supplier relationships, multiple sales channels, employee incentives and local branding can inform supply chain strategy.
+- 2026-10-27 13:41 | First Shift: Tariff talks, shipbuilding investment and freight risks shape the day | https://www.scmr.com/article/first-shift-tariff-talks-shipbuilding-investment-and-freight-risks-shape-the-day
+  U.S.-Canada tariff negotiations and South Korean shipbuilding investment lead a briefing on Mexican trucking protests, maritime fees, parcel pricing, cargo theft, AI readiness and connected packaging.
 - 2026-10-26 14:34 | Adaptive inventory segmentation: Managing what demand becomes | https://www.scmr.com/article/adaptive-inventory-segmentation-managing-what-demand-becomes
   Adaptive inventory segmentation combines current SKU classifications with predicted changes in demand to help supply chain managers evaluate replenishment decisions before existing categories catch up.
 - 2026-10-26 13:54 | Bottlenecks, tariffs and freight costs reset the operating outlook | https://www.scmr.com/article/bottlenecks-tariffs-and-freight-costs-reset-the-operating-outlook
@@ -110,38 +114,68 @@
   Japan’s yttrium warning and constrained Nvidia supply lead a briefing on tanker sourcing, ocean reliability, broker liability, trucking economics, delivery networks, omnichannel AI and parcel strategy.
 - 2026-10-20 12:09 | AI’s next supply chain challenge: Redesigning the organization, not deploying the technology | https://www.scmr.com/article/ais-next-supply-chain-challenge-redesigning-the-organization-not-deploying-the-technology
   ASCM–DSCI research highlights gaps in supply chain AI readiness and employee involvement, prompting recommendations to engage managers, clarify decision rights and connect implementation with workforce development.
-- 2026-10-19 13:39 | The hidden cost healthcare supply chains need to measure | https://www.scmr.com/article/the-hidden-cost-healthcare-supply-chains-need-to-measure
-  Healthcare supply chain leaders can uncover hidden labor costs by measuring time spent searching for supplies, correcting transactions and waiting for decisions, then using those findings to guide process redesign and technology investments.
-- 2026-10-19 13:26 | First Shift: Maritime danger, strategic capital and export pressure reshape the outlook | https://www.scmr.com/article/first-shift-maritime-danger-strategic-capital-and-export-pressure-reshape-the-outlook
-  Escalating vessel attacks lead a briefing on fuel policy, strategic-industry investment, China’s export dependence, cross-border trucking, port volumes, sustainability execution and people-centered operations.
-- 2026-10-19 13:16 | Supply chain resilience starts before the crisis playbook opens | https://www.scmr.com/article/supply-chain-resilience-starts-before-the-crisis-playbook-opens
-  An ASCM CHAINge panel explored how supply chain resilience depends on identifying supplier and workforce dependencies, evaluating business consequences, learning from disruptions and using contract audits to improve decisions.
-- 2026-10-19 13:00 | The direct-to-consumer experience breakdown | https://www.scmr.com/article/the-direct-to-consumer-experience-breakdown
-  Norman Katz examines how inconsistent customer information and poorly coordinated systems can disrupt shopping and fulfillment, urging brands to review the operational handoffs behind their customer promises.
 
 ## The Loadstar
-- 2026-10-26 17:59 | Car carrier orderbook surge raises oversupply fears | https://theloadstar.com/car-carrier-orderbook-surge-raises-oversupply-fears/
-  The orderbook for pure car and truck carriers (PCTCs) has surged amid booming Chinese vehicle exports and elevated charter earnings, raising concerns that an expanding fleet could outpace demand as European restrictions on Chinese vehicle imports threaten to curb a key source of cargo growth. Greek brokerage Intermodal said last week that 82 PCTCs were contracted in the first nine months of…
-- 2026-10-26 13:27 | US delays port fees for Chinese ships again – now until 9 January | https://theloadstar.com/us-delays-port-fees-for-chinese-ships-again-now-until-9-january/
-  After all the hooting, it seems the US is keen to again delay implementation of planned port fees for China-linked vessels, with the US Trade Representative (USTR) requesting the delay to give Washington and Beijing more time to negotiate. The USTR asked that the measure intended to penalise China’s maritime, logistics, and shipbuilding sectors remain suspended through to 9 January, with the…
-- 2026-10-26 13:01 | Congestion-induced ‘double sailings’ cancel out Golden Week blanks | https://theloadstar.com/congestion-induced-double-sailings-cancel-out-golden-week-blanks/
-  Deployed capacity on the transpacific and Asia-Europe trades during this year’s Golden Week holiday was the highest on record, according to new analysis from Sea-Intelligence. Port congestion in Asia, caused by a succession of typhoons, led to vessel bunching at loading ports, and subsequently resulted in a series of “double sailings”, which cancelled out carriers’ blanking strategy during the…
-- 2026-10-26 12:45 | Asia Pacific the star performer as airfreight rates take off | https://theloadstar.com/asia-pacific-the-star-performer-as-airfreight-rates-take-off/
-  Surging jet fuel prices have added to the upward pressures that have seen global airfreight rates climb above the highs of the previous two peak seasons, as the industry enters its busiest period of the year. Figures from the latest TAC-compiled Baltic Air Freight Index and World ACD indicate that rates have been rising by between 4% and 4.7% over the past fortnight, up some 26% compared with…
-- 2026-10-26 12:27 | OceanX: Insight on consol sector (and other) M&A alongside Kuehne, DSV updates | https://theloadstar.com/oceanx-insight-on-consol-sector-and-other-ma-alongside-kuehne-dsv-updates/
-  The epic ‘DSV vs K+N’ race passed another quarter, and now we do have Q3 results from both in. In short, DSV is not realising Schenker synergies as fast as intended in parts of the combined business and is also losing some volumes in a growing Air & Sea market, but it is impressively cutting headcount in Air & Sea and returning to a very strong conversion ratio there. Troubles in Road ... The…
-- 2026-10-26 12:00 | CH Robinson bets its AI army can outflank forwarding rivals | https://theloadstar.com/embargoed-till-midday-monday-ch-robinson-bets-its-ai-army-can-outflank-forwarding-rivals/
-  CH Robinson is deploying AI agents to recommend freight routings, prepare quotes, and process ocean bookings, arguing that its proprietary technology and customer data will widen its competitive advantage in global forwarding. The expansion into ocean shipping, airfreight, and customs brokerage includes tasks requiring more than a dozen agents working together, according to the forwarder. “As…
-- 2026-10-26 11:35 | China-India rates ease but port delays still a strain on services | https://theloadstar.com/china-india-rates-ease-but-port-delays-still-a-strain-on-services/
-  Rates for containers moving from China to India have begun to cool as seasonal import demand, associated with India’s festival-driven consumption, loses momentum. New data secured by The Loadstar points to a 10%-20% decline in spot rates for bookings from major Chinese load ports to India, particularly JNPA (Nhava Sheva) on the west coast and Chennai on the east. For example, Indian importers…
-- 2026-10-26 11:34 | Analysis: Kuehne + Nagel invests up front to win next wave of customers | https://theloadstar.com/analysis-kuehne-nagel-invests-up-front-to-win-next-wave-of-customers/
-  Where we stand with Kuehne + Nagel: Its next leg of growth – Chinese manufacturers going global, cloud builders and Amazon – is being funded up front: an equity-linked incentive for Amazon aircraft charters; working capital for hyperscaler freight; and new warehouse capacity. JP Morgan, HSBC and Morgan Stanley, all negative on the stock, don’t dispute the execution, they agree the share price…
-- 2026-10-26 00:01 | Navia deepens South-east Asia reach wth new office in Johor Bahru | https://theloadstar.com/navia-johor-bahru-freight-forwarding-office/
-  The company’s second Malaysian location puts it on Singapore’s doorstep and one of the world’s busiest trade corridors. This week, Navia announced the opening of its freight forwarding office in Johor Bahru, Malaysia, continuing its expansion as a global player. This is its second location on the Malay Peninsula, its twelfth in APAC, and the next phase in its growth journey. The choice of Johor…
-- 2026-10-23 13:02 | Carriers opt for more blanked sailings to bolster freight rates | https://theloadstar.com/carriers-opt-for-more-blanked-sailings-to-bolster-freight-rates/
-  Container spot freight rates on all three of the largest east-west trades – Asia-Europe, transpacific, and transatlantic – were on the rise this week. After three months of post-peak season declines, the Asia-Europe trades experienced a second week of spot freight rate increases, according to Drewry’s World Container Index (WCI). The WCI’s Shanghai-Rotterdam leg was up 3% week on week, to end at…
+- 2026-10-28 07:58 | CNBC: Goldman: Europe’s debt squeeze is hitting companies — but who’s vulnerable? | https://theloadstar.com/cnbc-goldman-europes-debt-squeeze-is-hitting-companies-but-whos-vulnerable/
+  CNBC reports: Europe’s sovereign debt worries are starting to show up in corporate borrowing costs, potentially leaving some companies with less cash to invest or return to shareholders, according to Goldman Sachs. Corporate borrowers in Europe are being squeezed from two directions — rising yields in government debt and surging U.S. hyperscalers’ bond issuance, which is increasing competition…
+- 2026-10-27 15:30 | Champi’s support won’t reverse market trend | https://theloadstar.com/champis-support-wont-reverse-market-trend/
+  Typhoon Champi and persistent congestion at major Southeast Asian and South Asian ports are providing temporary support to container freight rates, disrupting vessel schedules and delaying some ships by up to three days. However, the reprieve is unlikely to reverse the market’s downward trajectory as excess capacity, aggressive price competition and the onset of the winter slack season continue…
+- 2026-10-27 13:18 | Shipping $ Series: SITC shareholders in line for bumper payout | https://theloadstar.com/shipping-series-sitc-shareholders-in-line-for-bumper-payout/
+  Hong Kong-headquartered intra-Asia carrier SITC has seen its share price hit record highs in recent days after its board last week voted to approve a special dividend, returning some HK$2.7bn (US$344m) to shareholders. “The board is pleased to announce that it has resolved the declaration and payment of the special dividend of HK$1 (equivalent to US$0.13) per ordinary share of the company to be…
+- 2026-10-27 13:07 | No rail freight from London Gateway and Tilbury after storms | https://theloadstar.com/no-rail-freight-from-london-gateway-and-tilbury-after-storms/
+  Shippers are scrambling to make alternative arrangement for inland container movements in the UK after a train derailment forced the suspension of rail services to key terminals in the south-east, including DP World London Gateway. More than 1km of track was torn up by storms that battered the region on Friday, with Forth Ports notifying customers that no rail services would be servicing Tilbury…
+- 2026-10-27 12:48 | Tariff anouncements cause cargo chaos for box terminals, says TiL | https://theloadstar.com/tariff-anouncements-cause-cargo-chaos-for-box-terminals-says-til/
+  Sudden tariff announcements, not tariff levels themselves, trigger costly cargo surges that terminals cannot absorb, delegates at TOC Americas in Cartagena were told. Rather than destroying container trade, said TiL Group’s director for terminal investments in North America, Tom van Eynde, tariffs were relocating it, pointing to cargo shifting from Canadian ports into TiL’s US terminals as…
+- 2026-10-27 12:22 | £10bn sale of Associated British Ports – pension funds just love it | https://theloadstar.com/10bn-sale-of-associated-british-ports-pension-funds-just-love-it/
+  The UK’s largest port owner and operator is not a firm that The Loadstar covers much on a recurring basis. (But then came the news last week: ‘Australia’s IFM snaps up ABP‘, aka Associated British Ports…) To be honest, this is a pretty straightforward deal reportedly worth about £10bn that would not normally warrant much comment – however, it does underline how the port industry as an investment…
+- 2026-10-27 12:20 | Maersk the most reliable carrier – but hits and misses for Gemini | https://theloadstar.com/maersk-the-most-reliable-carrier-hits-and-misses-for-gemini/
+  Across the east-west container trades in August and September, MSC achieved reliability of 68.9%, narrowly ahead of the Gemini Cooperation at 68.4%, according to Sea-Intelligence. The result marks a reversal for Gemini partners Maersk and Hapag-Lloyd as their reliability fell 9.4 percentage points, month on month, to 68.4%. Although Maersk proved the most reliable individual carrier on the…
+- 2026-10-27 12:06 | One vendor, 38 targets? Shipping’s cyber supply chain in focus | https://theloadstar.com/one-vendor-38-targets-shippings-cyber-supply-chain-in-focus/
+  Earlier this month, the so-called ‘n0n’ extortion group named 38 maritime and logistics organizations in minutes. Researchers see signs of a common CyberLogitec-linked data source. That is a compelling warning, not proof that the vendor, or every named company, was hacked. The maritime industry’s most uncomfortable cyber scenario is not an attacker breaking into 38 companies separately. It is an…
+- 2026-10-27 11:16 | Produce shippers need better visibility and metrics to ward off costly delays | https://theloadstar.com/produce-shippers-need-better-visibility-and-metrics-to-ward-off-costly-delays/
+  Faced with existential cost challenges, perishables shippers have welcomed the initiative of the Global Coalition of Fresh Produce (GCFP) to improve logistics flows through a charter of best practices – but some industry executives want better metrics to track carrier performance in order to make significant headway. The GCFP’s latest survey, published last week, shows an industry in distress;…
+- 2026-10-27 08:49 | FedEx appoints new CFO | https://theloadstar.com/fedex-appoints-new-cfo/
+  PRESS RELEASE FedEx names Jamere Jackson as Executive Vice President and Chief Financial Officer Jackson is an experienced public-company CFO with a strong record of stockholder value creation MEMPHIS, Tenn., Oct. 26, 2026 – FedEx Corp. (NYSE: FDX) today announced the appointment of Jamere Jackson as chief financial officer, effective Nov. 30. He succeeds Claude Russ, who has served as interim…
 
 ## FreightWaves
+- 2026-10-28 04:27 | WEX, Euclid AI target 90% reduction in trucking transaction costs | https://www.freightwaves.com/news/wex-euclid-ai-target-90-reduction-in-trucking-transaction-costs
+  WEX and Euclid AI announced plans to offer trucking-specific AI agents that Euclid says have sharply reduced transaction costs in existing deployments. The post WEX, Euclid AI target 90% reduction in trucking transaction costs appeared first on FreightWaves .
+- 2026-10-28 03:22 | Insurance claims adjustments tank Landstar’s otherwise strong Q3 | https://www.freightwaves.com/news/insurance-claims-adjustments-tank-landstars-otherwise-strong-q3
+  Despite insurance claims activity clouding an otherwise strong third-quarter result, truckload broker Landstar System highlighted favorable demand for its dry van and flatbed offerings on Tuesday, driven by tight capacity and data center buildouts. The post Insurance claims adjustments tank Landstar’s otherwise strong Q3 appeared first on FreightWaves .
+- 2026-10-28 03:17 | Port Houston container volumes jump 11% as imports surge in September | https://www.freightwaves.com/news/port-houston-container-volumes-jump-11-as-imports-surge-in-september
+  Port Houston saw rising imports and improving exports in September, helping lift container activity at the Gulf Coast gateway. The post Port Houston container volumes jump 11% as imports surge in September appeared first on FreightWaves .
+- 2026-10-28 00:10 | Werner Enterprises sees cost headwinds lingering into Q1 | https://www.freightwaves.com/news/werner-enterprises-sees-cost-headwinds-lingering-into-q1
+  Werner Enterprises outlined a path back to mid-cycle margins on a Tuesday evening call, but noted cost headwinds—some transitory and some growth-related—could linger into the first quarter. The post Werner Enterprises sees cost headwinds lingering into Q1 appeared first on FreightWaves .
+- 2026-10-27 19:17 | Mexico truckers reach deal for talks after strike disrupts 19 states | https://www.freightwaves.com/news/mexico-truckers-reach-deal-for-talks-after-strike-disrupts-19-states
+  Trucking organizations in Mexico have agreed to four negotiating sessions with federal officials after a nationwide strike disrupted highways and threatened freight movements across the country. The post Mexico truckers reach deal for talks after strike disrupts 19 states appeared first on FreightWaves .
+- 2026-10-27 18:33 | Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think | https://www.freightwaves.com/news/diesel-is-breaking-records-while-gasoline-stays-cheap-and-the-reason-is-not-what-most-truckers-think
+  For the better part of eight months the price of diesel has climbed to levels that gasoline has not come close to matching, and for a carrier whose single largest variable cost is the fuel in the tank, that split is not a curiosity but a direct hit to the bottom line, which is why […] The post Diesel Is Breaking Records While Gasoline Stays Cheap, And The Reason Is Not What Most Truckers Think…
+- 2026-10-27 18:20 | Millions in stolen freight reveal a weakness criminals keep exploiting | https://www.freightwaves.com/news/millions-in-stolen-freight-reveal-a-weakness-criminals-keep-exploiting
+  From a $12 million cargo theft scheme to fraudulent shipment diversions, recent cases reveal a recurring weakness. The question is whether your team knows how to recognize it before freight moves. The post Millions in stolen freight reveal a weakness criminals keep exploiting appeared first on FreightWaves .
+- 2026-10-27 17:29 | Merchants Fleet adds 113 FleetShare vehicles in Puerto Rico | https://www.freightwaves.com/news/merchants-fleet-fleetshare-puerto-rico
+  Merchants Fleet launched FleetShare in Puerto Rico on Sept. 14 for an unnamed global e-commerce company. It did not disclose contract terms or pricing. The post Merchants Fleet adds 113 FleetShare vehicles in Puerto Rico appeared first on FreightWaves .
+- 2026-10-27 16:21 | The Case For Renting The Box And Buying The Truck | https://www.freightwaves.com/news/the-case-for-renting-the-box-and-buying-the-truck
+  For a small carrier, the choice of whether to own a trailer, finance one, run power only, or rent by the day looks like a simple equipment question, but it is really a business decision with a cost structure attached to every option, and getting that math wrong is one of the quietest and most […] The post The Case For Renting The Box And Buying The Truck appeared first on FreightWaves .
+- 2026-10-27 16:13 | Why Logistics AI Still Needs “Experts in the Loop” | https://www.freightwaves.com/news/why-logistics-ai-still-needs-experts-in-the-loop
+  As AI tools multiply across freight and logistics, the important question is how much control to hand over, and to what. On the latest Lean Quarterly Dive, host Malcolm Harris sat down with Lean Solutions Group CTO Alfonso Quijano to unpack that question. “experts in the loop,” a model that treats human judgment Quijano didn’t […] The post Why Logistics AI Still Needs “Experts in the Loop”…
+- 2026-10-27 15:57 | Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery | https://www.freightwaves.com/news/knight-swift-ceo-says-cdl-crackdown-could-fuel-lasting-trucking-recovery
+  Knight-Swift CEO Adam Miller said more restrictive broker-carrier relationships could reshape competition in trucking by favoring established fleets with stronger safety and compliance records The post Knight-Swift CEO says CDL crackdown could fuel lasting trucking recovery appeared first on FreightWaves .
+- 2026-10-27 15:22 | 2027 FreightTech 25 winners announced at F3 | https://www.freightwaves.com/news/2027-freighttech-25-winners-announced-at-f3
+  Highway takes top spot in FreightWaves’ 2027 FreightTech 25 for the third consecutive year as freight fraud prevention, AI automation and autonomous trucking emerged as key themes across the rankings. The post 2027 FreightTech 25 winners announced at F3 appeared first on FreightWaves .
+- 2026-10-27 14:57 | Band24 seeks early testers for satellite-connected asset tracker ahead of Nov. 13 deadline | https://www.freightwaves.com/news/band24-seeks-early-testers-for-satellite-connected-asset-tracker-ahead-of-nov-13-deadline
+  Asset-tracking company Band24 is seeking businesses to test Terra, a new tracker combining Bluetooth, cellular and satellite connectivity, ahead of a Nov. 13 deadline for its early-access program. The device is designed to help logistics operators maintain visibility into trailers, shipping containers and other equipment in areas with limited network coverage, with commercial availability…
+- 2026-10-27 14:51 | Miami airport to deploy shared logistics platform for cargo community | https://www.freightwaves.com/news/miami-airport-to-deploy-shared-logistics-platform-for-cargo-community
+  Miami airport is partnering with Kalé to develop a central data exchange portal for the cargo stakeholders. The post Miami airport to deploy shared logistics platform for cargo community appeared first on FreightWaves .
+- 2026-10-27 14:41 | Double Nickel launches AI agent to automate driver employment checks | https://www.freightwaves.com/news/double-nickel-launches-ai-agent-to-automate-driver-employment-checks
+  Double Nickel has launched an artificial intelligence agent to automate employment verifications for trucking companies, targeting a time-consuming part of driver recruiting and regulatory compliance. The New York-based company said Thursday, Oct. 22, that its Vera agent completed 40% of employment verifications autonomously during beta testing. Two trucking carriers with more than 500 trucks…
+- 2026-10-27 13:49 | Federal guidance on carrier selection not around the corner: TIA’s Burroughs | https://www.freightwaves.com/news/federal-guidance-on-carrier-selection-not-around-the-corner-tias-burroughs
+  Chattanooga–The Transportation Intermediaries Association (TIA) was quick out of the box earlier this year after two key court decisions that didn’t favor the brokerage community, asking the federal government for some sort of guidance for 3PLs: tell us what sort of carrier hiring practices would protect us. Chris Burroughs is the head of TIA and […] The post Federal guidance on carrier…
+- 2026-10-27 12:44 | The Biggest Shift In Freight Liability Since Deregulation Is Here, And Few Are Ready For It | https://www.freightwaves.com/news/the-biggest-shift-in-freight-liability-since-deregulation-is-here-and-few-are-ready-for-it
+  The way courts decide who is responsible when a contracted truck ends up in a wreck is changing faster than most of the freight industry realizes, and the shift is not about one ruling or one eye-popping dollar figure, it is a whole direction of travel that keeps pulling responsibility up the chain toward brokers […] The post The Biggest Shift In Freight Liability Since Deregulation Is Here, And…
+- 2026-10-27 11:30 | Police recover $54K in Hot Wheels after BNSF freight train burglary in California | https://www.freightwaves.com/news/police-recover-54k-in-hot-wheels-after-bnsf-freight-train-burglary-in-california
+  A freight train burglary in Colton, California, ended with one arrest and $54,000 in recovered Hot Wheels. Police released footage of the investigation as questions remain about how thieves accessed the shipment. The post Police recover $54K in Hot Wheels after BNSF freight train burglary in California appeared first on FreightWaves .
+- 2026-10-27 11:00 | Spartan’s operators went from AI skeptics to agent builders | https://www.freightwaves.com/news/spartan-carrier-alvys-foundry-ai-agents
+  Spartan Carrier Group built its first AI agent for hourly customer reports in a week and a half. Its VP of operations, who calls himself no coder, wants dispatchers building the next ones. The post Spartan’s operators went from AI skeptics to agent builders appeared first on FreightWaves .
 - 2026-10-26 22:58 | FMCSA’s Elison addresses Motus again, still no date on full repair | https://www.freightwaves.com/news/fmcsas-elison-addresses-motus-again-still-no-date-on-full-repair
   Chattanooga–It hasn’t been that long–less than a month–since Jesse Elison spoke to an industry event and addressed the issue of the beleaguered new Motus registration system. The deputy administrator of the Federal Motor Carrier Safety Administration (FMCSA) spoke Monday at FreightWaves’ Broker Compliance Symposium, one of two one-day sessions that serve as a prelude to […] The post FMCSA’s…
 - 2026-10-26 17:17 | Mexican truckers launch national strike over highway security, rising costs | https://www.freightwaves.com/news/mexican-truckers-launch-national-strike-over-highway-security-rising-costs
@@ -184,72 +218,34 @@
   In a lukewarm freight market, not all carriers are feeling the same heat. Craig Fuller and Paul Tonsager dive deep into why Knight-Swift’s ‘ruthless’ approach might be outperforming JB Hunt’s ‘conservative’ strategy, and what this means for the broader trucking and intermodal sectors. Discover the surprising nuances in today’s supply chain earnings. Knight-Swift’s willingness to […] The post…
 - 2026-10-23 17:37 | How Much Do Rejected Loads REALLY Cost Shippers? | https://www.freightwaves.com/news/how-much-do-rejected-loads-really-cost-shippers
   Discover how new Sonar indices are revolutionizing freight cost transparency. Shippers can now accurately track the real premiums paid for rejected loads and understand escalating contract rates. This essential data helps you optimize routing guides and budget for backup coverage, turning estimates into actionable insights. FreightWaves’ Sonar on Thursday released three truckload dataset groups…
-- 2026-10-23 16:28 | Cost pressures sink Marten Transport’s Q3 | https://www.freightwaves.com/news/cost-pressures-sink-marten-transports-q3
-  Shares of refrigerated carrier Marten Transport dropped 7% in midday trading on Friday after a disappointing third-quarter report, which noted that rising fuel and health insurance costs dragged down performance despite improving supply-demand fundamentals. The post Cost pressures sink Marten Transport’s Q3 appeared first on FreightWaves .
-- 2026-10-23 16:03 | 5 US manufacturing projects bring more than $1.6B in investments | https://www.freightwaves.com/news/5-us-manufacturing-projects-bring-more-than-1-6b-in-investments
-  Five shippers are investing more than $1.6 billion in new or expanded U.S. facilities, adding production capacity for commercial trailers, school buses, cooling systems and bottled beverages. The post 5 US manufacturing projects bring more than $1.6B in investments appeared first on FreightWaves .
-- 2026-10-23 14:54 | Airbus sees 46% freighter increase by 2045 amid stable air cargo growth | https://www.freightwaves.com/news/airbus-sees-46-freighter-increase-by-2045-amid-stable-air-cargo-growth
-  The Airbus 20-year outlook for freighter demand is little changed from last year, showing a global fleet nearly 50% larger than today. The post Airbus sees 46% freighter increase by 2045 amid stable air cargo growth appeared first on FreightWaves .
-- 2026-10-23 14:37 | Russian diesel tanker heads for U.S. following Trump-Putin deal | https://www.freightwaves.com/news/russian-diesel-tanker-heads-for-u-s-following-trump-putin-deal
-  The first shipment of Russian diesel fuel heads for the U.S. as Trump looks for boost ahead of midterm elections. The post Russian diesel tanker heads for U.S. following Trump-Putin deal appeared first on FreightWaves .
-- 2026-10-23 14:28 | NLRB ordered Amazon to bargain with Staten Island workers; it’s now in federal court | https://www.freightwaves.com/news/nlrb-ordered-amazon-to-bargain-with-staten-island-workers-its-now-in-federal-court
-  Four and a half years after a grassroots union was voted in by workers at an Amazon warehouse in Staten Island, New York, the battles in court over Amazon’s pushback against the vote continues. At issue in the latest set of filings in the Fifth Circuit is a National Labor Relations Board decision from April […] The post NLRB ordered Amazon to bargain with Staten Island workers; it’s now in…
-- 2026-10-23 13:37 | A new PNW container port? $205M for Oregon rail project | https://www.freightwaves.com/news/a-new-pnw-container-port-205m-for-oregon-rail-project
-  Oregon port wins $205 million in federal funding to upgrade its rail line and boost a proposed container terminal project. The post A new PNW container port? $205M for Oregon rail project appeared first on FreightWaves .
-- 2026-10-23 11:00 | Workforce gaps keep supply chain AI stuck in pilot mode | https://www.freightwaves.com/news/ascm-dsci-supply-chain-ai-workforce-readiness
-  AI adoption across 13 supply chain functions averages 1.94 on a five-point scale. ASCM CEO Abe Eshkenazi says companies are buying the tool before fixing the process. The post Workforce gaps keep supply chain AI stuck in pilot mode appeared first on FreightWaves .
-- 2026-10-23 10:00 | Why one zero-emission truck dealer wants big rigs to wait | https://www.freightwaves.com/news/range-zero-emissions-medium-duty-electric-trucks
-  Johannes Ariens sells everything from electric motorcycles to hydrogen semis. He says the industry is trying to skip a step, and that small fleets with medium-duty trucks should go first. The post Why one zero-emission truck dealer wants big rigs to wait appeared first on FreightWaves .
-- 2026-10-22 21:47 | Ryder fleet facing possible growth need as EPA ‘27 nears | https://www.freightwaves.com/news/ryder-fleet-facing-possible-growth-need-as-epa-27-nears
-  With the EPA ‘27 engine rules impacting nitrogen oxide (NoX) emissions in heavy duty vehicles getting closer every day, the new rules will have a major impact on anybody who buys new vehicles…like Ryder. Ryder’s (NYSE: R) third quarter earnings released early Thursday were solid enough that it propelled the stock up 10.49% to $265.53, […] The post Ryder fleet facing possible growth need as EPA…
-- 2026-10-22 20:59 | UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement | https://www.freightwaves.com/news/daimler-truck-sues-former-fleet-manager-over-alleged-3-8m-embezzlement
-  Daimler Truck North America is seeking $6.6 million in damages after accusing a former employee and his wife of misappropriating nearly $3.8 million. The post UPDATE: Daimler Truck sues former fleet manager over alleged $3.8M embezzlement appeared first on FreightWaves .
-- 2026-10-22 19:02 | F3 preview: AI, autonomous trucking and freight technology take center stage | https://www.freightwaves.com/news/f3-preview-ai-autonomous-trucking-and-freight-technology-take-center-stage
-  FreightWaves’ F3: Future of Freight Festival returns to Chattanooga next week, with sessions on AI adoption, autonomous trucking and the technologies reshaping freight operations taking center stage. The event, held Oct. 27-28 at The Signal at Chattanooga Choo Choo, will feature keynote presentations, fireside chats, technology demonstrations and discussions about how companies are applying new…
-- 2026-10-22 19:01 | Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities | https://www.freightwaves.com/news/feds-charge-driver-in-alleged-12m-cargo-theft-scheme-built-on-hijacked-carrier-identities
-  At least 24 shipments vanished after drivers collected merchandise from distribution centers. Authorities also uncovered fraudulent licenses, altered identities and ransom demands. The post Feds charge driver in alleged $12M cargo theft scheme built on hijacked carrier identities appeared first on FreightWaves .
-- 2026-10-22 18:47 | Norfolk Southern profits rise on higher volume and revenue | https://www.freightwaves.com/news/norfolk-southern-profits-rise-on-higher-volume-and-revenue
-  Norfolk Southern posted record revenue in Q3 on higher volumes and rates, and substantial fuel surcharge The post Norfolk Southern profits rise on higher volume and revenue appeared first on FreightWaves .
-- 2026-10-22 18:27 | SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring | https://www.freightwaves.com/news/sonar-launches-new-routing-guide-and-contract-rate-data-plus-expanded-searchcarriers-monitoring
-  New SONAR datasets show what shippers pay brokers and carriers when freight falls past the first tender, plus SearchCarriers watchlists and alerts. The post SONAR launches new routing guide and contract rate data, plus expanded SearchCarriers monitoring appeared first on FreightWaves .
-- 2026-10-22 18:07 | Union Pacific posts record third-quarter revenue and profits | https://www.freightwaves.com/news/union-pacific-posts-record-third-quarter-revenue-and-profits
-  Union Pacific posted record revenue and profits in the third quarter, as volume and pricing gains offset rising fuel prices and inflation. The post Union Pacific posts record third-quarter revenue and profits appeared first on FreightWaves .
-- 2026-10-22 17:59 | Cass Q3 Earnings Soar: 19% EPS Growth & Freight Market Boom | https://www.freightwaves.com/news/cass-q3-earnings-soar-19-eps-growth-freight-market-boom
-  Cass Information Systems CFO Mike Normile reveals how rising freight rates, fuel surcharges, and higher interest rates fueled a 19% increase in earnings per share for Q3. He details the impact of market shifts on their financial performance and discusses strategic investments in AI and technology for future competitiveness. Discover how Cass thrives in today’s […] The post Cass Q3 Earnings Soar:…
-- 2026-10-22 17:58 | How Triumph Financial’s CEO Beat the Longest Freight Recession | https://www.freightwaves.com/news/how-triumph-financials-ceo-beat-the-longest-freight-recession
-  Triumph Financial CEO Aaron Graft joins FreightWaves to discuss how his company achieved a remarkable 38% transportation revenue growth during one of the longest freight recessions in history. Discover the strategic investments in platform and product development that fueled organic growth, allowing Triumph to thrive despite challenging market dynamics. Graft also shares critical insights on […]…
-- 2026-10-22 17:21 | Safety Should Be Provable, Not Just Compliant | https://www.freightwaves.com/news/safety-should-be-provable-not-just-compliant
-  A unanimous Supreme Court ruling means freight brokers can face state liability claims for their selection of carriers. For carriers, that shift turns a documented safety program from a compliance nicety into a competitive credential. In an upcoming webinar, Lytx® outlines the elements of a defensible safety record. The post Safety Should Be Provable, Not Just Compliant appeared first on…
-- 2026-10-22 16:24 | CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled | https://www.freightwaves.com/news/cbp-seizes-2-5m-in-meth-hidden-in-tomatillo-truck-at-otay-mesa-drivers-visa-canceled
-  Nearly 1,600 pounds of narcotics, a federal investigation and an unexpected development involving the trucker. New details obtained by FreightWaves reveal what happened after the seizure. The post CBP seizes $2.5M in meth hidden in tomatillo truck at Otay Mesa; driver’s visa canceled appeared first on FreightWaves .
 
 ## SupplyChain247
 (failed: ReadTimeout: HTTPSConnectionPool(host='www.supplychain247.com', port=443): Read timed out. (read timeout=25))
 
 ## Supply Chain Digital
-- no date | Audi and NVIDIA Use Agile Robots for Parts Sequencing Trial | https://supplychaindigital.com/news/audi-and-nvidia-use-agile-robots-for-parts-sequencing-trial
-- no date | How PepsiCo Is Scaling Green Pilots For APAC Supply Chains | https://supplychaindigital.com/news/how-pepsico-is-scaling-green-pilots-for-apac-supply-chains
-- no date | Webinar: Keeping on Top of Moving Assets | https://supplychaindigital.com/news/webinar-keeping-on-top-of-moving-assets
-- no date | Stord Expands Fulfilment Capability With AMS Acquisition | https://supplychaindigital.com/news/stord-expands-fulfilment-capability-with-ams-acquisition
+- no date | How Teradyne, NVIDIA & Sereact Automate Retail Returns | https://supplychaindigital.com/news/how-teradyne-nvidia-sereact-automate-retail-returns
+- no date | Primark: Transforming Supply Chain Decision-Making | https://supplychaindigital.com/news/primark-transforming-supply-chain-decision-making
+- no date | Sanofi Invests in Insulin Plant in Frankfurt | https://supplychaindigital.com/news/sanofi-invests-in-insulin-plant-in-frankfurt
+- no date | Amazon’s Holiday Expansion: New Jobs and Worker Stability | https://supplychaindigital.com/news/amazons-holiday-expansion-new-jobs-and-worker-stability
+- no date | Allstar: UK Fleet Managers Lose Six Weeks To Fractured Data | https://supplychaindigital.com/news/allstar-uk-fleet-managers-lose-six-weeks-to-fractured-data
+- no date | GXO to Deploy Digit 5 Robots in E-Commerce Fulfilment Sites | https://supplychaindigital.com/news/gxo-to-deploy-agility-robotics-in-two-e-commerce-fulfilment
+- no date | WCS & Hershey: Establishing Sustainable Cocoa Supply Chains | https://supplychaindigital.com/news/wcs-and-hershey-establishing-sustainable-cocoa-supply-chains
+- no date | How Manufacturers are Automating Procurement with AI and EDI | https://supplychaindigital.com/news/how-manufacturers-are-automating-procurement-with-ai-and-edi
 - no date | Culina Announces New CEO After Brand Unification | https://supplychaindigital.com/news/culina-announces-new-ceo-after-brand-unification
 - no date | Leidos Brings AI to Pentagon Asset Management | https://supplychaindigital.com/news/leidos-brings-ai-to-pentagon-asset-management
 - no date | This Week's Top Five Stories in Supply Chain | https://supplychaindigital.com/news/this-weeks-top-five-stories-in-supply-chain-october-24
 - no date | ABB Brings Physical AI to Fashion Logistics | https://supplychaindigital.com/news/abb-brings-physical-ai-to-fashion-logistics
 - no date | Pigment Raises $250m for Enterprise Planning Capabilities | https://supplychaindigital.com/news/pigment-raises-250m-for-enterprise-planning-capabilities
-- no date | How Teradyne, NVIDIA & Sereact Automate Retail Returns | https://supplychaindigital.com/news/how-teradyne-nvidia-sereact-automate-retail-returns
-- no date | Primark: Transforming Supply Chain Decision-Making | https://supplychaindigital.com/news/primark-transforming-supply-chain-decision-making
-- no date | Sanofi Invests in Insulin Plant in Frankfurt | https://supplychaindigital.com/news/sanofi-invests-in-insulin-plant-in-frankfurt
-- no date | Amazon’s Holiday Expansion: New Jobs and Worker Stability | https://supplychaindigital.com/news/amazons-holiday-expansion-new-jobs-and-worker-stability
+- no date | Audi and NVIDIA Use Agile Robots for Parts Sequencing Trial | https://supplychaindigital.com/news/audi-and-nvidia-use-agile-robots-for-parts-sequencing-trial
+- no date | How PepsiCo Is Scaling Green Pilots For APAC Supply Chains | https://supplychaindigital.com/news/how-pepsico-is-scaling-green-pilots-for-apac-supply-chains
+- no date | Webinar: Keeping on Top of Moving Assets | https://supplychaindigital.com/news/webinar-keeping-on-top-of-moving-assets
+- no date | Stord Expands Fulfilment Capability With AMS Acquisition | https://supplychaindigital.com/news/stord-expands-fulfilment-capability-with-ams-acquisition
 - no date | o9 Solutions Breaks Records With Rising Software Demand | https://supplychaindigital.com/news/o9-solutions-breaks-records-with-rising-software-demand
 - no date | Amazon: US$18bn To Transform German Logistics Infrastructure | https://supplychaindigital.com/news/amazon-us-18bn-to-transform-german-logistics-infrastructure
 - no date | DP World expands US data centre logistics as AI demand rises | https://supplychaindigital.com/news/dp-world-grows-us-data-centre-logistics-as-ai-demand-surges
 - no date | Inspectorio: Building Data Foundations for Digital Passports | https://supplychaindigital.com/news/inspectorio-building-data-foundations-for-digital-passports
 - no date | Top 10: Biggest Supply Chains | https://supplychaindigital.com/news/top-10-biggest-supply-chains
 - no date | BackOps: Resolving Supply Chain Visibility Gaps End to End | https://supplychaindigital.com/news/backops-resolving-supply-chain-visibility-gaps-end-to-end
-- no date | AGR: UK Manufacturers Lag On Supply Chain AI | https://supplychaindigital.com/news/agr-uk-manufacturers-lag-on-supply-chain-ai
-- no date | Korean Operator Completes Northern Sea Route Trial | https://supplychaindigital.com/news/korean-operator-completes-northern-sea-route-trial
-- no date | ASCM Explores Readiness and AI Integration in Supply Chain | https://supplychaindigital.com/news/ascm-explores-readiness-and-ai-integration-in-supply-chain
-- no date | Hydro Produces First Aluminium Using HalZero | https://supplychaindigital.com/news/hydro-produces-first-aluminium-using-halzero
 
 ## Logistics Management
 (failed: HTTPError: 403 Client Error: Forbidden for url: https://www.logisticsmgmt.com/)
@@ -257,7 +253,7 @@
 ## DC Velocity
 - 2026-10-26 21:25 | Jungheinrich teams with Automha to provide “entry point into warehouse automation” | https://www.dcvelocity.com/material-handling/storage/as-rs-shuttles/jungheinrich-teams-with-automha-to-provide-entry-point-into-warehouse-automation
   Material handling equipment provider Jungheinrich has entered into a strategic partnership with intralogistics specialist Automha, saying the two companies have developed a two-way pallet shuttle for high-density pallet storage. According to the partners, their "UP-Carrier GTJ" product solution combines Italy-based Automha's shuttle expertise with Germany-based Jungheinrich's strengths in system…
-- 2026-10-26 21:22 | GXO to expand use of humanoid robots from Agility | https://www.dcvelocity.com/material-handling/robotics/gxo-to-expand-use-of-humanoid-robots-from-agility
+- 2026-10-26 21:19 | GXO to expand use of humanoid robots from Agility | https://www.dcvelocity.com/material-handling/robotics/gxo-to-expand-use-of-humanoid-robots-from-agility
   Contract logistics provider GXO will deploy humanoid robots from Agility at distribution centers it operates in North Carolina and Tennessee , expanding on a 2024 partnership that had previously seen GXO use the same model robots at a Georgia facility that handles inventory for the womens clothing brand Spanx. Since beginning that Georgia test, Agility’s “Digit” model robot has moved more than…
 - 2026-10-26 21:18 | NRF: Holiday shoppers search for affordable deals | https://www.dcvelocity.com/tech-infrastructure/e-commerce/nrf-holiday-shoppers-search-for-affordable-deals
   More than half of holiday shoppers (56%) say the state of the economy will affect their holiday spending plans this year, according to the National Retail Federation (NRF)’s annual consumer survey conducted by Prosper Insights & Analytics. Among those consumers, 43% plan to shop for sales more often, 31% will comparison shop online more often, and 29% will use coupons more often, among other…
@@ -305,51 +301,42 @@
   Retail sales in November and December will grow 4.2% over 2025 as consumers remain resilient despite higher gas prices, persistent inflation, higher interest rates, and elevated consumer debt, according to a forecast from the National Retail Federation (NRF). Despite the overall increase, that economic turbulence could affect spending by consumers in lower income brackets much more than their…
 - 2026-10-20 19:44 | Missed OTIF targets creates ripples of financial impacts | https://www.dcvelocity.com/supply-chain/other-services/supply-chain-strategy/missed-otif-targets-creates-ripples-of-financial-impacts
   Failures to meet On‑Time, In‑Full (OTIF) performance targets impose approximately $100 billion in annual economic impact on North American consumer packaged goods (CPG) and food & beverage manufacturers, according to analysis from Cleo, a supply chain orchestration solution provider. Roughly 90% of that impact comes from indirect costs, including lost sales, reduced shelf presence, excess…
-- 2026-10-19 18:41 | Supply Chain Short Takes with Wes Coleman of Zebra Technologies: Stop Buying the Same Assets Twice: How to End RTI Replacement Costs | https://www.dcvelocity.com/video/dcv-tv-1-news/supply-chain-short-takes/supply-chain-short-takes-with-wes-coleman-of-zebra-technologies-stop-buying-the-same-assets-twice-how-to-end-rti-replacement-costs
-  Supply chains are losing millions on assets they often ignore: the reusable pallets, totes, and containers used to move goods. In this DC Velocity Short Take Video, Wes Coleman of Zebra Technologies joins DC Velocity's David Maloney to explain how this "blind spot" in Returnable Transport Item (RTI) management is no longer a necessary cost of doing business. Discover how RFID technology provides…
-- 2026-10-19 18:05 | Stow Group opens first U.S. rack-making factory | https://www.dcvelocity.com/material-handling/storage/racking/stow-group-opens-first-u-s-rack-making-factory
-  The Belgian industrial storage and automation solution provider Stow Group has opened its first United States manufacturing facility, saying the 240,000 square foot racking plant in Calhoun, Georgia, represents a significant investment in American advanced manufacturing and marks a decisive step in Stow's commitment to the North American market. First announced in 2025, the plant is Stow's…
-- 2026-10-19 17:31 | Spiraling diesel prices drive deep financial consequences for fleets with older trucks | https://www.dcvelocity.com/transportation/trucking/spiraling-diesel-prices-drive-deep-financial-consequences-for-fleets-with-older-trucks
-  As diesel prices pass $6.40 per gallon, the climbing price pressure is forcing difficult decisions for fleet operators, making it prohibitively expensive for them to continue running older-model trucks to haul heavy freight, according to a study from data analytics and asset performance firm Fleet Advantage. Upgrading from a 2022 model year sleeper to a 2028 model year model can save…
-- 2026-10-19 16:42 | Automated forklifts: Hot or not? | https://www.dcvelocity.com/material-handling/automated-forklifts-hot-or-not
-  The number of companies offering forklifts that can lift, lower, pick, put away, and transport loads without a human operator on board has exploded. At material handling shows in the U.S., Europe, and Asia, dozens of companies from around the world are exhibiting driverless (a.k.a. robotic or automated) lift trucks. They’re just the tip of the iceberg, though: One industry executive estimates…
-- 2026-10-19 15:40 | New research on omnichannel fulfillment shows AI becoming a “strategic enabler” | https://www.dcvelocity.com/supply-chain/new-research-on-omnichannel-fulfillment-shows-ai-becoming-a-strategic-enabler
 
 ## Splash247
-- 2026-10-26 21:07 | SAT-JAM: Ships must learn to navigate without GPS | https://splash247.com/sat-jam-ships-must-learn-to-navigate-without-gps/
-  A researcher in Denmark who has developed a new system for tracking satellite navigation interference from space has a stark warning for the shipping industry in today’s Maritime CEO interview: GPS can no longer be considered a dependable means of navigation. Kian Bostani Nezhad, a PhD researcher at the Technical University of Denmark (DTU), believes …
-- 2026-10-26 20:19 | Shipping cuts training when it needs it most | https://splash247.com/shipping-cuts-training-when-it-needs-it-most/
-  Irene Rosberg, who runs the Blue MBA at Copenhagen Business School, returns to Splash today. When business conditions become difficult, training is often one of the easiest budgets to cut. In shipping, that is becoming an increasingly dangerous habit. The industry is asking its people to understand decarbonisation, artificial intelligence, cyber risk, increasingly complex regulation …
-- 2026-10-26 12:47 | Odfjell cashes in on chemical tanker pair in $62m-plus deal | https://splash247.com/odfjell-cashes-in-on-chemical-tanker-pair-in-62m-plus-deal/
-  Norwegian chemical tanker owner Odfjell has reportedly sold two 2011-built vessels for more than $62m as it continues reshaping its fleet. Shipbrokers identified the 46,098 dwt Bow Elm and 46,047 dwt Bow Lind as having been sold together, with the deal agreed on a surveys-passed basis. Both vessels were built at South Korea’s SLS Shipbuilding …
-- 2026-10-26 12:08 | Transocean expands newbuild programme with tanker duo | https://splash247.com/transocean-expands-newbuild-programme-with-tanker-duo/
-  Monaco-based Transocean Maritime Agencies has ordered two 50,000 dwt chemical and product tankers at China’s Guangzhou Shipyard International (GSI), adding another vessel type to its expanding newbuilding programme. The CSSC-controlled yard recently signed the contract, marking its first order from a Monaco-based shipowner. Financial terms, delivery dates and propulsion specifications have not…
-- 2026-10-26 12:00 | Transworld gets green light for $43m boxship deal | https://splash247.com/transworld-gets-green-light-for-43m-boxship-deal/
-  India’s Transworld Shipping Lines has secured shareholder approval for the $42.78m acquisition of two containerships from another company within its controlling shareholder’s group, clearing a key hurdle in its ongoing fleet restructuring. The Navi Mumbai-based listed owner disclosed in a filing that shareholders had backed the purchase of the 2006-built OEL Surya and OEL Varun …
-- 2026-10-26 11:30 | Bahri turns to homegrown yard for $451m VLCC trio | https://splash247.com/bahri-turns-to-homegrown-yard-for-451m-vlcc-trio/
-  Saudi shipping giant Bahri has ordered three very large crude carriers at International Maritime Industries (IMI), committing SAR1.692bn ($451m) to expand its tanker fleet and support shipbuilding at home. The 320,000 dwt vessels will be built at IMI’s Ras Al Khair facility on Saudi Arabia’s eastern coast, with deliveries scheduled between 2029 and 2030. The …
-- 2026-10-26 11:00 | Panagiotidis moves another LPG carrier in $18m fleet reshuffle | https://splash247.com/panagiotidis-moves-another-lpg-carrier-in-18m-fleet-reshuffle/
-  Greek shipowner Petros Panagiotidis is continuing to rearrange his LPG fleet across Nasdaq-listed companies, with AI OKTO agreeing to sell the 2015-built Dream Arrax to sister company Robin Energy for $18m. The latest transaction involves the 5,000 cu m gas carrier moving between two companies controlled by Panagiotidis, who serves as chairman and chief executive …
-- 2026-10-26 10:33 | NMDC Energy lands $763m in Saudi Aramco offshore contracts | https://splash247.com/nmdc-energy-lands-763m-in-saudi-aramco-offshore-contracts/
-  UAE-based offshore engineering and construction player NMDC Energy has secured three new offshore projects from Saudi Aramco worth a combined AED 2.8bn ($763.3m). The Abu Dhabi-listed contractor said in a stock exchange filing that it received a letter of award for engineering, procurement, and construction (EPC) work, with the three projects expected to be completed …
-- 2026-10-26 10:00 | Equinor extends Havila PSV pair for one more year | https://splash247.com/equinor-extends-havila-psv-pair-for-one-more-year/
-  Norwegian offshore vessel owner Havila Shipping has secured another year of work for two of its platform supply vessels (PSVs) after compatriot energy major Equinor exercised contract extension options. The latest extensions will keep the 2012-built Havila Charisma on charter until December 16, 2027, while the 2008-built Havila Foresight will remain employed until January 1, …
-- 2026-10-26 09:38 | Great Eastern continues secondhand spending with LPG carrier deal | https://splash247.com/great-eastern-continues-secondhand-spending-with-lpg-carrier-deal/
-  India’s Great Eastern Shipping has struck another secondhand vessel deal, agreeing to acquire a 2015-built very large gas carrier as it continues expanding its diversified fleet. The Mumbai-based listed owner said that it has contracted to buy the approximately 82,000 cu m vessel, which is expected to join its fleet during the December quarter. The …
+- 2026-10-28 08:30 | Containership orderbook heads towards 16m teu | https://splash247.com/containership-orderbook-heads-towards-16m-teu/
+  The containership industry’s extraordinary ordering spree is showing no signs of slowing, with the global orderbook now exceeding 15m teu and another wave of megamax contracts poised to push the total towards 16m teu before the end of the year. The latest figures from Alphaliner show that approximately 40 additional large containerships are expected to …
+- 2026-10-28 08:15 | Iran singles out Sinokor | https://splash247.com/iran-singles-out-sinokor/
+  Iran has threatened South Korean tanker giant Sinokor, the world’s dominant VLCC owner, with sweeping action against its fleet from November 1, accusing the company of repeatedly violating Tehran’s restrictions on shipping through the Strait of Hormuz. Iran’s Persian Gulf Strait Authority (PGSA) has said Sinokor vessels have committed more transit violations than any other …
+- 2026-10-28 08:00 | Maritime CEO Forum: Shipping’s wartime boom tests discipline | https://splash247.com/maritime-ceo-forum-shippings-wartime-boom-tests-discipline/
+  Shipping may be enjoying one of its strongest booms in decades, but the extraordinary profits generated by geopolitical turmoil are raising difficult questions about risk, investment and what happens when the wars end, delegates at yesterday’s Maritime CEO Forum in Monaco heard. Opening the event at the Yacht Club de Monaco, Splash editor Sam Chambers …
+- 2026-10-28 07:45 | Sanctioned Russian tankers head for US carrying diesel | https://splash247.com/sanctioned-russian-tankers-head-for-us-carrying-diesel/
+  Three tankers carrying Russian diesel are heading towards the United States under the controversial agreement between presidents Donald Trump and Vladimir Putin, with Moscow preparing to dispatch a fourth vessel today. Russian deputy prime minister Alexander Novak confirmed yesterday that three shipments were underway, despite mounting opposition from US lawmakers who argue the deal breaches …
+- 2026-10-28 07:31 | Venergy breaks into VLCCs with Hengli order | https://splash247.com/venergy-breaks-into-vlccs-with-hengli-order/
+  Greek shipowner Vyron Vasileiadis is taking his rapidly expanding tanker business into the VLCC segment, with Venergy Maritime linked to two firm newbuildings and options for another two at China’s Hengli Heavy Industries. The latest deal involves 306,000 dwt crude carriers, with deliveries reportedly scheduled for the first quarter of 2029, according to Greek shipbuilding …
+- 2026-10-28 06:00 | Meadway Bulkers splashes out on ultramax series in China | https://splash247.com/meadway-bulkers-splashes-out-on-ultramax-series-in-china/
+  Greek dry bulk owner Meadway Bulkers has been linked to an order for six ultramax newbuildings at China’s Nantong Xiangyu Shipbuilding, marking its largest shipbuilding commitment since becoming a standalone company in 2021. Splash understands the George Delaportas-controlled outfit has contracted six 64,500 dwt vessels, with deliveries scheduled between 2029 and 2030. Shipbuilding sources said …
+- 2026-10-28 05:00 | Wallenius Wilhelmsen extends car carrier newbuild drive | https://splash247.com/wallenius-wilhelmsen-extends-car-carrier-newbuild-drive/
+  Norwegian car carrier giant Wallenius Wilhelmsen has moved to extend its fleet renewal programme, following a $300m capital raise earlier this month to support plans for up to 12 additional LNG dual-fuel vessels. The Oslo-listed group issued a fresh update on its newbuilding programme on Wednesday, three weeks after outlining plans to add four large …
+- 2026-10-28 03:00 | Shipping’s $275m lesson in the limits of sanctions screening | https://splash247.com/shippings-275m-lesson-in-the-limits-of-sanctions-screening/
+  A sanctions settlement has exposed a fundamental weakness in shipping’s compliance systems. Wolfgang Lehmacher reports. On paper, Adani Enterprises did what compliance manuals demand. According to OFAC, before each LPG cargo arrived, it screened ships, operators and sellers against the US sanctions list. The names were clean. In May 2026, Adani agreed to pay $275m …
+- 2026-10-28 02:40 | ADES jackup lines up work offshore Indonesia | https://splash247.com/ades-jackup-lines-up-work-offshore-indonesia/
+  Saudi offshore drilling contractor ADES Holding has secured a new contract from Pertamina for the Shelf Drilling Perseverance jackup offshore Indonesia. The agreement covers a firm period of 406 days, with an option for another 30 days. The total potential contract value is SAR173.14m ($46.17m), including mobilisation and demobilisation fees. ADES did not specify which …
+- 2026-10-28 02:30 | Siem orders SCV newbuild duo from Chinese yard | https://splash247.com/siem-orders-scv-newbuild-duo-from-chinese-yard/
+  Norway’s Siem Industries has confirmed an order for two large subsea construction vessels (SCVs) at China’s Fujian Mawei Shipbuilding, with deliveries scheduled for 2029 and 2030. The vessels will measure about 145 m long and 27 m wide, with each featuring a 400-tonne active heave-compensated subsea crane and an additional 50-tonne crane. Norwegian naval architecture …
 
 ## VerkehrsRundschau
 - no date | Trailer, Aufbauten, Ladehilfen | https://www.verkehrsrundschau.de/nachrichten/trailer-aufbauten-ladehilfen
 - no date | Logistik: Gesundheitsschutz | https://www.verkehrsrundschau.de/vr-wissen/logistik-gesundheitsschutz
 - no date | Recht im Straßengüterverkehr | https://www.verkehrsrundschau.de/vr-wissen/recht-im-strassengueterverkehr
 - no date | Ausbilderwissen Logistikbranche | https://www.verkehrsrundschau.de/vr-wissen/ausbilderwissen-logistikbranche
-- no date | MAN erweitert Truckers’ Edition nach positiver Resonanz 26.10.2026, 14:07 Uhr | https://www.verkehrsrundschau.de/nachrichten/nfz-fuhrpark/man-erweitert-truckers-edition-nach-positiver-resonanz-3926973
-- no date | Ifo-Index steigt: Unternehmen werden zuversichtlicher 26.10.2026, 13:42 Uhr | https://www.verkehrsrundschau.de/nachrichten/vermischtes/ifo-index-steigt-unternehmen-werden-zuversichtlicher-3926947
-- no date | DB Cargo und ACTS bauen kombinierten Verkehr aus 26.10.2026, 13:14 Uhr | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/db-cargo-und-acts-bauen-kombinierten-verkehr-aus-3926940
-- no date | Lkw-Kartell: Gericht setzt Schadenshöhe für MAN und Daimler fest 26.10.2026, 09:04 Uhr | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/lkw-kartell-gericht-setzt-schadenshoehe-fuer-man-und-daimler-fest-3926482
-- no date | Dieselpreise: IRU fordert Unterstützung für Transporteure 26.10.2026, 08:23 Uhr | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/dieselpreise-iru-fordert-unterstuetzung-fuer-transporteure-3926478
-- no date | BVL Supply Chain CX 2026: Logistik sucht Ausweg aus Krise | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/bvl-supply-chain-cx-2026-logistik-sucht-ausweg-aus-krise-3926789
-- no date | Neuer MAN eTGX: Mehr Kapazität, mehr Effizienz | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/neuer-look-und-mehr-kapazitaet-3911694
-- no date | Dachser verlängert Partnerschaft mit der Fraunhofer-Gesellschaft | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/dachser-verlaengert-partnerschaft-mit-der-fraunhofer-gesellschaft-3925434
+- no date | Hellmann eröffnet neue Standorte in den USA 28.10.2026, 09:10 Uhr | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/hellmann-eroeffnet-neue-standorte-in-den-usa-3927674
+- no date | Weiterhin Spannungen zwischen Regierung und Transportbranche in Italien 28.10.2026, 08:30 Uhr | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/weiterhin-spannungen-zwischen-regierung-und-transportbranche-in-italien-3927657
+- no date | Deutsche Industrie erwartet deutliches Exportwachstum 28.10.2026, 08:01 Uhr | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/deutsche-industrie-erwartet-deutliches-exportwachstum-3927653
+- no date | Klimaresilienz: EU-Kommission plant neues Gesetz 27.10.2026, 18:10 Uhr | https://www.verkehrsrundschau.de/nachrichten/recht-geld/klimaresilienz-eu-kommission-plant-neues-gesetz-3927638
+- no date | Gruber Logistics übernimmt Hamburger Spedition Gruber 27.10.2026, 14:49 Uhr | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/gruber-logistics-uebernimmt-hamburger-spedition-gruber-3927424
+- no date | KI in der Logistik wird wichtiger, Cyberrisiken nehmen zu | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/ki-in-der-logistik-wird-wichtiger-cyberrisiken-nehmen-zu-3927532
+- no date | #VerkehrsRundschau Podcast | https://www.verkehrsrundschau.de/tag/verkehrsrundschau-podcast-2950693
+- no date | Podcast: Die Zukunft der Frachtenbörse – Wie KI die Transportvergabe verändert | https://www.verkehrsrundschau.de/nachrichten/transport-logistik/podcast-381-die-zukunft-der-frachtenboerse-wie-ki-die-transportvergabe-veraendert-3927430
 - no date | #HHLA – Hamburger Hafen und Logistik | https://www.verkehrsrundschau.de/tag/hhla-hamburger-hafen-und-logistik-2950832
 - no date | HHLA erwartet weniger Containerumschlag | https://www.verkehrsrundschau.de/nachrichten/lager-umschlag/hhla-erwartet-weniger-containerumschlag-3924904
 - no date | Takko Fashion übernimmt Logistikzentrum bei Salzgitter | https://www.verkehrsrundschau.de/nachrichten/lager-umschlag/takko-fashion-uebernimmt-logistikzentrum-in-salzgitter-3924172
@@ -357,6 +344,7 @@
 - no date | S.Oliver Group automatisiert Fashion-Logistik | https://www.verkehrsrundschau.de/nachrichten/lager-umschlag/s-oliver-group-automatisiert-fashion-logistik-3917079
 - no date | Loopario digitalisiert Prozesse bei Fiege | https://www.verkehrsrundschau.de/nachrichten/lager-umschlag/loopario-digitalisiert-prozesse-bei-fiege-3917059
 - no date | Nagel-Group eröffnet neuen Logistikstandort in Rostock | https://www.verkehrsrundschau.de/nachrichten/lager-umschlag/nagel-group-eroeffnet-neuen-logistikstandort-in-rostock-3916765
+- no date | MAN erweitert Truckers’ Edition nach positiver Resonanz | https://www.verkehrsrundschau.de/nachrichten/nfz-fuhrpark/man-erweitert-truckers-edition-nach-positiver-resonanz-3926973
 - no date | Erste Testfahrt im Tesla Semi für Europa | https://www.verkehrsrundschau.de/nachrichten/nfz-fuhrpark/erste-testfahrt-im-tesla-semi-fuer-europa-3914773
 - no date | Holger Scherr wechselt von Daimler zu SuperPanther | https://www.verkehrsrundschau.de/nachrichten/nfz-fuhrpark/holger-scherr-wechselt-von-daimler-zu-superpanther-3924864
 - no date | Wasserstoff-Lkw: Bosch setzt auf neue Tanktechnik | https://www.verkehrsrundschau.de/nachrichten/nfz-fuhrpark/wasserstoff-lkw-bosch-setzt-auf-neue-tanktechnik-3923141
@@ -373,7 +361,6 @@
 - no date | Diesel-Tankrabatt läuft aus: Das müssen Fuhrparks wissen | https://www.verkehrsrundschau.de/nachrichten/recht-geld/diesel-tankrabatt-laeuft-aus-das-muessen-fuhrparks-wissen-3923591
 - no date | Unwirksame Indexklausel im Gewerbemietvertrag: BGH stärkt Mieterrechte | https://www.verkehrsrundschau.de/nachrichten/recht-geld/unwirksame-indexklausel-im-gewerbemietvertrag-bgh-staerkt-mieterrechte-3923380
 - no date | Phantomfrachtführer: Wenn Prävention zur Pflicht wird | https://www.verkehrsrundschau.de/nachrichten/recht-geld/phantomfrachtfuehrer-wenn-praevention-zur-pflicht-wird-3917182
-- no date | Tankrabatt senkt Dieselpreis weniger als erwartet | https://www.verkehrsrundschau.de/nachrichten/recht-geld/tankrabatt-senkt-dieselpreis-weniger-als-erwartet-3917827
 - no date | 20 Jahre BEST AZUBI: „Ich bin lieber ein guter Spediteur als ein schlechter Ingenieur“ | https://www.verkehrsrundschau.de/nachrichten/ausbildung-karriere/20-jahre-best-azubi-ich-bin-lieber-ein-guter-spediteur-als-ein-schlechter-ingenieur-3914963
 - no date | Autofahren mit 17: Hessen präzisiert Ausnahmen für Azubis | https://www.verkehrsrundschau.de/nachrichten/ausbildung-karriere/autofahren-mit-17-hessen-praezisiert-ausnahmen-fuer-azubis-3913154
 - no date | Fahrausbildung: Der AvD und Tecvia kooperieren | https://www.verkehrsrundschau.de/nachrichten/ausbildung-karriere/fahrausbildung-der-avd-und-tecvia-kooperieren-3910975
@@ -402,26 +389,26 @@
   Patrick Mense und Prof. Stefan Recknagel sind Träger der goldenen Ehrennadel der BVL. Sie erhielten die Auszeichnung auf dem Berliner Abend, dem traditionellen Zusammenkommen der BVL-Ehrenamtlichen am Vorabend der BVL Supply Chain CX. Der BVL-Vorstandsvorsitzende Kai Althoff, CEO von 4flow, hob das besondere ehrenamtlich Engagement der beiden verdienten Ehrenamtlichen hervor. Beide sind eng mit…
 
 ## Dagens Logistik
+- 2026-10-28 08:30 | Tempcon förvärvar Örnsköldsvik-åkeri | https://dagenslogistik.se/tempcon-forvarvar-ornskoldsvik-akeri/
+  Transportkoncernen Tempcon Group fortsätter växa genom förvärv. Den här gången förvärvar koncernen Hans Norberg Åkeri i Örnsköldsvik.
+- 2026-10-28 08:00 | Samverkan sätts på prov på dubbelspåret | https://dagenslogistik.se/samverkan-satts-pa-prov-pa-dubbelsparet/
+  Tekniska lösningar är bra – men det räcker inte med dem om vi ska åstadkomma en omställning inom transportsektorn. Det är utgångspunkten för det nya innovationsprojektet Assists. – Vi vet att samverkan är avgörande för att lyckas med stora samhällsomställningar, men vi behöver bli bättre på att förstå hur samverkan faktiskt ska organiseras och genomföras för att ge bästa möjliga resultat,…
+- 2026-10-28 07:21 | Packoplock snabbar upp flödet | https://dagenslogistik.se/packoplock-snabbar-upp-flodet/
+  En ny lagerlösning ska lyfta leverantören. – Vi investerar nu mycket i ett smartare och effektivare plockflöde för att få än nöjdare kunder, kommenterar Peter Järnvall, logistikchef på Packoplock Scandinavia.
+- 2026-10-27 12:55 | Halloween lyfter dystra hösthandeln | https://dagenslogistik.se/halloween-lyfter-dystra-hosthandeln/
+  Halloween tar allt större plats i den svenska handeln, och i år väntas svenskarna handla för omkring 1,2 miljarder kronor. Det visar ny statistik från Svensk Handel. Samtidigt oroar sig svenska handelsbolag för lönsamheten.
+- 2026-10-27 10:00 | Stena köper norskt rederi | https://dagenslogistik.se/stena-koper-norskt-rederi/
+  Ett nytt avtal innebär att Stena AB-koncernen köper norska rederiet Color Line. Säljare är den norske industribyggaren Olav Nils Sunde med familj. – Detta är en verklig milstolpe i Stena Lines historia där vi nu ytterligare stärker våra möjligheter att vara en pålitlig länk mellan platser, människor och samhällen, kommenterar Niclas Mårtensson, vd för Stena Line.
+- 2026-10-27 08:19 | eQ köper Genesta – bygger nordisk fastighetsplattform | https://dagenslogistik.se/eq-koper-genesta-bygger-nordisk-fastighetsplattform/
+  Finska kaptalförvaltaren eQ förvärvar Genesta Property Nordic, som förvaltar fastighetsfonder i Norden. Affären värderas till högst 15,5 miljoner euro och ska ge eQ en bredare internationell kundbas med verksamhet i Sverige, Norge och Danmark.
+- 2026-10-27 07:39 | Dahl etablerar nytt lager i Enköping | https://dagenslogistik.se/dahl-etablerar-nytt-lager-i-enkoping/
+  VVS-grossisten Dahl stärker sitt logistiknätverk med ett nytt lager i Enköping på 25 000 kvm. Den nya anläggningen ska komplettera centrallagret i Bålsta som invigdes förra året.
+- 2026-10-27 06:58 | Bring laddar för julen | https://dagenslogistik.se/bring-laddar-for-julen/
+  Paketens allra största högtid sätter leverantörerna på prov. - Nu börjar den absolut roligaste perioden på hela året. Det är nu alla förberedelser ska omsättas i praktiken, kommenterar Hanna Jonasson, Director of Operations på Bring.
 - 2026-10-26 12:32 | Hallands Hamnar tecknar Nato-avtal | https://dagenslogistik.se/hallands-hamnar-tecknar-nato-avtal/
   Hallands Hamnar har tecknat ett nytt avtal med Försvarsmakten som innebär att Halmstads hamn blir den första i Sverige att erbjuda värdlandsstöd till Nato. Hamnen blir en del av ett större nätverk av logistiknoder för militär mobilitet.
 - 2026-10-26 09:30 | Ny terminal ska hantera svenska paketflödet | https://dagenslogistik.se/ny-terminal-ska-hantera-svenska-paketflodet/
   Logistikföretaget Brings paketflöden från Sverige till Norge har ökat kraftigt sedan före pandemin. Den nyinvigda terminalen i norska Moss ska ta emot paketen och blir samtidigt Brings största sett till sorteringskapacitet
-- 2026-10-26 09:00 | Bred ökning i Trelleborgs hamn | https://dagenslogistik.se/bred-okning-i-trelleborgs-hamn/
-  När Trelleborgs Hamn summerar årets första nio månader kan de konstatera att volymerna har ökat i samtliga trafiksegment jämfört med förra året. Den starkaste ökningen står järnvägstrafiken för.
-- 2026-10-26 08:17 | Ökat intresse för transportutbildningarna | https://dagenslogistik.se/okat-intresse-for-transportutbildningarna/
-  Allt fler söker sig till gymnasiets transportutbildningar. Intresset verkar ha ökat särskilt bland tjejer – antalet antagna tjejer till årskurs ett ökade med 17 procent jämfört med i fjol. – Det är fantastiskt roligt att allt fler tjejer väljer fordons- och transportprogrammet, och ett mycket positivt besked för en bransch som behöver rekrytera från hela befolkningen kommenterar Caj Luoma, chef…
-- 2026-10-26 07:44 | Volvo Cars kapar 2 000 tjänster i Sverige | https://dagenslogistik.se/volvo-cars-kapar-2-000-tjanster-i-sverige/
-  Volvo Cars har haft det motigt på flera viktiga marknader. Företaget behöver därför spara in flera miljarder. Det ska ske genom nedskärningar – 2 500 tjänster ska bort. 2 000 av dem finns i Sverige.
-- 2026-10-23 13:47 | ÅLE Finalist 3: Nya höjder för fryslagret i Flen | https://dagenslogistik.se/ale-finalist-3-nya-hojder-for-fryslagret-i-flen/
-  Newcold investerar omkring en miljard kronor i ett nytt fryslager på 16 500 kvm i Flen. Med ett 41 meter högt automatiserat höglager, avancerad energiteknik och en speciallösning för brandskydd ska anläggningen möta dagligvaruhandelns växande behov av effektiv och hållbar fryslagerlogistik.
-- 2026-10-23 13:26 | ÅLE Finalist 2: Tar vårdlogistiken i hamn | https://dagenslogistik.se/ale-finalist-2-tar-vardlogistiken-i-hamn/
-  Med ett nytt distributionscenter på 45 000 kvadratmeter samlar Onemed sin Göteborgslogistik i Halvorsäng. Automationsgraden ska fördubblas och pallkapaciteten öka med omkring 50 procent. Med dubbel redundans, lokal elproduktion och satsningar på arbetsmiljön byggs anläggningen för att stärka vårdens försörjningsberedskap.
-- 2026-10-23 12:52 | ÅLE Finalist 1: Truckfabrik blir logistiknav i Mölnlycke | https://dagenslogistik.se/ale-finalist-1-truckfabrik-blir-logistiknav-i-molnlycke/
-  Rexel samlar sin tidigare splittrade lagerverksamhet i ett nytt logistiknav på närmare 20 000 kvm i bästa läge. Med en ny Autostore-anläggning ökar kapaciteten med 30 procent, samtidigt som lager, butik, kontor och försäljning samlas under samma tak. Satsningen görs på den tidigare truckfabrikens tomt i Mölnlycke, där Panattoni utvecklat en ny logistikfastighet med stort fokus på återbruk och…
-- 2026-10-23 09:00 | Winäs bygger nytt centrallager för Voky | https://dagenslogistik.se/winas-bygger-nytt-centrallager-for-voky/
-  Fastighetsbolaget Winäs, tidigare Atlas Industrihus, ska bygga en ny logistikanläggning på 10 700 kvm för Voky i Linköping som kommer agera både centrallager och huvudkontor. Anläggningen automatiseras också med bl a en Autostore-lösning.
-- 2026-10-23 07:30 | Sjöfarten står inför fler hot än någonsin | https://dagenslogistik.se/sjofarten-star-infor-fler-hot-an-nagonsin/
-  Krig, handelskonflikter, GPS-störningar och en växande skuggflotta gör sjöfartens omvärld svårare att förutse. Samtidigt ska klimatomställningen fortsätta, men under osäkra globala spelregler. Det visar Lighthouse omvärldsanalys 2026.
 
 ## Dagens Infrastruktur
 (failed: HTTPError: 403 Client Error: Forbidden for url: https://dagensinfrastruktur.se/)
@@ -429,10 +416,10 @@
 ## MT Logistikk
 - no date | Moderne Transportprisen til Jan Endre Vartdal og Marius Husabø Monsen | https://www.mtlogistikk.no/moderne-transport-prisen-mowi-sjomatlogistikk/moderne-transportprisen-til-jan-endre-vartdal-og-marius-husabo-monsen/1339339
 - no date | ANNONSØRINNHOLD FOR FABRITIUS Valget som reduserer kostnader og gir vekstmuligheter | https://www.mtlogistikk.no/eiendom-fabritius-lager/valget-som-reduserer-kostnader-og-gir-vekstmuligheter/1348736
+- no date | Kai - en digital driftsleder | https://www.mtlogistikk.no/flatestyring-future-driver-kai/kai-en-digital-driftsleder/1349342
+- no date | Flytter lageret - kutter 80 ansatte | https://www.mtlogistikk.no/distribusjonssenter-goeteborg-lagerautomatisering/flytter-lageret-kutter-80-ansatte/1347196
 - no date | Posten Bring åpner sin største pakketerminal | https://www.mtlogistikk.no/moss-netthandel-posten-bring/posten-bring-apner-sin-storste-pakketerminal/1347775
-- no date | Åpner ubemannet pakkesentral med 400 rom i Bergen | https://www.mtlogistikk.no/bergen-instabee-instabox/apner-ubemannet-pakkesentral-med-400-rom-i-bergen/1346113
-- no date | 68 tonn utslippsfri hybrid | https://www.mtlogistikk.no/batterielektrisk-elektrisk-lastebil-hybrid-lastebil/68-tonn-utslippsfri-hybrid/1346775
-- no date | ANNONSØRINNHOLD FOR AREOL Lur lagerløsning ga gründer full kontroll | https://www.mtlogistikk.no/areol-areol-innredninger-as-lager/lur-lagerlosning-ga-gruender-full-kontroll/1347151
+- no date | Sikret seg 280 mål til logistikk, industri og havn i Lyngdal | https://www.mtlogistikk.no/hausvik-naeringsomrade-logistikkhavn-lyngdal-kommune/sikret-seg-280-mal-til-logistikk-industri-og-havn-i-lyngdal/1347107
 - no date | Valget som reduserer kostnader og gir vekstmuligheter | https://cm.mtlogistikk.no/eiendom-fabritius-lager/valget-som-reduserer-kostnader-og-gir-vekstmuligheter/1348736
 - no date | Slik sikrer de kritisk vareflyt mellom Norge og Europa | https://cm.mtlogistikk.no/color-fantasy-color-line-cargo-color-magic/slik-sikrer-de-kritisk-vareflyt-mellom-norge-og-europa/1344101
 - no date | Lur lagerløsning ga gründer full kontroll | https://cm.mtlogistikk.no/areol-areol-innredninger-as-lager/lur-lagerlosning-ga-gruender-full-kontroll/1347151
@@ -440,24 +427,26 @@
 - no date | Siste sjanse - 220 mål i Vestby klart for utvikling | https://cm.mtlogistikk.no/bulk-industrial-real-estate-naeringseiendom-vestby/siste-sjanse-220-mal-i-vestby-klart-for-utvikling/1287930
 - no date | Lokal arbeidsplass - global rekkevidde | https://cm.mtlogistikk.no/laks-ledig-stilling-logistikk/lokal-arbeidsplass-global-rekkevidde/1287340
 - no date | MEST MULIG UT AV HVER KUBIKKMETER | https://cm.mtlogistikk.no/mest-mulig-ut-av-hver-kubikkmeter/1308560
+- no date | Electrified starter testingen | https://www.mtlogistikk.no/electrified-elektrisk-lastebil-ervik-group/electrified-starter-testingen/1349893
+- no date | Hver tredje nye går på el eller gass | https://www.mtlogistikk.no/elektrisk-lastebil-gasslastebiler-gronn-omstilling/hver-tredje-nye-gar-pa-el-eller-gass/1349674
+- no date | Interessen for elektriske lastebiler er rekordhøy | https://www.mtlogistikk.no/elektrisk-lastebil-enova/interessen-for-elektriske-lastebiler-er-rekordhoy/1349640
+- no date | - Full seier for Nilsen-familien | https://www.mtlogistikk.no/konkurs-oppkjop-so-vetrhus/full-seier-for-nilsen-familien/1349608
+- no date | Kai - en digital driftsleder | https://www.mtlogistikk.no/flatestyring-future-driver-kai/kai-en-digital-driftsleder/1348966
 - no date | Vetrhus dømt i Sørum Transport-saken | https://www.mtlogistikk.no/konkurs-so-vetrhus-sorum-transport-as/vetrhus-domt-i-sorum-transport-saken/1349219
 - no date | Moderne Transportprisen til Jan Endre Vartdal og Marius Husabø Monsen | https://www.mtlogistikk.no/avrenning-moderne-transport-prisen-mowi/moderne-transportprisen-til-jan-endre-vartdal-og-marius-husabo-monsen/1349160
 - no date | Årets unge talent vil gjøre transporthverdagen smartere | https://www.mtlogistikk.no/moss-transportforum-thomas-bogle-arets-unge-talent/arets-unge-talent-vil-gjore-transporthverdagen-smartere/1349078
 - no date | Juell går av i DHL – nestleder tar over i NHOLT | https://www.mtlogistikk.no/dhl-global-forwarding-mona-juell-nytt-om-navn/juell-gar-av-i-dhl-nestleder-tar-over-i-nholt/1349060
-- no date | Samferdselsministeren åpnet Transport & Logistikk på Gardermoen | https://www.mtlogistikk.no/kamzy-gunaratnam-nasjonal-transportplan-nho-logistikk-og-transport/samferdselsministeren-apnet-transport-logistikk-pa-gardermoen/1348519
-- no date | Logistikkstudiet vokser kraftig – nå utvider Kristiania til Bergen | https://www.mtlogistikk.no/bergen-hoyskolen-kristiania-logistikkutdanning/logistikkstudiet-vokser-kraftig-na-utvider-kristiania-til-bergen/1345657
-- no date | Oppdaget at «alt» er logistikk | https://www.mtlogistikk.no/hogskolen-i-molde-logistikkstudenter-logistikkutdanning/oppdaget-at-alt-er-logistikk/1335294
-- no date | Helgebrief uke 43: Vi har sjekket konkurrenten din | https://www.mtlogistikk.no/helgebrief-kronikk-ukerapport/helgebrief-uke-43-vi-har-sjekket-konkurrenten-din/1347835
-- no date | Moss blir Postens nye importport | https://www.mtlogistikk.no/moss-posten-bring-vanem/moss-blir-postens-nye-importport/1347514
 - no date | Vareeierundersøkelsen 2026 er nå tilgjengelig - last ned rapporten her | https://www.mtlogistikk.no/forsyningskjeder-logistikk-norske-vareeiere/vareeierundersokelsen-2026-er-na-tilgjengelig/1271402
 - no date | Få oversikt over alle logistikk-arrangement: Eventkalender logistikk 2026 | https://www.mtlogistikk.no/arangementer-konferanse-logistikk-25/eventkalender-logistikk-2025/1013111
 - no date | ANNONSØRINNHOLD FOR COLOR LINE CARGO Slik sikrer de kritisk vareflyt mellom Norge og Europa | https://www.mtlogistikk.no/color-fantasy-color-line-cargo-color-magic/slik-sikrer-de-kritisk-vareflyt-mellom-norge-og-europa/1344101
-- no date | Flytter lageret - kutter 80 ansatte | https://www.mtlogistikk.no/distribusjonssenter-goeteborg-lagerautomatisering/flytter-lageret-kutter-80-ansatte/1347196
-- no date | Sikret seg 280 mål til logistikk, industri og havn i Lyngdal | https://www.mtlogistikk.no/hausvik-naeringsomrade-logistikkhavn-lyngdal-kommune/sikret-seg-280-mal-til-logistikk-industri-og-havn-i-lyngdal/1347107
+- no date | Interessen for elektriske lastebiler er rekordhøy | https://www.mtlogistikk.no/elektrisk-lastebil-enova/interessen-for-elektriske-lastebiler-er-rekordhoy/1349851
+- no date | Hver tredje nye går på el eller gass | https://www.mtlogistikk.no/elektrisk-lastebil-gasslastebiler-lastebil/hver-tredje-nye-gar-pa-el-eller-gass/1349834
 - no date | CargoNet øker kapasiteten på tre bane­strekninger | https://www.mtlogistikk.no/bergensbanen-cargonet-dovrebanen/cargonet-oker-kapasiteten-pa-tre-banestrekninger/1344434
+- no date | 68 tonn utslippsfri hybrid | https://www.mtlogistikk.no/batterielektrisk-elektrisk-lastebil-hybrid-lastebil/68-tonn-utslippsfri-hybrid/1346775
 - no date | Bodø-terminalen nærmer seg overtakelse | https://www.mtlogistikk.no/bodo-bodo-havn-intermodal/bodo-terminalen-naermer-seg-overtakelse/1341807
 - no date | Fremskutte lagre styrker forsynings­sikkerheten | https://www.mtlogistikk.no/finnmark-forsvaret-forsvarsbygg/fremskutte-lagre-styrker-forsyningssikkerheten/1345443
 - no date | Har startet serieproduksjonen | https://www.mtlogistikk.no/elektrisk-lastebil-tesla-semi/har-startet-serieproduksjonen/1346751
+- no date | Åpner ubemannet pakkesentral med 400 rom i Bergen | https://www.mtlogistikk.no/bergen-instabee-instabox/apner-ubemannet-pakkesentral-med-400-rom-i-bergen/1346113
 - no date | Kapasitetsløft har gitt volumvekst | https://www.mtlogistikk.no/cldn-gothenburg-roro-terminal-goeteborgs-hamn/kapasitetsloft-har-gitt-volumvekst/1344583
 - no date | Norsk sensorteknologi skal sikre uavbrutt palletering i krevende industrimiljøer | https://www.mtlogistikk.no/berobox-palletering-robotsikkerhet/norsk-sensorteknologi-skal-sikre-uavbrutt-palletering-i-krevende-industrimiljoer/1344306
 - no date | Sikrer avisdistribusjon med ny anbudsrunde | https://www.mtlogistikk.no/aktiv-norgesdistribusjon-avisdistribusjon-offentlige-anskaffelser/sikrer-avisdistribusjon-med-ny-anbudsrunde/1343595
@@ -465,10 +454,18 @@
 - no date | Nederland-fergen tar et nytt steg – men skipet er fortsatt ukjent | https://www.mtlogistikk.no/ferge-kristiansand-kristiansand-havn/nederland-fergen-tar-et-nytt-steg-men-skipet-er-fortsatt-ukjent/1342651
 - no date | Åpner stort ladeanlegg for konkurrenter | https://www.mtlogistikk.no/asko-vest-bergen-elektriske-lastebiler/apner-stort-ladeanlegg-for-konkurrenter/1342732
 - no date | Automatisering løser tollfloken for flybåren netthandel | https://www.mtlogistikk.no/descartes-flytransport-ics2/automatisering-loser-tollfloken-for-flybaren-netthandel/1342621
-- no date | Fant en løsning på el-lastebilens utfordring | https://www.mtlogistikk.no/iaa-iaa-2026-koegel/fant-en-losning-pa-el-lastebilens-utfordring/1342595
-- no date | Mobil drone­sentral i varebil | https://www.mtlogistikk.no/bott-drone-iaa-2026/mobil-dronesentral-i-varebil/1342571
 
 ## Transportmagasinet
+- 2026-10-28 08:43 | Scania løfter indtjeningen: Ordrer på el-lastbiler firedoblet | https://www.transportmagasinet.dk/article/view/1253506/scania_lofter_indtjeningen_ordrer_pa_ellastbiler_firedoblet?ref=rss
+- 2026-10-28 07:39 | 75 år gammelt vognmandsfirma i fremgang: Men næste generation står ikke klar | https://www.transportmagasinet.dk/article/view/1253457/75_ar_gammelt_vognmandsfirma_i_fremgang_men_naeste_generation_star_ikke_klar?ref=rss
+- 2026-10-28 07:14 | DFDS sagde nej: Nu er middelshavsrute solgt til anden side | https://www.transportmagasinet.dk/article/view/1253442/dfds_sagde_nej_nu_er_middelshavsrute_solgt_til_anden_side?ref=rss
+- 2026-10-28 04:01 | Fynsk vognmand opkøber jysk speditør efter hårdt forår: - Vi blev nødt til at gøre et eller andet | https://www.transportmagasinet.dk/article/view/1252838/fynsk_vognmand_opkober_jysk_speditor_efter_hardt_forar_vi_blev_nodt_til_at_gore_et_eller_andet?ref=rss
+- 2026-10-27 14:53 | Europæiske transportorganisationer gør fælles front: Kæmper for de lange vogntog | https://www.transportmagasinet.dk/article/view/1253404/europaeiske_transportorganisationer_gor_faelles_front_kaemper_for_de_lange_vogntog?ref=rss
+- 2026-10-27 10:30 | Logistikbranchen jagter unge talenter: Mere end 400 fik en smagsprøve | https://www.transportmagasinet.dk/article/view/1253274/logistikbranchen_jagter_unge_talenter_mere_end_400_fik_en_smagsprove?ref=rss
+- 2026-10-27 10:24 | Hård konkurrence bremser ikke pakkegigant: Opjusterer efter tredje kvartal | https://www.transportmagasinet.dk/article/view/1253308/hard_konkurrence_bremser_ikke_pakkegigant_opjusterer_efter_tredje_kvartal?ref=rss
+- 2026-10-27 09:09 | Leman henter ny topchef hos Blue Water Shipping | https://www.transportmagasinet.dk/article/view/1253267/leman_henter_ny_topchef_hos_blue_water_shipping?ref=rss
+- 2026-10-27 08:02 | Her er den nye transportminister | https://www.transportmagasinet.dk/article/view/1253226/her_er_den_nye_transportminister?ref=rss
+- 2026-10-27 06:56 | Transportminister Signe Munk udtræder af regeringen på grund af stress: Afløser udpeget | https://www.transportmagasinet.dk/article/view/1253194/transportminister_signe_munk_udtraeder_af_regeringen_pa_grund_af_stress_afloser_udpeget?ref=rss
 - 2026-10-27 04:40 | Han ville bare ud at opleve verden – men endte med at bygge en milliardforretning | https://www.transportmagasinet.dk/article/view/1253160/han_ville_bare_ud_at_opleve_verden_men_endte_med_at_bygge_en_milliardforretning?ref=rss
 - 2026-10-26 11:56 | Domstol sætter tal på lastbilkartellet: Så meget betalte vognmænd for meget | https://www.transportmagasinet.dk/article/view/1253097/domstol_saetter_tal_pa_lastbilkartellet_sa_meget_betalte_vognmaend_for_meget?ref=rss
 - 2026-10-26 08:50 | Efter omfattende blokader: Italien afsætter 785 mio. kr. til pressede vognmænd | https://www.transportmagasinet.dk/article/view/1252972/efter_omfattende_blokader_italien_afsaetter_785_mio_kr_til_pressede_vognmaend?ref=rss
@@ -484,16 +481,6 @@
 - 2026-10-23 10:29 | Freja-ejer markerer stor milepæl | https://www.transportmagasinet.dk/article/view/1252847/frejaejer_markerer_stor_milepael?ref=rss
 - 2026-10-23 09:50 | Lastbilordrer stiger markant: Volvo ser fortsat fremgang i Europa | https://www.transportmagasinet.dk/article/view/1252843/lastbilordrer_stiger_markant_volvo_ser_fortsat_fremgang_i_europa?ref=rss
 - 2026-10-23 03:08 | Topchef i værkstedskoncern ser ny tendens: Vognmænd vil have færre leverandører | https://www.transportmagasinet.dk/article/view/1252666/topchef_i_vaerkstedskoncern_ser_ny_tendens_vognmaend_vil_have_faerre_leverandorer?ref=rss
-- 2026-10-22 13:09 | FDL-ikon ser tilbage: - Vi var dem, de andre ikke ville lege med | https://www.transportmagasinet.dk/article/view/1252670/fdlikon_ser_tilbage_vi_var_dem_de_andre_ikke_ville_lege_med?ref=rss
-- 2026-10-22 13:07 | DSV tager stikket hjem: Lander største kursgevinst siden 2008 | https://www.transportmagasinet.dk/article/view/1252669/dsv_tager_stikket_hjem_lander_storste_kursgevinst_siden_2008?ref=rss
-- 2026-10-22 08:36 | 125 år som vognmænd: Tre biler er bedre end 14 | https://www.transportmagasinet.dk/article/view/1252543/125_ar_som_vognmaend_tre_biler_er_bedre_end_14?ref=rss
-- 2026-10-22 08:31 | Ugens førerskift: NTG-selskab og Blue Log-partner skifter ud i toppen | https://www.transportmagasinet.dk/article/view/1252404/ugens_forerskiftntgselskab_og_blue_logpartner_skifter_ud_i_toppen?ref=rss
-- 2026-10-22 05:35 | DSV-rival vokser markant i vejtransport | https://www.transportmagasinet.dk/article/view/1252430/dsvrivalvokser_markant_i_vejtransport?ref=rss
-- 2026-10-22 03:21 | Analyse: Transportgiganterne kæmper om vejgodset – men én konkurrent skiller sig ud før nyt regnskab | https://www.transportmagasinet.dk/article/view/1252401/analyse_transportgiganterne_kaemper_om_vejgodset_men_en_konkurrent_skiller_sig_ud_for_nyt_regnskab?ref=rss
-- 2026-10-21 15:50 | DSV mistede især de mindre kunder: Nu skal godset vindes tilbage | https://www.transportmagasinet.dk/article/view/1252387/dsv_mistede_isaer_de_mindre_kunder_nu_skal_godset_vindes_tilbage?ref=rss
-- 2026-10-21 11:27 | Afviser billigere diesel: Vognmænd advarer om konsekvenserne | https://www.transportmagasinet.dk/article/view/1252351/afviser_billigere_diesel_vognmaend_advarer_om_konsekvenserne?ref=rss
-- 2026-10-21 08:46 | Flere hundrede elprojekter får svar om nettilslutning i november | https://www.transportmagasinet.dk/article/view/1252282/flere_hundrede_elprojekter_far_svar_om_nettilslutning_i_november?ref=rss
-- 2026-10-21 08:35 | Fra millionoverskud til røde tal: Nu spår Blue Log-partnerselskab markant vending | https://www.transportmagasinet.dk/article/view/1252261/fra_millionoverskud_til_rode_tal_nu_spar_blue_logpartnerselskab_markant_vending?ref=rss
 
 ## Talking Logistics
 - 2026-10-26 11:01 | Descartes: From the Dot-Com Era to the AI Era | https://talkinglogistics.com/2026/10/26/descartes-from-the-dot-com-era-to-the-ai-era/
@@ -506,6 +493,16 @@
   Supply chain planning has evolved technologically, but its underlying processes remain rooted in historic practices that no longer fit today’s volatile, complex environment. Packaged applications promise faster, lower-cost, lower-risk business outcomes, yet extensive customization, fragmented data, and rigid workflows often undermine that promise. Cloud data and AI platforms like Databricks and…
 
 ## SAP News
+- 2026-10-28 08:00 | SAP and NTT to Cooperate on Delivering Trusted Sovereign Cloud and SAP Business AI Capabilities | https://news.sap.com/2026/10/sap-ntt-to-cooperate-deliver-trusted-sovereign-cloud-sap-business-ai-capabilities/
+  TOKYO — The companies share the ambition to advance secure, resilient and sovereign digital transformation for regulated industries.
+- 2026-10-27 08:02 | SAP Empowers AI Developers to Build What Matters and Turn Intent into Autonomous Execution | https://news.sap.com/2026/10/sap-teched-ai-developers-build-what-matters-autonomous-execution/
+  BERLIN — SAP SE (NYSE: SAP) today announced a series of AI innovations at its annual SAP TechEd conference that expands its portfolio for developers.
+- 2026-10-27 08:01 | Innovation News Guide: The Autonomous Enterprise Becomes a Reality | https://www.sap.com/topics/events/teched/innovation-news-guide-2026#new_tab
+  Developers are being equipped to build, connect and govern enterprise AI, from intent to trusted execution.
+- 2026-10-27 08:00 | From Orbit to Enterprise: The Next Tabular AI Frontier for SAP and HPE | https://news.sap.com/2026/10/sap-hpe-orbit-to-enterprise-next-tabular-ai-frontier/
+  Tabular AI on SAP works at the edge of possibility.
+- 2026-10-27 07:59 | SAP Unveils Physical AI and Extends the Autonomous Enterprise into the Real World | https://news.sap.com/2026/10/sap-unveils-physical-ai-extends-autonomous-enterprise-real-world-sap-teched/
+  AI has gone from insight to action. With physical AI, it comes into the physical world.
 - 2026-10-26 20:50 | AI Release Highlights Q3 2026 | https://news.sap.com/2026/10/ai-release-highlights-q3-2026/
   The quarter marks a major step in delivering on our promise of the Autonomous Enterprise.
 - 2026-10-23 11:15 | For the 12th Time, SAP Named a Leader in Gartner® Magic Quadrant™ for Digital Commerce Platforms | https://news.sap.com/2026/10/sap-a-leader-in-gartner-magic-quadrant-digital-commerce-platform-12th-time/
@@ -522,10 +519,6 @@
   CRM value is created at the intersection of pipeline intelligence and ERP reality.
 - 2026-10-20 10:15 | Back to the Future: 30 Years of SAP TechEd | https://news.sap.com/2026/10/back-to-the-future-30-years-of-sap-teched/
   For three decades, the event has continually found new ways to bring the SAP community together.
-- 2026-10-19 12:15 | SAP Recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Finance | https://news.sap.com/2026/10/sap-recognized-leader-gartner-magic-quadrant-cloud-erp-finance/
-  As the role of finance continues to evolve, we remain focused on helping customers simplify core processes while creating the foundation for new capabilities in automation and AI.
-- 2026-10-19 11:15 | The Gap That No LLM Can Close | https://news.sap.com/2026/10/gap-no-llm-can-close/
-  In the next wave of generative AI, it's crucial to combine LLMs and tabular foundation models where they provide the greatest benefit.
 
 ## Gartner Newsroom
 (failed: HTTPError: 403 Client Error: Forbidden for url: https://www.gartner.com/en/newsroom)
