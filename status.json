@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-10-28T08:57:38.081866+00:00",
+ "fetched_at": "2026-10-28T22:22:26.064985+00:00",
  "window_days": 8,
- "sources_ok": 17,
- "sources_total": 22,
+ "sources_ok": 26,
+ "sources_total": 31,
  "sources": [
   {
    "source": "Supply Chain Dive",
@@ -25,7 +25,7 @@
    "url": "https://www.scmr.com/",
    "ok": true,
    "method": "feed https://feeds.feedburner.com/scmr/latest",
-   "items": 14,
+   "items": 13,
    "error": null
   },
   {
@@ -73,7 +73,7 @@
    "url": "https://www.dcvelocity.com/",
    "ok": true,
    "method": "feed https://www.dcvelocity.com/feeds/feed.rss",
-   "items": 25,
+   "items": 24,
    "error": null
   },
   {
@@ -133,11 +133,75 @@
    "error": null
   },
   {
-   "source": "Transportmagasinet",
-   "url": "https://transportmagasinet.dk/",
+   "source": "SCM.dk",
+   "url": "https://scm.dk/feeds/articles",
    "ok": true,
-   "method": "feed https://www.transportmagasinet.dk/xml/rss2/articles",
-   "items": 25,
+   "method": "feed https://scm.dk/feeds/articles",
+   "items": 38,
+   "error": null
+  },
+  {
+   "source": "SC Effect",
+   "url": "https://www.sceffect.se/en/category/nyheter/",
+   "ok": true,
+   "method": "feed https://sceffect.se/en/feed/",
+   "items": 10,
+   "error": null
+  },
+  {
+   "source": "Osto&Logistiikka",
+   "url": "https://www.ostologistiikka.fi/",
+   "ok": true,
+   "method": "page links (no feed found, no dates)",
+   "items": 7,
+   "error": null
+  },
+  {
+   "source": "BME",
+   "url": "https://www.bme.de/news/",
+   "ok": true,
+   "method": "page links (no feed found, no dates)",
+   "items": 24,
+   "error": null
+  },
+  {
+   "source": "Logistics Viewpoints",
+   "url": "https://logisticsviewpoints.com/",
+   "ok": true,
+   "method": "feed https://logisticsviewpoints.com/feed/",
+   "items": 10,
+   "error": null
+  },
+  {
+   "source": "NVIDIA Technical Blog (optimisation)",
+   "url": "https://developer.nvidia.com/blog/feed/",
+   "ok": true,
+   "method": "feed https://developer.nvidia.com/blog/feed/",
+   "items": 2,
+   "error": null
+  },
+  {
+   "source": "Sea-Intelligence",
+   "url": "https://www.sea-intelligence.com/press-room",
+   "ok": true,
+   "method": "feed https://www.sea-intelligence.com/press-room?format=feed&type=rss",
+   "items": 2,
+   "error": null
+  },
+  {
+   "source": "Xeneta",
+   "url": "https://www.xeneta.com/press",
+   "ok": true,
+   "method": "page links (no feed found, no dates)",
+   "items": 16,
+   "error": null
+  },
+  {
+   "source": "Eurostat euro indicators",
+   "url": "https://ec.europa.eu/eurostat/news/euro-indicators",
+   "ok": true,
+   "method": "page links (no feed found, no dates)",
+   "items": 21,
    "error": null
   },
   {
@@ -161,7 +225,7 @@
    "url": "https://news.sap.com/",
    "ok": true,
    "method": "feed https://news.sap.com/feed/",
-   "items": 13,
+   "items": 12,
    "error": null
   },
   {
@@ -179,6 +243,14 @@
    "method": null,
    "items": 0,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.ascm.org/"
+  },
+  {
+   "source": "Rhine gauges (Pegelonline)",
+   "url": "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json?waters=RHEIN&includeTimeseries=true&includeCurrentMeasurement=true",
+   "ok": true,
+   "method": "json api",
+   "items": 5,
+   "error": null
   }
  ]
 }
