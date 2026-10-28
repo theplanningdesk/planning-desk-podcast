@@ -1,0 +1,294 @@
+{
+  "show": "The Planning Desk",
+  "format": "daily",
+  "episode_title": "Audi Builds Past the Tariff",
+  "week": "2026-W44",
+  "run_date": "2026-10-28",
+  "brief_file": "news-brief-daily-2026-10-28.md",
+  "target_runtime_sec": 291,
+  "word_count": 843,
+  "hosts": {
+    "F": {
+      "name": "Anna"
+    },
+    "M": {
+      "name": "Erik"
+    }
+  },
+  "segments": [
+    {
+      "id": "intro_music",
+      "type": "music",
+      "duration_sec": 5
+    },
+    {
+      "id": "cold_open",
+      "type": "speech",
+      "items": [
+        "2026-10-28-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Audi is putting four billion dollars into its first American factory, and one reason is a fifteen percent tariff on European cars."
+        },
+        {
+          "speaker": "M",
+          "text": "A German carmaker answering a tariff with concrete instead of price lists. This is The Planning Desk."
+        }
+      ]
+    },
+    {
+      "id": "welcome",
+      "type": "speech",
+      "items": [
+        "2026-10-28-01",
+        "2026-10-28-02",
+        "2026-10-28-03",
+        "2026-10-28-04",
+        "2026-10-28-05"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Good morning, it's Wednesday the twenty-eighth of October, and I'm Anna."
+        },
+        {
+          "speaker": "M",
+          "text": "And I'm Erik."
+        },
+        {
+          "speaker": "F",
+          "text": "Quick note, this show is made with A I. A I agents gather the news, and our voices are synthetic."
+        },
+        {
+          "speaker": "M",
+          "text": "Today, Audi's plant in Georgia, logistics bosses who say A I is moving too slowly, Kroger's shelf data, a new warehouse in Enköping and German insolvencies that won't come down."
+        }
+      ]
+    },
+    {
+      "id": "top_story",
+      "type": "speech",
+      "items": [
+        "2026-10-28-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Audi will build its first plant in the United States, on the Middle Georgia Mega Site in Peach County, near Macon. The investment is four billion dollars."
+        },
+        {
+          "speaker": "M",
+          "text": "Capacity is up to two hundred thousand vehicles a year, with about four thousand five hundred jobs, and construction starts in twenty twenty-seven."
+        },
+        {
+          "speaker": "F",
+          "text": "The first American-built Audis, premium S U Vs for North America, are due in the early twenty-thirties. This is a long play, not a quick fix."
+        },
+        {
+          "speaker": "M",
+          "text": "Audi says the plant cuts its exposure to trade and currency risk, and that includes the fifteen percent tariff on European car imports."
+        },
+        {
+          "speaker": "F",
+          "text": "It also makes North America a third production pillar next to Europe and China, with Germany staying the industrial core, according to the company."
+        },
+        {
+          "speaker": "M",
+          "text": "Germany staying the core is the line for home. The signal that matters goes to suppliers, because Audi is answering a tariff with footprint instead of pricing."
+        },
+        {
+          "speaker": "F",
+          "text": "If you supply Audi from Europe, expect part of your North American volume to move to local sourcing within the decade, and start mapping which parts that could be."
+        },
+        {
+          "speaker": "M",
+          "text": "Network designers get a clean case too, one tariff, one site, and a construction start date to plan against."
+        }
+      ]
+    },
+    {
+      "id": "briefing",
+      "type": "speech",
+      "items": [
+        "2026-10-28-02",
+        "2026-10-28-03",
+        "2026-10-28-04",
+        "2026-10-28-05"
+      ],
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "Over to the A I desk. Consultancy Horváth asked transport and logistics board members and managing directors in thirty-two countries how fast A I is arriving, and eighty percent say too slowly."
+        },
+        {
+          "speaker": "F",
+          "text": "Too slow where?"
+        },
+        {
+          "speaker": "M",
+          "text": "Planning, dispatching and customer service are the examples in the study. And eighty-four percent expect A I to become a central source of competitive advantage."
+        },
+        {
+          "speaker": "F",
+          "text": "A I and digital transformation climbed to the second priority this year, up from fourth in twenty twenty-five. Ninety-four percent also expect strong pressure on margins."
+        },
+        {
+          "speaker": "M",
+          "text": "Here's the line I'd circle. Ninety percent say customers now care more about reliability and punctuality than about top speed."
+        },
+        {
+          "speaker": "F",
+          "text": "And every single respondent expects more cyberattacks on transport and logistics networks."
+        },
+        {
+          "speaker": "M",
+          "text": "For shippers, your carriers are about to push harder on A I in planning and dispatch. Expect their data feeds and booking interfaces to change, and ask now how those will connect to your own plans."
+        },
+        {
+          "speaker": "F",
+          "text": "From carriers to the grocery shelf. Kroger told investors on the twentieth of October that it shares computer-vision shelf data with supplier partners to improve on-shelf availability."
+        },
+        {
+          "speaker": "M",
+          "text": "It also runs an A I tool that joins twenty data pipelines into views of sales, inventory and sell-through for each item in each store, so risks show up earlier."
+        },
+        {
+          "speaker": "F",
+          "text": "Then there's radio frequency identification, R F I D, in the bakery. A pilot across about fifteen hundred stores reports ninety-eight percent read rates, counts almost seventy percent faster and half the waste."
+        },
+        {
+          "speaker": "M",
+          "text": "Kroger plans R F I D in more than twenty-three hundred stores by twenty twenty-nine."
+        },
+        {
+          "speaker": "F",
+          "text": "For demand planners at those suppliers, shelf-level data sits closer to the consumer than any order does. Be ready to put it into short-term forecasting."
+        },
+        {
+          "speaker": "M",
+          "text": "To Sweden, where plumbing and heating wholesaler Dahl Sverige, part of Saint-Gobain Distribution Sweden, has leased twenty-five thousand square metres of warehouse space in Enköping."
+        },
+        {
+          "speaker": "F",
+          "text": "It comes into use step by step in the first half of twenty twenty-seven, and works alongside the central warehouse in Bålsta, which opened last year to replace Kallhäll."
+        },
+        {
+          "speaker": "M",
+          "text": "Bålsta runs an automated high-bay pallet store and a shuttle for trays and cartons. Logistics director Jonathan Mankowitz says the extra space raises stock availability and adds flexibility."
+        },
+        {
+          "speaker": "F",
+          "text": "A year after automating the hub, Dahl is adding a second nearby site instead of stretching one building. Distributors in Mälardalen weighing capacity against risk should look at that two-node design."
+        },
+        {
+          "speaker": "M",
+          "text": "Last, a grim forecast from credit insurer Allianz Trade, which expects twenty-five thousand nine hundred company insolvencies in Germany this year, and the same again in twenty twenty-seven."
+        },
+        {
+          "speaker": "F",
+          "text": "That follows about twenty-four thousand in twenty twenty-five, and the first half of this year was up almost seven percent. A first decline, of five percent, only comes in twenty twenty-eight."
+        },
+        {
+          "speaker": "M",
+          "text": "Transport and logistics is among the hardest hit, next to construction, hospitality, automotive and machinery. Allianz Trade cites the Iran conflict, weak growth, skills shortages and high operating costs."
+        },
+        {
+          "speaker": "F",
+          "text": "It also flags knock-on risk from insolvencies abroad, along international supply chains."
+        },
+        {
+          "speaker": "M",
+          "text": "Two more years of this puts supplier and carrier financial health in the risk review for every German sourcing and transport lane, not just the critical ones."
+        }
+      ]
+    },
+    {
+      "id": "sign_off",
+      "type": "speech",
+      "items": [
+        "2026-10-28-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "That's the desk for Wednesday."
+        },
+        {
+          "speaker": "M",
+          "text": "Back tomorrow morning, and the full week in review is out on Sunday."
+        }
+      ]
+    },
+    {
+      "id": "outro_music",
+      "type": "music",
+      "duration_sec": 5
+    }
+  ],
+  "short": {
+    "title": "Audi's $4bn Georgia plant answers a 15% tariff",
+    "lines": [
+      {
+        "speaker": "F",
+        "text": "Audi is spending four billion dollars to build cars in Georgia."
+      },
+      {
+        "speaker": "M",
+        "text": "It's the German carmaker's first American plant, on the Middle Georgia Mega Site near Macon, with room for two hundred thousand vehicles a year."
+      },
+      {
+        "speaker": "F",
+        "text": "About four thousand five hundred jobs, construction from twenty twenty-seven, and the first premium S U Vs in the early twenty-thirties."
+      },
+      {
+        "speaker": "M",
+        "text": "Audi says the plant cuts its exposure to trade and currency risk, including the fifteen percent tariff on European car imports."
+      },
+      {
+        "speaker": "F",
+        "text": "For network designers that's a tariff answered with footprint instead of pricing. European suppliers should expect part of their North American volume to move to local sourcing within the decade."
+      },
+      {
+        "speaker": "M",
+        "text": "More every weekday on The Planning Desk podcast."
+      }
+    ],
+    "caption": "Audi will invest $4bn in its first US plant, near Macon, Georgia, with capacity for up to 200,000 vehicles a year, and says it cuts exposure to trade and currency risk, including the 15% tariff on European car imports. Full episode: The Planning Desk, every weekday on Apple Podcasts and Spotify. AI-generated: AI agents gather the news and the voices are synthetic.",
+    "hashtags": [
+      "supplychain",
+      "networkdesign",
+      "tariffs",
+      "automotive"
+    ]
+  },
+  "linkedin": {
+    "page_post": "Audi will invest $4bn in its first US plant, on the Middle Georgia Mega Site near Macon, with capacity for 200,000 vehicles a year. The company says it cuts exposure to trade and currency risk, including the 15% tariff on European cars. European suppliers should expect part of their North American volume to move to local sourcing.\n\nA Horváth study of logistics executives in 32 countries found 80% think the industry is adopting AI too slowly, in planning and dispatch among other areas. 90% say reliability now matters more to customers than speed.\n\nAllianz Trade expects German insolvencies to stay near 25,900 a year through 2027, with transport among the hardest hit.\n\nListen: The Planning Desk, every weekday on Apple Podcasts and Spotify.\n\n#supplychain #logistics #networkdesign"
+  },
+  "show_notes": {
+    "summary": "Audi commits four billion dollars to its first US plant in Georgia, citing the 15% EU car tariff. Also: a Horváth study on slow AI adoption in logistics, Kroger's shelf data and RFID, Dahl's new Enköping warehouse, and Allianz Trade's German insolvency forecast.",
+    "sources": [
+      {
+        "title": "Supply Chain Dive: Audi investing $4B to build its first US plant in Georgia",
+        "url": "https://www.supplychaindive.com/news/audi-investing-4b-to-build-its-first-us-plant-in-georgia/872866/"
+      },
+      {
+        "title": "VerkehrsRundschau: KI in der Logistik wird wichtiger, Cyberrisiken nehmen zu",
+        "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/ki-in-der-logistik-wird-wichtiger-cyberrisiken-nehmen-zu-3927532"
+      },
+      {
+        "title": "Supply Chain Dive: Kroger taps RFID, computer vision data to boost inventory management",
+        "url": "https://www.supplychaindive.com/news/kroger-taps-rfid-computer-vision-data-to-boost-inventory-management/872819/"
+      },
+      {
+        "title": "Dagens Logistik: Dahl etablerar nytt lager i Enköping",
+        "url": "https://dagenslogistik.se/dahl-etablerar-nytt-lager-i-enkoping/"
+      },
+      {
+        "title": "VerkehrsRundschau (dpa): Unternehmensinsolvenzen bleiben 2027 auf hohem Niveau",
+        "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/unternehmensinsolvenzen-bleiben-2027-auf-hohem-niveau-3927247"
+      }
+    ]
+  }
+}

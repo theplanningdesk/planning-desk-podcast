@@ -1,0 +1,140 @@
+{
+  "stem": "2026-10-28",
+  "format": "daily",
+  "short_cues": [
+    {
+      "line": 0,
+      "template": "stat",
+      "props": {
+        "kicker": "Audi",
+        "value": 4,
+        "prefix": "$",
+        "suffix": "bn",
+        "label": "for its first US plant",
+        "source": "Supply Chain Dive"
+      }
+    },
+    {
+      "line": 0,
+      "at": "Georgia",
+      "template": "route",
+      "props": {
+        "kicker": "Peach County, Georgia",
+        "title": "Middle Georgia Mega Site",
+        "points": [
+          {
+            "name": "Macon",
+            "lat": 32.84,
+            "lon": -83.63,
+            "muted": true
+          },
+          {
+            "name": "Peach County",
+            "lat": 32.57,
+            "lon": -83.83,
+            "alert": true
+          }
+        ],
+        "pad": 4
+      }
+    },
+    {
+      "line": 1,
+      "template": "headline",
+      "props": {
+        "kicker": "Audi",
+        "title": "First US plant, near Macon",
+        "detail": "Middle Georgia Mega Site, Peach County",
+        "source": "Supply Chain Dive"
+      }
+    },
+    {
+      "line": 1,
+      "at": "two hundred thousand",
+      "template": "stat",
+      "props": {
+        "kicker": "Capacity",
+        "value": 200000,
+        "label": "vehicles a year",
+        "source": "Audi via Supply Chain Dive"
+      }
+    },
+    {
+      "line": 2,
+      "template": "stat",
+      "props": {
+        "kicker": "Jobs",
+        "value": 4500,
+        "prefix": "about ",
+        "label": "jobs at the plant",
+        "source": "Supply Chain Dive"
+      }
+    },
+    {
+      "line": 2,
+      "at": "construction from",
+      "template": "list",
+      "props": {
+        "kicker": "Timeline",
+        "items": [
+          {
+            "label": "2027",
+            "detail": "Construction starts",
+            "say": "twenty twenty-seven"
+          },
+          {
+            "label": "Early 2030s",
+            "detail": "First US-built Audis",
+            "say": "early twenty-thirties"
+          }
+        ]
+      }
+    },
+    {
+      "line": 3,
+      "template": "headline",
+      "props": {
+        "kicker": "Why Georgia",
+        "title": "Less trade and currency risk",
+        "source": "Audi via Supply Chain Dive"
+      }
+    },
+    {
+      "line": 3,
+      "at": "fifteen percent",
+      "template": "stat",
+      "props": {
+        "kicker": "EU car imports",
+        "value": 15,
+        "suffix": "%",
+        "label": "US tariff on European cars",
+        "source": "Supply Chain Dive"
+      }
+    },
+    {
+      "line": 4,
+      "template": "headline",
+      "props": {
+        "kicker": "For network designers",
+        "title": "A tariff answered with footprint"
+      }
+    },
+    {
+      "line": 4,
+      "at": "European suppliers",
+      "template": "takeaway",
+      "props": {
+        "kicker": "For planners",
+        "text": "Expect part of North American volume to move to local sourcing."
+      }
+    },
+    {
+      "line": 5,
+      "template": "headline",
+      "props": {
+        "kicker": "The Planning Desk",
+        "title": "Supply chain news every weekday"
+      }
+    }
+  ]
+}
