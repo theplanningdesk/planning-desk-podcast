@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-28T22:22:26.064985+00:00",
+ "fetched_at": "2026-10-28T22:24:24.529267+00:00",
  "window_days": 8,
- "sources_ok": 26,
+ "sources_ok": 24,
  "sources_total": 31,
  "items": [
   {
@@ -606,10 +606,10 @@
   },
   {
    "source": "FreightWaves",
-   "title": "First look: almost all good news at C.H. Robinson in the third quarter",
+   "title": "Frst look: almost all good news at C.H. Robinson in the third quarter",
    "link": "https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter",
    "published": "2026-10-28T12:35:19+00:00",
-   "summary": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days after the quarter ended, the giant 3PL announced the almost $6 billion acquisition of rival RXO (NYSE: RXO). But neither of those things hit the […] The post First look: almost all good news at C.H. Robinson in the third quarter appeared…",
+   "summary": "The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days after the quarter ended, the giant 3PL announced the almost $6 billion acquisition of rival RXO (NYSE: RXO). But neither of those things hit the […] The post Frst look: almost all good news at C.H. Robinson in the third quarter appeared…",
    "via": "feed"
   },
   {
@@ -2462,30 +2462,6 @@
   },
   {
    "source": "Osto&Logistiikka",
-   "title": "Kuljetus-Logistiikka 2027 kokoaa koko logistisen arvoketjun Helsinkiin 20.-22.5.2027",
-   "link": "https://www.ostologistiikka.fi/mainos/kuljetus-logistiikka-2027-kokoaa-koko-logistisen-arvoketjun-helsinkiin-20-22-5-2027/",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Osto&Logistiikka",
-   "title": "Kolme kotimaista sisälogistiikan toimijaa yhdistyy yhdeksi Rasteciksi",
-   "link": "https://www.ostologistiikka.fi/mainos/kolme-tuttua-nimea-yksi-rastec/",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Osto&Logistiikka",
-   "title": "Navigate 2026 – Kun strategiasta syntyy kilpailuetua koko ekosysteemille",
-   "link": "https://www.ostologistiikka.fi/mainos/navigate-2026-kun-strategiasta-syntyy-kilpailuetua-koko-ekosysteemille/",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Osto&Logistiikka",
    "title": "Kuljetusliike A. Peltola ottaa vetyrekan koekäyttöön",
    "link": "https://www.ostologistiikka.fi/kuljetus/kuljetusliike-a-peltola-ottaa-vetyrekan-koekayttoon/",
    "published": null,
@@ -2789,22 +2765,6 @@
    "via": "feed"
   },
   {
-   "source": "NVIDIA Technical Blog (optimisation)",
-   "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
-   "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
-   "published": "2026-10-23T17:27:52+00:00",
-   "summary": "The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and...",
-   "via": "feed"
-  },
-  {
-   "source": "NVIDIA Technical Blog (optimisation)",
-   "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
-   "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
-   "published": "2026-10-23T17:27:35+00:00",
-   "summary": "Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For...",
-   "via": "feed"
-  },
-  {
    "source": "Sea-Intelligence",
    "title": "Global Schedule Reliability Records a Marginal Gain in September",
    "link": "https://www.sea-intelligence.com/press-room/415-global-schedule-reliability-records-a-marginal-gain-in-september",
@@ -2822,299 +2782,11 @@
   },
   {
    "source": "Xeneta",
-   "title": "Market Monitoring & Risk Management",
-   "link": "https://www.xeneta.com/use-case/risk-management",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Sourcing & Tendering For Freight",
-   "link": "https://www.xeneta.com/use-case/sourcing-tendering",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Build a Network & Supplier Strategy",
-   "link": "https://www.xeneta.com/use-case/network-supplier-strategy",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Forecasting & Budget Planning",
-   "link": "https://www.xeneta.com/use-case/forecasting-and-budget-planning",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Evaluate Supplier Performance",
-   "link": "https://www.xeneta.com/use-case/measure-carrier-performance",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Case Study: Stanley Black & Decker Discover how the US manufacturer saves millions per year on freight with Xeneta. Read more",
-   "link": "https://www.xeneta.com/case-study/sbd",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "How shippers regain leverage in carrier-led markets Hear how our analysts responded to 48 questions from our recent roundtables Access now",
-   "link": "https://www.xeneta.com/roundtable-report-2026-how-shippers-regain-leverage",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Why Xeneta Discover what makes Xeneta different. Read more",
-   "link": "https://www.xeneta.com/about-us/why-xeneta",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Learn more .btn_override { position:relative; } .btn_override::after { content: ''; position: absolute; inset: 0; background: black; opacity: 0; transition: opacity 0.2s ease; border-radius: inherit; pointer-events: none; } .btn_override:hover::after { opacity: 0.1; /* darkens background slightly,…",
-   "link": "https://www.xeneta.com/news/middle-east-freight-impact",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE – 23.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More",
+   "title": "XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE – 23.10.26",
    "link": "https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-23.10.26",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE - 16.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More",
-   "link": "https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-16.10.26",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE – 08.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More",
-   "link": "https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-08.10.26",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE - 02.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More",
-   "link": "https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-02.10.26",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Shippers Seek Airfreight Rates 'Floating Mechanisms' Before Committing to Long-Term Capacity as Demand Grows +6% Year-on-Year in September Global air freight volumes delivered another month of steady growth in September, up +6% year-on-yea... Read More",
-   "link": "https://www.xeneta.com/news/shippers-seek-airfreight-rates-floating-mechanisms-before-committing-to-long-term-capacity-as-demand-grows-6-year-on-year-in-september",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE - 24.09.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More",
-   "link": "https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-24.09.26",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Xeneta",
-   "title": "Euronext Container Freight Futures",
-   "link": "https://www.xeneta.com/use-case/freight-futures",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "European statistics learning hub",
-   "link": "https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/overview",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "GISCO:Geographical Information and maps",
-   "link": "https://ec.europa.eu/eurostat/web/gisco/overview",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Statistical working papers",
-   "link": "https://ec.europa.eu/eurostat/publications/statistical-working-papers",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Communicating and disseminating statistics",
-   "link": "https://ec.europa.eu/eurostat/about-us/communicating-disseminating-statistics",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "European Statistical System",
-   "link": "https://ec.europa.eu/eurostat/about-us/european-statistical-system",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "EU institutions and bodies",
-   "link": "https://ec.europa.eu/eurostat/about-us/eu-institutions-bodies",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "International cooperation",
-   "link": "https://ec.europa.eu/eurostat/web/international-cooperation/overview",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Copyright notice and free re-use of data",
-   "link": "https://ec.europa.eu/eurostat/help/copyright-notice",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Frequently asked questions",
-   "link": "https://ec.europa.eu/eurostat/help/faq",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Euro indicators release calendar",
-   "link": "https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Household real income per capita slightly increases in both the euro area and the EU",
-   "link": "https://ec.europa.eu/eurostat/product?code=2-28102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Seasonally adjusted government deficit at 3.3% of GDP in the euro area",
-   "link": "https://ec.europa.eu/eurostat/product?code=2-21102026-cp",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Government debt at 88.8% of GDP in euro area",
-   "link": "https://ec.europa.eu/eurostat/product?code=2-21102026-bp",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Euro area government deficit at 3.0% and EU at 3.1% of GDP",
-   "link": "https://ec.europa.eu/eurostat/product?code=2-21102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Production in construction up by 1.8% in the euro area and by 2.0% in the EU",
-   "link": "https://ec.europa.eu/eurostat/product?code=4-20102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Euro area international trade in goods deficit €16.1 bn",
-   "link": "https://ec.europa.eu/eurostat/product?code=6-16102026-bp",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Annual inflation up to 3.8% in the euro area",
-   "link": "https://ec.europa.eu/eurostat/product?code=2-16102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Industrial production down by 0.5% in the euro area and by 0.3% in the EU",
-   "link": "https://ec.europa.eu/eurostat/product?code=4-15102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Services production up by 0.4% in the euro area and by 0.3% in the EU",
-   "link": "https://ec.europa.eu/eurostat/product?code=4-07102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Volume of retail trade up by 0.1% in both the euro area and the EU",
-   "link": "https://ec.europa.eu/eurostat/product?code=4-06102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
-  },
-  {
-   "source": "Eurostat euro indicators",
-   "title": "Industrial producer prices up by 1.9% in both the euro area and the EU",
-   "link": "https://ec.europa.eu/eurostat/product?code=4-05102026-ap",
-   "published": null,
-   "summary": "",
-   "via": "page links"
+   "published": "2026-10-23T16:00:29+00:00",
+   "summary": "The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including the latest freight rate and capacity movements across global trades with supporting insight from Peter Sand, Xeneta Chief Analyst.",
+   "via": "feed"
   },
   {
    "source": "Talking Logistics",

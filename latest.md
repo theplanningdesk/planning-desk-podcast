@@ -1,5 +1,5 @@
-# Source digest, fetched 2026-10-28 22:22 UTC
-26 of 31 starting pages read. Items from the last 8 days; 'no date' items come from page links.
+# Source digest, fetched 2026-10-28 22:24 UTC
+24 of 31 starting pages read. Items from the last 8 days; 'no date' items come from page links.
 
 ## Supply Chain Dive
 - 2026-10-28 14:41 | Tesla begins humanoid production in California | https://www.supplychaindive.com/news/tesla-begins-optimus-humanoid-production-california-shipments-2027/872992/
@@ -160,8 +160,8 @@
   Forward Air has finalized a two-year deal to preserve a major share of the business from a contract logistics customer it had earlier warned it could lose. The post Forward Air saves ‘significant portion’ of major customer account appeared first on FreightWaves .
 - 2026-10-28 13:23 | Strike threat by port security workers at Los Angeles–Long Beach | https://www.freightwaves.com/news/strike-threat-by-port-security-workers-at-los-angeles-long-beach
   About 250 security workers could walk out Nov. 1, potentially disrupting terminals at the busiest U.S. port complex. The post Strike threat by port security workers at Los Angeles–Long Beach appeared first on FreightWaves .
-- 2026-10-28 12:35 | First look: almost all good news at C.H. Robinson in the third quarter | https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter
-  The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days after the quarter ended, the giant 3PL announced the almost $6 billion acquisition of rival RXO (NYSE: RXO). But neither of those things hit the […] The post First look: almost all good news at C.H. Robinson in the third quarter appeared…
+- 2026-10-28 12:35 | Frst look: almost all good news at C.H. Robinson in the third quarter | https://www.freightwaves.com/news/frst-look-almost-all-good-news-at-c-h-robinson-in-the-third-quarter
+  The third quarter at C.H. Robinson might be remembered for both the highs and the lows. It was the period when Lipe vs. Lupus Superior came down, and just days after the quarter ended, the giant 3PL announced the almost $6 billion acquisition of rival RXO (NYSE: RXO). But neither of those things hit the […] The post Frst look: almost all good news at C.H. Robinson in the third quarter appeared…
 - 2026-10-28 12:18 | The Companies That Write The Standards Will Own The Next Decade Of Freight | https://www.freightwaves.com/news/the-companies-that-write-the-standards-will-own-the-next-decade-of-freight
   The freight industry has spent years and real money chasing fraud, piling up more tracking, more data, and more awareness than it has ever had, and the losses keep climbing anyway, which is the paradox Michael Caney, Chief Customer Officer at the Carrier Identity® platform Highway, set out to unpack at the FreightWaves Broker Compliance […] The post The Companies That Write The Standards Will…
 - 2026-10-28 11:16 | Greenbrier profit falls as railcar demand weighs on sales | https://www.freightwaves.com/news/greenbrier-profit-falls-as-railcar-demand-weighs-on-sales
@@ -552,9 +552,6 @@
   Listen to this personal conversation about careers, logistics, and warehouse automation with logistics expert Tobias Henriksson, Head of Sales & Marketing at KNAPP Nordics ...
 
 ## Osto&Logistiikka
-- no date | Kuljetus-Logistiikka 2027 kokoaa koko logistisen arvoketjun Helsinkiin 20.-22.5.2027 | https://www.ostologistiikka.fi/mainos/kuljetus-logistiikka-2027-kokoaa-koko-logistisen-arvoketjun-helsinkiin-20-22-5-2027/
-- no date | Kolme kotimaista sisälogistiikan toimijaa yhdistyy yhdeksi Rasteciksi | https://www.ostologistiikka.fi/mainos/kolme-tuttua-nimea-yksi-rastec/
-- no date | Navigate 2026 – Kun strategiasta syntyy kilpailuetua koko ekosysteemille | https://www.ostologistiikka.fi/mainos/navigate-2026-kun-strategiasta-syntyy-kilpailuetua-koko-ekosysteemille/
 - no date | Kuljetusliike A. Peltola ottaa vetyrekan koekäyttöön | https://www.ostologistiikka.fi/kuljetus/kuljetusliike-a-peltola-ottaa-vetyrekan-koekayttoon/
 - no date | Hyötyajoneuvojen markkinoilla nähdään merkkejä talouden elpymisestä | https://www.ostologistiikka.fi/kuljetus/hyotyajoneuvojen-markkinoilla-nahdaan-merkkeja-talouden-elpymisesta/
 - no date | Teollisuus ja huoltovarmuus korostavat raideliikenteen merkitystä | https://www.ostologistiikka.fi/kuljetus/teollisuus-ja-huoltovarmuus-korostavat-raideliikenteen-merkitysta/
@@ -609,10 +606,7 @@
   SpaceX has shown that it can build sophisticated technology, launch it into orbit, and operate a communications network spanning much of the planet. Now it is considering a challenge that may be just as demanding: establishing a nationwide terrestrial wireless network to compete with AT&T, Verizon, and T-Mobile. The technology matters, but the outcome could […] The post SpaceX’s 80,000-Site…
 
 ## NVIDIA Technical Blog (optimisation)
-- 2026-10-23 17:27 | Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2 | https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/
-  The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and...
-- 2026-10-23 17:27 | Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1 | https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/
-  Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For...
+(failed: no matching items after filtering)
 
 ## Sea-Intelligence
 - 2026-10-28 14:10 | Global Schedule Reliability Records a Marginal Gain in September | https://www.sea-intelligence.com/press-room/415-global-schedule-reliability-records-a-marginal-gain-in-september
@@ -621,45 +615,11 @@
   In issue 787 of the Sea-Intelligence Sunday Spotlight, we analysed the IMF October 2026 WEO report, from a container shipping perspective. The report predicts that world trade volume growth will drop from 5.0% in 2025 to 4.7% in 2027. In advanced economies, import demand is projected to be 5.0% in 2026 but soften to 4.2% in 2027. This means that demand is not growing fast enough to absorb all…
 
 ## Xeneta
-- no date | Market Monitoring & Risk Management | https://www.xeneta.com/use-case/risk-management
-- no date | Sourcing & Tendering For Freight | https://www.xeneta.com/use-case/sourcing-tendering
-- no date | Build a Network & Supplier Strategy | https://www.xeneta.com/use-case/network-supplier-strategy
-- no date | Forecasting & Budget Planning | https://www.xeneta.com/use-case/forecasting-and-budget-planning
-- no date | Evaluate Supplier Performance | https://www.xeneta.com/use-case/measure-carrier-performance
-- no date | Case Study: Stanley Black & Decker Discover how the US manufacturer saves millions per year on freight with Xeneta. Read more | https://www.xeneta.com/case-study/sbd
-- no date | How shippers regain leverage in carrier-led markets Hear how our analysts responded to 48 questions from our recent roundtables Access now | https://www.xeneta.com/roundtable-report-2026-how-shippers-regain-leverage
-- no date | Why Xeneta Discover what makes Xeneta different. Read more | https://www.xeneta.com/about-us/why-xeneta
-- no date | Learn more .btn_override { position:relative; } .btn_override::after { content: ''; position: absolute; inset: 0; background: black; opacity: 0; transition: opacity 0.2s ease; border-radius: inherit; pointer-events: none; } .btn_override:hover::after { opacity: 0.1; /* darkens background slightly,… | https://www.xeneta.com/news/middle-east-freight-impact
-- no date | XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE – 23.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More | https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-23.10.26
-- no date | XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE - 16.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More | https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-16.10.26
-- no date | XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE – 08.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More | https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-08.10.26
-- no date | XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE - 02.10.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More | https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-02.10.26
-- no date | Shippers Seek Airfreight Rates 'Floating Mechanisms' Before Committing to Long-Term Capacity as Demand Grows +6% Year-on-Year in September Global air freight volumes delivered another month of steady growth in September, up +6% year-on-yea... Read More | https://www.xeneta.com/news/shippers-seek-airfreight-rates-floating-mechanisms-before-committing-to-long-term-capacity-as-demand-grows-6-year-on-year-in-september
-- no date | XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE - 24.09.26 The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including th... Read More | https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-24.09.26
-- no date | Euronext Container Freight Futures | https://www.xeneta.com/use-case/freight-futures
+- 2026-10-23 16:00 | XENETA WEEKLY OCEAN CONTAINER SHIPPING MARKET UPDATE – 23.10.26 | https://www.xeneta.com/news/xeneta-weekly-ocean-container-shipping-market-update-23.10.26
+  The Xeneta Weekly Ocean Container Shipping Market Update provides data and intelligence including the latest freight rate and capacity movements across global trades with supporting insight from Peter Sand, Xeneta Chief Analyst.
 
 ## Eurostat euro indicators
-- no date | European statistics learning hub | https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/overview
-- no date | GISCO:Geographical Information and maps | https://ec.europa.eu/eurostat/web/gisco/overview
-- no date | Statistical working papers | https://ec.europa.eu/eurostat/publications/statistical-working-papers
-- no date | Communicating and disseminating statistics | https://ec.europa.eu/eurostat/about-us/communicating-disseminating-statistics
-- no date | European Statistical System | https://ec.europa.eu/eurostat/about-us/european-statistical-system
-- no date | EU institutions and bodies | https://ec.europa.eu/eurostat/about-us/eu-institutions-bodies
-- no date | International cooperation | https://ec.europa.eu/eurostat/web/international-cooperation/overview
-- no date | Copyright notice and free re-use of data | https://ec.europa.eu/eurostat/help/copyright-notice
-- no date | Frequently asked questions | https://ec.europa.eu/eurostat/help/faq
-- no date | Euro indicators release calendar | https://ec.europa.eu/eurostat/news/euro-indicators/release-calendar
-- no date | Household real income per capita slightly increases in both the euro area and the EU | https://ec.europa.eu/eurostat/product?code=2-28102026-ap
-- no date | Seasonally adjusted government deficit at 3.3% of GDP in the euro area | https://ec.europa.eu/eurostat/product?code=2-21102026-cp
-- no date | Government debt at 88.8% of GDP in euro area | https://ec.europa.eu/eurostat/product?code=2-21102026-bp
-- no date | Euro area government deficit at 3.0% and EU at 3.1% of GDP | https://ec.europa.eu/eurostat/product?code=2-21102026-ap
-- no date | Production in construction up by 1.8% in the euro area and by 2.0% in the EU | https://ec.europa.eu/eurostat/product?code=4-20102026-ap
-- no date | Euro area international trade in goods deficit €16.1 bn | https://ec.europa.eu/eurostat/product?code=6-16102026-bp
-- no date | Annual inflation up to 3.8% in the euro area | https://ec.europa.eu/eurostat/product?code=2-16102026-ap
-- no date | Industrial production down by 0.5% in the euro area and by 0.3% in the EU | https://ec.europa.eu/eurostat/product?code=4-15102026-ap
-- no date | Services production up by 0.4% in the euro area and by 0.3% in the EU | https://ec.europa.eu/eurostat/product?code=4-07102026-ap
-- no date | Volume of retail trade up by 0.1% in both the euro area and the EU | https://ec.europa.eu/eurostat/product?code=4-06102026-ap
-- no date | Industrial producer prices up by 1.9% in both the euro area and the EU | https://ec.europa.eu/eurostat/product?code=4-05102026-ap
+(failed: no matching items after filtering)
 
 ## Talking Logistics
 - 2026-10-26 11:01 | Descartes: From the Dot-Com Era to the AI Era | https://talkinglogistics.com/2026/10/26/descartes-from-the-dot-com-era-to-the-ai-era/
@@ -705,8 +665,8 @@
 
 ## Rhine gauges (Pegelonline, live)
 Water level in cm; trend 1 rising, 0 steady, -1 falling. Kaub needs about 77 cm for a 1.90 m channel.
-- MAXAU (Rhine km 362.327): 316.0 cm, trend None, measured 2026-10-28T23:15:00+01:00
-- KAUB (Rhine km 546.23): 60.0 cm, trend None, measured 2026-10-28T23:15:00+01:00
-- KÖLN (Rhine km 688.0): 123.0 cm, trend None, measured 2026-10-28T23:15:00+01:00
-- DUISBURG-RUHRORT (Rhine km 780.8): 223.0 cm, trend None, measured 2026-10-28T23:15:00+01:00
-- EMMERICH (Rhine km 851.9): 78.0 cm, trend None, measured 2026-10-28T23:15:00+01:00
+- MAXAU (Rhine km 362.327): 316.0 cm, measured 2026-10-28T23:15:00+01:00
+- KAUB (Rhine km 546.23): 60.0 cm, measured 2026-10-28T23:15:00+01:00
+- KÖLN (Rhine km 688.0): 123.0 cm, measured 2026-10-28T23:15:00+01:00
+- DUISBURG-RUHRORT (Rhine km 780.8): 223.0 cm, measured 2026-10-28T23:15:00+01:00
+- EMMERICH (Rhine km 851.9): 78.0 cm, measured 2026-10-28T23:15:00+01:00

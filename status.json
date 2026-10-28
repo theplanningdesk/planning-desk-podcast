@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-28T22:22:26.064985+00:00",
+ "fetched_at": "2026-10-28T22:24:24.529267+00:00",
  "window_days": 8,
- "sources_ok": 26,
+ "sources_ok": 24,
  "sources_total": 31,
  "sources": [
   {
@@ -153,7 +153,7 @@
    "url": "https://www.ostologistiikka.fi/",
    "ok": true,
    "method": "page links (no feed found, no dates)",
-   "items": 7,
+   "items": 4,
    "error": null
   },
   {
@@ -175,10 +175,10 @@
   {
    "source": "NVIDIA Technical Blog (optimisation)",
    "url": "https://developer.nvidia.com/blog/feed/",
-   "ok": true,
+   "ok": false,
    "method": "feed https://developer.nvidia.com/blog/feed/",
-   "items": 2,
-   "error": null
+   "items": 0,
+   "error": "no matching items after filtering"
   },
   {
    "source": "Sea-Intelligence",
@@ -190,19 +190,19 @@
   },
   {
    "source": "Xeneta",
-   "url": "https://www.xeneta.com/press",
+   "url": "https://www.xeneta.com/news",
    "ok": true,
-   "method": "page links (no feed found, no dates)",
-   "items": 16,
+   "method": "feed https://www.xeneta.com/news/rss.xml",
+   "items": 1,
    "error": null
   },
   {
    "source": "Eurostat euro indicators",
    "url": "https://ec.europa.eu/eurostat/news/euro-indicators",
-   "ok": true,
+   "ok": false,
    "method": "page links (no feed found, no dates)",
-   "items": 21,
-   "error": null
+   "items": 0,
+   "error": "no matching items after filtering"
   },
   {
    "source": "Talking Logistics",
