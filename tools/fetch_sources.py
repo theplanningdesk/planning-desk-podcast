@@ -48,7 +48,7 @@ SOURCES = [
     ("Logistics Viewpoints", "https://logisticsviewpoints.com/"),
     ("NVIDIA Technical Blog (optimisation)", "https://developer.nvidia.com/blog/feed/"),
     ("Sea-Intelligence", "https://www.sea-intelligence.com/press-room"),
-    ("Xeneta", "https://www.xeneta.com/press"),
+    ("Xeneta", "https://www.xeneta.com/news"),
     ("Eurostat euro indicators", "https://ec.europa.eu/eurostat/news/euro-indicators"),
     ("Talking Logistics", "https://talkinglogistics.com/"),
     ("Supply Chain Shaman", "https://www.supplychainshaman.com/"),
@@ -60,8 +60,15 @@ SOURCES = [
 # Sources whose feed is broad: keep only items whose title or summary matches.
 KEYWORDS = {
     "NVIDIA Technical Blog (optimisation)": [
-        "cuopt", "optimization", "optimisation", "solver", "supply chain", "logistics",
-        "routing", "linear program", "mip", "planning", "inventory", "forecast"],
+        "cuopt", "solver", "supply chain", "logistics", "vehicle routing", "linear program",
+        "mixed integer", "mixed-integer", "operations research", "inventory", "demand forecast"],
+}
+
+# Link filters for sources read from page links: keep only article paths.
+LINK_RULES = {
+    "Xeneta": {"include": ["/news/", "/press/", "/blog/xeneta-weekly", "ocean-market-update"]},
+    "Eurostat euro indicators": {"include": ["products-euro-indicators/w/"]},
+    "Osto&Logistiikka": {"exclude": ["/mainos/"]},
 }
 
 # Live Rhine gauges from Pegelonline (WSV), the federal waterways data service.
@@ -185,9 +192,14 @@ def fetch_source(source, url, cutoff):
 
 def keep(source, items):
     words = KEYWORDS.get(source)
-    if not words:
-        return items
-    return [i for i in items if any(w in (i["title"] + " " + i["summary"]).lower() for w in words)]
+    if words:
+        items = [i for i in items if any(w in (i["title"] + " " + i["summary"]).lower() for w in words)]
+    rules = LINK_RULES.get(source, {})
+    if rules.get("include"):
+        items = [i for i in items if any(k in i["link"] for k in rules["include"])]
+    if rules.get("exclude"):
+        items = [i for i in items if not any(k in i["link"] for k in rules["exclude"])]
+    return items
 
 
 def fetch_rhine():
@@ -223,9 +235,11 @@ def main(out_dir):
     all_items, statuses = [], []
     for source, url in SOURCES:
         items, status = fetch_source(source, url, cutoff)
-        if source in KEYWORDS:
+        if source in KEYWORDS or source in LINK_RULES:
             items = keep(source, items)
             status["items"] = len(items)
+            if not items:
+                status.update(ok=False, error="no matching items after filtering")
         print(f"{'OK ' if status['ok'] else 'ERR'} {source}: {status['items']} items "
               f"via {status['method'] or '-'} {status['error'] or ''}")
         all_items += items
@@ -261,7 +275,7 @@ def main(out_dir):
         lines.append("Water level in cm; trend 1 rising, 0 steady, -1 falling. Kaub needs about 77 cm for a 1.90 m channel.")
         for r in rhine:
             lines.append(f"- {r['gauge']} (Rhine km {r['km']}): {r['level_cm']} {r['unit']}, "
-                         f"trend {r['trend']}, measured {r['measured_at']}")
+                         f"{'trend ' + str(r['trend']) + ', ' if r['trend'] is not None else ''}measured {r['measured_at']}")
     else:
         lines.append(f"(failed: {rhine_status['error']})")
     lines.append("")
