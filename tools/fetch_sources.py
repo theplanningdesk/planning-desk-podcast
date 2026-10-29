@@ -309,12 +309,14 @@ def parse_mfn(source, content, cutoff):
 def scrape_links(source, page_url, page_html):
     """Last resort for pages without a feed: article-looking links on the page."""
     host = urllib.parse.urlparse(page_url).netloc.replace("www.", "")
+    include = LINK_RULES.get(source, {}).get("include")
     items, seen = [], set()
     for href, text in re.findall(r"""<a\b[^>]*href=["']([^"'#]+)["'][^>]*>(.*?)</a>""", page_html, re.I | re.S):
         link = urllib.parse.urljoin(page_url, html.unescape(href))
         parts = urllib.parse.urlparse(link)
         title = clean(text, 300)
-        if host not in parts.netloc or link in seen or len(title) < 25:
+        wanted = include and any(k in link for k in include)
+        if host not in parts.netloc or link in seen or (len(title) < 25 and not wanted):
             continue
         path = parts.path.strip("/")
         if path.count("/") < 1 and not re.search(r"\d{4,}|-[a-z]+-[a-z]+-[a-z]+", path):
@@ -414,6 +416,8 @@ def read_article(url):
         if m and parse_date(m.group(1)):
             published = parse_date(m.group(1))
             break
+    m = re.search(r"""<meta[^>]+property=["']og:title["'][^>]*content=["']([^"']+)""", page, re.I)
+    title = clean(m.group(1), 300) if m else ""
     desc = ""
     for pat in (r"""<meta[^>]+property=["']og:description["'][^>]*content=["']([^"']*)""",
                 r"""<meta[^>]+name=["']description["'][^>]*content=["']([^"']*)"""):
@@ -426,7 +430,7 @@ def read_article(url):
     paras = [p for p in paras if len(p) > 80 and "cookie" not in p.lower()]
     opening = " ".join(paras[:3])
     text = (desc + " " + opening).strip() if desc and desc[:60] not in opening else (opening or desc)
-    return published, clean(text, 500)
+    return published, clean(text, 500), title
 
 
 def enrich(items, cutoff):
@@ -441,11 +445,13 @@ def enrich(items, cutoff):
 
     def work(it):
         try:
-            published, text = read_article(it["link"])
+            published, text, title = read_article(it["link"])
         except Exception:  # noqa: BLE001
-            published, text = None, ""
+            published, text, title = None, "", ""
         if not published:
             published = parse_date(it["title"])
+        if title and len(it["title"]) < 25:
+            it["title"] = title
         return it, published, text
 
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -475,7 +481,7 @@ def highlights(text, limit=1200):
         s = s.strip()
         s = s.lstrip("*•·- ").strip()
         if 25 <= len(s) <= 450 and any(w in s.lower() for w in HIGHLIGHT_WORDS):
-            if s in picked:
+            if s in picked or any(s in q or q in s for q in picked):
                 continue
             picked.append(s)
             total += len(s)
@@ -497,8 +503,16 @@ def company_items(name, items):
         it = group[0]
         it["company"] = name
         it["highlights"] = highlights(it.get("_text", ""))
-        it.pop("_lang", None)
         kept.append(it)
+    english = [parse_date(i["published"]) for i in kept if i.get("_lang") == "en" and i["published"]]
+    def twin(i):
+        if i.get("_lang") in ("en", "", None) or not i["published"]:
+            return False
+        t = parse_date(i["published"])
+        return any(abs((t - e).total_seconds()) <= 900 for e in english)
+    kept = [i for i in kept if not twin(i)]
+    for i in kept:
+        i.pop("_lang", None)
     kept.sort(key=lambda i: i["published"] or "", reverse=True)
     return kept
 
