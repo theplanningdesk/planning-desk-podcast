@@ -23,6 +23,7 @@ publish date and the opening text, so the agents don't have to search for them.
 Usage: python tools/fetch_sources.py out/
 """
 import datetime as dt
+import email.utils
 import html
 import json
 import re
@@ -129,15 +130,23 @@ COMPANIES = [
 ]
 
 PLANNING_WORDS = [
-    "supply chain", "supply-chain", "inventor", "logistics", "manufactur", "scheduling",
-    "optimization", "optimisation", "forecast", "procurement", "supplier", "operations research",
-    "warehouse", "production planning", "working capital", "lean ", "productivity",
+    "supply chain", "supply-chain", "inventor", "logistics", "scheduling", "demand forecast",
+    "forecasting", "procurement", "suppliers", "operations research", "warehouse",
+    "production planning", "working capital", "lean manufacturing", "factory planning",
+    "sales and operations", "s&op", "optimization model", "mathematical optimization",
+    "decision-making in operations", "order decisions", "spare parts", "stockpil",
 ]
 GERMAN_WORDS = [
     "lieferkette", "supply chain", "supply-chain", "logistik", "lagerbestand", "bestände",
-    "produktionsplanung", "optimierung", "beschaffung", "einkauf", "prognose", "operations research",
-    "wertschöpfungskette", "lieferengp", "materialmangel", "fertigung",
+    "produktionsplanung", "beschaffung", "einkauf", "operations research", "wertschöpfungskette",
+    "lieferengp", "materialmangel", "bedarfsprognose", "absatzprognose", "disposition",
 ]
+# Sources matched on title and summary only (their full text is long and noisy).
+TITLE_ONLY = {
+    "TechXplore (business)", "TechXplore (all)", "Phys.org (economics and business)",
+    "The Conversation (business)", "idw-online (DACH research)", "Industriemagazin",
+    "Placera (Swedish business news)",
+}
 
 # Sources whose feed is broad: keep only items whose title, summary or text matches.
 KEYWORDS = {
@@ -154,10 +163,11 @@ KEYWORDS = {
                  "procurement", "cash flow"],
     "Industriemagazin": GERMAN_WORDS + [
         "effizienz", "stellenabbau", "restrukturierung", "sparprogramm", "kostensenkung",
-        "werksschließung", "produktion", "lean"],
+        "werksschließung", "kurzarbeit", "auslastung", "lean"],
     "Placera (Swedish business news)": [
-        "lager", "rörelsekapital", "besparing", "sparprogram", "effektivis", "varsel",
-        "omstrukturer", "kassaflöde", "leverantör", "leveranskedj", "produktion", "fabrik"],
+        "varulager", "lagret", "lagernivå", "rörelsekapital", "besparing", "sparprogram",
+        "effektivis", "varsel", "omstrukturer", "leveranskedj", "produktionslinje", "fabrik",
+        "kapacitet", "nedläggning"],
     "Teknikföretagen": ["konjunktur", "barometer", "order", "export", "industri", "kapacitet"],
     "Swedbank PMI": ["pmi", "inköpschef"],
     "STT Info (Finnish releases)": [
@@ -270,6 +280,32 @@ def parse_feed(source, feed_url, content, cutoff):
     return items, len(parsed.entries)
 
 
+def parse_mfn(source, content, cutoff):
+    """MFN feeds keep the release text in <x:content type="text"> and tag the language."""
+    text = content.decode("utf-8", "replace") if isinstance(content, bytes) else content
+    items, total = [], 0
+    for block in re.findall(r"<item>(.*?)</item>", text, re.S):
+        total += 1
+        def tag(name):
+            m = re.search(rf"<{name}[^>]*>(.*?)</{name}>", block, re.S)
+            return re.sub(r"^<!\[CDATA\[|\]\]>$", "", m.group(1).strip()) if m else ""
+        try:
+            published = email.utils.parsedate_to_datetime(tag("pubDate")).astimezone(dt.timezone.utc)
+        except (TypeError, ValueError):
+            published = None
+        if published and published < cutoff:
+            continue
+        m = re.search(r"""<x:content type="text"><!\[CDATA\[(.*?)\]\]></x:content>""", block, re.S)
+        body = html.unescape(m.group(1)) if m else ""
+        items.append({
+            "source": source, "title": clean(tag("title"), 300), "link": clean(tag("link"), 500),
+            "published": published.isoformat() if published else None,
+            "summary": clean(body, 400), "_text": body[:60000], "_lang": tag("x:language"),
+            "via": "feed",
+        })
+    return items, total
+
+
 def scrape_links(source, page_url, page_html):
     """Last resort for pages without a feed: article-looking links on the page."""
     host = urllib.parse.urlparse(page_url).netloc.replace("www.", "")
@@ -300,7 +336,10 @@ def fetch_source(source, urls, cutoff):
             errors.append(f"{url}: {type(exc).__name__}: {exc}"[:200])
             continue
         if looks_like_feed(resp):
-            items, total = parse_feed(source, url, resp.content, cutoff)
+            if "mfn.se/" in url:
+                items, total = parse_mfn(source, resp.content, cutoff)
+            else:
+                items, total = parse_feed(source, url, resp.content, cutoff)
             if total:
                 items = items[:MAX_PER_SOURCE]
                 status.update(ok=True, url=url, method=f"feed {url}", items=len(items))
@@ -331,8 +370,10 @@ def fetch_source(source, urls, cutoff):
 def keep(source, items):
     words = KEYWORDS.get(source)
     if words:
-        items = [i for i in items
-                 if any(w in (i["title"] + " " + i["summary"] + " " + i.get("_text", "")).lower() for w in words)]
+        def hay(i):
+            extra = "" if source in TITLE_ONLY else " " + i.get("_text", "")
+            return (i["title"] + " " + i["summary"] + extra).lower()
+        items = [i for i in items if any(w in hay(i) for w in words)]
     rules = LINK_RULES.get(source, {})
     if rules.get("include"):
         items = [i for i in items if any(k in i["link"] for k in rules["include"])]
@@ -426,17 +467,19 @@ def enrich(items, cutoff):
 
 # --- company releases ---------------------------------------------------------------
 
-def highlights(text, limit=1000):
-    sentences = re.split(r"(?<=[.!?])\s+", text or "")
+def highlights(text, limit=1200):
+    text = re.sub(r"\n\s+(?=[a-zåäöü0-9(])", " ", text or "")  # re-join wrapped lines
+    sentences = re.split(r"(?<=[.!?])\s+|\n+\s*[*•·-]?\s*", text)
     picked, total = [], 0
     for s in sentences:
         s = s.strip()
-        if 40 <= len(s) <= 400 and any(w in s.lower() for w in HIGHLIGHT_WORDS):
+        s = s.lstrip("*•·- ").strip()
+        if 25 <= len(s) <= 450 and any(w in s.lower() for w in HIGHLIGHT_WORDS):
             if s in picked:
                 continue
             picked.append(s)
             total += len(s)
-            if total > limit or len(picked) >= 6:
+            if total > limit or len(picked) >= 8:
                 break
     return " ".join(picked)
 
@@ -450,10 +493,11 @@ def company_items(name, items):
         by_time.setdefault(key, []).append(it)
     kept = []
     for group in by_time.values():
-        group.sort(key=lambda i: -sum(h in i["title"].lower() for h in ENGLISH_HINTS))
+        group.sort(key=lambda i: (i.get("_lang") != "en", -sum(h in i["title"].lower() for h in ENGLISH_HINTS)))
         it = group[0]
         it["company"] = name
         it["highlights"] = highlights(it.get("_text", ""))
+        it.pop("_lang", None)
         kept.append(it)
     kept.sort(key=lambda i: i["published"] or "", reverse=True)
     return kept
