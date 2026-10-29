@@ -199,7 +199,12 @@ HIGHLIGHT_WORDS = [
     "efficiency", "restructuring", "rightsizing", "capacity", "supply chain", "headcount", "footprint",
     "tariff", "lager", "rörelsekapital", "kassaflöde", "besparing", "effektivis", "omstrukturer",
     "varsel", "kapacitet", "varasto", "käyttöpääoma", "kassavirta", "säästö", "tehostam",
+    "lagerbest", "bestände", "vorräte", "working capital", "free cash", "kosten", "effizienz",
+    "stellenabbau", "restrukturierung", "sparprogramm", "werk", "kapazität", "auftragseingang",
+    "nachfrage", "lieferkette",
 ]
+# Feed items whose feed text is only a teaser: open the article and pull highlights from it.
+READ_FULL = {"DACH ad hoc releases (finanznachrichten)"}
 ENGLISH_HINTS = [" report", "interim", "quarter", "results", "statement", "inside information",
                  "acquire", "announces", "to ", " the "]
 
@@ -429,15 +434,19 @@ def read_article(url):
     body = re.sub(r"<(script|style|nav|header|footer|aside)\b.*?</\1>", " ", page, flags=re.I | re.S)
     paras = [clean(p, 600) for p in re.findall(r"<p\b[^>]*>(.*?)</p>", body, re.I | re.S)]
     paras = [p for p in paras if len(p) > 80 and "cookie" not in p.lower()]
+    it_text = " ".join(paras)
     opening = " ".join(paras[:3])
     text = (desc + " " + opening).strip() if desc and desc[:60] not in opening else (opening or desc)
-    return published, clean(text, 500), title
+    return published, clean(text, 500), title, it_text
 
 
 def enrich(items, cutoff):
     """Open page-link items to read their real date and opening text; drop old ones."""
     todo, counts = [], {}
     for it in items:
+        if it["source"] in READ_FULL and it["via"] == "feed":
+            todo.append(it)
+            continue
         if it["via"] != "page links":
             continue
         counts[it["source"]] = counts.get(it["source"], 0) + 1
@@ -446,9 +455,12 @@ def enrich(items, cutoff):
 
     def work(it):
         try:
-            published, text, title = read_article(it["link"])
+            published, text, title, full = read_article(it["link"])
         except Exception:  # noqa: BLE001
-            published, text, title = None, "", ""
+            published, text, title, full = None, "", "", ""
+        if it["source"] in READ_FULL:
+            it["highlights"] = highlights(full)
+            return it, None, text
         if not published:
             published = parse_date(it["title"])
         if title and len(it["title"]) < 25:
@@ -457,7 +469,7 @@ def enrich(items, cutoff):
 
     with ThreadPoolExecutor(max_workers=8) as pool:
         for it, published, text in pool.map(work, todo):
-            it["via"] = "page links, article read"
+            it["via"] = "feed, article read" if it["via"] == "feed" else "page links, article read"
             if published:
                 it["published"] = published.isoformat()
             if text:
