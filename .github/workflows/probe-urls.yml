@@ -1,11 +1,12 @@
 name: Probe URLs
 
-# Manual one-off check of candidate source URLs. Prints results to the log only.
+# Manual one-off check of candidate source URLs. Writes the result to
+# probe.txt on the "probe" branch. Never touches main.
 on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probe:
@@ -19,4 +20,16 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install feedparser requests
-      - run: python tools/probe_urls.py tools/probe_list.txt
+      - run: python tools/probe_urls.py tools/probe_list.txt | tee "$RUNNER_TEMP/probe.txt"
+      - name: Publish to the probe branch
+        run: |
+          cd "$RUNNER_TEMP"
+          git init -q pub && cd pub
+          git config user.name planning-desk-bot
+          git config user.email planning-desk-bot@users.noreply.github.com
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git checkout -q --orphan probe
+          cp "$RUNNER_TEMP/probe.txt" .
+          git add -A
+          git commit -q -m "Probe $(date -u +%F' '%H:%M) UTC [skip ci]"
+          git push -q -f origin probe
