@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-10-29T08:53:19.400199+00:00",
+ "fetched_at": "2026-10-29T18:12:36.923919+00:00",
  "window_days": 8,
- "sources_ok": 25,
- "sources_total": 30,
+ "sources_ok": 66,
+ "sources_total": 72,
  "sources": [
   {
    "source": "Supply Chain Dive",
@@ -10,7 +10,8 @@
    "ok": true,
    "method": "feed https://www.supplychaindive.com/feeds/news/",
    "items": 10,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "SupplyChainBrain",
@@ -18,15 +19,17 @@
    "ok": true,
    "method": "feed https://www.supplychainbrain.com/rss/articles",
    "items": 30,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "SCMR",
    "url": "https://www.scmr.com/",
    "ok": true,
    "method": "feed https://feeds.feedburner.com/scmr/latest",
-   "items": 13,
-   "error": null
+   "items": 12,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "The Loadstar",
@@ -34,7 +37,8 @@
    "ok": true,
    "method": "feed https://theloadstar.com/feed/",
    "items": 10,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "FreightWaves",
@@ -42,7 +46,8 @@
    "ok": true,
    "method": "feed https://www.freightwaves.com/news/feed/",
    "items": 40,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "SupplyChain247",
@@ -50,15 +55,17 @@
    "ok": false,
    "method": null,
    "items": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.supplychain247.com', port=443): Read timed out. (read timeout=25)"
+   "error": "https://www.supplychain247.com/: ReadTimeout: HTTPSConnectionPool(host='www.supplychain247.com', port=443): Read timed out. (read timeout=25)",
+   "lane": "logistics"
   },
   {
    "source": "Supply Chain Digital",
    "url": "https://supplychaindigital.com/news",
    "ok": true,
-   "method": "page links (no feed found, no dates)",
-   "items": 23,
-   "error": null
+   "method": "page links (articles opened for dates)",
+   "items": 15,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Logistics Management",
@@ -66,7 +73,8 @@
    "ok": false,
    "method": null,
    "items": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.logisticsmgmt.com/"
+   "error": "https://www.logisticsmgmt.com/: HTTPError: 403 Client Error: Forbidden for url: https://www.logisticsmgmt.com/",
+   "lane": "logistics"
   },
   {
    "source": "DC Velocity",
@@ -74,7 +82,8 @@
    "ok": true,
    "method": "feed https://www.dcvelocity.com/feeds/feed.rss",
    "items": 24,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Splash247",
@@ -82,31 +91,35 @@
    "ok": true,
    "method": "feed https://splash247.com/feed/",
    "items": 10,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "VerkehrsRundschau",
    "url": "https://www.verkehrsrundschau.de/nachrichten",
    "ok": true,
-   "method": "page links (no feed found, no dates)",
-   "items": 40,
-   "error": null
+   "method": "page links (articles opened for dates)",
+   "items": 15,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Logistik Journal",
    "url": "https://www.logistik-journal.de/",
    "ok": true,
    "method": "feed https://www.logistik-journal.de/feed/",
-   "items": 2,
-   "error": null
+   "items": 3,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "BVL",
    "url": "https://www.bvl.de/",
    "ok": true,
    "method": "feed https://www.bvl.de/presse/rss/bvl-news",
-   "items": 6,
-   "error": null
+   "items": 5,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Dagens Logistik",
@@ -114,7 +127,8 @@
    "ok": true,
    "method": "feed https://dagenslogistik.se/feed/",
    "items": 10,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Dagens Infrastruktur",
@@ -122,23 +136,26 @@
    "ok": false,
    "method": null,
    "items": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://dagensinfrastruktur.se/"
+   "error": "https://dagensinfrastruktur.se/: HTTPError: 403 Client Error: Forbidden for url: https://dagensinfrastruktur.se/",
+   "lane": "logistics"
   },
   {
    "source": "MT Logistikk",
    "url": "https://www.mtlogistikk.no/",
    "ok": true,
-   "method": "page links (no feed found, no dates)",
-   "items": 40,
-   "error": null
+   "method": "page links (articles opened for dates)",
+   "items": 14,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "SCM.dk",
    "url": "https://scm.dk/feeds/articles",
    "ok": true,
    "method": "feed https://scm.dk/feeds/articles",
-   "items": 35,
-   "error": null
+   "items": 37,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "SC Effect",
@@ -146,23 +163,26 @@
    "ok": true,
    "method": "feed https://sceffect.se/en/feed/",
    "items": 10,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Osto&Logistiikka",
    "url": "https://www.ostologistiikka.fi/",
    "ok": true,
-   "method": "page links (no feed found, no dates)",
-   "items": 4,
-   "error": null
+   "method": "page links (articles opened for dates)",
+   "items": 0,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "BME",
    "url": "https://www.bme.de/news/",
    "ok": true,
-   "method": "page links (no feed found, no dates)",
-   "items": 24,
-   "error": null
+   "method": "page links (articles opened for dates)",
+   "items": 6,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Logistics Viewpoints",
@@ -170,7 +190,8 @@
    "ok": true,
    "method": "feed https://logisticsviewpoints.com/feed/",
    "items": 10,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "NVIDIA Technical Blog (optimisation)",
@@ -178,15 +199,17 @@
    "ok": true,
    "method": "feed https://developer.nvidia.com/blog/feed/",
    "items": 0,
-   "error": "no matching posts in the window (normal for this source)"
+   "error": "no matching posts in the window (normal for this source)",
+   "lane": "logistics"
   },
   {
    "source": "Sea-Intelligence",
    "url": "https://www.sea-intelligence.com/press-room",
    "ok": true,
    "method": "feed https://www.sea-intelligence.com/press-room?format=feed&type=rss",
-   "items": 2,
-   "error": null
+   "items": 3,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Xeneta",
@@ -194,7 +217,8 @@
    "ok": true,
    "method": "feed https://www.xeneta.com/news/rss.xml",
    "items": 1,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Talking Logistics",
@@ -202,7 +226,8 @@
    "ok": true,
    "method": "feed https://talkinglogistics.com/feed/",
    "items": 2,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Supply Chain Shaman",
@@ -210,15 +235,17 @@
    "ok": true,
    "method": "feed https://www.supplychainshaman.com/feed/",
    "items": 1,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "SAP News",
    "url": "https://news.sap.com/",
    "ok": true,
    "method": "feed https://news.sap.com/feed/",
-   "items": 12,
-   "error": null
+   "items": 11,
+   "error": null,
+   "lane": "logistics"
   },
   {
    "source": "Gartner Newsroom",
@@ -226,7 +253,8 @@
    "ok": false,
    "method": null,
    "items": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.gartner.com/en/newsroom"
+   "error": "https://www.gartner.com/en/newsroom: HTTPError: 403 Client Error: Forbidden for url: https://www.gartner.com/en/newsroom",
+   "lane": "logistics"
   },
   {
    "source": "ASCM",
@@ -234,7 +262,386 @@
    "ok": false,
    "method": null,
    "items": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.ascm.org/"
+   "error": "https://www.ascm.org/: HTTPError: 403 Client Error: Forbidden for url: https://www.ascm.org/",
+   "lane": "logistics"
+  },
+  {
+   "source": "TechXplore (business)",
+   "url": "https://techxplore.com/rss-feed/business-tech-news/",
+   "ok": true,
+   "method": "feed https://techxplore.com/rss-feed/business-tech-news/",
+   "items": 2,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "TechXplore (all)",
+   "url": "https://techxplore.com/rss-feed/",
+   "ok": true,
+   "method": "feed https://techxplore.com/rss-feed/",
+   "items": 6,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "Phys.org (economics and business)",
+   "url": "https://phys.org/rss-feed/science-news/economics-business/",
+   "ok": true,
+   "method": "feed https://phys.org/rss-feed/science-news/economics-business/",
+   "items": 3,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "idw-online (DACH research)",
+   "url": "https://idw-online.de/de/pressreleasesrss",
+   "ok": true,
+   "method": "feed https://idw-online.de/de/pressreleasesrss",
+   "items": 2,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "KLU newsroom",
+   "url": "https://www.klu.org/newsroom",
+   "ok": false,
+   "method": "page links (articles opened for dates)",
+   "items": 0,
+   "error": "no article links after filtering",
+   "lane": "management"
+  },
+  {
+   "source": "The Conversation (business)",
+   "url": "https://theconversation.com/uk/business/articles.atom",
+   "ok": true,
+   "method": "feed https://theconversation.com/uk/business/articles.atom",
+   "items": 2,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "Consultancy.eu",
+   "url": "https://www.consultancy.eu/rss/consultancy_rssfeed.xml",
+   "ok": true,
+   "method": "feed https://www.consultancy.eu/rss/consultancy_rssfeed.xml",
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
+   "lane": "management"
+  },
+  {
+   "source": "CFO Dive",
+   "url": "https://www.cfodive.com/feeds/news/",
+   "ok": true,
+   "method": "feed https://www.cfodive.com/feeds/news/",
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
+   "lane": "management"
+  },
+  {
+   "source": "Industriemagazin",
+   "url": "https://industriemagazin.at/rss.xml",
+   "ok": true,
+   "method": "feed https://industriemagazin.at/rss.xml",
+   "items": 3,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "Placera (Swedish business news)",
+   "url": "https://www.placera.se/artiklar/rss.xml",
+   "ok": true,
+   "method": "feed https://www.placera.se/artiklar/rss.xml",
+   "items": 9,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "Teknikföretagen",
+   "url": "https://via.tt.se/rss/releases/latest?publisherId=2732851",
+   "ok": true,
+   "method": "feed https://via.tt.se/rss/releases/latest?publisherId=2732851",
+   "items": 1,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "Swedbank PMI",
+   "url": "https://mfn.se/all/a/swedbank.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/swedbank.rss",
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
+   "lane": "management"
+  },
+  {
+   "source": "STT Info (Finnish releases)",
+   "url": "https://www.sttinfo.fi/rss/releases/latest",
+   "ok": true,
+   "method": "feed https://www.sttinfo.fi/rss/releases/latest",
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
+   "lane": "management"
+  },
+  {
+   "source": "DACH ad hoc releases (finanznachrichten)",
+   "url": "https://www.finanznachrichten.de/rss-aktien-adhoc/",
+   "ok": true,
+   "method": "feed https://www.finanznachrichten.de/rss-aktien-adhoc/",
+   "items": 10,
+   "error": null,
+   "lane": "management"
+  },
+  {
+   "source": "SKF",
+   "url": "https://mfn.se/all/a/skf.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/skf.rss",
+   "items": 0,
+   "error": "no releases in the window (normal off-season)",
+   "lane": "companies"
+  },
+  {
+   "source": "Sandvik",
+   "url": "https://mfn.se/all/a/sandvik.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/sandvik.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Atlas Copco",
+   "url": "https://mfn.se/all/a/atlas-copco.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/atlas-copco.rss",
+   "items": 3,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Epiroc",
+   "url": "https://mfn.se/all/a/epiroc.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/epiroc.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Volvo Group",
+   "url": "https://mfn.se/all/a/volvo.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/volvo.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Electrolux",
+   "url": "https://mfn.se/all/a/electrolux.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/electrolux.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Alfa Laval",
+   "url": "https://mfn.se/all/a/alfa-laval.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/alfa-laval.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Husqvarna",
+   "url": "https://mfn.se/all/a/husqvarna.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/husqvarna.rss",
+   "items": 0,
+   "error": "no releases in the window (normal off-season)",
+   "lane": "companies"
+  },
+  {
+   "source": "Essity",
+   "url": "https://mfn.se/all/a/essity.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/essity.rss",
+   "items": 2,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Getinge",
+   "url": "https://mfn.se/all/a/getinge.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/getinge.rss",
+   "items": 2,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Boliden",
+   "url": "https://mfn.se/all/a/boliden.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/boliden.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "SSAB",
+   "url": "https://mfn.se/all/a/ssab.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/ssab.rss",
+   "items": 2,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Assa Abloy",
+   "url": "https://mfn.se/all/a/assa-abloy.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/assa-abloy.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Trelleborg",
+   "url": "https://mfn.se/all/a/trelleborg.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/trelleborg.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "SCA",
+   "url": "https://mfn.se/all/a/sca.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/sca.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Holmen",
+   "url": "https://mfn.se/all/a/holmen.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/holmen.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Billerud",
+   "url": "https://mfn.se/all/a/billerud.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/billerud.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Thule",
+   "url": "https://mfn.se/all/a/thule-group.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/thule-group.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Axfood",
+   "url": "https://mfn.se/all/a/axfood.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/axfood.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "ICA Gruppen",
+   "url": "https://mfn.se/all/a/ica-gruppen.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/ica-gruppen.rss",
+   "items": 0,
+   "error": "no releases in the window (normal off-season)",
+   "lane": "companies"
+  },
+  {
+   "source": "Kone",
+   "url": "https://mfn.se/all/a/kone.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/kone.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Wärtsilä",
+   "url": "https://mfn.se/all/a/wartsila.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/wartsila.rss",
+   "items": 2,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Valmet",
+   "url": "https://mfn.se/all/a/valmet.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/valmet.rss",
+   "items": 2,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "UPM",
+   "url": "https://mfn.se/all/a/upm-kymmene.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/upm-kymmene.rss",
+   "items": 6,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Stora Enso",
+   "url": "https://mfn.se/all/a/stora-enso.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/stora-enso.rss",
+   "items": 0,
+   "error": "no releases in the window (normal off-season)",
+   "lane": "companies"
+  },
+  {
+   "source": "Orkla",
+   "url": "https://mfn.se/all/a/orkla.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/orkla.rss",
+   "items": 0,
+   "error": "no releases in the window (normal off-season)",
+   "lane": "companies"
+  },
+  {
+   "source": "Norsk Hydro",
+   "url": "https://mfn.se/all/a/norsk-hydro.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/norsk-hydro.rss",
+   "items": 2,
+   "error": null,
+   "lane": "companies"
+  },
+  {
+   "source": "Carlsberg",
+   "url": "https://mfn.se/all/a/carlsberg.rss",
+   "ok": true,
+   "method": "feed https://mfn.se/all/a/carlsberg.rss",
+   "items": 1,
+   "error": null,
+   "lane": "companies"
   },
   {
    "source": "Rhine gauges (Pegelonline)",
@@ -242,7 +649,8 @@
    "ok": true,
    "method": "json api",
    "items": 5,
-   "error": null
+   "error": null,
+   "lane": "logistics"
   }
  ]
 }
