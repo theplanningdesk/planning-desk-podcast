@@ -191,7 +191,8 @@ COMPANY_NOISE = [
     "holdings", "flaggning", "invitation", "inbjudan", "kutsu", "påminnelse", "reminder",
     "shares converted", "osakkeet", "status share", "major shareholding", "number of shares",
     "number of votes", "annual general", "årsstämma", "extraordinary", "nomination", "valberedning",
-    "reporting schedule", "katsausten aikataulu", "share capital", "incentive", "acquisition of carlsberg a/s sha",
+    "reporting schedule", "katsausten aikataulu", "taloudelliset raportit", "yhtiökokous",
+    "financial calendar", "financial reports and annual general", "share capital", "incentive", "acquisition of carlsberg a/s sha",
 ]
 HIGHLIGHT_WORDS = [
     "inventor", "working capital", "cash flow", "savings", "cost reduction", "cost-reduction",

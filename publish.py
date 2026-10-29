@@ -32,7 +32,7 @@ TZ = ZoneInfo("Europe/Stockholm")
 
 SEGMENT_NAMES = {
     "cold_open": "Opening", "welcome": "Welcome", "top_story": "Top story", "briefing": "The briefing",
-    "lead_stories": "Lead stories", "ai_tech": "AI and tech", "nordics_dach": "Nordics and DACH",
+    "lead_stories": "Lead stories", "ai_tech": "AI and tech", "management": "Management and operations", "nordics_dach": "Nordics and DACH",
     "market_moves": "Market moves", "use_cases": "Use cases", "macro": "Macro and trade", "numbers": "The numbers",
     "events_ahead": "Events ahead", "quick_hits": "Quick hits", "sign_off": "Sign-off",
     "week_threads": "The week's threads", "voices": "Expert voices", "week_ahead": "The week ahead",

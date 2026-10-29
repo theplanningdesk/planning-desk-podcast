@@ -35,7 +35,7 @@ def srt_time(sec: float) -> str:
 
 
 SEGMENT_NAMES = {
-    "cold_open": "Top story", "welcome": "This week", "lead_stories": "Lead stories", "ai_tech": "AI and tech",
+    "cold_open": "Top story", "welcome": "This week", "lead_stories": "Lead stories", "ai_tech": "AI and tech", "management": "Management and operations",
     "nordics_dach": "Nordics and DACH", "market_moves": "Market moves", "use_cases": "Use cases",
     "macro": "Macro and trade", "numbers": "The numbers", "events_ahead": "Events ahead",
     "quick_hits": "Quick hits", "sign_off": "Sign-off", "week_threads": "The week's threads",
