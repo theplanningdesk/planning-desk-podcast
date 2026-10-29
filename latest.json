@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-29T18:22:41.964606+00:00",
+ "fetched_at": "2026-10-29T18:27:59.254035+00:00",
  "window_days": 8,
  "sources_ok": 67,
  "sources_total": 72,
@@ -2241,7 +2241,7 @@
    "title": "26.10.2026 11. Einkaufsleitertag der BME-Region Hamburg/Schleswig-Holstein bei LESER Sicherheitsventile, moderne Produktionsprozesse und Künstliche Intelligenz: Beim 11. Einkaufsleitertag der BME-Region Hamburg/Schleswig-Holstein erhielten Führungskräfte aus Einkauf und SCM spannende Einblicke in…",
    "link": "https://www.bme.de/news/11-einkaufsleitertag-der-bme-region-hamburg-schleswig-holstein-bei-leser/",
    "published": "2026-10-26T00:00:00+00:00",
-   "summary": "",
+   "summary": "Sicherheitsventile, moderne Produktionsprozesse und Künstliche Intelligenz: Beim 11. Einkaufsleitertag der BME-Region Hamburg/Schleswig-Holstein erhielten Führungskräfte aus Einkauf und SCM spannende Einblicke in das Unternehmen LESER und diskutierten aktuelle Herausforderungen der Beschaffung. Gastgeber des 11. Einkaufsleitertages war die LESER GmbH & Co. KG in Hohenwestedt. Das 1818 gegründete Hamburger Familienunternehmen ist Europas größter Hersteller von Sicherheitsventilen und zählt…",
    "via": "page links, article read",
    "lane": "logistics"
   },
@@ -2575,6 +2575,15 @@
    "link": "https://via.tt.se/pressmeddelande/4620869/pressinbjudan-ny-konjunkturrapport-fran-teknikforetagen-och-industriarbetsgivarna-1011?lang=sv",
    "published": "2026-10-29T09:03:59+00:00",
    "summary": "Konjunkturen ljusnar – men hur bred, stark och hållbar är vändningen? Välkommen till lunchseminarium, tisdagen den 10/11, där Teknikföretagen och Industriarbetsgivarna presenterar en ny konjunkturrapport om läget och utsikterna för svensk industri.",
+   "via": "feed",
+   "lane": "management"
+  },
+  {
+   "source": "DACH ad hoc releases (finanznachrichten)",
+   "title": "EQS-Adhoc: ProSiebenSat.1 Media SE erwartet leichten Rückgang des organischen Umsatzes, bekräftigt aber EBITDA-Wachstumsausblick",
+   "link": "https://www.finanznachrichten.de/nachrichten-2026-10/69979586-eqs-adhoc-prosiebensat-1-media-se-erwartet-leichten-rueckgang-des-organischen-umsatzes-bekraeftigt-aber-ebitda-wachstumsausblick-022.htm",
+   "published": "2026-10-29T18:27:00+00:00",
+   "summary": "EQS-Ad-hoc: ProSiebenSat.1 Media SE / Schlagwort(e): Prognose / Gesamtjahr/Geschäftszahlen / Quartal ProSiebenSat.1 Media SE erwartet leichten Rückgang des organischen Umsatzes, bekräftigt aber EB...",
    "via": "feed",
    "lane": "management"
   },
@@ -2949,17 +2958,6 @@
    "link": "https://mfn.se/cis/a/upm-kymmene/changes-in-upms-group-executive-team-sangeeta-pandey-appointed-executive-vice-president-human-resources-38aba594",
    "published": "2026-10-29T07:30:00+00:00",
    "summary": "(UPM, Helsinki, October 29, 2026 at 9:30 EET) - Sangeeta Pandey has been appointed Executive Vice President, Human Resources at UPM. She will be a member of UPM's Group Executive Team and report to Massimo Reynaudo, President and CEO. She will assume her role on January 1, 2027, and will be based in Helsinki, Finland. Pandey, born in 1969, has extensive international experience in human…",
-   "via": "feed",
-   "company": "UPM",
-   "highlights": "",
-   "lane": "companies"
-  },
-  {
-   "source": "UPM",
-   "title": "UPM-Kymmene Oyj: UPM:n taloudelliset raportit ja yhtiökokous vuonna 2027",
-   "link": "https://mfn.se/cis/a/upm-kymmene/upm-kymmene-oyj-upm-n-taloudelliset-raportit-ja-yhtiokokous-vuonna-2027-746333b5",
-   "published": "2026-10-28T12:00:00+00:00",
-   "summary": "UPM-Kymmene Oyj Pörssitiedote (Tulosjulkistamisajankohdat) 28.10.2026 klo 14.00 UPM:n taloudelliset raportit ja yhtiökokous vuonna 2027 Vuonna 2027 UPM julkaisee taloudellisia raportteja seuraavan aikataulun mukaisesti: - tilinpäätöstiedote vuodelta 2026 julkaistaan 4.2.2027 arviolta klo 8.30 - osavuosikatsaus tammi-maaliskuulta (Q1) julkaistaan 29.4.2027 arviolta klo 8.30 - puolivuosikatsaus…",
    "via": "feed",
    "company": "UPM",
    "highlights": "",

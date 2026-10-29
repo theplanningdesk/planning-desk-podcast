@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-29T18:22:41.964606+00:00",
+ "fetched_at": "2026-10-29T18:27:59.254035+00:00",
  "window_days": 8,
  "sources_ok": 67,
  "sources_total": 72,
@@ -387,7 +387,7 @@
    "url": "https://www.finanznachrichten.de/rss-aktien-adhoc/",
    "ok": true,
    "method": "feed https://www.finanznachrichten.de/rss-aktien-adhoc/",
-   "items": 10,
+   "items": 11,
    "error": null,
    "lane": "management"
   },
@@ -603,7 +603,7 @@
    "url": "https://mfn.se/all/a/upm-kymmene.rss",
    "ok": true,
    "method": "feed https://mfn.se/all/a/upm-kymmene.rss",
-   "items": 6,
+   "items": 5,
    "error": null,
    "lane": "companies"
   },
