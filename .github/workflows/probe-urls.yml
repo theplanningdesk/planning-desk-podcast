@@ -1,0 +1,22 @@
+name: Probe URLs
+
+# Manual one-off check of candidate source URLs. Prints results to the log only.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install feedparser requests
+      - run: python tools/probe_urls.py tools/probe_list.txt
