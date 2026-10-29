@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-29T18:12:36.923919+00:00",
+ "fetched_at": "2026-10-29T18:16:45.267084+00:00",
  "window_days": 8,
  "sources_ok": 66,
  "sources_total": 72,
@@ -2223,7 +2223,7 @@
    "title": "28.10.2026 Von der Schlagzeile zum Planungsszenario: Neue KI-Lösung unterstützt bei der Bewertung von Lieferketten- und Marktrisiken Neue Zölle, geopolitische Spannungen oder Störungen auf wichtigen Handelsrouten können Planungsannahmen innerhalb kurzer Zeit überholen. Doch welche Entwicklungen…",
    "link": "https://www.bme.de/news/von-der-schlagzeile-zum-planungsszenario-neue-ki-loesung-unterstuetzt-bei-der-bewertung-von-lieferketten-und-marktrisiken/",
    "published": "2026-10-28T00:00:00+00:00",
-   "summary": "",
+   "summary": "Neue Zölle, geopolitische Spannungen oder Störungen auf wichtigen Handelsrouten können Planungsannahmen innerhalb kurzer Zeit überholen. Doch welche Entwicklungen sind für das eigene Unternehmen tatsächlich relevant und wie könnten sie sich auf Preise, Lieferzeiten oder Nachfrage auswirken? Die… Wer verstehen will, wie sich Märkte und Lieferketten künftig entwickeln, muss über die eigenen Unternehmensdaten hinausblicken. Wichtige Hinweise auf mögliche Veränderungen liefern dabei internationale…",
    "via": "page links, article read",
    "lane": "logistics"
   },
@@ -2516,141 +2516,6 @@
    "lane": "logistics"
   },
   {
-   "source": "TechXplore (business)",
-   "title": "Real-time battery monitoring helps streamline crucial manufacturing step",
-   "link": "https://techxplore.com/news/2026-10-real-battery-crucial.html",
-   "published": "2026-10-29T15:00:22+00:00",
-   "summary": "Cornell researchers, working with upstate New York battery company Charge CCCV, also known as C4V, have developed a real-time diagnostic approach to improve one of the most expensive and time-consuming stages of lithium-ion battery manufacturing: forming the battery.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "TechXplore (business)",
-   "title": "Pretrained AI detects factory defects using fewer examples, potentially easing costly setup",
-   "link": "https://techxplore.com/news/2026-10-pretrained-ai-factory-defects-examples.html",
-   "published": "2026-10-22T17:20:26+00:00",
-   "summary": "A University of Dayton statistician and an international team of researchers are showing how artificial intelligence can help factories detect flawed parts without the expensive step that keeps the technology out of reach for most manufacturers.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "TechXplore (all)",
-   "title": "China's record-breaking exports of clean tech are making a big dent in emissions, report says",
-   "link": "https://techxplore.com/news/2026-10-china-exports-tech-big-dent.html",
-   "published": "2026-10-29T17:32:19+00:00",
-   "summary": "China is exporting a record amount of clean energy technology and equipment as the energy crisis from the Iran war drives surging demand for renewables, and that will help reduce global emissions, according to a report released Thursday.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "TechXplore (all)",
-   "title": "Titanium boosts thermoelectric performance of thin films by 250-fold",
-   "link": "https://techxplore.com/news/2026-10-titanium-boosts-thermoelectric-thin.html",
-   "published": "2026-10-29T16:00:12+00:00",
-   "summary": "Every electronic device, factory and vehicle generates heat that often goes to waste. What if that energy could be recovered to generate electricity using thin films manufactured without high-temperature processing? Researchers at Tohoku University have taken a step toward making this possible, developing a thermoelectric material that delivers a 250-fold increase in power factor by adding a…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "TechXplore (all)",
-   "title": "Real-time battery monitoring helps streamline crucial manufacturing step",
-   "link": "https://techxplore.com/news/2026-10-real-battery-crucial.html",
-   "published": "2026-10-29T15:00:22+00:00",
-   "summary": "Cornell researchers, working with upstate New York battery company Charge CCCV, also known as C4V, have developed a real-time diagnostic approach to improve one of the most expensive and time-consuming stages of lithium-ion battery manufacturing: forming the battery.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "TechXplore (all)",
-   "title": "Reduced-data impedance analysis enables near-real-time diagnosis and control of fuel cells",
-   "link": "https://techxplore.com/news/2026-10-impedance-analysis-enables-real-diagnosis.html",
-   "published": "2026-10-29T14:20:01+00:00",
-   "summary": "Proton-exchange membrane fuel cells (PEMFCs) are a clean power-generation technology that produces no direct carbon dioxide emissions during operation. Their performance and durability depend strongly on effective water management. Monitoring internal conditions during operation is essential to prevent flooding, in which excess liquid water accumulates within the cell, and membrane dry-out, in…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "TechXplore (all)",
-   "title": "Heat tests could help police trace 3D-printed 'ghost guns'",
-   "link": "https://techxplore.com/news/2026-10-police-3d-ghost-guns.html",
-   "published": "2026-10-29T13:40:06+00:00",
-   "summary": "Curtin University researchers may have found a new way to help police trace 3D-printed firearms, after developing a new method of analyzing the plastic used to make them. Homemade plastic weapons present a growing challenge for law enforcement globally, due to being privately manufactured without the serial numbers and registration used to trace conventional firearms.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "TechXplore (all)",
-   "title": "Spray coating creates power-generating fibers without high-voltage equipment",
-   "link": "https://techxplore.com/news/2026-10-spray-coating-power-generating-fibers.html",
-   "published": "2026-10-28T16:40:10+00:00",
-   "summary": "A joint research team has developed self-powered fibers using a simple spray-coating process that blends two different polymers, eliminating the need for high-voltage equipment. The paper is published in the journal Advanced Composites and Hybrid Materials. The technology is expected to simplify complex conventional fiber fabrication processes and facilitate the manufacturing of smart sensors…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Phys.org (economics and business)",
-   "title": "Digital tools and 3D printing emerge as key themes in circular economy research",
-   "link": "https://phys.org/news/2026-10-digital-tools-3d-emerge-key.html",
-   "published": "2026-10-28T03:00:01+00:00",
-   "summary": "A review of the research literature spanning the years 2020 to 2026 has found that digital technologies, additive manufacturing and resource recovery are major themes in the transition toward a sustainable, circular economy. The work, published in the International Journal of Services and Operations Management, highlights the need for more cooperation between businesses and other stakeholders…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Phys.org (economics and business)",
-   "title": "Mapping the green transition of Asia-Pacific economies",
-   "link": "https://phys.org/news/2026-10-green-transition-asia-pacific-economies.html",
-   "published": "2026-10-27T16:40:10+00:00",
-   "summary": "Countries in the Asia-Pacific can accelerate the shift to clean energy while building competitive local industries as long as policies don't slow access to affordable technologies, a new report has found.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Phys.org (economics and business)",
-   "title": "Can we really predict the future? Over one million forecasts offer clues, not certainty",
-   "link": "https://phys.org/news/2026-10-future-million-clues-certainty.html",
-   "published": "2026-10-26T13:20:32+00:00",
-   "summary": "Can crowds of people trading on what they believe will happen collectively predict the future? A new Tel Aviv University study of more than 1 million forecasts suggests that they often come remarkably close. But when it comes to certain events, from international conflicts to elections, the odds may tell a different story.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "idw-online (DACH research)",
-   "title": "Experten empfehlen Optimierungen für Pelletöfen und Holzpellets",
-   "link": "http://idw-online.de/de/news879926",
-   "published": "2026-10-29T13:52:00+00:00",
-   "summary": "Selbst bei der Verwendung von Pellets der höchsten Qualitätsklasse in Pelletöfen können die Staubemissionen stark variieren. Wissenschaftler vom Technologie- und Förderzentrum (TFZ) haben deshalb gemeinsam mit den Projektpartnern BIOS und Olsberg untersucht, wie sich Emissionen beim Heizen mit Pelletöfen verringern lassen. Mit Blick auf die Luftreinhaltung wurden im Projekt „FuturePelletSpec 2“…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "idw-online (DACH research)",
-   "title": "Grenzenloser Einsatz für den Artschutz",
-   "link": "http://idw-online.de/de/news879925",
-   "published": "2026-10-29T13:44:00+00:00",
-   "summary": "Wo Gras und Gebüsch den offenen Sand erobern, hat die Sand-Silberscharte (Jurinea cyanoides) keine Chance. Um die vom Aussterben bedrohte Pflanze zu retten, beteiligt sich die Hochschule Anhalt an einem internationalen Artenschutzprojekt. Seit Juli 2026 arbeiten dafür sieben Partner aus Deutschland, Tschechien und der Ukraine zusammen. Das auf zehn Jahre angelegte Projekt „LIFE for Jurinea“ soll…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "The Conversation (business)",
-   "title": "Budget 2026: experts on what John Healey’s ‘breathing space’ plan means for households",
-   "link": "https://theconversation.com/budget-2026-experts-on-what-john-healeys-breathing-space-plan-means-for-households-295377",
-   "published": "2026-10-28T17:35:14+00:00",
-   "summary": "The chancellor unveiled help with household energy bills and extra taxes for banks.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "The Conversation (business)",
-   "title": "How El Niño could push up your mortgage and grocery bills",
-   "link": "https://theconversation.com/how-el-nino-could-push-up-your-mortgage-and-grocery-bills-294378",
-   "published": "2026-10-23T13:54:10+00:00",
-   "summary": "A Pacific climate event has far reaching effects.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
    "source": "Industriemagazin",
    "title": "EU-Digitalgesetze: Was sich für Logistiker ändern soll",
    "link": "https://industriemagazin.at/logistik/eu-digitalgesetze-was-sich-fuer-logistiker-aendern-soll/",
@@ -2674,78 +2539,6 @@
    "link": "https://industriemagazin.at/rankings/groesste-logistiker-oesterreich-ranking-2026/",
    "published": "2026-10-23T08:31:00+00:00",
    "summary": "Österreichs Logistikbranche steht unter Druck. Doch nicht alle Unternehmen entwickeln sich gleich: Das aktuelle Ranking zeigt, wer sich behauptet, welche Unternehmen Umsatz verlieren und wie sich die Kräfteverhältnisse im Markt verschieben.",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "Femta gröna stängningen i rad – Saab toppar",
-   "link": "https://www.placera.se/nyheter/femta-grona-stangningen-i-rad-saab-toppar-2026-10-29",
-   "published": "2026-10-29T16:37:15+00:00",
-   "summary": "Rapportdagens huvudnummer blev alltjämt gruvbolaget Boliden, som fick ett varmt mottagande av marknaden. 17.30 hade storbolagsindexet OMXS30 stärkts 0,4 procent till 3.281-nivån. Aktier för närmare 24 miljarder kronor var då omsatta på Stockholmsbörsen i sin helhet. På makrofronten följde ECB amerikanska Fed och lämnade räntan oförändrad, som allmänt förväntat. Inom storbolagsindexet stack…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "Catenas VD öppnar för fler avyttringar",
-   "link": "https://www.placera.se/nyheter/catenas-vd-oppnar-for-fler-avyttringar-2026-10-29",
-   "published": "2026-10-29T15:46:35+00:00",
-   "summary": "Det uppger han i podcasten Kvartalet. För att finansiera expansionen kan Catena sälja svenska fastigheter som inte längre passar bolagets långsiktiga förvaltningsstrategi. Efter de senaste förvärven ligger belåningsgraden kring målnivån 45 procent. Eriksson bedömer samtidigt att kassaflödet kan möjliggöra förvärv på omkring 2–2,5 miljarder kronor under det kommande året. På den svenska…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "WeSports: Framstår som ett starkt kap",
-   "link": "https://www.placera.se/analys/wesports-framstar-som-ett-starkt-kap-2026-10-29",
-   "published": "2026-10-29T14:37:40+00:00",
-   "summary": "WeSports Group Börskurs: 71,0 kr Antal aktier: 27,8 m Börsvärde: 1 975 Mkr Nettoskuld: 540 Mkr (inkl. minoritetsskulden) VD: Ted Sporre Ordförande: Johan Ryding WeSports Group (71,0 kr) köper och driver specialiserade sportbutiker, främst på nätet, samt egna produktvarumärken och distributörer inom sport- och fritidsutrustning i Norden. Koncernen har byggts upp genom drygt 40 förvärv sedan 2019,…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "Wall Street backar i den inledande handeln",
-   "link": "https://www.placera.se/nyheter/wall-street-backar-i-den-inledande-handeln-2026-10-29",
-   "published": "2026-10-29T14:23:00+00:00",
-   "summary": "Drygt 30 minuter in i handelsdagen var tekniktunga Nasdaq 100 ned 1,4 procent. Industriindexet Dow Jones tappade samtidigt 0,3 procent och S&P 500 var ned 0,4 procent. Även Microsoft rapporterade sina siffror för det tredje kvartalet under gårdagskvällen. IT-konglomeratets rapport kom generellt in över S&P Globals estimat, om än inte väsentligt. Aktien backade likväl nära 1 procent.…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "Google-ägaren faller i förhandeln",
-   "link": "https://www.placera.se/nyheter/google-agaren-faller-i-forhandeln-2026-10-29",
-   "published": "2026-10-29T13:10:38+00:00",
-   "summary": "Det här efter blygsamma uppgångar på onsdagen i spåren av den uteblivna räntehöjningen. Strax innan öppning offentliggjordes siffrorna för den amerikanska BNP-tillväxten i det tredje kvartalet, som kom in på 3,4 procent. Enligt Trading Economics konsensusprognos väntade sig analytiker att BNP skulle ha stigit med 3,2 procent. Klockan 13.55 var terminen för Dow Jones industriindex ned 0,2…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "CTEK ökade omsättningen och förbättrade resultatet i tredje kvartalet",
-   "link": "https://www.placera.se/nyheter/ctek-okade-omsattningen-och-forbattrade-resultatet-i-tredje-kvartalet-2026-10-29",
-   "published": "2026-10-29T06:58:26+00:00",
-   "summary": "Omsättningen steg 2,2 procent till 217,1 miljoner kronor (212,5). Den organiska tillväxten var 2,0 procent (-0,8). Bruttomarginalen uppgick till 64,5 procent (59,1). Justerad ebitda ökade till 53,4 miljoner kronor (46,6), med en justerad ebitda-marginal på 24,6 procent (21,9). Rörelseresultatet blev 34,6 miljoner kronor (25,4), med en rörelsemarginal på 15,9 procent (11,9). Nettoresultatet…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "Adidas ökar rörelseresultatet kraftigt",
-   "link": "https://www.placera.se/nyheter/adidas-okar-rorelseresultatet-kraftigt-2026-10-29",
-   "published": "2026-10-29T06:57:29+00:00",
-   "summary": "Företaget har tidigare lämnat en omvänd vinstvarning och höjt sin prognos. Omsättningen steg 9,4 procent till 7 252 miljoner euro (6 630). Valutaneutralt ökade omsättningen med 7 procent. Bruttomarginalen förbättrades till 54,3 procent (51,8). Rörelseresultatet steg till 1 008 miljoner euro (736), med en rörelsemarginal på 13,9 procent (11,1). Nettoresultatet ökade till 715 miljoner euro (485).…",
-   "via": "feed",
-   "lane": "management"
-  },
-  {
-   "source": "Placera (Swedish business news)",
-   "title": "Storytel: Med fortsatt attraktiv värdering",
-   "link": "https://www.placera.se/kommentar/storytel-med-fortsatt-attraktiv-vardering-2026-10-28",
-   "published": "2026-10-28T14:36:43+00:00",
-   "summary": "Kommentar Storytel Vad: Q3-rapport Aktien: 3% Råd: Fortsatt köp Ljudboksbolaget Storytel ( 118,60 kr ) har under de senaste åren ställt om mot lönsamhet. Kostnaderna har minskats och antalet anställda är nu runt 560 jämfört med 830 år 2021. Ljudbokstjänsten finns nu på fler än 25 marknader och Storytel har drygt 2,7 miljoner prenumeranter. Målet är att nå 3 miljoner prenumeranter under 2027.…",
    "via": "feed",
    "lane": "management"
   },
@@ -2862,10 +2655,10 @@
    "title": "Sandvik: Interim report third quarter 2026",
    "link": "https://mfn.se/cis/a/sandvik/sandvik-interim-report-third-quarter-2026-d416c986",
    "published": "2026-10-22T06:00:00+00:00",
-   "summary": "",
+   "summary": "* Order intake SEK 36,948 million (30,769) * Order intake, at fixed exchange rates, increased by 17%, and organically by 17% * Revenues SEK 37,728 million (29,218) * Revenue growth, at fixed exchange rates, increased by 26%, and organically by 25% * Adjusted EBITA SEK 8,477 million (5,539) * Adjusted EBITA margin 22.5% (19.0) * Adjusted EBIT SEK 7,997 million (5,103) * Adjusted EBIT margin 21.2%…",
    "via": "feed",
    "company": "Sandvik",
-   "highlights": "",
+   "highlights": "Free operating cash flow SEK 7,167 million (5,603)",
    "lane": "companies"
   },
   {
@@ -2873,10 +2666,10 @@
    "title": "Atlas Copco Gas and Process expands manufacturing footprint with investment in Voorheesville, New York",
    "link": "https://mfn.se/one/a/atlas-copco/atlas-copco-gas-and-process-expands-manufacturing-footprint-with-investment-in-voorheesville-new-york-4ba948d1",
    "published": "2026-10-28T19:33:25+00:00",
-   "summary": "",
+   "summary": "PARSIPPANY, N.J., Oct. 28, 2026 (GLOBE NEWSWIRE) -- On October 26, 2026, Atlas Copco Comptec, part of the Gas and Process division within Atlas Copco Group, inaugurated its expanded manufacturing facility in Voorheesville, New York. The 63,000-square-foot addition will help the company meet the needs of current and future projects that involve producing large integrally geared centrifugal…",
    "via": "feed",
    "company": "Atlas Copco",
-   "highlights": "",
+   "highlights": "features include multiple cranes and hoists for greater lifting capacity,",
    "lane": "companies"
   },
   {
@@ -2884,7 +2677,7 @@
    "title": "Atlas Copco: President and CEO comments on Q3 report",
    "link": "https://mfn.se/cis/a/atlas-copco/atlas-copco-president-and-ceo-comments-on-q3-report-dc719d2c",
    "published": "2026-10-22T10:02:00+00:00",
-   "summary": "Nacka, Sweden, October 22, 2026: Vagner Rego, President and CEO of Atlas Copco Group, comments on the quarterly report for Q3 that was released today.",
+   "summary": "Nacka, Sweden, October 22, 2026: Vagner Rego, President and CEO of Atlas Copco Group, comments on the quarterly report for Q3 that was released today. \"The overall demand for Atlas Copco Group's products, services and solutions was very strong, and order intake increased significantly\", said Vagner Rego. \"Most equipment segments delivered solid growth and the service business continued to…",
    "via": "feed",
    "company": "Atlas Copco",
    "highlights": "",
@@ -2895,10 +2688,10 @@
    "title": "Atlas Copco: Third-quarter report 2026",
    "link": "https://mfn.se/cis/a/atlas-copco/atlas-copco-third-quarter-report-2026-484e1dde",
    "published": "2026-10-22T10:00:00+00:00",
-   "summary": "Strong orders, record revenues and solid cash flow",
+   "summary": "Strong orders, record revenues and solid cash flow The comparison figures presented in this report refer to previous year unless otherwise stated. Third quarter * Orders received increased 29% to MSEK 52 338 (40 517), organic increase of 25% * Revenues reached MSEK 47 920 (41 621), organic increase of 11% * Operating profit reached MSEK 9 950 (8 546), corresponding to a margin of 20.8% (20.5) *…",
    "via": "feed",
    "company": "Atlas Copco",
-   "highlights": "Strong orders, record revenues and solid cash flow",
+   "highlights": "Strong orders, record revenues and solid cash flow Operating cash flow reached MSEK 8 728 (7 330)",
    "lane": "companies"
   },
   {
@@ -2909,7 +2702,7 @@
    "summary": "* Orders received increased 15% to MSEK 17 467 (15 142), with an organic increase of 12%. Large orders amounted to MSEK 790 (470). Currency impacted positively by 3%. * Revenues increased 10% to MSEK 16 775 (15 242), with an organic increase of 7%. Currency impacted positively by 3%. * Operating profit increased 22% to MSEK 3 411 (2 802), including items affecting comparability of MSEK -15…",
    "via": "feed",
    "company": "Epiroc",
-   "highlights": "* Operating cash flow was MSEK 1 438 (2 476).",
+   "highlights": "Operating cash flow was MSEK 1 438 (2 476). increased volumes and actions to increase efficiency. The operating cash flow amounted to MSEK 1 438 (2 476). strong equipment orders, more inventory has been tied up. These footprint investments",
    "lane": "companies"
   },
   {
@@ -2920,7 +2713,7 @@
    "summary": "\"The positive development in the Volvo Group's performance continued in Q3. We delivered net sales of SEK 119.5 billion, with an organic sales growth of 7%. Vehicle sales increased by 8% and service sales grew by 5% organically. We maintained good profitability, with adjusted operating income of SEK 14.7 billion (11.7) and an adjusted operating margin of 12.3% (10.6), supported by dedicated work…",
    "via": "feed",
    "company": "Volvo Group",
-   "highlights": "Operating cash flow in the Industrial Operations improved to SEK 7.2 billion,\" says Martin Lundstedt, President and CEO.",
+   "highlights": "Operating cash flow in the Industrial Operating cash flow in the Industrial Operations amounted to SEK 7,195 M (-1,739).",
    "lane": "companies"
   },
   {
@@ -2928,10 +2721,10 @@
    "title": "Electrolux Group Interim report Q3 2026",
    "link": "https://mfn.se/cis/a/electrolux/electrolux-group-interim-report-q3-2026-aec934ab",
    "published": "2026-10-23T05:00:00+00:00",
-   "summary": "",
+   "summary": "Highlights of the third quarter of 2026 * Net sales increased to SEK 33,919m (32,318) with organic sales growth of 3.5% (4.6). All regions contributed to the growth, driven mainly by increased sales volumes in Europe, Middle East & Africa, Asia Pacific (EMEA APAC), and Latin America, as well as positive price development in North America. * Operating income excluding non-recurring items (NRIs)…",
    "via": "feed",
    "company": "Electrolux",
-   "highlights": "",
+   "highlights": "Cost efficiency contributed SEK 1.4bn to operating income, offsetting the significant negative impact from external factors, primarily from increased raw material and logistics cost as a consequence of the Middle East conflict, and U.S. Operating income of SEK 607m (890), corresponding to an operating margin of 1.8% (2.8), included negative NRIs of SEK -305m referring to previously announced restructuring costs related to the strategic partnership with Midea Group in North America, and global organization and footprint optimization costs. Operating cash flow after investments was SEK 3,608m (624), mainly driven by improved working capital, and U.S. manufacturing footprint optimization. Higher tariffs added significant cost pressure, mainly reflected the price increases implemented to mitigate higher tariff tariff costs also had a negative impact in",
    "lane": "companies"
   },
   {
@@ -2942,15 +2735,15 @@
    "summary": "Highlights * Order intake was SEK 23.2 (17.1) billion, an increase of 36 percent. The organic increase was 33 percent. * Net sales increased by 8 percent to SEK 18.6 (17.2) billion, with an organic increase of 6 percent. * Adjusted EBITA increased by 6 percent to SEK 3.4 (3.2) billion, corresponding to a margin of 18.1 (18.4) percent. * Cash flow from operating activities amounted to SEK 3.4…",
    "via": "feed",
    "company": "Alfa Laval",
-   "highlights": "* Cash flow from operating activities amounted to SEK 3.4 (2.2) billion.",
+   "highlights": "Cash flow from operating activities amounted to SEK 3.4 (2.2) billion. Cash flow from operating activities: SEK 3,373 (2,206) million. Cash flow from operating activities: SEK 7,023 (5,770) million.",
    "lane": "companies"
   },
   {
    "source": "Essity",
-   "title": "Essity tilldelas EcoVadis Platinum",
-   "link": "https://mfn.se/cis/a/essity/essity-tilldelas-ecovadis-platinum-182a9397",
+   "title": "Essity awarded EcoVadis Platinum medal",
+   "link": "https://mfn.se/cis/a/essity/essity-awarded-ecovadis-platinum-medal-adb7f569",
    "published": "2026-10-28T07:00:00+00:00",
-   "summary": "Hygien- och hälsobolaget Essity har tilldelats EcoVadis Platinum medalj med ett resultat på 90 poäng av 100, en förbättring från 88 poäng 2025. Resultatet placerar Essity bland den främsta procenten av företag som EcoVadis utvärderat globalt under de senaste tolv månaderna.",
+   "summary": "Hygiene and health company Essity has been awarded the EcoVadis Platinum medal, achieving a score of 90 out of 100, up from 88 in 2025. The result places Essity among the top 1% of companies assessed by EcoVadis worldwide over the previous 12 months. Platinum is the highest medal level awarded by EcoVadis. The assessment evaluates the quality of companies' sustainability management systems,…",
    "via": "feed",
    "company": "Essity",
    "highlights": "",
@@ -2961,10 +2754,10 @@
    "title": "Essity: Interim Report Quarter 3, 2026",
    "link": "https://mfn.se/cis/a/essity/essity-interim-report-quarter-3-2026-b76c26f1",
    "published": "2026-10-22T05:00:00+00:00",
-   "summary": "",
+   "summary": "Stable volumes, resilient profitability and strong cash flow Quarter 3, 2026 * Net sales increased 4.1% to SEK 36,060m (34,638) * Organic sales growth amounted to -0.3%, of which volume accounted for -0.1% and price/mix -0.2%. * EBITA amounted to SEK 3,636m (5,152) * EBITA excl. IAC amounted to SEK 4,725m (5,056) * The EBITA margin excl. IAC amounted to 13.1% (14.6) * ROCE amounted to 11.9%…",
    "via": "feed",
    "company": "Essity",
-   "highlights": "",
+   "highlights": "Stable volumes, resilient profitability and strong cash flow Operating cash flow amounted to SEK 5,783m (5,324) intensifying cost headwinds, and cash flow was strong. increases and efficiency improvements. Cost savings were delivered according to the production footprint in Latin America, and price reductions in previous grow and create value, while improving efficiency and addressing increasing cost",
    "lane": "companies"
   },
   {
@@ -2972,7 +2765,7 @@
    "title": "Getinge announces departure of Elin Frostehav as President Acute Care Therapies",
    "link": "https://mfn.se/cis/a/getinge/getinge-announces-departure-of-elin-frostehav-as-president-acute-care-therapies-e01297f0",
    "published": "2026-10-26T08:59:15+00:00",
-   "summary": "Getinge today announced that Elin Frostehav will leave her position as President Acute Care Therapies and member of the Executive Team to accept an external opportunity.",
+   "summary": "Getinge today announced that Elin Frostehav will leave her position as President Acute Care Therapies and member of the Executive Team to accept an external opportunity. \"Elin has made an important contribution to the advancement of our Acute Care Therapies business during her time with Getinge,\" said Mattias Perjos, President & CEO at Getinge. \"We have made good progress in strengthening the…",
    "via": "feed",
    "company": "Getinge",
    "highlights": "",
@@ -2983,7 +2776,7 @@
    "title": "Getinge meddelar att Elin Frostehav avgår som President Acute Care Therapies",
    "link": "https://mfn.se/cis/a/getinge/getinge-meddelar-att-elin-frostehav-avgar-som-president-acute-care-therapies-63137d0b",
    "published": "2026-10-26T08:58:36+00:00",
-   "summary": "Getinge meddelade idag att Elin Frostehav avgår som President Acute Care Therapies och medlem av koncernledningen för att gå vidare till nya utmaningar utanför bolaget.",
+   "summary": "Getinge meddelade idag att Elin Frostehav avgår som President Acute Care Therapies och medlem av koncernledningen för att gå vidare till nya utmaningar utanför bolaget. - Under sin tid på Getinge har Elin bidragit betydelsefullt till att driva Acute Care Therapies framåt, säger Mattias Perjos, VD och koncernchef på Getinge. - Vi har gjort goda framsteg med att stärka verksamheten och dess…",
    "via": "feed",
    "company": "Getinge",
    "highlights": "",
@@ -2994,10 +2787,10 @@
    "title": "Boliden Q3 2026: Solid performance across Mines and Smelters",
    "link": "https://mfn.se/cis/a/boliden/boliden-q3-2026-solid-performance-across-mines-and-smelters-a3e7b2c1",
    "published": "2026-10-29T12:00:00+00:00",
-   "summary": "",
+   "summary": "\"Among our mines, Somincor has really integrated well into Boliden and had a very strong production, while Kevitsa set a new record for milled volume and Garpenberg improved according to plan. On the smelter side, Harjavalta set a new record for its nickel feed and the availability of the new roaster at Odda increased significantly towards the end of the quarter\" - Mikael Staffas, President and…",
    "via": "feed",
    "company": "Boliden",
-   "highlights": "",
+   "highlights": "Free cash flow: SEK 1,121 m (2,284) Process Inventory Revaluation",
    "lane": "companies"
   },
   {
@@ -3005,7 +2798,7 @@
    "title": "SSAB julkisti tänään osavuosikatsauksensa 1.1.-30.9.2026",
    "link": "https://mfn.se/cis/a/ssab/ssab-julkisti-tanaan-osavuosikatsauksensa-1-1-30-9-2026-6bba2b00",
    "published": "2026-10-28T06:31:00+00:00",
-   "summary": "SSAB julkisti tänään osavuosikatsauksensa 1.1.-30.9.2026. Raportti on saatavilla englanniksi ja ruotsiksi yhtiön verkkosivuilla. SSAB järjestää analyytikko- ja mediatilaisuuden klo 9.30 CET (10.30 EST). Tilaisuuteen voi osallistua webcast-linkin kautta yhtiön verkkosivuilta tai puhelimitse.",
+   "summary": "SSAB julkisti tänään osavuosikatsauksensa 1.1.-30.9.2026. Raportti on saatavilla englanniksi ja ruotsiksi yhtiön verkkosivuilla. SSAB järjestää analyytikko- ja mediatilaisuuden klo 9.30 CET (10.30 EST). Tilaisuuteen voi osallistua webcast-linkin kautta yhtiön verkkosivuilta tai puhelimitse. Kolmas vuosineljännes: * * Liikevaihto oli 25 632 (22 960) miljoonaa Ruotsin kruunua. * Liiketulos oli 2…",
    "via": "feed",
    "company": "SSAB",
    "highlights": "",
@@ -3027,10 +2820,10 @@
    "title": "ASSA ABLOY: Quarterly Report Q3 2026",
    "link": "https://mfn.se/cis/a/assa-abloy/assa-abloy-quarterly-report-q3-2026-2e0fa23f",
    "published": "2026-10-27T07:00:00+00:00",
-   "summary": "Record sales, operating profit and margin",
+   "summary": "Record sales, operating profit and margin Third quarter ────────── ────────── * Net sales totaled SEK 40,771 M (38,146), with organic growth of 4% (3) and acquired net growth of 2% (5). Exchange rates affected sales by 1% (-6). * Organic sales growth was strong in Americas and EMEIA, good in Global Technologies and Entrance Systems, but declined in Asia Pacific. * Three acquisitions with…",
    "via": "feed",
    "company": "Assa Abloy",
-   "highlights": "",
+   "highlights": "Operating cash flow amounted to SEK 7,405 M (6,969). Operating cash flow, SEK M     │6,969  │7,405  │6% │14,845   │16,847   │13% The operating cash flow improved by 6% year-on-year to SEK 7,405 long-term competitive, we will also launch our 11^{th} manufacturing footprint",
    "lane": "companies"
   },
   {
@@ -3038,10 +2831,10 @@
    "title": "Interim report July–September 2026",
    "link": "https://mfn.se/a/trelleborg/interim-report-july-september-2026",
    "published": "2026-10-23T05:45:00+00:00",
-   "summary": "",
+   "summary": "Strong growth and record-high margin Our performance in the third quarter was in line with our expectations and marked another record-breaking quarter for the Group in which we recorded the highest sales, the highest operating profit and the highest margin to date for a single quarter. Net sales increased by 8 percent to SEK 9,232 M (8,532), with organic growth accounting for 6 percentage…",
    "via": "feed",
    "company": "Trelleborg",
-   "highlights": "",
+   "highlights": "Operating cash flow increased 6 combination of strong market positions, a local footprint, systematic the operational structure and efficiency of the business to further enhance costs have been largely offset by efficiency measures and selective price Items affecting comparability for the quarter totaled SEK -67 M (-72) and pertained to restructuring costs. Operating cash flow amounted to SEK 1,845 M (1,741), up 6 percent.",
    "lane": "companies"
   },
   {
@@ -3049,10 +2842,10 @@
    "title": "SCA: Interim report Q3 2026",
    "link": "https://mfn.se/cis/a/sca/sca-interim-report-q3-2026-7db1c2b9",
    "published": "2026-10-23T06:00:00+00:00",
-   "summary": "",
+   "summary": "January-September 2026 compared with January-September 2025 * Net sales declined 3% to SEK 15,141m (15,534). The lower net sales were mainly driven by lower selling prices and negative exchange rate effects, which were offset by higher delivery volumes. * EBITDA amounted to SEK 4,041m (5,328). The decrease was primarily attributable to lower selling prices, negative exchange rate effects, and…",
    "via": "feed",
    "company": "SCA",
-   "highlights": "",
+   "highlights": "Operating cash flow amounted to SEK 1,441m (2,549). 11 TWh) of installed wind power capacity",
    "lane": "companies"
   },
   {
@@ -3060,10 +2853,10 @@
    "title": "Holmen's Interim Report January-September 2026",
    "link": "https://mfn.se/cis/a/holmen/holmens-interim-report-january-september-2026-09f72d8d",
    "published": "2026-10-22T05:30:00+00:00",
-   "summary": "",
+   "summary": "───────────────────────────────────────────┬───────┬───────┬─────┬─────┬──────── │ │Quarter│ │Jan-S│Full │ │ │ │ep │year ───────────────────────────────────────────┼────┬──┴───┬───┴──┬──┴──┬──┴───┬──── SEKm │3-26│2-26 │3-25 │2026 │2025 │2025 ───────────────────────────────────────────┼────┼──────┼──────┼─────┼──────┼──── Net sales │4 │5 632 │5 327 │16 │16 873│22 │945 │ │ │049 │ │056…",
    "via": "feed",
    "company": "Holmen",
-   "highlights": "",
+   "highlights": "Cash flow before investments and change in │357 │637   │725   │1 980│2 585 │3 working capital                            │    │      │      │     │      │901 Cash flow after investments amounted, in the third quarter, to SEK 703 million, and net debt decreased to SEK 5 810 million, which corresponds to 11 per cent of equity.",
    "lane": "companies"
   },
   {
@@ -3071,10 +2864,10 @@
    "title": "Billerud AB: Interim report January-September 2026",
    "link": "https://mfn.se/cis/a/billerud/billerud-ab-interim-report-january-september-2026-ae5e62fa",
    "published": "2026-10-22T05:00:00+00:00",
-   "summary": "",
+   "summary": "Sales growth and continued profitability recovery Key highlights · Sales growth in both regions · Positive pricing impact across most categories · Continued EBITDA margin improvement in Region Europe · Successful upgrade of assets in North America · Strong cash conversion of 127% Quarterly data · Net sales increased by 3% to SEK 10,166 million (9,905) · Adjusted EBITDA* SEK 1,032 million (1,058)…",
    "via": "feed",
    "company": "Billerud",
-   "highlights": "",
+   "highlights": "execution and efficiency actions were the main contributing factors behind the Our efficiency measures are working, we will continue to stay higher capacity utilization. With stable production across our mills and higher capacity pulpwood costs and fixed cost savings.",
    "lane": "companies"
   },
   {
@@ -3082,21 +2875,21 @@
    "title": "Thule interim report, third quarter 2026, July - September",
    "link": "https://mfn.se/a/thule-group/thule-interim-report-third-quarter-2026-july-september",
    "published": "2026-10-22T05:45:00+00:00",
-   "summary": "",
+   "summary": "Continued organic growth and increased profitability * Net sales for the quarter amounted to SEK 2,603 m (2,528), an increase of 3.0 percent, of which 1.0 percent was related to exchange rate fluctuations. Organic sales growth was 1.2 percent. * In Region Europe organic revenue increased by 3.9 percent. In Region North America organic revenue decreased by 0.8 percent, and in Region Rest of the…",
    "via": "feed",
    "company": "Thule",
-   "highlights": "",
+   "highlights": "Operating income for the quarter amounted to SEK 521 m (453), which includes tariff refunds of SEK 52 m. Cash flow from operating activities amounted to SEK 791 m (668) during the quarter. cautious about inventory levels, especially towards the end of the season.",
    "lane": "companies"
   },
   {
    "source": "Axfood",
-   "title": "Axfood: Fortsatt volymtillväxt i en dynamisk marknad",
-   "link": "https://mfn.se/cis/a/axfood/axfood-fortsatt-volymtillvaxt-i-en-dynamisk-marknad-ee8ad897",
+   "title": "Axfood: Continued volume growth in a dynamic market",
+   "link": "https://mfn.se/cis/a/axfood/axfood-continued-volume-growth-in-a-dynamic-market-5fbf2ce2",
    "published": "2026-10-22T05:00:00+00:00",
-   "summary": "Vd och koncernchef Simone Margulies kommenterar delårsrapporten för det tredje kvartalet 2026.",
+   "summary": "President and CEO Simone Margulies comments the interim report for the third quarter 2026. \"Axfood continued to grow and improve its earnings, and has now turned City Gross from loss-making to profitable. The market is characterised by falling food prices, cost pressure and intense competition. While value for money remains a key factor for consumers, we are seeing some signs of quality and…",
    "via": "feed",
    "company": "Axfood",
-   "highlights": "",
+   "highlights": "concepts, and investments that improve our efficiency and competitiveness, we efficiency and making a clear contribution to earnings growth.",
    "lane": "companies"
   },
   {
@@ -3104,10 +2897,10 @@
    "title": "KONE Oyj: Interim report of KONE Corporation for January-September 2026",
    "link": "https://mfn.se/cis/a/kone/kone-oyj-interim-report-of-kone-corporation-for-january-september-2026-b8397de3",
    "published": "2026-10-28T06:30:00+00:00",
-   "summary": "",
+   "summary": "KONE Corporation, stock exchange release, October 28, 2026 at 8:30 a.m. EET Interim report of KONE Corporation for January-September 2026 Solid execution, continued growth momentum July-September 2026 * Orders received grew by 7.2% to EUR 2,292.9 (7-9/2025: 2,139.5) million. At comparable exchange rates, orders grew by 5.5%. * Sales grew by 5.2% to EUR 2,906.0 (2,762.0) million. At comparable…",
    "via": "feed",
    "company": "Kone",
-   "highlights": "",
+   "highlights": "Cash flow from operations (before financing items and taxes) was EUR 347.9 (444.4) million. Cash flow from operations (before financing items and taxes) was EUR 1,284.3 (1,295.5) million. Cash flow from operations (before  │MEU│347.9│444.4│    │1,284│1,295│    │1,761. Net working capital (including     │MEU│     │     │    │-876.│-818.│    │-797.6 well as costs related to restructuring and the resettlement of a defined benefit assets and liabilities, are included in net working capital. connectivity and data can improve reliability, efficiency and performance across and the demand for improved energy efficiency.",
    "lane": "companies"
   },
   {
@@ -3115,10 +2908,10 @@
    "title": "Inside information: Wärtsilä sets new mid-term financial targets to accelerate value creation and moves to a new guidance practice in 2027",
    "link": "https://mfn.se/cis/a/wartsila/inside-information-wartsila-sets-new-mid-term-financial-targets-to-accelerate-value-creation-and-moves-to-a-new-guidance-practice-in-2027-e3afbc5d",
    "published": "2026-10-27T06:35:00+00:00",
-   "summary": "Wärtsilä Corporation, Stock exchange release, 27 October 2026 at 08:35 EET",
+   "summary": "Wärtsilä Corporation, Stock exchange release, 27 October 2026 at 08:35 EET Inside information: Wärtsilä sets new mid-term financial targets to accelerate value creation and moves to a new guidance practice in 2027 Wärtsilä Board of Directors has approved new financial targets reflecting the company's strengthened financial performance, attractive structural growth opportunities and ambition to…",
    "via": "feed",
    "company": "Wärtsilä",
-   "highlights": "",
+   "highlights": "Net profit to free cash flow conversion: >90% addition, the new group-level net profit to free cash flow conversion target",
    "lane": "companies"
   },
   {
@@ -3126,10 +2919,10 @@
    "title": "Wärtsilä Corporation: Wärtsilä's Interim Report January-September 2026",
    "link": "https://mfn.se/cis/a/wartsila/wartsila-corporation-wartsilas-interim-report-january-september-2026-3ba27e84",
    "published": "2026-10-27T06:30:00+00:00",
-   "summary": "Wärtsilä Corporation, Interim Report January-September 2026, 27 October 2026 at 8:30 (EET)",
+   "summary": "Wärtsilä Corporation, Interim Report January-September 2026, 27 October 2026 at 8:30 (EET) Wärtsilä's Interim Report January-September 2026 This release is a summary of Wärtsilä's Interim Report January-September 2026. The complete report is attached to this release as a pdf file. It is also available on the company website at www.wartsila.com. Increased profitability and continued strong order…",
    "via": "feed",
    "company": "Wärtsilä",
-   "highlights": "",
+   "highlights": "Cash flow from operating activities increased to EUR 583 million (340) Cash flow from operating activities increased to EUR 1,087 million (946) driving demand for new power-generating capacity. energy transition, increasing the need for flexible balancing capacity to ensure platform, which combines high efficiency, flexibility and reliability, and Improving fuel efficiency and operational performance remains a key priority for The earlier announced capacity expansions in both manufacturing and services Cash flow from operating activities amounted to",
    "lane": "companies"
   },
   {
@@ -3137,10 +2930,10 @@
    "title": "Valmet's Interim Review January 1 - September 30, 2026: Strong orders received and increased comparable EBITA",
    "link": "https://mfn.se/cis/a/valmet/valmets-interim-review-january-1-september-30-2026-strong-orders-received-and-increased-comparable-ebita-c28654c1",
    "published": "2026-10-28T07:00:00+00:00",
-   "summary": "",
+   "summary": "Valmet's Interim Review January 1 - September 30, 2026: Strong orders received and increased comparable EBITA Valmet Oyj's stock exchange release on October 28, 2026 at 9:00 a.m. EET July-September 2026 · Orders received increased 30 percent to EUR 1,408 million (EUR 1,083 million). Organically orders received increased 25 percent. Growth was supported by strong order intake in biomaterial…",
    "via": "feed",
    "company": "Valmet",
-   "highlights": "",
+   "highlights": "Service) into Valmet as of July 1, 2026 and the positive impact of efficiency and cost reduction actions as part of the Lead the Way strategy. Cash flow provided by operating activities totaled EUR 310 million (EUR 391 Cash flow   │210       │94        │>100%     │310       │391       │-21% the Severn acquisition and the efficiency and cost reduction actions we are",
    "lane": "companies"
   },
   {
@@ -3148,7 +2941,7 @@
    "title": "Valmet Oyj: Valmet to acquire leading manufacturing execution system (MES) business from Tieto to accelerate industrial transition towards autonomous operations",
    "link": "https://mfn.se/cis/a/valmet/valmet-oyj-valmet-to-acquire-leading-manufacturing-execution-system-mes-business-from-tieto-to-accelerate-industrial-transition-towards-autonomous-operations-e3f7259a",
    "published": "2026-10-27T06:45:00+00:00",
-   "summary": "Valmet Oyj's press release on October 27, 2026 at 8:45 a.m. EET",
+   "summary": "Valmet Oyj's press release on October 27, 2026 at 8:45 a.m. EET Valmet has entered into an agreement to acquire the manufacturing execution system (MES) business from Tieto, including the modern AI-powered TIPS MES for production planning and execution. The transaction also covers the Order to Cash solution for the pulp, paper and fibre industry. The acquisition completes Valmet's Automation…",
    "via": "feed",
    "company": "Valmet",
    "highlights": "",
@@ -3156,10 +2949,10 @@
   },
   {
    "source": "UPM",
-   "title": "Muutoksia UPM:n johtoryhmässä: Sangeeta Pandey nimitetty henkilöstöjohtajaksi",
-   "link": "https://mfn.se/cis/a/upm-kymmene/muutoksia-upm-n-johtoryhmassa-sangeeta-pandey-nimitetty-henkilostojohtajaksi-3d9bcd0b",
+   "title": "Changes in UPM's Group Executive Team: Sangeeta Pandey appointed Executive Vice President, Human Resources",
+   "link": "https://mfn.se/cis/a/upm-kymmene/changes-in-upms-group-executive-team-sangeeta-pandey-appointed-executive-vice-president-human-resources-38aba594",
    "published": "2026-10-29T07:30:00+00:00",
-   "summary": "",
+   "summary": "(UPM, Helsinki, October 29, 2026 at 9:30 EET) - Sangeeta Pandey has been appointed Executive Vice President, Human Resources at UPM. She will be a member of UPM's Group Executive Team and report to Massimo Reynaudo, President and CEO. She will assume her role on January 1, 2027, and will be based in Helsinki, Finland. Pandey, born in 1969, has extensive international experience in human…",
    "via": "feed",
    "company": "UPM",
    "highlights": "",
@@ -3170,7 +2963,7 @@
    "title": "UPM-Kymmene Oyj: UPM:n taloudelliset raportit ja yhtiökokous vuonna 2027",
    "link": "https://mfn.se/cis/a/upm-kymmene/upm-kymmene-oyj-upm-n-taloudelliset-raportit-ja-yhtiokokous-vuonna-2027-746333b5",
    "published": "2026-10-28T12:00:00+00:00",
-   "summary": "",
+   "summary": "UPM-Kymmene Oyj Pörssitiedote (Tulosjulkistamisajankohdat) 28.10.2026 klo 14.00 UPM:n taloudelliset raportit ja yhtiökokous vuonna 2027 Vuonna 2027 UPM julkaisee taloudellisia raportteja seuraavan aikataulun mukaisesti: - tilinpäätöstiedote vuodelta 2026 julkaistaan 4.2.2027 arviolta klo 8.30 - osavuosikatsaus tammi-maaliskuulta (Q1) julkaistaan 29.4.2027 arviolta klo 8.30 - puolivuosikatsaus…",
    "via": "feed",
    "company": "UPM",
    "highlights": "",
@@ -3181,7 +2974,7 @@
    "title": "UPM-Kymmene Oyj: UPM has decided to complete the partial demerger of UPM-Kymmene Corporation; The Finnish Financial Supervisory Authority has approved a supplement to WISA Group Plc's demerger and listing prospectus",
    "link": "https://mfn.se/cis/a/upm-kymmene/upm-kymmene-oyj-upm-has-decided-to-complete-the-partial-demerger-of-upm-kymmene-corporation-the-finnish-financial-supervisory-authority-has-approved-a-supplement-to-wisa-group-plcs-demerger-and-listing-prospectus-f3a0840e",
    "published": "2026-10-28T11:00:00+00:00",
-   "summary": "",
+   "summary": "UPM-Kymmene Corporation Stock Exchange Release (Other information disclosed according to the rules of the exchange) October 28, 2026 at 13:00 EET UPM has decided to complete the partial demerger of UPM-Kymmene Corporation; The Finnish Financial Supervisory Authority has approved a supplement to WISA Group Plc's demerger and listing prospectus The Board of Directors of UPM-Kymmene Corporation…",
    "via": "feed",
    "company": "UPM",
    "highlights": "",
@@ -3192,7 +2985,7 @@
    "title": "UPM-Kymmene Oyj: UPM to open its first label material factory in India to accelerate growth in the region",
    "link": "https://mfn.se/cis/a/upm-kymmene/upm-kymmene-oyj-upm-to-open-its-first-label-material-factory-in-india-to-accelerate-growth-in-the-region-d2a9ab7b",
    "published": "2026-10-28T09:00:00+00:00",
-   "summary": "",
+   "summary": "(UPM, Helsinki, October 28, 2026 at 11:00 EET) - UPM Adhesive Materials plans to open its first factory in India in early 2028. Located in the state of Gujarat, the factory will feature an acrylic-based coating line for self-adhesive label materials. The investment continues UPM's expansion in India, following the company's March 2026 announcement of a new label material slitting and…",
    "via": "feed",
    "company": "UPM",
    "highlights": "",
@@ -3203,10 +2996,10 @@
    "title": "UPM-Kymmene Oyj: UPM Interim Report Q3 2026: Strong cash flow in a challenging quarter amid destocking and cost inflation",
    "link": "https://mfn.se/cis/a/upm-kymmene/upm-kymmene-oyj-upm-interim-report-q3-2026-strong-cash-flow-in-a-challenging-quarter-amid-destocking-and-cost-inflation-7f61d9a1",
    "published": "2026-10-28T07:45:00+00:00",
-   "summary": "",
+   "summary": "UPM-Kymmene Corporation Stock Exchange Release (Q3 Interim Report) October 28, 2026 at 9:45 EET UPM Interim Report Q3 2026: Strong cash flow in a challenging quarter amid destocking and cost inflation Q3 2026 highlights, continuing operations * Sales totaled €2,202 million (2,226 million in Q3 2025) * Comparable EBIT decreased by 8% to €131 million, 5.9% of sales (142 million, 6.4%) * Q3…",
    "via": "feed",
    "company": "UPM",
-   "highlights": "",
+   "highlights": "Strong cash flow in a challenging quarter amid destocking and cost inflation Actions to improve working capital efficiency resulted in strong operating cash flow at €420 million (218 million)1) Operating cash flow was €645 million (685 million)1) UPM presents certain measures of performance, financial position and cash flows, Operating cash flow, € million  │420   │218   │136   │645     │685     │1,405 Operating cash flow per share, €│0.80  │0.41  │0.26  │1.22    │1.30    │2.66 flow, supported by improved working capital efficiency. months later than previously anticipated - and to reach nominal capacity in",
    "lane": "companies"
   },
   {
@@ -3214,7 +3007,7 @@
    "title": "UPM-Kymmene Oyj: UPM-Kymmene Corporation has applied for WISA Group Plc's shares to be listed on Nasdaq Helsinki",
    "link": "https://mfn.se/cis/a/upm-kymmene/upm-kymmene-oyj-upm-kymmene-corporation-has-applied-for-wisa-group-plcs-shares-to-be-listed-on-nasdaq-helsinki-b0e75e98",
    "published": "2026-10-22T19:30:00+00:00",
-   "summary": "",
+   "summary": "UPM-Kymmene Corporation Stock Exchange Release (Other information disclosed according to the rules of the exchange) October 22, 2026 at 22:30 EEST UPM-Kymmene Corporation has applied for WISA Group Plc's shares to be listed on Nasdaq Helsinki On April 29, 2026, the Board of Directors of UPM-Kymmene Corporation (\"UPM\") approved a demerger plan concerning the partial demerger of UPM (the \"Demerger…",
    "via": "feed",
    "company": "UPM",
    "highlights": "",
@@ -3225,10 +3018,10 @@
    "title": "Correction: Norsk Hydro: Solid results and strong performance",
    "link": "https://mfn.se/one/a/norsk-hydro/correction-norsk-hydro-solid-results-and-strong-performance-842fbd4b",
    "published": "2026-10-23T08:22:08+00:00",
-   "summary": "",
+   "summary": "Hydro’s adjusted EBITDA for the third quarter of 2026 was NOK 9,089 million, up from NOK 5,996 million in the same quarter last year. Higher all-in metal prices and higher alumina prices contributed positively in the quarter, along with improved earnings in Recycling and Extrusions. The strong performance was partially offset by higher anode and energy costs in Aluminium Metal, increased energy…",
    "via": "feed",
    "company": "Norsk Hydro",
-   "highlights": "",
+   "highlights": "Free cash flow of NOK 1.4 billion impacted by higher metal prices and associated working capital requirements and prepayments Free cash flow was NOK 1.4 billion, as strong adjusted increased metal prices and associated working capital requirements and improving cash conversion and working capital efficiency remains a clear of capacity curtailed during the European energy crisis in 2022. targets an annual production capacity of 75,000 tonnes by the end of February quarter as new refinery capacity came on line. around 67.8 percent of full capacity at the end of the quarter, which is below",
    "lane": "companies"
   },
   {
@@ -3236,10 +3029,10 @@
    "title": "Norsk Hydro: Solid results and strong performance",
    "link": "https://mfn.se/one/a/norsk-hydro/norsk-hydro-solid-results-and-strong-performance-b050f2b1",
    "published": "2026-10-23T05:00:00+00:00",
-   "summary": "",
+   "summary": "Hydro’s adjusted EBITDA for the third quarter of 2026 was NOK 9,089 million, up from NOK 5,996 million in the same quarter last year. Higher all-in metal prices and higher alumina prices contributed positively in the quarter, along with improved earnings in Recycling and Extrusions. The strong performance was partially offset by higher anode and energy costs in Aluminium Metal, increased energy…",
    "via": "feed",
    "company": "Norsk Hydro",
-   "highlights": "",
+   "highlights": "Free cash flow of NOK 1.4 billion impacted by higher metal prices and associated working capital requirements and prepayments Free cash flow was NOK 1.4 billion, as strong adjusted increased metal prices and associated working capital requirements and improving cash conversion and working capital efficiency remains a clear of capacity curtailed during the European energy crisis in 2022. targets an annual production capacity of 75,000 tonnes by the end of February quarter as new refinery capacity came on line. around 67.8 percent of full capacity at the end of the quarter, which is below",
    "lane": "companies"
   },
   {
@@ -3247,7 +3040,7 @@
    "title": "Trading statement as at 30 September 2026",
    "link": "https://mfn.se/nir/a/carlsberg/trading-statement-as-at-30-september-2026-09a7627b",
    "published": "2026-10-29T07:00:51+00:00",
-   "summary": "",
+   "summary": "29.10.2026 08:00:39 CET | Carlsberg A/S | Interim report (Q1 and Q3) Unless otherwise stated, comments in this announcement refer to Q3 performance. The following definitions are used in this announcement. CPM: Carlsberg performance measures (corresponding to the Group’s internally defined management performance measures). Organic: CPM development excluding the impact of currencies and…",
    "via": "feed",
    "company": "Carlsberg",
    "highlights": "",
@@ -3260,7 +3053,7 @@
    "km": 362.327,
    "level_cm": 312.0,
    "trend": null,
-   "measured_at": "2026-10-29T19:00:00+01:00",
+   "measured_at": "2026-10-29T19:15:00+01:00",
    "unit": "cm"
   },
   {
@@ -3268,7 +3061,7 @@
    "km": 546.23,
    "level_cm": 45.0,
    "trend": null,
-   "measured_at": "2026-10-29T19:00:00+01:00",
+   "measured_at": "2026-10-29T19:15:00+01:00",
    "unit": "cm"
   },
   {
@@ -3276,7 +3069,7 @@
    "km": 688.0,
    "level_cm": 118.0,
    "trend": null,
-   "measured_at": "2026-10-29T19:00:00+01:00",
+   "measured_at": "2026-10-29T19:15:00+01:00",
    "unit": "cm"
   },
   {
@@ -3284,15 +3077,15 @@
    "km": 780.8,
    "level_cm": 210.0,
    "trend": null,
-   "measured_at": "2026-10-29T19:00:00+01:00",
+   "measured_at": "2026-10-29T19:15:00+01:00",
    "unit": "cm"
   },
   {
    "gauge": "EMMERICH",
    "km": 851.9,
-   "level_cm": 65.0,
+   "level_cm": 66.0,
    "trend": null,
-   "measured_at": "2026-10-29T19:00:00+01:00",
+   "measured_at": "2026-10-29T19:15:00+01:00",
    "unit": "cm"
   }
  ]

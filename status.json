@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-29T18:12:36.923919+00:00",
+ "fetched_at": "2026-10-29T18:16:45.267084+00:00",
  "window_days": 8,
  "sources_ok": 66,
  "sources_total": 72,
@@ -270,8 +270,8 @@
    "url": "https://techxplore.com/rss-feed/business-tech-news/",
    "ok": true,
    "method": "feed https://techxplore.com/rss-feed/business-tech-news/",
-   "items": 2,
-   "error": null,
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
    "lane": "management"
   },
   {
@@ -279,8 +279,8 @@
    "url": "https://techxplore.com/rss-feed/",
    "ok": true,
    "method": "feed https://techxplore.com/rss-feed/",
-   "items": 6,
-   "error": null,
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
    "lane": "management"
   },
   {
@@ -288,8 +288,8 @@
    "url": "https://phys.org/rss-feed/science-news/economics-business/",
    "ok": true,
    "method": "feed https://phys.org/rss-feed/science-news/economics-business/",
-   "items": 3,
-   "error": null,
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
    "lane": "management"
   },
   {
@@ -297,8 +297,8 @@
    "url": "https://idw-online.de/de/pressreleasesrss",
    "ok": true,
    "method": "feed https://idw-online.de/de/pressreleasesrss",
-   "items": 2,
-   "error": null,
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
    "lane": "management"
   },
   {
@@ -315,8 +315,8 @@
    "url": "https://theconversation.com/uk/business/articles.atom",
    "ok": true,
    "method": "feed https://theconversation.com/uk/business/articles.atom",
-   "items": 2,
-   "error": null,
+   "items": 0,
+   "error": "no matching posts in the window (normal for this source)",
    "lane": "management"
   },
   {
@@ -351,7 +351,7 @@
    "url": "https://www.placera.se/artiklar/rss.xml",
    "ok": true,
    "method": "feed https://www.placera.se/artiklar/rss.xml",
-   "items": 9,
+   "items": 1,
    "error": null,
    "lane": "management"
   },
