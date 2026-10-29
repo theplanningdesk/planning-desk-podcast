@@ -59,7 +59,7 @@ def main(path):
             url = url[4:]
             r = requests.get(url, headers={"User-Agent": UA}, timeout=25)
             text = r.text
-            i = text.find("<item")
+            i = text.find("<item") if "<item" in text else max(text.find("human-in-the-loop") - 3000, 0)
             print(f"RAW {url} ({len(text)} chars)\n{text[i:i + 6000]}\n", flush=True)
             continue
         print(probe(url), flush=True)

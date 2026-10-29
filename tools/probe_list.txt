@@ -1,2 +1,1 @@
-RAW https://mfn.se/all/a/sandvik.rss
-RAW https://news.cision.com/se/ListItems?n=sandvik&m=Financial&pageIx=1&format=rss
+RAW https://www.klu.org/newsroom
