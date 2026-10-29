@@ -1,0 +1,109 @@
+{
+  "stem": "2026-10-29",
+  "format": "daily",
+  "short_cues": [
+    {
+      "line": 0,
+      "template": "stat",
+      "props": {
+        "kicker": "Lunar new year 2027",
+        "value": 11,
+        "label": "days earlier than in 2026",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 1,
+      "template": "headline",
+      "props": {
+        "kicker": "6 February 2027",
+        "title": "Lunar new year starts earlier",
+        "detail": "Less time to move cargo out of China before factories close",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 1,
+      "at": "out of China",
+      "template": "route",
+      "props": {
+        "kicker": "China",
+        "title": "Factories close for the holiday",
+        "points": [
+          {
+            "name": "China",
+            "lat": 35.0,
+            "lon": 104.0,
+            "alert": true
+          }
+        ],
+        "pad": 12
+      }
+    },
+    {
+      "line": 2,
+      "template": "headline",
+      "props": {
+        "kicker": "Seko Logistics",
+        "title": "Bring purchase orders forward",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 2,
+      "at": "four weeks",
+      "template": "stat",
+      "props": {
+        "kicker": "Ocean bookings",
+        "value": 4,
+        "prefix": "at least ",
+        "label": "weeks before shipment",
+        "source": "Seko via The Loadstar"
+      }
+    },
+    {
+      "line": 3,
+      "template": "list",
+      "props": {
+        "kicker": "Count back",
+        "items": [
+          {
+            "label": "6 February",
+            "detail": "Lunar new year starts",
+            "say": "sixth of February"
+          },
+          {
+            "label": "Early January",
+            "detail": "Four weeks earlier",
+            "say": "early January"
+          }
+        ]
+      }
+    },
+    {
+      "line": 3,
+      "at": "right on top",
+      "template": "headline",
+      "props": {
+        "kicker": "Collision",
+        "title": "Booking window meets January restock"
+      }
+    },
+    {
+      "line": 4,
+      "template": "takeaway",
+      "props": {
+        "kicker": "For planners",
+        "text": "Pull China order dates for Q1 replenishment in now."
+      }
+    },
+    {
+      "line": 5,
+      "template": "headline",
+      "props": {
+        "kicker": "The Planning Desk",
+        "title": "Supply chain news every weekday"
+      }
+    }
+  ]
+}

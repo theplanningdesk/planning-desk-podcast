@@ -1,0 +1,278 @@
+{
+  "show": "The Planning Desk",
+  "format": "daily",
+  "episode_title": "Lunar New Year Comes Early",
+  "week": "2026-W44",
+  "run_date": "2026-10-29",
+  "brief_file": "news-brief-daily-2026-10-29.md",
+  "target_runtime_sec": 232,
+  "word_count": 666,
+  "hosts": {
+    "F": {
+      "name": "Anna"
+    },
+    "M": {
+      "name": "Erik"
+    }
+  },
+  "segments": [
+    {
+      "id": "intro_music",
+      "type": "music",
+      "duration_sec": 5
+    },
+    {
+      "id": "cold_open",
+      "type": "speech",
+      "items": [
+        "2026-10-29-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Lunar new year comes eleven days earlier next year, and that squeezes every China order you had pencilled in for January."
+        },
+        {
+          "speaker": "M",
+          "text": "Four weeks of booking lead time, and the clock is already running. This is The Planning Desk."
+        }
+      ]
+    },
+    {
+      "id": "welcome",
+      "type": "speech",
+      "items": [
+        "2026-10-29-01",
+        "2026-10-29-02",
+        "2026-10-29-03",
+        "2026-10-29-05",
+        "2026-10-29-06"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Good morning, it's Thursday the twenty-ninth of October, and I'm Anna."
+        },
+        {
+          "speaker": "M",
+          "text": "And I'm Erik."
+        },
+        {
+          "speaker": "F",
+          "text": "Quick note, this show is made with A I. A I agents gather the news, and our voices are synthetic."
+        },
+        {
+          "speaker": "M",
+          "text": "Today, an early lunar new year, container rates that won't come down, a fresh warning on Hormuz, transport planning that never stops, and German rail waiting on its track prices."
+        }
+      ]
+    },
+    {
+      "id": "top_story",
+      "type": "speech",
+      "items": [
+        "2026-10-29-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Lunar new year twenty twenty-seven starts on the sixth of February. That's eleven days earlier than this year, and it shrinks the window for getting cargo out of China before the factories close."
+        },
+        {
+          "speaker": "M",
+          "text": "Forwarder Seko Logistics is telling shippers to bring purchase orders forward, and to confirm ocean bookings at least four weeks before shipment, according to The Loadstar."
+        },
+        {
+          "speaker": "F",
+          "text": "Work back from the sixth of February and those four weeks land in early January, right on top of the January restock."
+        },
+        {
+          "speaker": "M",
+          "text": "That's the catch, because in a normal year the pre-holiday rush follows the January restock, and next year the two collide."
+        },
+        {
+          "speaker": "F",
+          "text": "If you have first-quarter replenishment coming from China, pull your order dates in now, and check that your suppliers have done the same arithmetic."
+        },
+        {
+          "speaker": "M",
+          "text": "Any pre-holiday stock plan built on this year's calendar is now eleven days late, so rerun it before the bookings fill up."
+        }
+      ]
+    },
+    {
+      "id": "briefing",
+      "type": "speech",
+      "items": [
+        "2026-10-29-02",
+        "2026-10-29-03",
+        "2026-10-29-05",
+        "2026-10-29-06"
+      ],
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "To freight, where the Red Sea route is reopening and rates are still climbing. Container spot rates from Asia to North Europe rose six point eight percent in a week."
+        },
+        {
+          "speaker": "F",
+          "text": "That's from Xeneta and Drewry, as reported by Dagens Logistik. To the Mediterranean the rise was five point eight percent."
+        },
+        {
+          "speaker": "M",
+          "text": "And that's while more carriers move their routes back through the Red Sea and Suez. Both firms say strong demand and blank sailings, the cancelled departures, are outweighing the extra capacity for now."
+        },
+        {
+          "speaker": "F",
+          "text": "The Suez return hasn't brought cheaper freight yet, and that matters right now, with twenty twenty-seven budgets being set."
+        },
+        {
+          "speaker": "M",
+          "text": "Nordic importers shouldn't bank on first-quarter rate cuts until the blank sailings ease."
+        },
+        {
+          "speaker": "F",
+          "text": "Further east, the U S military has again told ships to avoid unnecessary transits through the Strait of Hormuz."
+        },
+        {
+          "speaker": "M",
+          "text": "The last time it said so publicly was in mid-July, when it began its blockade of Iranian shipping."
+        },
+        {
+          "speaker": "F",
+          "text": "The advisory is back after three months of quiet, and the timing matters for anyone planning Gulf volumes."
+        },
+        {
+          "speaker": "M",
+          "text": "It keeps the Gulf lanes as their own risk scenario in first-quarter plans, whatever happens at Suez."
+        },
+        {
+          "speaker": "F",
+          "text": "Two waterways need two sets of assumptions, and a reopening at one tells you nothing about the other."
+        },
+        {
+          "speaker": "M",
+          "text": "On the tech desk, ARC's Logistics Viewpoints argues the transportation management system, the T M S, isn't going away as a category."
+        },
+        {
+          "speaker": "F",
+          "text": "Its core jobs stay, according to ARC. What changes is the operating model around them, which becomes more continuous, more connected and more intelligent."
+        },
+        {
+          "speaker": "M",
+          "text": "A companion piece the same day says automation and A I agents change process flow, exceptions, skills and decision rights all at once."
+        },
+        {
+          "speaker": "F",
+          "text": "Transport planning is drifting from a daily batch toward continuous re-planning, and that moves the hand-off point between the network plan and execution."
+        },
+        {
+          "speaker": "M",
+          "text": "If your network plan still hands over to transport once a day, that hand-off is the thing to review."
+        },
+        {
+          "speaker": "F",
+          "text": "Last, German rail freight is stuck waiting on its twenty twenty-seven track charges, the fees operators pay to use the network."
+        },
+        {
+          "speaker": "M",
+          "text": "VerkehrsRundschau reports the open question is weighing on the sector, and regional press puts the rise at just under eight percent on average next year."
+        },
+        {
+          "speaker": "F",
+          "text": "For anyone modelling a shift from road to rail in Germany, that's a cost line still missing from the model."
+        },
+        {
+          "speaker": "M",
+          "text": "Until the charges are fixed, rail costs in those scenarios stay a range, not a number."
+        }
+      ]
+    },
+    {
+      "id": "sign_off",
+      "type": "speech",
+      "items": [
+        "2026-10-29-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "That's the desk for Thursday."
+        },
+        {
+          "speaker": "M",
+          "text": "Back tomorrow morning, and the full week in review is out on Sunday."
+        }
+      ]
+    },
+    {
+      "id": "outro_music",
+      "type": "music",
+      "duration_sec": 5
+    }
+  ],
+  "short": {
+    "title": "Early lunar new year squeezes China orders",
+    "lines": [
+      {
+        "speaker": "F",
+        "text": "Lunar new year lands eleven days earlier in twenty twenty-seven."
+      },
+      {
+        "speaker": "M",
+        "text": "It starts on the sixth of February, and that shrinks the window for getting cargo out of China before the factories close."
+      },
+      {
+        "speaker": "F",
+        "text": "Forwarder Seko Logistics is telling shippers to bring purchase orders forward, and to confirm ocean bookings at least four weeks before shipment."
+      },
+      {
+        "speaker": "M",
+        "text": "Count back four weeks from the sixth of February and you land in early January, right on top of the January restock."
+      },
+      {
+        "speaker": "F",
+        "text": "For planners, next year the pre-holiday rush collides with January restocking, so pull your China order dates in now."
+      },
+      {
+        "speaker": "M",
+        "text": "More every weekday on The Planning Desk podcast."
+      }
+    ],
+    "caption": "Lunar New Year 2027 starts on 6 February, 11 days earlier than in 2026, which compresses the window for moving cargo out of China before factories close. Seko Logistics urges shippers to bring purchase orders forward and confirm ocean bookings at least four weeks before shipment. Full episode: The Planning Desk, every weekday on Apple Podcasts and Spotify. AI-generated: AI agents gather the news and the voices are synthetic.",
+    "hashtags": [
+      "supplychain",
+      "logistics",
+      "sourcing",
+      "demandplanning"
+    ]
+  },
+  "linkedin": {
+    "page_post": "Lunar New Year 2027 starts on 6 February, 11 days earlier than this year. Seko Logistics is urging shippers to bring purchase orders forward and confirm ocean bookings at least four weeks before shipment. For Q1 replenishment from China, the pre-holiday rush now lands on top of January restocking.\n\nAsia to North Europe container spot rates rose 6.8% in a week, according to Xeneta and Drewry, even as more carriers return to the Red Sea and Suez. Blank sailings and strong demand outweigh the extra capacity for now.\n\nThe US military has again told ships to avoid unnecessary transits through the Strait of Hormuz, the first such public notice since mid-July.\n\nListen: The Planning Desk, every weekday on Apple Podcasts and Spotify.\n\n#supplychain #logistics #sourcing"
+  },
+  "show_notes": {
+    "summary": "Lunar New Year 2027 arrives 11 days early and squeezes China bookings into early January. Also: Asia to North Europe container rates rise despite the Red Sea return, a new US warning on Hormuz transits, the future of the TMS, and German rail freight waiting on 2027 track charges.",
+    "sources": [
+      {
+        "title": "The Loadstar: Early lunar new year means shippers need to plan ahead, says Seko",
+        "url": "https://theloadstar.com/early-lunar-new-year-means-shippers-need-to-plan-ahead-says-seko/"
+      },
+      {
+        "title": "Dagens Logistik: Containerpriserna vänder uppåt trots att Röda havet öppnas",
+        "url": "https://dagenslogistik.se/containerpriserna-vander-uppat-trots-att-roda-havet-oppnas/"
+      },
+      {
+        "title": "SupplyChainBrain: US tells ships to avoid unnecessary transits through Hormuz",
+        "url": "https://www.supplychainbrain.com/articles/45112-us-tells-ships-to-avoid-unnecessary-transits-through-hormuz"
+      },
+      {
+        "title": "Logistics Viewpoints: The future of TMS, from transportation planning to intelligent execution",
+        "url": "https://logisticsviewpoints.com/2026/10/28/the-future-of-tms-from-transportation-planning-to-intelligent-execution/"
+      },
+      {
+        "title": "VerkehrsRundschau: Hängepartie bei Trassenpreisen belastet den Schienengüterverkehr",
+        "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/haengepartie-bei-trassenpreisen-belastet-den-schienengueterverkehr-3928107"
+      }
+    ]
+  }
+}
