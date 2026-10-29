@@ -1,0 +1,66 @@
+RAW https://www.klu.org/newsroom (186286 chars)
+ent.documentElement).fontSize); 
+                    nav.style.setProperty('width', adjustedWidth + 'px', 'important');
+                }
+            }
+        }
+        function debounce(func, delay) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(func, delay);
+        }
+
+        window.addEventListener("resize", function () {
+            debounce(updateStickyNav, 100);
+        });
+
+        window.addEventListener("scroll", function () {
+            debounce(updateStickyNav, 100);
+        });
+
+        updateStickyNav();
+    });
+
+</script>
+
+
+
+<div id="c35977" data-ctype="container-1-col" data-layout="23"  class=" "><div class="container ce-container"><div class="row justify-content-center"><div class="col-12 col-md-12"><div class="container ce-container"><div class="row"><div class="col-12"><div id="c35976" data-ctype="textmedia" class="mt-5 mb-5"
+
+><div class="container ce-container"><div class="row justify-content-center"><div class="col-12 col-md-12"><div data-layout="0"  class=" overflow-hidden ce-textpic ce-textmedia ce- ce-"><div class="ce-bodytext"><p class="text-center">Stay connected through news &amp; events.</p><p class="text-center">Subscribe to the newsletter that matches your interests.</p><p class="text-center">&nbsp;<a href="https://www.klu.org/all-newsletter" class="btn btn-secondary">All Newsletters</a></p></div></div></div></div></div></div></div></div></div></div></div></div></div>
+
+
+<div id="c30231" data-ctype="list"  data-list-type="kluexperience_pi100" class="mt-5 mb-8"
+                
+            ><div class="container ce-container"><div class="row justify-content-center"><div class="col-12 col-md-12"><div data-layout="0" class=""><div class="articles-list-view ce-container spacing-bottom-disabled spacing-top-disabled"><div class="mt-7"><div class="filter"><div class="container"><div class="row gy-2"><div class="col-12"><div class="d-inline"><span class="pe-3 mb-1 ">Filter by category</span></div><div class="d-inline"><a href="/newsroom" class="mb-1 btn btn-filter me-2 btn-filter--current">
+                                Show all
+                            </a><a class="mb-1 btn btn-filter me-2" href="/newsroom/campus-education">
+                                        Campus &amp; Education
+                                    </a><a class="mb-1 btn btn-filter me-2" href="/newsroom/science-business">
+                                        Science &amp; Business
+                                    </a><a class="mb-1 btn btn-filter me-2" href="/newsroom/university-affairs">
+                                        University Affairs
+                                    </a></div></div></div></div></div></div><div class="mt-7"><div class="row"><div class="article-31018 col-lg-4  mb-3"><div class="article-list d-flex flex-column flex-shrink-1 w-100 h-100"><div class="article-image"><a class="unlink u-image-hover border-radius-m" title="Human in the Loop 4.0 (28 October 2026)" href="/article/human-in-the-loop-40"><picture class="withCropping"><source srcset="
+                    /fileadmin/_processed_/5/e/csm_igor-omilaev-gVQLAbGVB6Q-unsplash_9f4aa189a9.webp,
+                    /fileadmin/_processed_/5/e/csm_igor-omilaev-gVQLAbGVB6Q-unsplash_1ff887c437.webp 2x"
+                        media="(min-width: 768px)"><source srcset="
+                    /fileadmin/_processed_/5/e/csm_igor-omilaev-gVQLAbGVB6Q-unsplash_24d2997b45.webp,
+                    /fileadmin/_processed_/5/e/csm_igor-omilaev-gVQLAbGVB6Q-unsplash_86eba709aa.webp 2x"
+                        media="(min-width: 544px) and (max-width: 767px)"><source srcset="
+                    /fileadmin/_processed_/5/e/csm_igor-omilaev-gVQLAbGVB6Q-unsplash_8c9738c3ef.webp,
+                    /fileadmin/_processed_/5/e/csm_igor-omilaev-gVQLAbGVB6Q-unsplash_066ee6d1b6.webp 2x"
+                        media="(max-width: 543px)"><img class="img-fluid border-radius-m w-100" loading="lazy" itemprop="image" alt="A human hand reaches toward a robotic hand against a pink background." title=""
+                     src="/fileadmin/_processed_/5/e/csm_igor-omilaev-gVQLAbGVB6Q-unsplash_a3166fb58a.jpeg"></picture></a></div><div class="articles-body p-3 border-radius-m bg-off-white h-100"><time class="small" datetime="2026-10-28T13:03" itemprop="datePublished">
+                28.10.2026
+            </time><h3 class="h5">
+                Human in the Loop 4.0
+            </h3><p class="">How can we harness the potential of automation while retaining human oversight? And what does successful automation look like&hellip;</p><a class="btn btn-link ps-0" title="Human in the Loop 4.0 (28 October 2026)" href="/article/human-in-the-loop-40">Read more</a></div></div></div><div class="article-31030 col-lg-4  mb-3"><div class="article-list d-flex flex-column flex-shrink-1 w-100 h-100"><div class="article-image"><a class="unlink u-image-hover border-radius-m" title="Are Our Expectations of Leaders Too High? (27 October 2026)" href="/article/are-our-expectations-of-leaders-too-high"><picture class="withCropping"><source srcset="
+                    /fileadmin/_processed_/c/4/csm_KLU_2021_Niels_van_Quaquebeke_035_6886ab699e.webp,
+                    /fileadmin/_processed_/c/4/csm_KLU_2021_Niels_van_Quaquebeke_035_e2dd324788.webp 2x"
+                        media="(min-width: 768px)"><source srcset="
+                    /fileadmin/_processed_/c/4/csm_KLU_2021_Niels_van_Quaquebeke_035_6ee23cdbb5.webp,
+                    /fileadmin/klu.org/media/klu_experience/article/2026/KLU_2021_Niels_van_Quaquebeke_035.jpg 2x"
+                        media="(min-width: 544px) and (max-width: 767px)"><source srcset="
+                    /fileadmin/_processed_/c/4/csm_KLU_2021_Niels_van_Quaquebeke_035_155ce69092.webp,
+                    /fileadmin/klu.org/media/klu_experience/article/2026/KLU_2021_Niels_van_Quaquebeke_035.jpg 2x"
+                        media="(max-width: 543px)"><img class="img-fluid border-radius-m w-100" loa
+
