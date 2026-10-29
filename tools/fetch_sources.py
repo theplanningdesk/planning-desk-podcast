@@ -474,15 +474,20 @@ def enrich(items, cutoff):
 # --- company releases ---------------------------------------------------------------
 
 def highlights(text, limit=1200):
-    text = re.sub(r"\n\s+(?=[a-zåäöü0-9(])", " ", text or "")  # re-join wrapped lines
+    # Re-join lines wrapped mid-sentence (no closing punctuation, next line not a bullet).
+    text = re.sub(r"(?<![.!?:])[ \t]*\n[ \t]*(?![*•·\-\n])", " ", text or "")
     sentences = re.split(r"(?<=[.!?])\s+|\n+\s*[*•·-]?\s*", text)
     picked, total = [], 0
     for s in sentences:
         s = s.strip()
         s = s.lstrip("*•·- ").strip()
         if 25 <= len(s) <= 450 and any(w in s.lower() for w in HIGHLIGHT_WORDS):
-            if s in picked or any(s in q or q in s for q in picked):
+            if any(s in q for q in picked):
                 continue
+            shorter = [q for q in picked if q in s]
+            for q in shorter:
+                picked.remove(q)
+                total -= len(q)
             picked.append(s)
             total += len(s)
             if total > limit or len(picked) >= 8:
