@@ -25,8 +25,22 @@
     <itunes:category text="Business"><itunes:category text="Management"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Wed, 28 Oct 2026 05:30:39 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 05:30:06 +0100</lastBuildDate>
     <generator>planning-desk-podcast</generator>
+    <item>
+      <title>Thu 29 Oct: Lunar New Year Comes Early</title>
+      <link>https://theplanningdesk.github.io/podcast/e/2026-10-29.html</link>
+      <description><![CDATA[<p>Lunar New Year 2027 arrives 11 days early and squeezes China bookings into early January. Also: Asia to North Europe container rates rise despite the Red Sea return, a new US warning on Hormuz transits, the future of the TMS, and German rail freight waiting on 2027 track charges.</p><p>Sources:</p><ul><li><a href="https://theloadstar.com/early-lunar-new-year-means-shippers-need-to-plan-ahead-says-seko/">The Loadstar: Early lunar new year means shippers need to plan ahead, says Seko</a></li><li><a href="https://dagenslogistik.se/containerpriserna-vander-uppat-trots-att-roda-havet-oppnas/">Dagens Logistik: Containerpriserna vänder uppåt trots att Röda havet öppnas</a></li><li><a href="https://www.supplychainbrain.com/articles/45112-us-tells-ships-to-avoid-unnecessary-transits-through-hormuz">SupplyChainBrain: US tells ships to avoid unnecessary transits through Hormuz</a></li><li><a href="https://logisticsviewpoints.com/2026/10/28/the-future-of-tms-from-transportation-planning-to-intelligent-execution/">Logistics Viewpoints: The future of TMS, from transportation planning to intelligent execution</a></li><li><a href="https://www.verkehrsrundschau.de/nachrichten/transport-logistik/haengepartie-bei-trassenpreisen-belastet-den-schienengueterverkehr-3928107">VerkehrsRundschau: Hängepartie bei Trassenpreisen belastet den Schienengüterverkehr</a></li></ul><p>Full transcript: <a href="https://theplanningdesk.github.io/podcast/e/2026-10-29.html">https://theplanningdesk.github.io/podcast/e/2026-10-29.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>]]></description>
+      <content:encoded><![CDATA[<p>Lunar New Year 2027 arrives 11 days early and squeezes China bookings into early January. Also: Asia to North Europe container rates rise despite the Red Sea return, a new US warning on Hormuz transits, the future of the TMS, and German rail freight waiting on 2027 track charges.</p><p>Sources:</p><ul><li><a href="https://theloadstar.com/early-lunar-new-year-means-shippers-need-to-plan-ahead-says-seko/">The Loadstar: Early lunar new year means shippers need to plan ahead, says Seko</a></li><li><a href="https://dagenslogistik.se/containerpriserna-vander-uppat-trots-att-roda-havet-oppnas/">Dagens Logistik: Containerpriserna vänder uppåt trots att Röda havet öppnas</a></li><li><a href="https://www.supplychainbrain.com/articles/45112-us-tells-ships-to-avoid-unnecessary-transits-through-hormuz">SupplyChainBrain: US tells ships to avoid unnecessary transits through Hormuz</a></li><li><a href="https://logisticsviewpoints.com/2026/10/28/the-future-of-tms-from-transportation-planning-to-intelligent-execution/">Logistics Viewpoints: The future of TMS, from transportation planning to intelligent execution</a></li><li><a href="https://www.verkehrsrundschau.de/nachrichten/transport-logistik/haengepartie-bei-trassenpreisen-belastet-den-schienengueterverkehr-3928107">VerkehrsRundschau: Hängepartie bei Trassenpreisen belastet den Schienengüterverkehr</a></li></ul><p>Full transcript: <a href="https://theplanningdesk.github.io/podcast/e/2026-10-29.html">https://theplanningdesk.github.io/podcast/e/2026-10-29.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>]]></content:encoded>
+      <enclosure url="https://github.com/theplanningdesk/podcast/releases/download/episode-2026-10-29/planning-desk-2026-10-29.mp3" length="3559980" type="audio/mpeg"/>
+      <guid isPermaLink="false">planning-desk-2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
+      <itunes:duration>222</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://theplanningdesk.github.io/podcast/cover.png"/>
+    </item>
     <item>
       <title>Wed 28 Oct: Audi Builds Past the Tariff</title>
       <link>https://theplanningdesk.github.io/podcast/e/2026-10-28.html</link>

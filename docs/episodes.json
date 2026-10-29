@@ -49,5 +49,18 @@
     "duration_sec": 295,
     "pub_date": "2026-10-28T06:30:00+01:00",
     "transcript_lines": 37
+  },
+  {
+    "guid": "planning-desk-2026-10-29",
+    "stem": "2026-10-29",
+    "number": 5,
+    "format": "daily",
+    "title": "Thu 29 Oct: Lunar New Year Comes Early",
+    "summary": "Lunar New Year 2027 arrives 11 days early and squeezes China bookings into early January. Also: Asia to North Europe container rates rise despite the Red Sea return, a new US warning on Hormuz transits, the future of the TMS, and German rail freight waiting on 2027 track charges.",
+    "notes_html": "<p>Lunar New Year 2027 arrives 11 days early and squeezes China bookings into early January. Also: Asia to North Europe container rates rise despite the Red Sea return, a new US warning on Hormuz transits, the future of the TMS, and German rail freight waiting on 2027 track charges.</p><p>Sources:</p><ul><li><a href=\"https://theloadstar.com/early-lunar-new-year-means-shippers-need-to-plan-ahead-says-seko/\">The Loadstar: Early lunar new year means shippers need to plan ahead, says Seko</a></li><li><a href=\"https://dagenslogistik.se/containerpriserna-vander-uppat-trots-att-roda-havet-oppnas/\">Dagens Logistik: Containerpriserna vänder uppåt trots att Röda havet öppnas</a></li><li><a href=\"https://www.supplychainbrain.com/articles/45112-us-tells-ships-to-avoid-unnecessary-transits-through-hormuz\">SupplyChainBrain: US tells ships to avoid unnecessary transits through Hormuz</a></li><li><a href=\"https://logisticsviewpoints.com/2026/10/28/the-future-of-tms-from-transportation-planning-to-intelligent-execution/\">Logistics Viewpoints: The future of TMS, from transportation planning to intelligent execution</a></li><li><a href=\"https://www.verkehrsrundschau.de/nachrichten/transport-logistik/haengepartie-bei-trassenpreisen-belastet-den-schienengueterverkehr-3928107\">VerkehrsRundschau: Hängepartie bei Trassenpreisen belastet den Schienengüterverkehr</a></li></ul><p>Full transcript: <a href=\"https://theplanningdesk.github.io/podcast/e/2026-10-29.html\">https://theplanningdesk.github.io/podcast/e/2026-10-29.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>",
+    "bytes": 3559980,
+    "duration_sec": 222,
+    "pub_date": "2026-10-29T06:30:00+01:00",
+    "transcript_lines": 33
   }
 ]
