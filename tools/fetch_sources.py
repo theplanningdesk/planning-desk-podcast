@@ -494,6 +494,9 @@ def highlights(text, limit=1200):
     for s in sentences:
         s = s.strip()
         s = s.lstrip("*•·- ").strip()
+        if any(b in s.lower() for b in ("insiderinformation", "schlagwort", "eqs news", "eqs-ad-hoc",
+                                        "pta-adhoc", "artikel 17", "market abuse regulation")):
+            continue
         if 25 <= len(s) <= 450 and any(w in s.lower() for w in HIGHLIGHT_WORDS):
             if any(s in q for q in picked):
                 continue
