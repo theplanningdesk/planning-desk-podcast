@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-28T22:26:12.344484+00:00",
+ "fetched_at": "2026-10-29T08:53:19.400199+00:00",
  "window_days": 8,
  "sources_ok": 25,
  "sources_total": 30,
@@ -105,7 +105,7 @@
    "url": "https://www.bvl.de/",
    "ok": true,
    "method": "feed https://www.bvl.de/presse/rss/bvl-news",
-   "items": 7,
+   "items": 6,
    "error": null
   },
   {
@@ -137,7 +137,7 @@
    "url": "https://scm.dk/feeds/articles",
    "ok": true,
    "method": "feed https://scm.dk/feeds/articles",
-   "items": 38,
+   "items": 35,
    "error": null
   },
   {
