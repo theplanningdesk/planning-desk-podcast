@@ -1,71 +1,47 @@
-# Cision per-company feeds (slug guesses)
-https://news.cision.com/se/ListItems?n=skf&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=ab-skf&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=sandvik&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=sandvik-ab&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=atlas-copco&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=epiroc&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=ab-volvo&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=volvo&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=electrolux&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=ab-electrolux&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=alfa-laval&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=husqvarna&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=kone-oyj&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=wartsila&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=wartsila-oyj-abp&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=essity&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=getinge&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=boliden&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=ssab&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=assa-abloy&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=billerud&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=orkla&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=norsk-hydro&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=carlsberg&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=vestas&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=stora-enso-oyj&m=Financial&pageIx=1&format=rss
-https://news.cision.com/se/ListItems?n=upm&m=Financial&pageIx=1&format=rss
-# Cision company page (to find slugs)
-https://news.cision.com/se/skf
-https://news.cision.com/se/ab-skf
-# MFN
-https://mfn.se/all/a/skf.rss
-https://mfn.se/all/a/sandvik.rss
-https://feed.mfn.se/v1/feed/skf.rss
-https://mfn.se/all/a/swedbank.rss
-# Swedish news layer
-https://www.placera.se/artiklar/rss.xml
-https://www.placera.se/telegram/rss.xml
-# DACH ad hoc / IR wires
-https://www.eqs-news.com/feed/
-https://www.eqs-news.com/news/rss/
-https://www.finanznachrichten.de/rss-news
-https://www.finanznachrichten.de/service/rss.htm
-https://www.presseportal.de/rss/wirtschaft.rss2
-# Research press wires
-https://techxplore.com/rss-feed/
-https://techxplore.com/rss-feed/business-tech-news/
-https://phys.org/rss-feed/economics-business-news/
-https://www.eurekalert.org/rss/business_economics.xml
-https://www.eurekalert.org/rss/technology_engineering.xml
-https://www.eurekalert.org/rss.xml
-https://idw-online.de/de/rss
-https://idw-online.de/de/rsssubscription
-https://idw-online.de/de/news.rss
-https://idw-online.de/rss/news
-https://www.klu.org/newsroom
-https://theconversation.com/uk/business/articles.atom
-# Management press
-https://www.consultancy.eu/rss/consultancy_rssfeed.xml
-https://www.cfodive.com/feeds/news/
-https://industriemagazin.at/
-https://industriemagazin.at/feed/
-https://www.produktion.de/rss
-# Recurring surveys
-https://www.ifo.de/en/press-releases
-https://www.ifo.de/pressemitteilungen
-https://www.allianz-trade.com/en_global/news-insights/news.html
-https://www.coface.com/news-economy-and-insights
-https://via.tt.se/pressrum/2732851/teknikforetagen
-https://www.sttinfo.fi/
+# MFN slugs for companies missing on Cision
+https://mfn.se/all/a/electrolux.rss
+https://mfn.se/all/a/electrolux-group.rss
+https://mfn.se/all/a/husqvarna.rss
+https://mfn.se/all/a/billerud.rss
+https://mfn.se/all/a/kone.rss
+https://mfn.se/all/a/kone-oyj.rss
+https://mfn.se/all/a/wartsila.rss
+https://mfn.se/all/a/upm.rss
+https://mfn.se/all/a/upm-kymmene.rss
+https://mfn.se/all/a/stora-enso.rss
+https://mfn.se/all/a/valmet.rss
+https://mfn.se/all/a/metso.rss
+https://mfn.se/all/a/orkla.rss
+https://mfn.se/all/a/norsk-hydro.rss
+https://mfn.se/all/a/carlsberg.rss
+https://mfn.se/all/a/vestas.rss
+https://mfn.se/all/a/trelleborg.rss
+https://mfn.se/all/a/nibe.rss
+https://mfn.se/all/a/sca.rss
+https://mfn.se/all/a/holmen.rss
+https://mfn.se/all/a/axfood.rss
+https://mfn.se/all/a/ica-gruppen.rss
+https://mfn.se/all/a/aak.rss
+https://mfn.se/all/a/thule-group.rss
+https://mfn.se/all/a/lindab.rss
+# Cision slug variants
+https://news.cision.com/se/ListItems?n=ab-electrolux-publ&m=Financial&pageIx=1&format=rss
+https://news.cision.com/se/ListItems?n=husqvarna-ab&m=Financial&pageIx=1&format=rss
+https://news.cision.com/se/ListItems?n=billerud-ab&m=Financial&pageIx=1&format=rss
+https://news.cision.com/se/ListItems?n=trelleborg&m=Financial&pageIx=1&format=rss
+https://news.cision.com/se/ListItems?n=sca&m=Financial&pageIx=1&format=rss
+https://news.cision.com/se/ListItems?n=holmen&m=Financial&pageIx=1&format=rss
+https://news.cision.com/se/ListItems?n=skf&m=Press&pageIx=1&format=rss
+# DACH
+https://www.finanznachrichten.de/rss-aktien-adhoc/
+https://www.finanznachrichten.de/rss-aktien-nachrichten/
+# Research wires
+https://www.eurekalert.org/help
+https://phys.org/rss-feed/
+https://phys.org/rss-feed/science-news/economics-business/
+https://idw-online.de/pages/de/pressreleasesrss
+https://idw-online.de/pages/en/pressreleasesrss
+# Management press, surveys
+https://industriemagazin.at/rss.xml
+https://via.tt.se/rss/releases/latest?publisherId=2732851
+https://www.sttinfo.fi/rss/releases/latest
