@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-29T18:16:45.267084+00:00",
+ "fetched_at": "2026-10-29T18:19:58.830145+00:00",
  "window_days": 8,
- "sources_ok": 66,
+ "sources_ok": 67,
  "sources_total": 72,
  "items": [
   {
@@ -2516,6 +2516,24 @@
    "lane": "logistics"
   },
   {
+   "source": "KLU newsroom",
+   "title": "Human in the Loop 4.0",
+   "link": "https://www.klu.org/article/human-in-the-loop-40",
+   "published": "2026-10-28T13:03:00+00:00",
+   "summary": "How can we harness the potential of automation while retaining human oversight? And what does successful automation look like in practice? In their paper “Targeted Automation and Sustaining Human-AI Learning,” Kai Hoberg (KLU), Christina Imdahl (Eindhoven University of Technology), and William… “Our research shows that companies should take a selective approach to automation. Rather than automating all decisions, they should deliberately retain human involvement in those decisions where people…",
+   "via": "page links, article read",
+   "lane": "management"
+  },
+  {
+   "source": "KLU newsroom",
+   "title": "Are Our Expectations of Leaders Too High?",
+   "link": "https://www.klu.org/article/are-our-expectations-of-leaders-too-high",
+   "published": "2026-10-27T07:50:00+00:00",
+   "summary": "Speaking on Morgenecho, a morning news program on German public radio station WDR 5, KLU Professor Niels Van Quaquebeke discussed society’s expectations of leaders and whether they should be allowed to show weakness. The interview followed the resignation of Germany’s Labour Minister and SPD… In an interview with WDR 5 Morgenecho on October 13, 2026, Van Quaquebeke emphasized that leaders are human, too. However, society tends to idealize them, expecting them to demonstrate strength,…",
+   "via": "page links, article read",
+   "lane": "management"
+  },
+  {
    "source": "Industriemagazin",
    "title": "EU-Digitalgesetze: Was sich für Logistiker ändern soll",
    "link": "https://industriemagazin.at/logistik/eu-digitalgesetze-was-sich-fuer-logistiker-aendern-soll/",
@@ -2713,7 +2731,7 @@
    "summary": "\"The positive development in the Volvo Group's performance continued in Q3. We delivered net sales of SEK 119.5 billion, with an organic sales growth of 7%. Vehicle sales increased by 8% and service sales grew by 5% organically. We maintained good profitability, with adjusted operating income of SEK 14.7 billion (11.7) and an adjusted operating margin of 12.3% (10.6), supported by dedicated work…",
    "via": "feed",
    "company": "Volvo Group",
-   "highlights": "Operating cash flow in the Industrial Operating cash flow in the Industrial Operations amounted to SEK 7,195 M (-1,739).",
+   "highlights": "Operating cash flow in the Industrial",
    "lane": "companies"
   },
   {
@@ -2772,17 +2790,6 @@
    "lane": "companies"
   },
   {
-   "source": "Getinge",
-   "title": "Getinge meddelar att Elin Frostehav avgår som President Acute Care Therapies",
-   "link": "https://mfn.se/cis/a/getinge/getinge-meddelar-att-elin-frostehav-avgar-som-president-acute-care-therapies-63137d0b",
-   "published": "2026-10-26T08:58:36+00:00",
-   "summary": "Getinge meddelade idag att Elin Frostehav avgår som President Acute Care Therapies och medlem av koncernledningen för att gå vidare till nya utmaningar utanför bolaget. - Under sin tid på Getinge har Elin bidragit betydelsefullt till att driva Acute Care Therapies framåt, säger Mattias Perjos, VD och koncernchef på Getinge. - Vi har gjort goda framsteg med att stärka verksamheten och dess…",
-   "via": "feed",
-   "company": "Getinge",
-   "highlights": "",
-   "lane": "companies"
-  },
-  {
    "source": "Boliden",
    "title": "Boliden Q3 2026: Solid performance across Mines and Smelters",
    "link": "https://mfn.se/cis/a/boliden/boliden-q3-2026-solid-performance-across-mines-and-smelters-a3e7b2c1",
@@ -2791,17 +2798,6 @@
    "via": "feed",
    "company": "Boliden",
    "highlights": "Free cash flow: SEK 1,121 m (2,284) Process Inventory Revaluation",
-   "lane": "companies"
-  },
-  {
-   "source": "SSAB",
-   "title": "SSAB julkisti tänään osavuosikatsauksensa 1.1.-30.9.2026",
-   "link": "https://mfn.se/cis/a/ssab/ssab-julkisti-tanaan-osavuosikatsauksensa-1-1-30-9-2026-6bba2b00",
-   "published": "2026-10-28T06:31:00+00:00",
-   "summary": "SSAB julkisti tänään osavuosikatsauksensa 1.1.-30.9.2026. Raportti on saatavilla englanniksi ja ruotsiksi yhtiön verkkosivuilla. SSAB järjestää analyytikko- ja mediatilaisuuden klo 9.30 CET (10.30 EST). Tilaisuuteen voi osallistua webcast-linkin kautta yhtiön verkkosivuilta tai puhelimitse. Kolmas vuosineljännes: * * Liikevaihto oli 25 632 (22 960) miljoonaa Ruotsin kruunua. * Liiketulos oli 2…",
-   "via": "feed",
-   "company": "SSAB",
-   "highlights": "",
    "lane": "companies"
   },
   {

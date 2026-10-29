@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-29T18:16:45.267084+00:00",
+ "fetched_at": "2026-10-29T18:19:58.830145+00:00",
  "window_days": 8,
- "sources_ok": 66,
+ "sources_ok": 67,
  "sources_total": 72,
  "sources": [
   {
@@ -304,10 +304,10 @@
   {
    "source": "KLU newsroom",
    "url": "https://www.klu.org/newsroom",
-   "ok": false,
+   "ok": true,
    "method": "page links (articles opened for dates)",
-   "items": 0,
-   "error": "no article links after filtering",
+   "items": 2,
+   "error": null,
    "lane": "management"
   },
   {
@@ -477,7 +477,7 @@
    "url": "https://mfn.se/all/a/getinge.rss",
    "ok": true,
    "method": "feed https://mfn.se/all/a/getinge.rss",
-   "items": 2,
+   "items": 1,
    "error": null,
    "lane": "companies"
   },
@@ -495,7 +495,7 @@
    "url": "https://mfn.se/all/a/ssab.rss",
    "ok": true,
    "method": "feed https://mfn.se/all/a/ssab.rss",
-   "items": 2,
+   "items": 1,
    "error": null,
    "lane": "companies"
   },

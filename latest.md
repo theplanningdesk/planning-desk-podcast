@@ -1,5 +1,5 @@
-# Source digest, fetched 2026-10-29 18:16 UTC
-66 of 72 sources read. Items from the last 8 days. Items from page links were opened to read their date and opening text; 'no date' means the article page didn't show one.
+# Source digest, fetched 2026-10-29 18:19 UTC
+67 of 72 sources read. Items from the last 8 days. Items from page links were opened to read their date and opening text; 'no date' means the article page didn't show one.
 
 # Logistics, trade, AI and tech sources
 
@@ -641,7 +641,10 @@
 (nothing in the window)
 
 ## KLU newsroom
-(failed: no article links after filtering)
+- 2026-10-28 13:03 | Human in the Loop 4.0 | https://www.klu.org/article/human-in-the-loop-40
+  How can we harness the potential of automation while retaining human oversight? And what does successful automation look like in practice? In their paper “Targeted Automation and Sustaining Human-AI Learning,” Kai Hoberg (KLU), Christina Imdahl (Eindhoven University of Technology), and William… “Our research shows that companies should take a selective approach to automation. Rather than automating all decisions, they should deliberately retain human involvement in those decisions where people…
+- 2026-10-27 07:50 | Are Our Expectations of Leaders Too High? | https://www.klu.org/article/are-our-expectations-of-leaders-too-high
+  Speaking on Morgenecho, a morning news program on German public radio station WDR 5, KLU Professor Niels Van Quaquebeke discussed society’s expectations of leaders and whether they should be allowed to show weakness. The interview followed the resignation of Germany’s Labour Minister and SPD… In an interview with WDR 5 Morgenecho on October 13, 2026, Van Quaquebeke emphasized that leaders are human, too. However, society tends to idealize them, expecting them to demonstrate strength,…
 
 ## The Conversation (business)
 (nothing in the window)
@@ -719,7 +722,7 @@
 
 ## Volvo Group
 - 2026-10-23 05:23 | Volvo Group - the third quarter 2026 | https://mfn.se/cis/a/volvo/volvo-group-the-third-quarter-2026-84dc5b2b
-  Highlights: Operating cash flow in the Industrial Operating cash flow in the Industrial Operations amounted to SEK 7,195 M (-1,739).
+  Highlights: Operating cash flow in the Industrial
 
 ## Electrolux
 - 2026-10-23 05:00 | Electrolux Group Interim report Q3 2026 | https://mfn.se/cis/a/electrolux/electrolux-group-interim-report-q3-2026-aec934ab
@@ -741,16 +744,12 @@
 ## Getinge
 - 2026-10-26 08:59 | Getinge announces departure of Elin Frostehav as President Acute Care Therapies | https://mfn.se/cis/a/getinge/getinge-announces-departure-of-elin-frostehav-as-president-acute-care-therapies-e01297f0
   Getinge today announced that Elin Frostehav will leave her position as President Acute Care Therapies and member of the Executive Team to accept an external opportunity. "Elin has made an important contribution to the advancement of our Acute Care Therapies business during her time with Getinge," said Mattias Perjos, President & CEO at Getinge. "We have made good progress in strengthening the…
-- 2026-10-26 08:58 | Getinge meddelar att Elin Frostehav avgår som President Acute Care Therapies | https://mfn.se/cis/a/getinge/getinge-meddelar-att-elin-frostehav-avgar-som-president-acute-care-therapies-63137d0b
-  Getinge meddelade idag att Elin Frostehav avgår som President Acute Care Therapies och medlem av koncernledningen för att gå vidare till nya utmaningar utanför bolaget. - Under sin tid på Getinge har Elin bidragit betydelsefullt till att driva Acute Care Therapies framåt, säger Mattias Perjos, VD och koncernchef på Getinge. - Vi har gjort goda framsteg med att stärka verksamheten och dess…
 
 ## Boliden
 - 2026-10-29 12:00 | Boliden Q3 2026: Solid performance across Mines and Smelters | https://mfn.se/cis/a/boliden/boliden-q3-2026-solid-performance-across-mines-and-smelters-a3e7b2c1
   Highlights: Free cash flow: SEK 1,121 m (2,284) Process Inventory Revaluation
 
 ## SSAB
-- 2026-10-28 06:31 | SSAB julkisti tänään osavuosikatsauksensa 1.1.-30.9.2026 | https://mfn.se/cis/a/ssab/ssab-julkisti-tanaan-osavuosikatsauksensa-1-1-30-9-2026-6bba2b00
-  SSAB julkisti tänään osavuosikatsauksensa 1.1.-30.9.2026. Raportti on saatavilla englanniksi ja ruotsiksi yhtiön verkkosivuilla. SSAB järjestää analyytikko- ja mediatilaisuuden klo 9.30 CET (10.30 EST). Tilaisuuteen voi osallistua webcast-linkin kautta yhtiön verkkosivuilta tai puhelimitse. Kolmas vuosineljännes: * * Liikevaihto oli 25 632 (22 960) miljoonaa Ruotsin kruunua. * Liiketulos oli 2…
 - 2026-10-28 06:30 | SSAB: Report for Q3 2026 | https://mfn.se/cis/a/ssab/ssab-report-for-q3-2026-a2da6b8d
   Summary * Revenue was SEK 25,632 (22,960) million * Operating result was SEK 2,157 (1,869) million, higher prices and higher shipments * Earnings per share were SEK 1.56 (1.49) * Net cash was SEK 8.4 (10.8) billion * Lost time injury frequency (LTIF) decreased to an all-time low of 0.34 (0.56) rolling 12 month * High level of Automotive advanced high-strength steels (AHSS) and other premium…
 
