@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-29T18:27:59.254035+00:00",
+ "fetched_at": "2026-10-29T18:43:18.971476+00:00",
  "window_days": 8,
  "sources_ok": 67,
  "sources_total": 72,
@@ -81,7 +81,7 @@
    "url": "https://www.dcvelocity.com/",
    "ok": true,
    "method": "feed https://www.dcvelocity.com/feeds/feed.rss",
-   "items": 24,
+   "items": 23,
    "error": null,
    "lane": "logistics"
   },
