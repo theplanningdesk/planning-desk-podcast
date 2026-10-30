@@ -1,0 +1,152 @@
+{
+  "stem": "2026-10-30",
+  "format": "daily",
+  "short_cues": [
+    {
+      "line": 0,
+      "template": "stat",
+      "props": {
+        "kicker": "Boluda and Samskip",
+        "value": 32,
+        "label": "ships in one short-sea network",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 1,
+      "template": "headline",
+      "props": {
+        "kicker": "Short-sea shipping",
+        "title": "Boluda agrees to buy Samskip",
+        "detail": "Spain's Boluda Shipping takes over the Northern Europe carrier",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 1,
+      "at": "Nor Lines",
+      "template": "route",
+      "props": {
+        "kicker": "Norway",
+        "title": "Nor Lines is part of the deal",
+        "points": [
+          {
+            "name": "Norway",
+            "lat": 61.0,
+            "lon": 8.5,
+            "alert": true
+          }
+        ],
+        "pad": 6,
+        "source": "MT Logistikk"
+      }
+    },
+    {
+      "line": 2,
+      "template": "stat",
+      "props": {
+        "kicker": "Combined network",
+        "value": 18,
+        "label": "routes",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 2,
+      "at": "from Northern Europe",
+      "template": "route",
+      "props": {
+        "kicker": "Network reach",
+        "title": "Northern Europe to West Africa",
+        "points": [
+          {
+            "name": "Northern Europe",
+            "lat": 54.0,
+            "lon": 6.0
+          },
+          {
+            "name": "Iberia",
+            "lat": 40.0,
+            "lon": -4.0
+          },
+          {
+            "name": "Canary Islands",
+            "lat": 28.3,
+            "lon": -15.6
+          },
+          {
+            "name": "West Africa",
+            "lat": 12.0,
+            "lon": -12.0
+          }
+        ],
+        "pad": 8
+      }
+    },
+    {
+      "line": 2,
+      "at": "seven hundred and fifty thousand",
+      "template": "stat",
+      "props": {
+        "kicker": "Combined network",
+        "value": 750000,
+        "prefix": "more than ",
+        "label": "TEU",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 3,
+      "template": "headline",
+      "props": {
+        "kicker": "1 January 2027",
+        "title": "Deal due to complete on New Year's Day",
+        "detail": "Subject to approval",
+        "source": "The Loadstar"
+      }
+    },
+    {
+      "line": 4,
+      "template": "headline",
+      "props": {
+        "kicker": "New owner, year one",
+        "title": "Networks often get re-cut",
+        "detail": "Matters for Nordic short-sea and intermodal lanes"
+      }
+    },
+    {
+      "line": 5,
+      "template": "list",
+      "props": {
+        "kicker": "Put in the 2027 plan",
+        "items": [
+          {
+            "label": "Carrier review",
+            "say": "carrier"
+          },
+          {
+            "label": "Contract review",
+            "say": "contract review"
+          }
+        ]
+      }
+    },
+    {
+      "line": 5,
+      "at": "twenty twenty-seven plan",
+      "template": "takeaway",
+      "props": {
+        "kicker": "For planners",
+        "text": "New owner, new network. Review carriers and contracts for 2027."
+      }
+    },
+    {
+      "line": 6,
+      "template": "headline",
+      "props": {
+        "kicker": "The Planning Desk",
+        "title": "Supply chain news every weekday"
+      }
+    }
+  ]
+}

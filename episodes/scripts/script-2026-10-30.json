@@ -1,0 +1,352 @@
+{
+  "show": "The Planning Desk",
+  "format": "daily",
+  "episode_title": "Robot Tariffs on Hold",
+  "week": "2026-W44",
+  "run_date": "2026-10-30",
+  "brief_file": "news-brief-daily-2026-10-30.md",
+  "target_runtime_sec": 304,
+  "word_count": 882,
+  "hosts": {
+    "F": {
+      "name": "Anna"
+    },
+    "M": {
+      "name": "Erik"
+    }
+  },
+  "segments": [
+    {
+      "id": "intro_music",
+      "type": "music",
+      "duration_sec": 5
+    },
+    {
+      "id": "cold_open",
+      "type": "speech",
+      "items": [
+        "2026-10-30-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Washington has put tariffs on robots and industrial machinery on hold, and it's talking instead, at least for now."
+        },
+        {
+          "speaker": "M",
+          "text": "For European machinery exporters that buys time, not certainty. This is The Planning Desk."
+        }
+      ]
+    },
+    {
+      "id": "welcome",
+      "type": "speech",
+      "items": [
+        "2026-10-30-01",
+        "2026-10-30-02",
+        "2026-10-30-03",
+        "2026-10-30-04"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Good morning, it's Friday the thirtieth of October, and I'm Anna."
+        },
+        {
+          "speaker": "M",
+          "text": "And I'm Erik."
+        },
+        {
+          "speaker": "F",
+          "text": "This show is made with A I. A I agents gather the news, and our voices are synthetic."
+        },
+        {
+          "speaker": "M",
+          "text": "Today, a tariff pause on robots, a new owner for Samskip, a tungsten squeeze, a Volkswagen loss, and a listener on who signs off on A I agents."
+        }
+      ]
+    },
+    {
+      "id": "top_story",
+      "type": "speech",
+      "items": [
+        "2026-10-30-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "President Trump has told his cabinet to negotiate with trading partners over imports of robotics and industrial machinery, instead of imposing tariffs now."
+        },
+        {
+          "speaker": "M",
+          "text": "That follows a Section two thirty-two probe, the U S trade investigation, which found those imports threaten American commerce and security, according to Supply Chain Dive."
+        },
+        {
+          "speaker": "F",
+          "text": "It's the second time this month a Section two thirty-two probe has ended in talks rather than tariffs, and S C M R's daily briefing led with the robotics pause."
+        },
+        {
+          "speaker": "M",
+          "text": "So the finding is on the record, and only the decision on tariffs has been put off."
+        },
+        {
+          "speaker": "F",
+          "text": "For machinery makers in Germany, Austria, Switzerland and the Nordics who sell into the U S, that's a delay, not a decision."
+        },
+        {
+          "speaker": "M",
+          "text": "If your twenty twenty-seven plan has machinery volume bound for the U S, keep a tariff scenario on the table until the talks report back."
+        },
+        {
+          "speaker": "F",
+          "text": "And put a cost on that scenario now, because two probes ending the same way in one month is a pattern, but it isn't a promise."
+        }
+      ]
+    },
+    {
+      "id": "briefing",
+      "type": "speech",
+      "items": [
+        "2026-10-30-02",
+        "2026-10-30-03",
+        "2026-10-30-04"
+      ],
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "To short-sea shipping, where one deal redraws the map. Spain's Boluda Shipping has agreed to buy Samskip, according to The Loadstar."
+        },
+        {
+          "speaker": "F",
+          "text": "The combined network runs from Northern Europe to Iberia, the Canary Islands and West Africa, with thirty-two vessels, eighteen routes and more than seven hundred and fifty thousand twenty-foot equivalent units, or T E U."
+        },
+        {
+          "speaker": "M",
+          "text": "MT Logistikk reports the deal includes Norwegian coastal carrier Nor Lines, and subject to approval it's due to complete on the first of January."
+        },
+        {
+          "speaker": "F",
+          "text": "The same day, Danish forwarder Scan Global Logistics agreed to buy OIA Global of Portland, its biggest takeover yet."
+        },
+        {
+          "speaker": "M",
+          "text": "New owners tend to re-cut networks in their first year, so if you ship on Nordic short-sea or intermodal lanes, put a carrier and contract review into the twenty twenty-seven plan."
+        },
+        {
+          "speaker": "F",
+          "text": "Over to Switzerland, where Oerlikon's third-quarter update comes with a warning on critical minerals."
+        },
+        {
+          "speaker": "M",
+          "text": "The surface technology and materials group reported strong orders and sales, and it says supply bottlenecks for tungsten and yttrium led customers to secure the materials their production depends on."
+        },
+        {
+          "speaker": "F",
+          "text": "Its materials and equipment segment grew on higher demand and prices, mainly in aerospace and energy. In the first half that segment's backlog had already doubled, according to the research house Edison."
+        },
+        {
+          "speaker": "M",
+          "text": "When a supplier says its customers are buying for security, that's forward buying. If you run tungsten carbide tooling or yttrium coatings, check lead times and safety stocks before the first quarter."
+        },
+        {
+          "speaker": "F",
+          "text": "In Germany, Volkswagen swung to an after-tax loss of about five point eight billion euros in the third quarter, VerkehrsRundschau reports."
+        },
+        {
+          "speaker": "M",
+          "text": "Write-downs on Porsche, a weak China business and restructuring costs drove it, and revenue and deliveries both fell clearly."
+        },
+        {
+          "speaker": "F",
+          "text": "The underlying operating margin was three point eight percent after nine months, and the finance chief called that too low to fund the company's future."
+        },
+        {
+          "speaker": "M",
+          "text": "SupplyChainBrain reports the China loss is prompting calls for faster cost cuts, and cost cuts at a carmaker land on its suppliers first."
+        },
+        {
+          "speaker": "F",
+          "text": "If you supply the auto industry in Germany, Austria or Switzerland, plan for harder price talks next year, and for volume moving between plants."
+        }
+      ]
+    },
+    {
+      "id": "listener_desk",
+      "type": "speech",
+      "items": [
+        "L-001"
+      ],
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "We had a sharp reply on LinkedIn to Tuesday's story from Berlin, where a lawyer said the company, not the A I or its provider, is liable when an agent errs. Colin Reed, an operations advisor, wrote in."
+        },
+        {
+          "speaker": "F",
+          "text": "His view is that the exception rules, not the org chart, settle who signs off. Before go-live, write down what an agent can change alone, what it can't touch, and when it needs approval."
+        },
+        {
+          "speaker": "M",
+          "text": "Each limit should then be signed by whoever owns the outcome it moves, so customer service signs allocation limits and finance signs spend thresholds."
+        },
+        {
+          "speaker": "F",
+          "text": "And an agent hitting its threshold every day should trigger a review, he says, not a daily rubber stamp. For planners, that means counting how often each limit trips. Thanks, Colin."
+        },
+        {
+          "speaker": "M",
+          "text": "If you have a take on a story, comment on our LinkedIn Page."
+        }
+      ]
+    },
+    {
+      "id": "quick_hits",
+      "type": "speech",
+      "items": [
+        "2026-10-30-07",
+        "2026-10-30-06",
+        "2026-10-30-08"
+      ],
+      "lines": [
+        {
+          "speaker": "M",
+          "text": "Sea-Intelligence says deployed container capacity is at record highs on every major East-West trade, with no taper on Asia to Europe after Golden Week."
+        },
+        {
+          "speaker": "F",
+          "text": "With that much capacity on the water, blank sailings are what hold rates up, so keep twenty twenty-seven freight budgets flexible."
+        },
+        {
+          "speaker": "M",
+          "text": "ARC's Logistics Viewpoints says teams feel their exception backlog but rarely measure it, so count it before buying agents to clear it."
+        },
+        {
+          "speaker": "F",
+          "text": "In Germany, seventy-six percent of logistics firms use digital consignment notes at least partly, but only seven percent are fully paperless."
+        },
+        {
+          "speaker": "M",
+          "text": "Missing standards hold that back, so don't build replanning on every leg reporting digitally."
+        }
+      ]
+    },
+    {
+      "id": "sign_off",
+      "type": "speech",
+      "items": [
+        "2026-10-30-01"
+      ],
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "That's the desk for Friday, and thanks for listening this week."
+        },
+        {
+          "speaker": "M",
+          "text": "Tomorrow it's the book of the week, and the full week in review is out on Sunday."
+        }
+      ]
+    },
+    {
+      "id": "outro_music",
+      "type": "music",
+      "duration_sec": 5
+    }
+  ],
+  "short": {
+    "title": "Boluda buys Samskip, redrawing Europe's short-sea map",
+    "lines": [
+      {
+        "speaker": "F",
+        "text": "One deal just redrew Europe's short-sea shipping map."
+      },
+      {
+        "speaker": "M",
+        "text": "Spain's Boluda Shipping has agreed to buy Samskip, in a deal that includes Norwegian coastal carrier Nor Lines."
+      },
+      {
+        "speaker": "F",
+        "text": "The combined network has thirty-two ships and eighteen routes, from Northern Europe to Iberia, the Canary Islands and West Africa, and more than seven hundred and fifty thousand T E U."
+      },
+      {
+        "speaker": "M",
+        "text": "Subject to approval, the deal is due to complete on New Year's Day, the first of January."
+      },
+      {
+        "speaker": "F",
+        "text": "New owners tend to re-cut networks in their first year, so this matters for anyone shipping on Nordic short-sea or intermodal lanes."
+      },
+      {
+        "speaker": "M",
+        "text": "Put a carrier and contract review into your twenty twenty-seven plan now."
+      },
+      {
+        "speaker": "F",
+        "text": "More every weekday on The Planning Desk podcast."
+      }
+    ],
+    "caption": "Spain's Boluda Shipping has agreed to acquire Samskip, in a deal that includes Norway's Nor Lines, creating a short-sea network of 32 vessels, 18 routes and more than 750,000 TEU across Northern Europe, Iberia, the Canary Islands and West Africa. Completion is due on 1 January 2027, subject to approval. Full episode: The Planning Desk, every weekday on Apple Podcasts and Spotify. AI-generated: AI agents gather the news and the voices are synthetic.",
+    "hashtags": [
+      "supplychain",
+      "logistics",
+      "shipping",
+      "shortsea"
+    ]
+  },
+  "linkedin": {
+    "page_post": "The US has chosen trade talks over tariffs for robotics and industrial machinery, after a Section 232 probe found the imports threaten US commerce and security. It's the second probe this month to end this way. For DACH and Nordic machinery exporters it's a delay, not a decision, so keep a tariff scenario in 2027 plans.\n\nBoluda Shipping has agreed to acquire Samskip, including Norway's Nor Lines: 32 vessels, 18 routes, completion due 1 January 2027. Shippers on Nordic short-sea lanes should plan a carrier and contract review.\n\nOerlikon says tungsten and yttrium bottlenecks are pushing customers to secure supply. Check lead times and safety stocks before Q1.\n\nThanks to Colin Reed for today's listener desk, on who should sign each limit an AI agent works within.\n\nListen: The Planning Desk, every weekday on Apple Podcasts and Spotify.\n\n#supplychain #logistics #tariffs"
+  },
+  "show_notes": {
+    "summary": "The US picks trade talks over tariffs for robotics and industrial machinery, for now. Also: Boluda agrees to buy Samskip and Nor Lines, Scan Global buys OIA Global, Oerlikon customers lock in tungsten and yttrium, Volkswagen's third-quarter loss, record container capacity, the exception backlog and paperless freight in Germany. Listener desk: Colin Reed on who signs off on agent decisions.",
+    "sources": [
+      {
+        "title": "Supply Chain Dive: Trump opts for trade talks over tariffs for robotics, industrial machinery",
+        "url": "https://www.supplychaindive.com/news/trump-opts-for-trade-talks-over-tariffs-for-robotics-industrial-machinery/873166/"
+      },
+      {
+        "title": "SCMR: First Shift, robotics tariffs, maritime risk and port congestion",
+        "url": "https://www.scmr.com/article/first-shift-robotics-tariffs-maritime-risk-and-port-congestion-reshape-supply-chain-decisions"
+      },
+      {
+        "title": "The Loadstar: Boluda to acquire Samskip",
+        "url": "https://theloadstar.com/boluda-to-acquire-samskip-a-combination-to-lead-european-shortsea-shipping/"
+      },
+      {
+        "title": "MT Logistikk: Nor Lines får spansk eier",
+        "url": "https://www.mtlogistikk.no/mergers-and-acquisitions-nor-lines-nytt-om-navn/nor-lines-far-spansk-eier/1351105"
+      },
+      {
+        "title": "The Loadstar: Scan Global Logistics to acquire US forwarder OIA Global",
+        "url": "https://theloadstar.com/scan-global-logistics-to-acquire-us-forwarder-oia-global/"
+      },
+      {
+        "title": "OC Oerlikon: Q3 2026 trading update",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69968247-adhoc-oc-oerlikon-handelsupdate-3-quartal-2026-starker-bestellungseingang-und-umsatz-im-dritten-quartal-bestaetigen-die-positive-geschaeftsentwickl-022.htm"
+      },
+      {
+        "title": "Edison: Oerlikon, materials strength drives FY26 guidance upgrade",
+        "url": "https://www.edisongroup.com/spark/oerlikon-six-oerl-materials-strength-drives-fy26-guidance-upgrade/"
+      },
+      {
+        "title": "VerkehrsRundschau: Volkswagen 5,82 Milliarden Euro Verlust im dritten Quartal",
+        "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/volkswagen-5-82-milliarden-euro-verlust-im-dritten-quartal-3928760"
+      },
+      {
+        "title": "SupplyChainBrain: VW makes a loss in China, sparking urgent call for cost cuts",
+        "url": "https://www.supplychainbrain.com/articles/45115-vw-makes-a-loss-in-china-sparking-urgent-call-for-cost-cuts"
+      },
+      {
+        "title": "Sea-Intelligence: Unprecedented capacity levels in Oct-Nov",
+        "url": "https://www.sea-intelligence.com/press-room/416-unprecedented-capacity-levels-in-oct-nov"
+      },
+      {
+        "title": "Logistics Viewpoints: The exception backlog, supply chain's overlooked operational constraint",
+        "url": "https://logisticsviewpoints.com/2026/10/29/the-exception-backlog-supply-chain-s-overlooked-operational-constraint/"
+      },
+      {
+        "title": "VerkehrsRundschau: Digitaler Frachtbrief, nur 7 Prozent arbeiten papierlos",
+        "url": "https://www.verkehrsrundschau.de/nachrichten/transport-logistik/digitaler-frachtbrief-nur-7-prozent-arbeiten-papierlos-3928868"
+      }
+    ]
+  }
+}
