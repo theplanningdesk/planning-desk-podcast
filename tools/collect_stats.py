@@ -176,8 +176,13 @@ def op3(eps: list[dict], pod: dict) -> dict:
     try:
         show = http_json(f"https://op3.dev/api/1/shows/{guid}", auth)
     except urllib.error.HTTPError as e:
-        STATUS["op3"] = ("waiting: OP3 hasn't seen downloads for this show yet (normal for the first few days)"
-                         if e.code == 404 else f"error: {err_text(e)}")
+        if e.code == 404:
+            STATUS["op3"] = "waiting: OP3 hasn't seen downloads for this show yet (normal for the first few days)"
+        elif e.code in (401, 403):
+            hint = op3_token_hint(tok, guid)
+            STATUS["op3"] = f"error: OP3 refused the OP3_API_TOKEN secret (HTTP {e.code}). {hint}"
+        else:
+            STATUS["op3"] = f"error: {err_text(e)}"
         return {}
     uuid = show["showUuid"]
     try:
@@ -195,6 +200,21 @@ def op3(eps: list[dict], pod: dict) -> dict:
                     e["op3_" + k.replace("downloads", "d").replace("dAll", "all")] = x[k]
     STATUS["op3"] = "ok"
     return {"op3_stats_page": show.get("statsPageUrl", "")}
+
+
+def op3_token_hint(tok: str, guid: str) -> str:
+    """Tell a bad token apart from an OP3-side problem with one call using OP3's public preview token."""
+    shape = f"The secret is {len(tok)} characters long."
+    try:
+        http_json(f"https://op3.dev/api/1/shows/{guid}", {"Authorization": "Bearer preview07ce"})
+        ok = "OP3 itself answers fine with its public preview token, so the secret is the problem."
+    except urllib.error.HTTPError as e:
+        ok = ("OP3 itself answers fine with its public preview token (show not listed yet), so the secret is the problem."
+              if e.code == 404 else f"OP3's own preview token also failed (HTTP {e.code}), so the problem is on OP3's side.")
+    except Exception as e:  # noqa: BLE001
+        ok = f"Couldn't test OP3 with the preview token ({err_text(e)[:80]})."
+    return (f"{ok} {shape} Paste the Bearer Token (not the API Key) from op3.dev/api/keys, "
+            "copied with the 'Copy to clipboard' button.")
 
 
 def youtube_id(url: str) -> str:
