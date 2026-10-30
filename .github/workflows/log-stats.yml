@@ -66,6 +66,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install -q -r requirements.txt
       - name: Check out the stats branch
         run: |
           if git ls-remote --exit-code --heads origin stats >/dev/null; then
