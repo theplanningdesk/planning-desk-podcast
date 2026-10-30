@@ -437,7 +437,14 @@ def manual() -> int:
         row[f] = v
     if not any(row[f] for f in MANUAL_FIELDS[1:-1]):
         raise SystemExit("Nothing to log: every number was blank.")
-    rows = [r for r in read_csv("manual.csv") if r.get("date") != row["date"]] + [row]
+    old = read_csv("manual.csv")
+    prev = next((r for r in old if r.get("date") == row["date"]), {})
+    for f in MANUAL_FIELDS[1:]:  # same date: keep earlier boxes unless retyped
+        if not row[f] and prev.get(f):
+            row[f] = prev[f]
+        elif f == "note" and row[f] and prev.get(f) and row[f] != prev[f]:
+            row[f] = f"{prev[f]}; {row[f]}"
+    rows = [r for r in old if r.get("date") != row["date"]] + [row]
     rows.sort(key=lambda r: r["date"])
     write_csv("manual.csv", rows, MANUAL_FIELDS)
     print(f"Logged manual numbers for {row['date']}: " + ", ".join(f"{k}={v}" for k, v in row.items() if v and k != "date"))
