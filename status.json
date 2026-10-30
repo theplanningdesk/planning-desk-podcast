@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-30T12:32:55+00:00",
+  "updated": "2026-10-30T12:36:52+00:00",
   "sources": {
     "github": "ok",
-    "op3": "error: OP3 refused the OP3_API_TOKEN secret (HTTP 403). OP3 itself answers fine with its public preview token (show not listed yet), so the secret is the problem. The secret is 32 characters long. Paste the Bearer Token (not the API Key) from op3.dev/api/keys, copied with the 'Copy to clipboard' button.",
+    "op3": "waiting: OP3 hasn't seen downloads for this show yet (normal for the first few days)",
     "youtube": "ok",
     "instagram": "ok",
     "buttondown": "ok"

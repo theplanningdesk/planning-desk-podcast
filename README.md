@@ -45,5 +45,5 @@ Podcast = OP3 downloads in the first 7 days (bots removed); raw = GitHub MP3 fet
 - buttondown: ok
 - github: ok
 - instagram: ok
-- op3: error: OP3 refused the OP3_API_TOKEN secret (HTTP 403). OP3 itself answers fine with its public preview token (show not listed yet), so the secret is the problem. The secret is 32 characters long. Paste the Bearer Token (not the API Key) from op3.dev/api/keys, copied with the 'Copy to clipboard' button.
+- op3: waiting: OP3 hasn't seen downloads for this show yet (normal for the first few days)
 - youtube: ok
