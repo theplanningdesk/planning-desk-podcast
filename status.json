@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-30T12:05:03+00:00",
+  "updated": "2026-10-30T12:31:03+00:00",
   "sources": {
     "github": "ok",
-    "op3": "skipped: add the OP3_API_TOKEN secret (free key from op3.dev/api/keys)",
+    "op3": "error: HTTP 403 {\n  \"error\": \"forbidden\"\n}",
     "youtube": "ok",
     "instagram": "ok",
     "buttondown": "ok"
