@@ -1,0 +1,67 @@
+name: Collect stats
+
+# Every morning: pulls downloads, views and followers from OP3, GitHub, YouTube, Instagram and
+# Buttondown, and saves them on the "stats" branch (README.md there is the scorecard).
+# Never touches main, so it never starts a render.
+on:
+  schedule:
+    - cron: "17 3 * * *"   # 04:17 Stockholm in winter, before the daily episode goes out
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats-branch
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      OP3_API_TOKEN: ${{ secrets.OP3_API_TOKEN }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+      INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      STATS_DIR: ${{ github.workspace }}/stats-branch
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check out the stats branch
+        run: |
+          if git ls-remote --exit-code --heads origin stats >/dev/null; then
+            git clone -q --depth 1 --branch stats "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" stats-branch
+          else
+            mkdir stats-branch && cd stats-branch && git init -q && git checkout -q --orphan stats
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          fi
+
+      - name: Check the OP3 download link works
+        continue-on-error: true
+        run: |
+          URL=$(grep -o 'enclosure url="[^"]*"' docs/feed.xml | head -1 | sed 's/enclosure url="//; s/"$//')
+          CODE=$(curl -s -o /dev/null -w '%{http_code} %{url_effective}' -L -r 0-1023 "$URL")
+          echo "Newest episode link: $URL"
+          echo "Resolves to: $CODE"
+          case "$CODE" in 200*|206*) echo "OP3 link OK" ;; *) echo "::error::The episode link through OP3 doesn't resolve ($CODE)"; exit 1 ;; esac
+
+      - name: Collect
+        run: python tools/collect_stats.py collect
+
+      - name: Save to the stats branch
+        run: |
+          cd stats-branch
+          git config user.name planning-desk-bot
+          git config user.email planning-desk-bot@users.noreply.github.com
+          git add -A
+          git diff --cached --quiet && { echo "No changes."; exit 0; }
+          git commit -q -m "Stats $(date -u +%F) [skip ci]"
+          git push -q origin HEAD:stats

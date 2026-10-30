@@ -16,6 +16,7 @@ import argparse
 import html
 import json
 import sys
+import uuid
 from datetime import datetime
 from email.utils import format_datetime
 from pathlib import Path
@@ -54,11 +55,35 @@ def base_url(pod: dict) -> str:
     return pod["base_url"].rstrip("/") + "/"
 
 
-def audio_url(pod: dict, e: dict) -> str:
+def podcast_guid(pod: dict) -> str:
+    """The show's Podcast Index GUID: UUIDv5 of the feed URL without scheme or trailing slash."""
+    if pod.get("podcast_guid"):
+        return pod["podcast_guid"]
+    feed = (base_url(pod) + "feed.xml").split("://", 1)[-1].rstrip("/")
+    return str(uuid.uuid5(uuid.UUID("ead4c236-bf58-58c6-a2c6-a6b28d128cb6"), feed))
+
+
+def stats_prefix(pod: dict, url: str) -> str:
+    """Route the download through OP3 (op3.dev) so plays from every app get counted.
+
+    Set podcast.op3 to false in config.json to switch it off. OP3 wants the https:// dropped.
+    """
+    if not pod.get("op3", True):
+        return url
+    target = url[len("https://"):] if url.startswith("https://") else url
+    return f"https://op3.dev/e,pg={podcast_guid(pod)}/{target}"
+
+
+def raw_audio_url(pod: dict, e: dict) -> str:
     """Where the MP3 is served from: the GitHub release, or docs/ for episodes published before the move."""
     if e.get("file", "").startswith("episodes/"):
         return base_url(pod) + e["file"]
     return f"{pod['audio_base_url'].rstrip('/')}/episode-{e['stem']}/planning-desk-{e['stem']}.mp3"
+
+
+def audio_url(pod: dict, e: dict) -> str:
+    """The public MP3 link used in the feed and on the site, counted by OP3."""
+    return stats_prefix(pod, raw_audio_url(pod, e))
 
 
 def page_url(pod: dict, e: dict) -> str:
@@ -209,10 +234,11 @@ def build_feed(cfg: dict, registry: list[dict]) -> None:
     </item>""")
 
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>{escape(pod['title'])}</title>
     <link>{escape(base)}</link>
+    <podcast:guid>{podcast_guid(pod)}</podcast:guid>
     <atom:link href="{escape(base + 'feed.xml')}" rel="self" type="application/rss+xml"/>
     <language>{escape(pod['language'])}</language>
     <copyright>{escape(pod['copyright'])}</copyright>

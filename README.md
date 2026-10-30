@@ -77,3 +77,16 @@ Preview locally: `cd video && npm ci && node render.mjs --stem 2026-10-23-test -
 
 YouTube secrets: `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN`.
 Privacy, category and tags live under `youtube` in `config.json`.
+
+## Engagement stats
+
+Every MP3 link in the feed and on the site goes through [OP3](https://op3.dev) (`https://op3.dev/e,pg=<podcast guid>/...`), a free, open-source download counter, so plays from every podcast app get counted with bots removed. Set `podcast.op3` to `false` in config.json and run `python publish.py --rebuild` to switch it off.
+
+The "Collect stats" workflow runs every morning and saves the numbers on the `stats` branch:
+
+- `README.md` there is the scorecard: channel totals and every episode's podcast downloads, YouTube views, Short views and Instagram numbers.
+- `episodes.csv` (latest per episode), `history.csv` (every daily snapshot), `channels.csv` (followers and totals), `manual.csv` (typed-in numbers), `status.json` (which sources worked).
+
+Sources: GitHub release downloads (built in), OP3 (secret `OP3_API_TOKEN`, a free key from op3.dev/api/keys), YouTube and Instagram (the existing upload secrets), Buttondown (the existing key). A missing secret just skips that source.
+
+Spotify, Apple Podcasts and LinkedIn Page numbers have no API open to a show like this one. Type them in weekly: Actions > Log manual stats > Run workflow, fill in the boxes you have, leave the rest blank.

@@ -1,0 +1,86 @@
+name: Log manual stats
+
+# For the numbers no API gives out: type them in from Spotify for Creators, Apple Podcasts
+# Connect and the LinkedIn Page analytics. Actions > Log manual stats > Run workflow.
+# Leave any box blank to skip it. Saved to manual.csv on the "stats" branch.
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date the numbers are from (YYYY-MM-DD, blank = today)"
+        required: false
+      spotify_followers:
+        description: "Spotify: followers"
+        required: false
+      spotify_plays:
+        description: "Spotify: plays, last 7 days"
+        required: false
+      apple_followers:
+        description: "Apple Podcasts: followers"
+        required: false
+      apple_listeners:
+        description: "Apple Podcasts: listeners, last 7 days"
+        required: false
+      linkedin_followers:
+        description: "LinkedIn Page: followers"
+        required: false
+      linkedin_impressions:
+        description: "LinkedIn Page: post impressions, last 7 days"
+        required: false
+      linkedin_reactions:
+        description: "LinkedIn Page: reactions, last 7 days"
+        required: false
+      linkedin_comments:
+        description: "LinkedIn Page: comments, last 7 days"
+        required: false
+      note:
+        description: "Note (optional)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats-branch
+  cancel-in-progress: false
+
+jobs:
+  log:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      STATS_DIR: ${{ github.workspace }}/stats-branch
+      MANUAL_DATE: ${{ inputs.date }}
+      MANUAL_SPOTIFY_FOLLOWERS: ${{ inputs.spotify_followers }}
+      MANUAL_SPOTIFY_PLAYS: ${{ inputs.spotify_plays }}
+      MANUAL_APPLE_FOLLOWERS: ${{ inputs.apple_followers }}
+      MANUAL_APPLE_LISTENERS: ${{ inputs.apple_listeners }}
+      MANUAL_LINKEDIN_FOLLOWERS: ${{ inputs.linkedin_followers }}
+      MANUAL_LINKEDIN_IMPRESSIONS: ${{ inputs.linkedin_impressions }}
+      MANUAL_LINKEDIN_REACTIONS: ${{ inputs.linkedin_reactions }}
+      MANUAL_LINKEDIN_COMMENTS: ${{ inputs.linkedin_comments }}
+      MANUAL_NOTE: ${{ inputs.note }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check out the stats branch
+        run: |
+          if git ls-remote --exit-code --heads origin stats >/dev/null; then
+            git clone -q --depth 1 --branch stats "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" stats-branch
+          else
+            mkdir stats-branch && cd stats-branch && git init -q && git checkout -q --orphan stats
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          fi
+      - name: Log
+        run: python tools/collect_stats.py manual
+      - name: Save to the stats branch
+        run: |
+          cd stats-branch
+          git config user.name planning-desk-bot
+          git config user.email planning-desk-bot@users.noreply.github.com
+          git add -A
+          git commit -q -m "Manual stats $(date -u +%F) [skip ci]"
+          git push -q origin HEAD:stats
