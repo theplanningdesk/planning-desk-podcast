@@ -1,0 +1,388 @@
+{
+  "show": "The Planning Desk",
+  "format": "saturday",
+  "episode_title": "The Goal, Goldratt and Cox",
+  "week": "2026-W44",
+  "run_date": "2026-10-31",
+  "target_runtime_sec": 501,
+  "word_count": 1473,
+  "book": {
+    "key": "goal",
+    "title": "The Goal",
+    "author": "Eliyahu M. Goldratt and Jeff Cox",
+    "year": 1984,
+    "edition": "4th revised (30th anniversary) edition, 2014"
+  },
+  "hosts": {
+    "F": {
+      "name": "Anna"
+    },
+    "N": {
+      "name": "Narrator"
+    }
+  },
+  "segments": [
+    {
+      "id": "intro_music",
+      "type": "music",
+      "duration_sec": 5
+    },
+    {
+      "id": "book_intro",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "It's Saturday, the thirty-first of October. I'm Anna, and this is the book of the week on The Planning Desk."
+        },
+        {
+          "speaker": "F",
+          "text": "Quick note, this show is made with A I. A I agents research the book, and the voices are synthetic."
+        },
+        {
+          "speaker": "F",
+          "text": "Today it's The Goal, by Eliyahu Goldratt and Jeff Cox, a business novel first published in nineteen eighty-four. Here's our narrator."
+        }
+      ]
+    },
+    {
+      "id": "book_open",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "An hour lost at a bottleneck is an hour lost for the whole plant, and an hour saved anywhere else is close to worthless."
+        },
+        {
+          "speaker": "N",
+          "text": "That one idea has kept The Goal on planners' shelves for forty years."
+        }
+      ]
+    },
+    {
+      "id": "book_context",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "The Goal is a novel, which is rare for a management book. It follows Alex Rogo, a plant manager whose factory is late on orders, full of inventory and losing money."
+        },
+        {
+          "speaker": "N",
+          "text": "His boss gives him three months to turn it around. At the same time his marriage is coming apart, because he's never at home."
+        },
+        {
+          "speaker": "N",
+          "text": "Help comes from Jonah, his old physics teacher, who answers questions with more questions. The first one sounds simple, and nobody at the plant can answer it. What is the goal of this company?"
+        },
+        {
+          "speaker": "N",
+          "text": "Eliyahu Goldratt was an Israeli physicist, not a manager or a business school professor. He wrote the book with Jeff Cox to teach what became known as the Theory of Constraints."
+        },
+        {
+          "speaker": "N",
+          "text": "Time magazine put it on its list of the twenty-five most influential business management books in twenty eleven. Goldratt died that same year, aged sixty-four."
+        },
+        {
+          "speaker": "N",
+          "text": "The current version is the thirtieth anniversary edition from twenty fourteen, and the paperback runs close to four hundred pages. It reads fast, like a story, and needs no maths beyond simple arithmetic."
+        }
+      ]
+    },
+    {
+      "id": "big_ideas",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "The first big idea is the question itself. Jonah's answer is that the goal of a manufacturing company is to make money, now and in the future."
+        },
+        {
+          "speaker": "N",
+          "text": "Efficiency, quality and new machines are means to that end, and never the goal on their own."
+        },
+        {
+          "speaker": "N",
+          "text": "To keep score, Jonah throws out cost per part and uses three measures. In Goldratt's words, throughput is the rate at which the system generates money through sales."
+        },
+        {
+          "speaker": "N",
+          "text": "Inventory is all the money tied up in things the company intends to sell. Operating expense is the money spent turning inventory into throughput."
+        },
+        {
+          "speaker": "N",
+          "text": "The order of the three matters. Most cost programmes start with operating expense, because it's easy to see. Goldratt starts with throughput, because cost has a floor and sales have no ceiling."
+        },
+        {
+          "speaker": "N",
+          "text": "In planning terms, a pallet of finished goods with no order behind it isn't output. It's cash sitting in a warehouse, waiting for a forecast to come true."
+        },
+        {
+          "speaker": "N",
+          "text": "The second idea comes from the book's best known scene, a scout hike. Alex leads his son's troop, and the line keeps stretching out."
+        },
+        {
+          "speaker": "N",
+          "text": "Each boy's pace varies, and nobody can walk faster than the boy in front of him. The whole troop moves at the speed of the slowest boy, Herbie, and the gaps in the line keep growing."
+        },
+        {
+          "speaker": "N",
+          "text": "Goldratt's point is that two things together do the damage, steps that depend on each other and normal variation in each step. Delays don't average out down the line, they pile up."
+        },
+        {
+          "speaker": "N",
+          "text": "So a perfectly balanced plant, where every machine has just enough capacity for demand, is a trap. Alex fixes the hike by putting Herbie at the front and sharing out the load in his pack."
+        },
+        {
+          "speaker": "N",
+          "text": "In planning terms, that's the case for spare capacity outside the constraint. A network that runs every site and lane close to full will lose output to normal variation, even when the averages add up."
+        },
+        {
+          "speaker": "N",
+          "text": "The third idea is bottleneck arithmetic. Back at the plant, Alex's team finds two Herbies, the N C X ten machine and heat treatment."
+        },
+        {
+          "speaker": "N",
+          "text": "On the books, an hour of that machine costs about thirty dollars. Jonah works out that an hour lost there really costs the plant around two thousand seven hundred dollars, because the whole plant's output waits on it."
+        },
+        {
+          "speaker": "N",
+          "text": "So the team stops feeding the bottleneck parts that would fail inspection later, makes sure it never stands idle, and brings old machines back into use to take some of its load."
+        },
+        {
+          "speaker": "N",
+          "text": "Everywhere else the logic runs the other way. An hour saved at a machine that isn't a bottleneck adds nothing, and running it flat out only builds a pile of work in front of Herbie."
+        },
+        {
+          "speaker": "N",
+          "text": "Smaller batches follow from the same logic. Alex's team cuts batch sizes in half, which means more setups on machines with time to spare and far less waiting in queues."
+        },
+        {
+          "speaker": "N",
+          "text": "The catch, and Goldratt makes you feel it, is that the old efficiency reports look worse while the plant gets better. Alex has to defend that to bosses who still read those reports."
+        },
+        {
+          "speaker": "N",
+          "text": "The fourth idea turns all this into a method. Alex's team releases material to the floor only as fast as the bottleneck can work through it."
+        },
+        {
+          "speaker": "N",
+          "text": "Goldratt later named this drum, buffer, rope, in The Race, a book he wrote with Robert Fox. The bottleneck's schedule is the drum, a small stock of work in front of it is the buffer, and the release rule is the rope."
+        },
+        {
+          "speaker": "N",
+          "text": "Near the end of the novel, the lessons become five focusing steps. Identify the constraint, exploit it, subordinate everything else to it, elevate it, and then start again."
+        },
+        {
+          "speaker": "N",
+          "text": "The last step comes with a warning, don't let inertia become the constraint. Once the bottleneck moves, yesterday's rules are the next thing holding you back."
+        },
+        {
+          "speaker": "N",
+          "text": "In the story the constraint does move, out of the plant and into the market. Alex goes after a European order at lower prices, so spare capacity earns money without cutting prices at home."
+        },
+        {
+          "speaker": "N",
+          "text": "For planners, step three is the hard one. Subordinating means most of the organisation stops chasing its own numbers, and that changes how people are measured as well as how work is scheduled."
+        }
+      ]
+    },
+    {
+      "id": "for_planners",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "Does the book still hold up forty years on? The core logic does. Every supply chain has a constraint, and planning around it beats treating every resource as equally important."
+        },
+        {
+          "speaker": "N",
+          "text": "Sales and operations planning, S and OP, asks the question Jonah asks. Where is the constraint this month, and what do we do with the capacity that isn't?"
+        },
+        {
+          "speaker": "N",
+          "text": "The book also explains why high utilisation targets so often make lead times worse. Plenty of plants and warehouses still haven't learned that lesson."
+        },
+        {
+          "speaker": "N",
+          "text": "Where it has dated is the setting. It's one plant, in the early nineteen eighties, with two clear bottlenecks that stay put."
+        },
+        {
+          "speaker": "N",
+          "text": "Today's constraints sit just as often with a supplier, a port, a planner's time or a policy. In a network they move with the season and the product mix."
+        },
+        {
+          "speaker": "N",
+          "text": "Fair critics make this point too. Christoph Roser, who writes the All About Lean blog, argues that bottlenecks usually shift in practice, and that drum, buffer, rope only protects the bottleneck from running out of work."
+        },
+        {
+          "speaker": "N",
+          "text": "He prefers kanban, or a simple cap on total work in progress. He also argues that Goldratt overstated his methods and gave too little credit to earlier ideas."
+        },
+        {
+          "speaker": "N",
+          "text": "The novel form has a cost as well. The marriage story is thin, and the lessons arrive neatly one by one, so the method looks simpler on the page than it is on a real shop floor."
+        }
+      ]
+    },
+    {
+      "id": "reading_guide",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "Read it if you plan production, run a plant or a warehouse, or design networks and want a feel for flow. It's also a good first book for new planners, and for finance colleagues who live by cost per unit."
+        },
+        {
+          "speaker": "N",
+          "text": "Expect a few evenings. It reads like a novel, so read it front to back rather than jumping around."
+        },
+        {
+          "speaker": "N",
+          "text": "If time is short, the hike and the chapters on the two bottlenecks carry most of the method. The marriage chapters can be skimmed."
+        },
+        {
+          "speaker": "N",
+          "text": "Get the thirtieth anniversary edition from North River Press, which is the current one. For a quicker way in, there's also a graphic novel version, scripted by Dwight Zimmerman and drawn by Dean Motter."
+        }
+      ]
+    },
+    {
+      "id": "shelf",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "N",
+          "text": "Also on the shelf, three books that pair well with The Goal."
+        },
+        {
+          "speaker": "N",
+          "text": "The Phoenix Project, by Gene Kim, Kevin Behr and George Spafford, from twenty thirteen. It copies the format with a failing I T department instead of a plant, and shows constraint thinking working outside the factory."
+        },
+        {
+          "speaker": "N",
+          "text": "This Is Lean, by Niklas Modig and Pär Åhlström of the Stockholm School of Economics, from twenty twelve. It explains the clash between keeping resources busy and keeping work flowing, the same tension Alex lives through, with examples well beyond manufacturing."
+        },
+        {
+          "speaker": "N",
+          "text": "And Critical Chain, Goldratt's own novel from nineteen ninety-seven. It takes the same thinking to project management, which helps if your bottleneck is engineering time rather than a machine."
+        }
+      ]
+    },
+    {
+      "id": "book_sign_off",
+      "type": "speech",
+      "lines": [
+        {
+          "speaker": "F",
+          "text": "Next Saturday, it's The Signal and the Noise, by Nate Silver."
+        },
+        {
+          "speaker": "F",
+          "text": "News is back Monday morning, and the week in review is out tomorrow. I'm Anna, thanks for listening."
+        }
+      ]
+    },
+    {
+      "id": "outro_music",
+      "type": "music",
+      "duration_sec": 5
+    }
+  ],
+  "short": {
+    "title": "The Goal by Goldratt and Cox: find the bottleneck",
+    "lines": [
+      {
+        "speaker": "N",
+        "text": "An hour lost at a bottleneck is an hour lost for everyone."
+      },
+      {
+        "speaker": "N",
+        "text": "That's the core of The Goal, a nineteen eighty-four business novel by Eliyahu Goldratt and Jeff Cox. A plant manager gets three months to save his failing factory."
+      },
+      {
+        "speaker": "N",
+        "text": "His mentor tells him the goal is to make money, and to judge every decision by throughput, inventory and operating expense, in that order."
+      },
+      {
+        "speaker": "N",
+        "text": "Keeping every machine busy only piles up stock. Find the constraint, protect it, and let everything else follow its pace."
+      },
+      {
+        "speaker": "N",
+        "text": "Read it if you plan production or design networks. It takes a few evenings, and forty years on it still explains why busy plants deliver late."
+      },
+      {
+        "speaker": "F",
+        "text": "A book every Saturday on The Planning Desk podcast."
+      }
+    ],
+    "caption": "Book of the week: The Goal by Eliyahu M. Goldratt and Jeff Cox (1984). A plant manager gets 3 months to save his factory and learns that keeping every machine busy is a fast way to lose money. Forty years on, the constraint logic in this novel still explains why busy plants deliver late. Full episode: The Planning Desk, every Saturday on Apple Podcasts and Spotify. AI-generated: AI agents research the book and the voices are synthetic.",
+    "hashtags": [
+      "books",
+      "supplychain",
+      "theoryofconstraints",
+      "operations"
+    ]
+  },
+  "linkedin": {
+    "page_post": "Book of the week: The Goal by Eliyahu M. Goldratt and Jeff Cox (1984).\n\nThe goal of a manufacturing company is to make money, and Goldratt scores every decision on throughput, inventory and operating expense, in that order. For planners, finished stock with no order behind it is cash waiting on a forecast.\n\nA scout hike moves at the pace of its slowest walker, and the gaps keep growing. Dependent steps plus normal variation make a fully balanced plant a trap, so networks need spare capacity outside the constraint.\n\nAn hour lost at the bottleneck is lost for the whole system, and an hour saved elsewhere adds nothing. Find the constraint, protect it, and set release and batch rules by its pace.\n\nRead it if you plan production, run a site or design networks. It takes a few evenings.\n\nListen: The Planning Desk, a book every Saturday on Apple Podcasts and Spotify.\n\n#SupplyChain #TheoryOfConstraints #Books"
+  },
+  "show_notes": {
+    "summary": "This week's book is The Goal by Eliyahu M. Goldratt and Jeff Cox, the 1984 business novel that introduced the Theory of Constraints. Its main idea: find the bottleneck, protect it and pace everything else to it, because an hour lost there is lost for the whole system. For planners, plant managers and network designers.",
+    "sources": [
+      {
+        "title": "Wikipedia: The Goal (novel)",
+        "url": "https://en.wikipedia.org/wiki/The_Goal_(novel)"
+      },
+      {
+        "title": "TIME: The 25 most influential business management books, The Goal",
+        "url": "https://content.time.com/time/specials/packages/article/0,28804,2086680_2086683_2087672,00.html"
+      },
+      {
+        "title": "Wikipedia: Eliyahu M. Goldratt",
+        "url": "https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt"
+      },
+      {
+        "title": "Management And Accounting Web: summary of The Goal",
+        "url": "https://maaw.info/ArticleSummaries/ArtSumTheGoal.htm"
+      },
+      {
+        "title": "TOC Institute: The five focusing steps",
+        "url": "https://www.tocinstitute.org/five-focusing-steps.html"
+      },
+      {
+        "title": "All About Lean: A critical look at Goldratt's drum-buffer-rope method",
+        "url": "https://www.allaboutlean.com/drum-buffer-rope/"
+      },
+      {
+        "title": "Porchlight Books: The Goal, revised 30th anniversary edition",
+        "url": "https://porchlightbooks.com/product/goal-a-process-of-ongoing-improvement-revised-30th-anniversary--eliyahu-m-goldratt/isbn/9780884271956"
+      },
+      {
+        "title": "Lehmanns: The Goal, a business graphic novel",
+        "url": "https://lehmanns.de/shop/wirtschaft/40045432-9780815385127-the-goal"
+      },
+      {
+        "title": "IT Revolution: Beyond The Phoenix Project",
+        "url": "https://itrevolution.com/articles/beyond-phoenix-project-making-book-goldratt-deming"
+      },
+      {
+        "title": "Continuous Delivery: Book review, The Phoenix Project",
+        "url": "https://continuousdelivery.com/2013/01/book-review-the-phoenix-project/"
+      },
+      {
+        "title": "Stockholm School of Economics: This is Lean",
+        "url": "https://research.hhs.se/esploro/outputs/book/This-is-Lean-Resolving-the-Efficiency/991001480652606056"
+      },
+      {
+        "title": "Copenhagen Business School: This is Lean, Danish launch",
+        "url": "https://www.cbs.dk/en/node/254851"
+      },
+      {
+        "title": "Wikipedia: Critical Chain (novel)",
+        "url": "https://en.wikipedia.org/wiki/Critical_Chain_(novel)"
+      }
+    ]
+  }
+}

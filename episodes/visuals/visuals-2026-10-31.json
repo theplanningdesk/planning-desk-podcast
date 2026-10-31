@@ -1,0 +1,730 @@
+{
+  "stem": "2026-10-31",
+  "cues": [
+    {
+      "line": 0,
+      "kicker": "Book of the week",
+      "headline": "The Goal, by Eliyahu Goldratt and Jeff Cox",
+      "sub": "A business novel, first published in 1984",
+      "kpis": [
+        {
+          "value": 1984,
+          "label": "first published"
+        }
+      ],
+      "source": "North River Press"
+    },
+    {
+      "line": 1,
+      "kicker": "Made with AI",
+      "headline": "AI agents research the book, the voices are synthetic"
+    },
+    {
+      "line": 2,
+      "kicker": "Book of the week",
+      "headline": "The Goal: A Process of Ongoing Improvement",
+      "sub": "Eliyahu M. Goldratt and Jeff Cox"
+    },
+    {
+      "line": 3,
+      "kicker": "The big idea",
+      "headline": "An hour lost at a bottleneck is lost for the whole plant",
+      "sub": "An hour saved anywhere else is close to worthless"
+    },
+    {
+      "line": 4,
+      "kicker": "The Goal",
+      "headline": "Forty years on planners' shelves",
+      "kpis": [
+        {
+          "value": 40,
+          "prefix": "about ",
+          "suffix": " years",
+          "label": "since first publication"
+        }
+      ]
+    },
+    {
+      "line": 5,
+      "kicker": "What kind of book",
+      "headline": "A management book written as a novel",
+      "sub": "Plant manager Alex Rogo: late orders, too much inventory, losing money",
+      "visual": {
+        "template": "list",
+        "props": {
+          "title": "The plant's problems",
+          "items": [
+            {
+              "label": "Late orders",
+              "say": "late on orders"
+            },
+            {
+              "label": "Too much inventory",
+              "say": "full of inventory"
+            },
+            {
+              "label": "Losing money",
+              "say": "losing money"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 6,
+      "keep": true,
+      "kicker": "The deadline",
+      "headline": "Three months to turn the plant around",
+      "kpis": [
+        {
+          "value": 3,
+          "label": "months to save the plant",
+          "accent": true
+        }
+      ]
+    },
+    {
+      "line": 7,
+      "kicker": "The mentor",
+      "headline": "Jonah answers questions with more questions",
+      "sub": "The first one: what is the goal of this company?"
+    },
+    {
+      "line": 8,
+      "kicker": "The authors",
+      "headline": "Eliyahu Goldratt, an Israeli physicist",
+      "sub": "Written with Jeff Cox to teach the Theory of Constraints",
+      "source": "TIME"
+    },
+    {
+      "line": 9,
+      "kicker": "Its reach",
+      "headline": "One of TIME's 25 most influential management books",
+      "sub": "Listed in 2011, the year Goldratt died",
+      "visual": {
+        "template": "timeline",
+        "props": {
+          "kicker": "The Goal",
+          "title": "Key dates",
+          "items": [
+            {
+              "label": "2011",
+              "detail": "On TIME's list of 25",
+              "say": "Time magazine"
+            },
+            {
+              "label": "2011",
+              "detail": "Goldratt dies, aged 64",
+              "say": "Goldratt died"
+            },
+            {
+              "label": "2014",
+              "detail": "30th anniversary edition",
+              "say": "twenty fourteen"
+            }
+          ]
+        }
+      },
+      "source": "TIME, Wikipedia"
+    },
+    {
+      "line": 10,
+      "keep": true,
+      "kicker": "How demanding",
+      "headline": "Close to 400 pages that read like a story",
+      "sub": "No maths beyond simple arithmetic",
+      "kpis": [
+        {
+          "value": 400,
+          "prefix": "about ",
+          "label": "pages in paperback"
+        }
+      ]
+    },
+    {
+      "line": 11,
+      "kicker": "Idea 1",
+      "headline": "The goal is to make money, now and in the future",
+      "sub": "Efficiency, quality and new machines are means, never the goal"
+    },
+    {
+      "line": 13,
+      "kicker": "Idea 1, keeping score",
+      "headline": "Three measures replace cost per part",
+      "source": "Goldratt and Cox",
+      "visual": {
+        "template": "list",
+        "props": {
+          "title": "Score every decision on three measures",
+          "items": [
+            {
+              "label": "Throughput",
+              "detail": "Money made through sales",
+              "say": "throughput is the rate"
+            },
+            {
+              "label": "Inventory",
+              "detail": "Money tied up in things to sell",
+              "say": "Inventory is all"
+            },
+            {
+              "label": "Operating expense",
+              "detail": "Money spent turning inventory into throughput",
+              "say": "Operating expense is"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 15,
+      "keep": true,
+      "kicker": "Idea 1",
+      "headline": "Start with throughput, not with cost",
+      "sub": "Cost has a floor, sales have no ceiling"
+    },
+    {
+      "line": 16,
+      "keep": true,
+      "kicker": "For planners",
+      "headline": "Unsold finished goods are cash waiting on a forecast"
+    },
+    {
+      "line": 17,
+      "kicker": "Idea 2",
+      "headline": "The scout hike: the line keeps stretching out",
+      "sub": "The troop moves at the pace of its slowest walker, Herbie",
+      "visual": {
+        "template": "flow",
+        "props": {
+          "kicker": "The hike",
+          "title": "Why the gaps grow",
+          "steps": [
+            {
+              "label": "Dependent steps",
+              "detail": "No one passes the boy in front",
+              "say": "in front of him"
+            },
+            {
+              "label": "Normal variation",
+              "detail": "Every pace varies",
+              "say": "pace varies"
+            },
+            {
+              "label": "Gaps grow",
+              "detail": "Delays pile up",
+              "say": "pile up"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 19,
+      "keep": true,
+      "kicker": "Idea 2",
+      "headline": "Delays don't average out, they pile up",
+      "sub": "Dependent steps plus normal variation"
+    },
+    {
+      "line": 20,
+      "keep": true,
+      "kicker": "Idea 2",
+      "headline": "A perfectly balanced plant is a trap",
+      "sub": "Herbie goes to the front, and his load is shared out"
+    },
+    {
+      "line": 21,
+      "keep": true,
+      "kicker": "For planners",
+      "headline": "Keep spare capacity outside the constraint",
+      "sub": "A network run close to full everywhere loses output to normal variation"
+    },
+    {
+      "line": 22,
+      "kicker": "Idea 3",
+      "headline": "Bottleneck arithmetic",
+      "sub": "The plant's two Herbies",
+      "visual": {
+        "template": "list",
+        "props": {
+          "title": "The plant's bottlenecks",
+          "items": [
+            {
+              "label": "NCX-10 machine",
+              "say": "N C X ten"
+            },
+            {
+              "label": "Heat treatment",
+              "say": "heat treatment"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 23,
+      "kicker": "Idea 3",
+      "headline": "The real cost of a lost bottleneck hour",
+      "kpis": [
+        {
+          "value": 2700,
+          "prefix": "$",
+          "label": "real cost of an hour lost",
+          "accent": true
+        },
+        {
+          "value": 30,
+          "prefix": "$",
+          "label": "cost on the books"
+        }
+      ],
+      "visual": {
+        "template": "columns",
+        "props": {
+          "title": "Cost of one bottleneck hour, dollars",
+          "items": [
+            {
+              "label": "On the books",
+              "value": 30
+            },
+            {
+              "label": "Real cost",
+              "value": 2700,
+              "highlight": true
+            }
+          ]
+        }
+      },
+      "source": "Goldratt and Cox"
+    },
+    {
+      "line": 24,
+      "kicker": "Idea 3",
+      "headline": "Protect the bottleneck",
+      "sub": "Inspect before it, never let it stand idle, offload it",
+      "visual": {
+        "template": "list",
+        "props": {
+          "title": "What the team does",
+          "items": [
+            {
+              "label": "Inspect first",
+              "detail": "No bad parts on the bottleneck",
+              "say": "fail inspection"
+            },
+            {
+              "label": "Never idle",
+              "say": "never stands idle"
+            },
+            {
+              "label": "Old machines back",
+              "say": "old machines"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 25,
+      "kicker": "Idea 3",
+      "headline": "An hour saved at a non-bottleneck adds nothing",
+      "sub": "Running it flat out only piles work in front of Herbie"
+    },
+    {
+      "line": 26,
+      "kicker": "Idea 3",
+      "headline": "Halve the batches",
+      "sub": "More setups where there's time to spare, far less queueing",
+      "visual": {
+        "template": "columns",
+        "props": {
+          "title": "Batch size, relative",
+          "items": [
+            {
+              "label": "Before",
+              "value": 1
+            },
+            {
+              "label": "After",
+              "value": 0.5,
+              "highlight": true
+            }
+          ],
+          "decimals": 1
+        }
+      }
+    },
+    {
+      "line": 27,
+      "keep": true,
+      "kicker": "The catch",
+      "headline": "Old efficiency reports get worse as the plant gets better"
+    },
+    {
+      "line": 28,
+      "kicker": "Idea 4",
+      "headline": "Release work only at the bottleneck's pace",
+      "visual": {
+        "template": "flow",
+        "props": {
+          "kicker": "Named later in The Race",
+          "title": "Drum, buffer, rope",
+          "steps": [
+            {
+              "label": "Drum",
+              "detail": "The bottleneck's schedule",
+              "say": "the drum"
+            },
+            {
+              "label": "Buffer",
+              "detail": "Work queued in front of it",
+              "say": "the buffer"
+            },
+            {
+              "label": "Rope",
+              "detail": "The release rule",
+              "say": "the rope"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 29,
+      "keep": true,
+      "kicker": "Idea 4",
+      "headline": "Drum, buffer, rope",
+      "sub": "Named in The Race, written with Robert Fox"
+    },
+    {
+      "line": 30,
+      "kicker": "Idea 4",
+      "headline": "Five focusing steps",
+      "visual": {
+        "template": "flow",
+        "props": {
+          "kicker": "A loop, not a list",
+          "title": "Five focusing steps",
+          "steps": [
+            {
+              "label": "Identify",
+              "say": "Identify"
+            },
+            {
+              "label": "Exploit",
+              "say": "exploit"
+            },
+            {
+              "label": "Subordinate",
+              "say": "subordinate"
+            },
+            {
+              "label": "Elevate",
+              "say": "elevate"
+            },
+            {
+              "label": "Start again",
+              "say": "start again"
+            }
+          ]
+        }
+      },
+      "source": "TOC Institute"
+    },
+    {
+      "line": 31,
+      "keep": true,
+      "kicker": "Step five",
+      "headline": "Don't let inertia become the constraint"
+    },
+    {
+      "line": 32,
+      "kicker": "In the story",
+      "headline": "The constraint moves into the market",
+      "sub": "A European order at lower prices fills spare capacity"
+    },
+    {
+      "line": 33,
+      "kicker": "For planners",
+      "headline": "Subordinating changes how people are measured"
+    },
+    {
+      "line": 34,
+      "kicker": "Does it hold up?",
+      "headline": "The core logic does",
+      "sub": "Plan around the constraint, not every resource equally"
+    },
+    {
+      "line": 35,
+      "kicker": "S&OP",
+      "headline": "Where is the constraint this month?"
+    },
+    {
+      "line": 36,
+      "kicker": "Still true",
+      "headline": "High utilisation targets stretch lead times"
+    },
+    {
+      "line": 37,
+      "kicker": "Where it has dated",
+      "headline": "One plant, two bottlenecks that stay put",
+      "visual": {
+        "template": "list",
+        "props": {
+          "title": "Where constraints sit today",
+          "items": [
+            {
+              "label": "A supplier",
+              "say": "a supplier"
+            },
+            {
+              "label": "A port",
+              "say": "a port"
+            },
+            {
+              "label": "Planner time",
+              "say": "a planner's time"
+            },
+            {
+              "label": "A policy",
+              "say": "a policy"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 38,
+      "keep": true,
+      "kicker": "In networks",
+      "headline": "Constraints move with season and product mix"
+    },
+    {
+      "line": 39,
+      "kicker": "The critics",
+      "headline": "Bottlenecks usually shift in practice",
+      "sub": "Christoph Roser, All About Lean",
+      "source": "All About Lean"
+    },
+    {
+      "line": 40,
+      "kicker": "The critics",
+      "headline": "Kanban or a work-in-progress cap may be simpler",
+      "source": "All About Lean"
+    },
+    {
+      "line": 41,
+      "kicker": "The novel form",
+      "headline": "Neater on the page than on a shop floor"
+    },
+    {
+      "line": 42,
+      "kicker": "Who should read it",
+      "headline": "Planners, plant and warehouse leads, network designers",
+      "visual": {
+        "template": "list",
+        "props": {
+          "title": "Who it's for",
+          "items": [
+            {
+              "label": "Production planners",
+              "say": "plan production"
+            },
+            {
+              "label": "Plant and warehouse",
+              "say": "run a plant"
+            },
+            {
+              "label": "Network designers",
+              "say": "design networks"
+            },
+            {
+              "label": "Finance colleagues",
+              "say": "finance colleagues"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 43,
+      "keep": true,
+      "kicker": "Time needed",
+      "headline": "A few evenings, front to back"
+    },
+    {
+      "line": 44,
+      "keep": true,
+      "kicker": "Short on time",
+      "headline": "Read the hike and the bottleneck chapters"
+    },
+    {
+      "line": 45,
+      "kicker": "Which edition",
+      "headline": "30th anniversary edition, North River Press",
+      "sub": "Or the graphic novel by Dwight Zimmerman and Dean Motter",
+      "kpis": [
+        {
+          "value": 2014,
+          "label": "current edition"
+        }
+      ]
+    },
+    {
+      "line": 46,
+      "kicker": "Also on the shelf",
+      "headline": "Three books that pair with The Goal",
+      "visual": {
+        "template": "list",
+        "props": {
+          "title": "Also on the shelf",
+          "items": [
+            {
+              "label": "The Phoenix Project",
+              "detail": "Kim, Behr and Spafford, 2013",
+              "say": "The Phoenix Project"
+            },
+            {
+              "label": "This Is Lean",
+              "detail": "Modig and Åhlström, 2012",
+              "say": "This Is Lean"
+            },
+            {
+              "label": "Critical Chain",
+              "detail": "Goldratt, 1997",
+              "say": "Critical Chain"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "line": 47,
+      "keep": true,
+      "kicker": "Also on the shelf",
+      "headline": "The Phoenix Project",
+      "sub": "The same format, set in a failing IT department"
+    },
+    {
+      "line": 48,
+      "keep": true,
+      "kicker": "Also on the shelf",
+      "headline": "This Is Lean",
+      "sub": "Busy resources against flowing work, from Stockholm"
+    },
+    {
+      "line": 49,
+      "keep": true,
+      "kicker": "Also on the shelf",
+      "headline": "Critical Chain",
+      "sub": "Goldratt's thinking applied to projects"
+    },
+    {
+      "line": 50,
+      "kicker": "Next Saturday",
+      "headline": "The Signal and the Noise, by Nate Silver"
+    }
+  ],
+  "short_cues": [
+    {
+      "line": 0,
+      "template": "headline",
+      "props": {
+        "kicker": "Book of the week",
+        "title": "The Goal, Goldratt and Cox",
+        "detail": "An hour lost at a bottleneck is lost for everyone"
+      }
+    },
+    {
+      "line": 1,
+      "template": "stat",
+      "props": {
+        "kicker": "First published",
+        "value": "1984",
+        "label": "a business novel",
+        "source": "North River Press"
+      }
+    },
+    {
+      "line": 1,
+      "at": "three months",
+      "template": "stat",
+      "props": {
+        "kicker": "The deadline",
+        "value": "3 months",
+        "label": "to save a failing plant",
+        "source": "Goldratt and Cox"
+      }
+    },
+    {
+      "line": 2,
+      "template": "takeaway",
+      "props": {
+        "kicker": "The goal",
+        "text": "Make money, now and in the future"
+      }
+    },
+    {
+      "line": 2,
+      "at": "throughput",
+      "template": "list",
+      "props": {
+        "title": "Judge every decision by",
+        "items": [
+          "Throughput",
+          "Inventory",
+          "Operating expense"
+        ]
+      }
+    },
+    {
+      "line": 3,
+      "template": "takeaway",
+      "props": {
+        "kicker": "The trap",
+        "text": "Busy machines pile up stock"
+      }
+    },
+    {
+      "line": 3,
+      "at": "Find the constraint",
+      "template": "list",
+      "props": {
+        "title": "The method",
+        "items": [
+          "Find the constraint",
+          "Protect it",
+          "Follow its pace"
+        ]
+      }
+    },
+    {
+      "line": 4,
+      "template": "headline",
+      "props": {
+        "kicker": "Who should read it",
+        "title": "Planners and network designers",
+        "detail": "A few evenings of reading"
+      }
+    },
+    {
+      "line": 4,
+      "at": "forty years on",
+      "template": "takeaway",
+      "props": {
+        "kicker": "Forty years on",
+        "text": "Still explains why busy plants deliver late"
+      }
+    },
+    {
+      "line": 5,
+      "template": "headline",
+      "props": {
+        "kicker": "The Planning Desk",
+        "title": "A book every Saturday",
+        "detail": "Apple Podcasts and Spotify"
+      }
+    }
+  ]
+}
