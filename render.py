@@ -35,9 +35,29 @@ def episode_format(script: dict) -> str:
 
 
 def episode_title(cfg: dict, script: dict) -> str:
-    """Feed title without the show name: 'Week 44: ...', 'Mon 2 Nov: ...' or 'Book of the week: ...'."""
+    """Feed title without the show name.
+
+    From titles.style_from (1 Nov 2026) titles lead with the search topic:
+    daily 'AI in Logistics: Who Signs Off on Agents' (the writer's title as is),
+    weekly 'Supply Chain News, Week 45: Rhine Low Water, AI Agents, Hormuz',
+    Saturday 'The Goal by Goldratt and Cox: Book Summary'.
+    Earlier episodes keep the old 'Mon 2 Nov: ...', 'Week 44: ...' and 'Book of the week: ...' titles.
+    """
     from datetime import date
     name = (script.get("episode_title") or "").strip()
+    titles = cfg.get("titles", {})
+    run_date = script.get("run_date") or ""
+    if titles.get("style_from") and run_date >= titles["style_from"]:
+        fmt = episode_format(script)
+        if fmt == "daily":
+            return name
+        if fmt == "saturday":
+            suffix = titles.get("saturday_suffix", "Book Summary")
+            return f"{name}: {suffix}" if name else suffix
+        week = script.get("week", "")
+        week_no = str(int(week.split("-W")[-1])) if "-W" in week else ""
+        prefix = titles.get("weekly_prefix", "Supply Chain News, Week {week}").format(week=week_no)
+        return f"{prefix}: {name}" if name else prefix
     if episode_format(script) == "saturday":
         prefix = cfg.get("formats", {}).get("saturday", {}).get("title_prefix", "Book of the week")
         return f"{prefix}: {name}".strip(": ")
@@ -188,7 +208,8 @@ def build_episode(script_path: Path, fake: bool) -> Path:
 
     total = duration(mp3)
     (out_dir / f"planning-desk-{stem}.json").write_text(json.dumps({
-        "title": title, "format": fmt, "run_date": script.get("run_date"), "week": week, "duration_sec": round(total, 1),
+        "title": title, "episode_name": (script.get("episode_title") or "").strip(),
+        "format": fmt, "run_date": script.get("run_date"), "week": week, "duration_sec": round(total, 1),
         "outro_start_sec": round(total - outro_len, 2),
         "lines": len(lines), "characters": chars, "model_id": "fake" if fake else voicer.model,
         "timeline": timeline}, indent=2, ensure_ascii=False), encoding="utf-8")

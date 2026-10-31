@@ -30,6 +30,7 @@ Everything adjustable lives in `config.json`:
 - TTS model: `tts.model_id` (falls back to `tts.fallback_model_id` if rejected)
 - Music: edit the prompts under `jingles`, then run the jingle workflow with "Replace" ticked
 - Pacing and loudness: `mix` (gaps between lines and segments, fades, -16 LUFS target)
+- Episode titles: `titles`. From `style_from` (1 Nov 2026) titles lead with the search topic: daily episodes use the writer's "Topic: hook" title as is, Sundays get the `weekly_prefix` ("Supply Chain News, Week 45: ..."), Saturdays the `saturday_suffix` ("The Goal by Goldratt and Cox: Book Summary"). YouTube titles put the show name last. Earlier episodes keep their old titles.
 
 Voiced lines are cached by voice, model and text, so a re-render only pays for lines that changed.
 

@@ -27,6 +27,11 @@
     "instagram_url": "https://www.instagram.com/theplanningdesk.podcast/",
     "newsletter_url": "https://buttondown.com/theplanningdesk"
   },
+  "titles": {
+    "style_from": "2026-11-01",
+    "weekly_prefix": "Supply Chain News, Week {week}",
+    "saturday_suffix": "Book Summary"
+  },
   "voices": {
     "F": {
       "name": "Anna",

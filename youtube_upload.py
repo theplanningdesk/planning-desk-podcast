@@ -90,6 +90,17 @@ def insert(yt_api, body: dict, path: Path) -> str:
     return resp["id"]
 
 
+def youtube_title(cfg: dict, script: dict, meta: dict) -> str:
+    """Topic first, brand last, so search terms sit in the part YouTube shows: '<episode title> | The Planning Desk'."""
+    from render import episode_title
+    style_from = cfg.get("titles", {}).get("style_from")
+    if not style_from or (script.get("run_date") or "") < style_from:
+        return meta["title"][:100]
+    ep = episode_title(cfg, script)
+    full = f"{ep} | {cfg['show']}"
+    return full if len(full) <= 100 else ep[:100]
+
+
 def upload_short(stem: str, cfg: dict) -> int:
     """Weekday Short: vertical, under 3 minutes, so YouTube files it under Shorts automatically."""
     pod, yt = cfg["podcast"], cfg.get("youtube", {})
@@ -138,7 +149,7 @@ def main() -> int:
 
     body = {
         "snippet": {
-            "title": meta["title"][:100],
+            "title": youtube_title(cfg, script, meta),
             "description": description,
             "tags": yt.get("tags", []),
             "categoryId": str(yt.get("category_id", 25)),

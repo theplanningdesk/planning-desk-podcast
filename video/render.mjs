@@ -89,7 +89,7 @@ const longProps = {
     if (meta.format === 'saturday') return `${config.formats?.saturday?.title_prefix || 'Book of the week'} · ${d}`;
     return week.includes('-W') ? `Week ${Number(week.split('-W')[1])} · ${d}` : d;
   })(),
-  episodeTitle: titleParts.length > 1 ? titleParts.slice(1).join(': ') : meta.title,
+  episodeTitle: meta.episode_name || (titleParts.length > 1 ? titleParts.slice(1).join(': ') : meta.title),
   totalSec,
   outroStartSec,
   lines: meta.timeline,
