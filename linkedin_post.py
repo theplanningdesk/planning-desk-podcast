@@ -2,9 +2,11 @@
 """Prepare the post for The Planning Desk's LinkedIn Page, and post it there when Page access exists.
 
 The show never posts on a personal profile. For every episode this writes the script's
-linkedin.page_post text with the listening and watching links slotted in under its "Listen:" line
-to build/out/planning-desk-<stem>-linkedin.txt, which the workflow attaches to the release and the
-dispatcher hands over for posting by hand:
+linkedin.page_post text, with "Links in the first comment." under its "Listen:" line, to
+build/out/planning-desk-<stem>-linkedin.txt, and the links for the first comment to
+build/out/planning-desk-<stem>-linkedin-comment.txt. LinkedIn shows posts with outside links to fewer
+people, so the links go in the comment. The workflow attaches both files to the release and the
+dispatcher hands them over for posting by hand:
   Sunday and Saturday: the YouTube video and Spotify
   Weekdays: Spotify and Apple Podcasts (the Short itself is uploaded to LinkedIn as the post's video)
 
@@ -67,7 +69,7 @@ def link_lines(stem: str, script: dict, pod: dict) -> list[str]:
 
 
 def with_links(text: str, links: list[str]) -> str:
-    """Put the links straight under the "Listen:" (or "Watch or listen:") line, above the hashtags."""
+    """Put the given lines straight under the "Listen:" (or "Watch or listen:") line, above the hashtags."""
     rows = text.splitlines()
     at = next((i for i, r in enumerate(rows) if r.strip().lower().startswith(("listen:", "watch or listen:", "watch:"))), None)
     if at is None:  # no Listen line: put them above the hashtag line, or at the end
@@ -93,9 +95,11 @@ def main() -> int:
         print("No linkedin.page_post in the script; nothing to post.")
         return 0
     links = link_lines(stem, script, pod)
-    post = with_links(text, links)
+    post = with_links(text, ["Links in the first comment."])
+    lead = {"daily": "Today's full briefing:", "saturday": "The full book episode:"}.get(script.get("format"), "The full week in review:")
     (OUT / f"planning-desk-{stem}-linkedin.txt").write_text(post, encoding="utf-8")
-    print(f"Page post text written for {stem}.")
+    (OUT / f"planning-desk-{stem}-linkedin-comment.txt").write_text("\n".join([lead] + links) + "\n", encoding="utf-8")
+    print(f"Page post and first-comment text written for {stem}.")
     if "--text-only" in sys.argv:
         return 0
     yt = OUT / f"planning-desk-{stem}.youtube.txt"

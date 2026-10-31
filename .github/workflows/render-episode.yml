@@ -187,7 +187,7 @@ jobs:
         run: |
           STEM="${{ steps.pick.outputs.stem }}"
           python linkedin_post.py "$STEM"
-          for f in "build/out/planning-desk-$STEM-linkedin.txt" "build/out/planning-desk-$STEM.linkedin.txt"; do
+          for f in "build/out/planning-desk-$STEM-linkedin.txt" "build/out/planning-desk-$STEM-linkedin-comment.txt" "build/out/planning-desk-$STEM.linkedin.txt"; do
             [ -f "$f" ] && gh release upload "episode-$STEM" "$f" --clobber
           done
           true
@@ -208,7 +208,7 @@ jobs:
           node render.mjs --stem "$STEM" --short --concurrency 4
           cd ..
           python linkedin_post.py "$STEM" --text-only
-          gh release upload "episode-$STEM" "build/out/planning-desk-$STEM-short.mp4" "build/out/planning-desk-$STEM-linkedin.txt" --clobber
+          gh release upload "episode-$STEM" "build/out/planning-desk-$STEM-short.mp4" "build/out/planning-desk-$STEM-linkedin.txt" "build/out/planning-desk-$STEM-linkedin-comment.txt" --clobber
           echo "done=true" >> "$GITHUB_OUTPUT"
 
       - name: Upload the Short to YouTube
