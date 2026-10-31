@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
-    <title>The Planning Desk</title>
+    <title>The Planning Desk: Supply Chain Planning &amp; Design News</title>
     <link>https://theplanningdesk.github.io/podcast/</link>
     <podcast:guid>18a42912-fe38-585a-be66-d9373260a6ce</podcast:guid>
     <atom:link href="https://theplanningdesk.github.io/podcast/feed.xml" rel="self" type="application/rss+xml"/>
@@ -17,7 +17,7 @@
     <itunes:image href="https://theplanningdesk.github.io/podcast/cover.png"/>
     <image>
       <url>https://theplanningdesk.github.io/podcast/cover.png</url>
-      <title>The Planning Desk</title>
+      <title>The Planning Desk: Supply Chain Planning &amp; Design News</title>
       <link>https://theplanningdesk.github.io/podcast/</link>
     </image>
     <itunes:category text="News">
@@ -26,7 +26,7 @@
     <itunes:category text="Business"><itunes:category text="Management"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 31 Oct 2026 05:12:13 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:02:43 +0100</lastBuildDate>
     <generator>planning-desk-podcast</generator>
     <item>
       <title>Book of the week: The Goal, Goldratt and Cox</title>

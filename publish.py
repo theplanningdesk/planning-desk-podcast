@@ -175,13 +175,13 @@ def write_episode_page(cfg: dict, e: dict, script: dict, meta: dict) -> None:
     desc = html.escape(e["summary"][:300], quote=True)
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(e['title'])} | {html.escape(pod['title'])}</title>
+<title>{html.escape(e['title'])} | {html.escape(cfg['show'])}</title>
 <meta name="description" content="{desc}">
 <meta property="og:title" content="{html.escape(e['title'], quote=True)}"><meta property="og:description" content="{desc}">
 <meta property="og:image" content="{html.escape(base_url(pod))}cover.png"><meta property="og:type" content="article">
 <link rel="alternate" type="application/rss+xml" title="{html.escape(pod['title'])}" href="../feed.xml">
 <style>{PAGE_CSS}</style></head><body><main>
-<p class="meta"><a href="../index.html">{html.escape(pod['title'])}</a> · {kind} · {when} · {e['duration_sec'] // 60} min</p>
+<p class="meta"><a href="../index.html">{html.escape(cfg['show'])}</a> · {kind} · {when} · {e['duration_sec'] // 60} min</p>
 <h1>{html.escape(e['title'])}</h1>
 <audio controls preload="none" src="{html.escape(audio_url(pod, e), quote=True)}"></audio>
 <div class="card">{e['notes_html']}</div>
@@ -292,14 +292,14 @@ def build_index(cfg: dict, registry: list[dict]) -> None:
 main{{max-width:760px;margin:0 auto;padding:32px 16px 64px}}
 header{{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-bottom:32px}}
 header img{{width:180px;height:180px;border-radius:12px}}
-h1{{margin:0 0 8px;font-size:28px}}h2{{margin:4px 0 12px;font-size:20px}}h2 a{{color:var(--text);text-decoration:none}}
+h1{{margin:0 0 4px;font-size:28px}}.tagline{{margin:0 0 8px;color:var(--accent);font-weight:600}}h2{{margin:4px 0 12px;font-size:20px}}h2 a{{color:var(--text);text-decoration:none}}
 a{{color:var(--accent)}}.links{{display:flex;gap:16px;flex-wrap:wrap}}
 .meta{{color:var(--muted);margin:0;font-size:14px}}
 article{{background:var(--card);border-radius:12px;padding:20px;margin-bottom:16px}}
 audio{{width:100%;margin-bottom:8px}}
 </style></head><body><main>
 <header><img src="cover.png" alt="The Planning Desk cover"><div>
-<h1>{html.escape(pod['title'])}</h1><p class="meta">{html.escape(pod['description'])}</p>
+<h1>{html.escape(cfg['show'])}</h1><p class="tagline">{html.escape(pod.get('tagline', ''))}</p><p class="meta">{html.escape(pod['description'])}</p>
 <p class="meta"><em>{html.escape(pod['ai_disclosure'])}</em></p>
 <p class="links">{" ".join(links)}</p></div></header>
 {body}
