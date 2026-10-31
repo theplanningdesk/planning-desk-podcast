@@ -207,8 +207,7 @@ jobs:
           cd video
           node render.mjs --stem "$STEM" --short --concurrency 4
           cd ..
-          python -c "import json,sys;s=json.load(open(sys.argv[1]));l=s.get('linkedin') or {};open(sys.argv[2],'w').write((l.get('page_post') or (s.get('short') or {}).get('caption') or '').strip()+chr(10))" \
-            "${{ steps.pick.outputs.script }}" "build/out/planning-desk-$STEM-linkedin.txt"
+          python linkedin_post.py "$STEM" --text-only
           gh release upload "episode-$STEM" "build/out/planning-desk-$STEM-short.mp4" "build/out/planning-desk-$STEM-linkedin.txt" --clobber
           echo "done=true" >> "$GITHUB_OUTPUT"
 

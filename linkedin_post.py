@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Prepare the Sunday post for The Planning Desk's LinkedIn Page, and post it there when Page access exists.
+"""Prepare the post for The Planning Desk's LinkedIn Page, and post it there when Page access exists.
 
-The show never posts on a personal profile. Every Sunday this writes the script's
-linkedin.page_post text, with the YouTube link (or the episode page) on the last line, to
-build/out/planning-desk-<stem>-linkedin.txt, which the workflow attaches to the release so the
-script writer can hand it over for posting by hand.
+The show never posts on a personal profile. For every episode this writes the script's
+linkedin.page_post text with the listening and watching links slotted in under its "Listen:" line
+to build/out/planning-desk-<stem>-linkedin.txt, which the workflow attaches to the release and the
+dispatcher hands over for posting by hand:
+  Sunday and Saturday: the YouTube video and Spotify
+  Weekdays: Spotify and Apple Podcasts (the Short itself is uploaded to LinkedIn as the post's video)
 
 Automatic posting needs LinkedIn's Community Management API, which LinkedIn grants only after
 reviewing the app. Once approved, set:
@@ -13,7 +15,7 @@ reviewing the app. Once approved, set:
   LINKEDIN_TOKEN_SET_ON repository variable, YYYY-MM-DD the token was made (warns after 50 days)
 Without them the script only writes the text file.
 
-Usage: python linkedin_post.py 2026-11-08
+Usage: python linkedin_post.py 2026-11-08 [--text-only]
 """
 from __future__ import annotations
 
@@ -50,22 +52,54 @@ def call(method: str, url: str, token: str, data: dict | None = None) -> tuple[d
         raise SystemExit(f"LinkedIn API {err.code}: {msg}") from err
 
 
+def link_lines(stem: str, script: dict, pod: dict) -> list[str]:
+    """The links that go under the post's Listen line, by format."""
+    page = f"{pod['base_url'].rstrip('/')}/e/{stem}.html"
+    yt_file = OUT / f"planning-desk-{stem}.youtube.txt"
+    youtube = yt_file.read_text().strip() if yt_file.exists() else ""
+    spotify, apple = pod.get("spotify_url", ""), pod.get("apple_url", "")
+    if script.get("format") == "daily":
+        lines = [f"🎧 Spotify: {spotify}" if spotify else "", f"🎧 Apple Podcasts: {apple}" if apple else ""]
+    else:
+        lines = [f"▶️ YouTube: {youtube}" if youtube else "", f"🎧 Spotify: {spotify}" if spotify else ""]
+    lines = [l for l in lines if l]
+    return lines or [f"🎧 {page}"]
+
+
+def with_links(text: str, links: list[str]) -> str:
+    """Put the links straight under the "Listen:" (or "Watch or listen:") line, above the hashtags."""
+    rows = text.splitlines()
+    at = next((i for i, r in enumerate(rows) if r.strip().lower().startswith(("listen:", "watch or listen:", "watch:"))), None)
+    if at is None:  # no Listen line: put them above the hashtag line, or at the end
+        tags = [i for i, r in enumerate(rows) if r.strip().startswith("#")]
+        at = (tags[0] - 1) if tags else len(rows) - 1
+        while at >= 0 and not rows[at].strip():
+            at -= 1
+    rows[at + 1:at + 1] = links
+    return "\n".join(rows).strip() + "\n"
+
+
 def main() -> int:
-    if len(sys.argv) != 2:
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if len(args) != 1:
         raise SystemExit(__doc__)
-    stem = sys.argv[1]
+    stem = args[0]
     cfg = load_config()
     pod = cfg["podcast"]
 
     script = json.loads((ROOT / "episodes" / "scripts" / f"script-{stem}.json").read_text(encoding="utf-8"))
-    text = ((script.get("linkedin") or {}).get("page_post") or "").strip()
+    text = ((script.get("linkedin") or {}).get("page_post") or (script.get("short") or {}).get("caption") or "").strip()
     if not text:
         print("No linkedin.page_post in the script; nothing to post.")
         return 0
+    links = link_lines(stem, script, pod)
+    post = with_links(text, links)
+    (OUT / f"planning-desk-{stem}-linkedin.txt").write_text(post, encoding="utf-8")
+    print(f"Page post text written for {stem}.")
+    if "--text-only" in sys.argv:
+        return 0
     yt = OUT / f"planning-desk-{stem}.youtube.txt"
     url = yt.read_text().strip() if yt.exists() else f"{pod['base_url'].rstrip('/')}/e/{stem}.html"
-    (OUT / f"planning-desk-{stem}-linkedin.txt").write_text(f"{text}\n\n{url}\n", encoding="utf-8")
-    print(f"Page post text written for {stem}.")
 
     token, org = os.environ.get("LINKEDIN_PAGE_TOKEN", ""), os.environ.get("LINKEDIN_ORG_ID", "").strip()
     if not (token and org):
@@ -82,7 +116,7 @@ def main() -> int:
         "author": f"urn:li:organization:{org}",
         "lifecycleState": "PUBLISHED",
         "specificContent": {"com.linkedin.ugc.ShareContent": {
-            "shareCommentary": {"text": text[:2900]},
+            "shareCommentary": {"text": post[:2900]},
             "shareMediaCategory": "ARTICLE",
             "media": [{"status": "READY", "originalUrl": url, "title": {"text": meta.get("title", pod["title"])[:200]}}],
         }},
