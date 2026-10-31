@@ -13,3 +13,17 @@ date,channel,metric,value
 2026-10-30,newsletter,last_email_unsubscriptions,0
 2026-10-30,newsletter,last_email_open_rate_pct,0.0
 2026-10-30,podcast,github_mp3_fetches_all_episodes,84.0
+2026-10-31,youtube,subscribers,3
+2026-10-31,youtube,total_views,72
+2026-10-31,youtube,videos,8
+2026-10-31,instagram,followers,2
+2026-10-31,instagram,posts,6
+2026-10-31,newsletter,subscribers,1
+2026-10-31,newsletter,last_email,"Low water, hot chips and a planning agent that gives hours back"
+2026-10-31,newsletter,last_email_recipients,1
+2026-10-31,newsletter,last_email_deliveries,1
+2026-10-31,newsletter,last_email_opens,0
+2026-10-31,newsletter,last_email_clicks,1
+2026-10-31,newsletter,last_email_unsubscriptions,0
+2026-10-31,newsletter,last_email_open_rate_pct,0.0
+2026-10-31,podcast,github_mp3_fetches_all_episodes,104.0
