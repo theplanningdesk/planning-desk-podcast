@@ -75,5 +75,18 @@
     "duration_sec": 300,
     "pub_date": "2026-10-30T06:30:00+01:00",
     "transcript_lines": 39
+  },
+  {
+    "guid": "planning-desk-2026-10-31",
+    "stem": "2026-10-31",
+    "number": 7,
+    "format": "saturday",
+    "title": "Book of the week: The Goal, Goldratt and Cox",
+    "summary": "This week's book is The Goal by Eliyahu M. Goldratt and Jeff Cox, the 1984 business novel that introduced the Theory of Constraints. Its main idea: find the bottleneck, protect it and pace everything else to it, because an hour lost there is lost for the whole system. For planners, plant managers and network designers.",
+    "notes_html": "<p>This week&#x27;s book is The Goal by Eliyahu M. Goldratt and Jeff Cox, the 1984 business novel that introduced the Theory of Constraints. Its main idea: find the bottleneck, protect it and pace everything else to it, because an hour lost there is lost for the whole system. For planners, plant managers and network designers.</p><p>Sources:</p><ul><li><a href=\"https://en.wikipedia.org/wiki/The_Goal_(novel)\">Wikipedia: The Goal (novel)</a></li><li><a href=\"https://content.time.com/time/specials/packages/article/0,28804,2086680_2086683_2087672,00.html\">TIME: The 25 most influential business management books, The Goal</a></li><li><a href=\"https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt\">Wikipedia: Eliyahu M. Goldratt</a></li><li><a href=\"https://maaw.info/ArticleSummaries/ArtSumTheGoal.htm\">Management And Accounting Web: summary of The Goal</a></li><li><a href=\"https://www.tocinstitute.org/five-focusing-steps.html\">TOC Institute: The five focusing steps</a></li><li><a href=\"https://www.allaboutlean.com/drum-buffer-rope/\">All About Lean: A critical look at Goldratt&#x27;s drum-buffer-rope method</a></li><li><a href=\"https://porchlightbooks.com/product/goal-a-process-of-ongoing-improvement-revised-30th-anniversary--eliyahu-m-goldratt/isbn/9780884271956\">Porchlight Books: The Goal, revised 30th anniversary edition</a></li><li><a href=\"https://lehmanns.de/shop/wirtschaft/40045432-9780815385127-the-goal\">Lehmanns: The Goal, a business graphic novel</a></li><li><a href=\"https://itrevolution.com/articles/beyond-phoenix-project-making-book-goldratt-deming\">IT Revolution: Beyond The Phoenix Project</a></li><li><a href=\"https://continuousdelivery.com/2013/01/book-review-the-phoenix-project/\">Continuous Delivery: Book review, The Phoenix Project</a></li><li><a href=\"https://research.hhs.se/esploro/outputs/book/This-is-Lean-Resolving-the-Efficiency/991001480652606056\">Stockholm School of Economics: This is Lean</a></li><li><a href=\"https://www.cbs.dk/en/node/254851\">Copenhagen Business School: This is Lean, Danish launch</a></li><li><a href=\"https://en.wikipedia.org/wiki/Critical_Chain_(novel)\">Wikipedia: Critical Chain (novel)</a></li></ul><p>Full transcript: <a href=\"https://theplanningdesk.github.io/podcast/e/2026-10-31.html\">https://theplanningdesk.github.io/podcast/e/2026-10-31.html</a></p><p><em>The Planning Desk is produced with AI. AI agents gather and summarise news and books from public sources, and the hosts&#x27; voices are synthetic.</em></p>",
+    "bytes": 9418520,
+    "duration_sec": 589,
+    "pub_date": "2026-10-31T07:30:00+01:00",
+    "transcript_lines": 52
   }
 ]
